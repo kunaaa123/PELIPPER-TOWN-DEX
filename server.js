@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 
 const PORT = 50344;
-const baseDir = path.resolve(__dirname, '..');
+const baseDir = __dirname;
 const webDir = __dirname;
 
 const MIME_TYPES = {

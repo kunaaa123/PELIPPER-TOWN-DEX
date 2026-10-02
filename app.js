@@ -65,10 +65,17 @@ document.addEventListener('DOMContentLoaded', () => {
         ? '/' + (window.location.pathname.split('/')[1] || 'PELIPPER-TOWN-DEX') + '/'
         : './';
 
+    // Fallback pokeball URL (used in onerror and as default)
+    const FALLBACK_IMG = BASE_PATH + 'assets/items/pokeball_stardew.png';
+    window.__FALLBACK_IMG = FALLBACK_IMG;
+
     // Asset URL helper to ensure compatibility with GitHub Pages
+    // Idempotent: safe to call multiple times on the same URL
     function fixAssetUrl(url) {
-        if (!url) return BASE_PATH + 'assets/items/pokeball_stardew.png';
+        if (!url) return FALLBACK_IMG;
         let clean = url;
+        // Already fixed — don't double-prefix
+        if (clean.startsWith(BASE_PATH)) return clean;
         if (clean.startsWith('/')) clean = clean.slice(1);
         if (clean.startsWith('./')) clean = clean.slice(2);
         return BASE_PATH + clean;
@@ -396,7 +403,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             <div class="card-badges">${rideBadge}</div>
                         </div>
                         <div class="card-image-box">
-                            <img src="${portrait}" alt="${sp.name}" class="pokemon-portrait" loading="lazy" decoding="async" onerror="this.onerror=null; this.src='assets/items/pokeball_stardew.png'" />
+                            <img src="${portrait}" alt="${sp.name}" class="pokemon-portrait" loading="lazy" decoding="async" onerror="this.onerror=null; this.src=window.__FALLBACK_IMG;" />
                         </div>
                         <div class="card-info">
                             <div class="pokemon-name">${sp.name}</div>
@@ -563,7 +570,7 @@ document.addEventListener('DOMContentLoaded', () => {
                                 const iconUrl = teamPoke ? fixAssetUrl((state.isShinyMode && teamPoke.portraitShiny) ? teamPoke.portraitShiny : teamPoke.portrait) : 'assets/items/pokeball_stardew.png';
                                 const displayName = teamPoke ? teamPoke.name : pokeId;
                                 return `<span class="mini-poke-badge" title="${displayName}" style="display:inline-flex; align-items:center; gap:5px;">
-                                    <img src="${iconUrl}" style="width:20px; height:20px; image-rendering:pixelated;" loading="lazy" decoding="async" onerror="this.onerror=null; this.src='assets/items/pokeball_stardew.png';" />
+                                    <img src="${iconUrl}" style="width:20px; height:20px; image-rendering:pixelated;" loading="lazy" decoding="async" onerror="this.onerror=null; this.src=window.__FALLBACK_IMG;" />
                                     <span>${displayName}</span>
                                 </span>`;
                             }).join('')}
@@ -580,7 +587,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <div class="villager-card">
                     <div class="villager-profile-top">
                         <div class="villager-portrait-frame">
-                            <img src="${villagerPortrait}" class="villager-avatar" alt="${v.name}" loading="lazy" decoding="async" onerror="this.onerror=null; this.src='assets/items/pokeball_stardew.png'" />
+                            <img src="${villagerPortrait}" class="villager-avatar" alt="${v.name}" loading="lazy" decoding="async" onerror="this.onerror=null; this.src=window.__FALLBACK_IMG;" />
                         </div>
                         <div class="villager-info-col">
                             <div class="villager-title-row">
@@ -593,7 +600,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
                     <div class="partner-box">
                         <div class="partner-avatar-frame">
-                            <img src="${partnerPortrait}" class="partner-portrait" alt="${partnerDisplayName}" loading="lazy" decoding="async" onerror="this.onerror=null; this.src='assets/items/pokeball_stardew.png'" />
+                            <img src="${partnerPortrait}" class="partner-portrait" alt="${partnerDisplayName}" loading="lazy" decoding="async" onerror="this.onerror=null; this.src=window.__FALLBACK_IMG;" />
                         </div>
                         <div class="partner-info">
                             <div class="partner-label">⭐ โปเกมอนคู่หูประจำตัว (Partner Pokémon)</div>
@@ -623,7 +630,7 @@ document.addEventListener('DOMContentLoaded', () => {
             return `
                 <div class="mount-card">
                     <div class="mount-header">
-                        <img src="${portrait}" class="mount-portrait" alt="${m.name}" loading="lazy" decoding="async" onerror="this.onerror=null; this.src='assets/items/pokeball_stardew.png'" />
+                        <img src="${portrait}" class="mount-portrait" alt="${m.name}" loading="lazy" decoding="async" onerror="this.onerror=null; this.src=window.__FALLBACK_IMG;" />
                         <div>
                             <div class="mount-title">${m.name}</div>
                             <div style="font-size:0.8rem; color:#f59e0b;">🏇 ความเร็ว +${speedBonusPercent}%</div>
@@ -686,7 +693,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <div class="item-card">
                 <div class="item-card-header">
                     <div class="item-sprite-box">
-                        <img src="${fixAssetUrl(it.sprite)}" class="item-sprite" alt="${it.nameEn || it.nameTh}" loading="lazy" decoding="async" onerror="this.onerror=null; this.src='assets/items/pokeball_stardew.png';" />
+                        <img src="${fixAssetUrl(it.sprite)}" class="item-sprite" alt="${it.nameEn || it.nameTh}" loading="lazy" decoding="async" onerror="this.onerror=null; this.src=window.__FALLBACK_IMG;" />
                     </div>
                     <div class="item-title-box">
                         <div class="item-name-th">${it.nameTh || it.nameEn}</div>
@@ -726,7 +733,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <div class="mega-card">
                 <div class="mega-card-header">
                     <div class="mega-portrait-box">
-                        <img src="${fixAssetUrl(m.portrait)}" alt="${m.displayName}" loading="lazy" decoding="async" onerror="this.onerror=null; this.src='assets/items/pokeball_stardew.png';" />
+                        <img src="${fixAssetUrl(m.portrait)}" alt="${m.displayName}" loading="lazy" decoding="async" onerror="this.onerror=null; this.src=window.__FALLBACK_IMG;" />
                         <span class="mega-symbol-badge">MEGA</span>
                     </div>
                     <div class="mega-title-box">
@@ -802,7 +809,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 const typesHtml = (t.types || []).map(tp => `<span class="type-tag type-${tp}" style="font-size:0.6rem; padding:1px 5px;">${tp}</span>`).join('');
                 return `
                     <div class="quest-target-chip">
-                        <img src="${fixAssetUrl(t.portrait)}" class="quest-target-avatar" alt="${t.name}" loading="lazy" decoding="async" onerror="this.onerror=null; this.src='assets/items/pokeball_stardew.png';" />
+                        <img src="${fixAssetUrl(t.portrait)}" class="quest-target-avatar" alt="${t.name}" loading="lazy" decoding="async" onerror="this.onerror=null; this.src=window.__FALLBACK_IMG;" />
                         <div class="quest-target-details">
                             <div class="quest-target-name">${t.name} ${t.level ? `<span class="quest-target-lv">Lv.${t.level}</span>` : ''}</div>
                             ${typesHtml ? `<div class="quest-target-types">${typesHtml}</div>` : ''}
@@ -821,7 +828,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         <div class="quest-targets-row">
                             ${q.targetsY2.map(t => `
                                 <div class="quest-target-chip">
-                                    <img src="${fixAssetUrl(t.portrait)}" class="quest-target-avatar" alt="${t.name}" loading="lazy" decoding="async" onerror="this.onerror=null; this.src='assets/items/pokeball_stardew.png';" />
+                                    <img src="${fixAssetUrl(t.portrait)}" class="quest-target-avatar" alt="${t.name}" loading="lazy" decoding="async" onerror="this.onerror=null; this.src=window.__FALLBACK_IMG;" />
                                     <div class="quest-target-details">
                                         <div class="quest-target-name">${t.name}</div>
                                     </div>
@@ -843,7 +850,7 @@ document.addEventListener('DOMContentLoaded', () => {
             // Rewards
             const rewardsHtml = (q.rewards || []).map(r => `
                 <div class="quest-reward-pill">
-                    ${r.sprite ? `<img src="${fixAssetUrl(r.sprite)}" class="reward-sprite" alt="${r.name}" loading="lazy" decoding="async" onerror="this.onerror=null; this.src='assets/items/pokeball_stardew.png';" />` : '🎁'}
+                    ${r.sprite ? `<img src="${fixAssetUrl(r.sprite)}" class="reward-sprite" alt="${r.name}" loading="lazy" decoding="async" onerror="this.onerror=null; this.src=window.__FALLBACK_IMG;" />` : '🎁'}
                     <span class="reward-name">${r.name}</span>
                     ${r.amount ? `<span class="reward-amount">${r.amount}</span>` : ''}
                 </div>
@@ -853,7 +860,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <div class="quest-item-card" data-category="${q.category}">
                     <div class="quest-card-header">
                         <div class="quest-requester-wrap">
-                            <img src="${fixAssetUrl(q.requesterPortrait)}" class="quest-requester-avatar" alt="${q.requester}" loading="lazy" decoding="async" onerror="this.onerror=null; this.src='assets/items/pokeball_stardew.png';" />
+                            <img src="${fixAssetUrl(q.requesterPortrait)}" class="quest-requester-avatar" alt="${q.requester}" loading="lazy" decoding="async" onerror="this.onerror=null; this.src=window.__FALLBACK_IMG;" />
                             <div class="quest-requester-info">
                                 <span class="quest-cat-pill" style="color:${badge.color}; background:${badge.bg}; border-color:${badge.border};">${badge.label}</span>
                                 <h3 class="quest-title-th">${q.titleTh}</h3>
