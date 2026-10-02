@@ -1,0 +1,4699 @@
+{
+  "Trainers": [
+    {
+      "NpcName": "ProfessorSnail",
+      "Theme": "Fossils, field research and island specimens",
+      "Teams": [
+        [
+          "omanyte",
+          "kabuto",
+          "anorith"
+        ],
+        [
+          "omanyte",
+          "kabuto",
+          "anorith",
+          "tropius"
+        ],
+        [
+          "omastar",
+          "kabutops",
+          "armaldo",
+          "tropius",
+          "yanmega"
+        ],
+        [
+          "omastar",
+          "kabutops",
+          "armaldo",
+          "tropius",
+          "yanmega",
+          "bronzong"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Dwarf",
+      "Theme": "Cave fossils, gemstones and metal armor",
+      "Teams": [
+        [
+          "kabuto",
+          "sableye",
+          "aron"
+        ],
+        [
+          "kabuto",
+          "sableye",
+          "aron",
+          "dugtrio"
+        ],
+        [
+          "kabutops",
+          "sableye",
+          "aggron",
+          "dugtrio",
+          "torkoal"
+        ],
+        [
+          "kabutops",
+          "sableye",
+          "aggron",
+          "dugtrio",
+          "torkoal",
+          "bronzong"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Krobus",
+      "Theme": "Shy spirits, shadows and pumpkins",
+      "Teams": [
+        [
+          "shuppet",
+          "mimikyu",
+          "sableye"
+        ],
+        [
+          "shuppet",
+          "mimikyu",
+          "sableye",
+          "umbreon"
+        ],
+        [
+          "banette",
+          "mimikyu",
+          "sableye",
+          "umbreon",
+          "quagsire"
+        ],
+        [
+          "banette",
+          "mimikyu",
+          "sableye",
+          "umbreon",
+          "quagsire",
+          "malamar"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Birdie",
+      "Theme": "Island waters and memories of a sailor",
+      "Teams": [
+        [
+          "horsea",
+          "wingull",
+          "seel"
+        ],
+        [
+          "horsea",
+          "pelipper",
+          "lapras",
+          "dhelmise"
+        ],
+        [
+          "kingdra",
+          "pelipper",
+          "lapras",
+          "dhelmise",
+          "pincurchin"
+        ],
+        [
+          "kingdra",
+          "pelipper",
+          "lapras",
+          "dhelmise",
+          "pincurchin",
+          "galarian-slowking"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Henchman",
+      "Theme": "Guard duty, shadows and cave companions",
+      "Teams": [
+        [
+          "houndour",
+          "skorupi",
+          "zubat"
+        ],
+        [
+          "houndoom",
+          "skorupi",
+          "crobat",
+          "koffing"
+        ],
+        [
+          "houndoom",
+          "drapion",
+          "crobat",
+          "weezing",
+          "arcanine"
+        ],
+        [
+          "houndoom",
+          "drapion",
+          "crobat",
+          "weezing",
+          "arcanine",
+          "scrafty"
+        ]
+      ],
+      "NpcAliases": [
+        "SVE_Henchman"
+      ]
+    },
+    {
+      "NpcName": "Alex",
+      "Theme": "Athletics, loyal dogs and competitive spirit",
+      "Teams": [
+        [
+          "yamper",
+          "machop",
+          "scorbunny"
+        ],
+        [
+          "boltund",
+          "machoke",
+          "raboot",
+          "hitmonchan"
+        ],
+        [
+          "boltund",
+          "machamp",
+          "cinderace",
+          "hitmonchan",
+          "tauros"
+        ],
+        [
+          "boltund",
+          "machamp",
+          "cinderace",
+          "hitmonchan",
+          "tauros",
+          "pidgeot"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Elliott",
+      "Theme": "Ocean poetry and elegant storytelling",
+      "Teams": [
+        [
+          "feebas",
+          "inkay",
+          "seel"
+        ],
+        [
+          "milotic",
+          "malamar",
+          "lapras",
+          "horsea"
+        ],
+        [
+          "milotic",
+          "malamar",
+          "lapras",
+          "kingdra",
+          "serperior"
+        ],
+        [
+          "milotic",
+          "malamar",
+          "lapras",
+          "kingdra",
+          "serperior",
+          "noivern"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Harvey",
+      "Theme": "Medicine and aviation",
+      "Teams": [
+        [
+          "rowlet",
+          "happiny",
+          "swablu"
+        ],
+        [
+          "dartrix",
+          "chansey",
+          "swablu",
+          "togetic"
+        ],
+        [
+          "decidueye",
+          "chansey",
+          "altaria",
+          "togekiss",
+          "dodrio"
+        ],
+        [
+          "decidueye",
+          "chansey",
+          "altaria",
+          "togekiss",
+          "dodrio",
+          "reuniclus"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Sam",
+      "Theme": "Electric instruments, music and skatepark energy",
+      "Teams": [
+        [
+          "pichu",
+          "toxel",
+          "elekid"
+        ],
+        [
+          "raichu",
+          "toxtricity",
+          "electabuzz",
+          "ludicolo"
+        ],
+        [
+          "raichu",
+          "toxtricity",
+          "electivire",
+          "ludicolo",
+          "rillaboom"
+        ],
+        [
+          "raichu",
+          "toxtricity",
+          "electivire",
+          "ludicolo",
+          "rillaboom",
+          "hitmontop"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Sebastian",
+      "Theme": "Frogs, nocturnal companions and motorbikes",
+      "Teams": [
+        [
+          "froakie",
+          "absol",
+          "eevee"
+        ],
+        [
+          "frogadier",
+          "absol",
+          "umbreon",
+          "cyclizar"
+        ],
+        [
+          "greninja",
+          "absol",
+          "umbreon",
+          "cyclizar",
+          "crobat"
+        ],
+        [
+          "greninja",
+          "absol",
+          "umbreon",
+          "cyclizar",
+          "crobat",
+          "gengar"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Shane",
+      "Theme": "Poultry, ducks and comfort food",
+      "Teams": [
+        [
+          "torchic",
+          "psyduck",
+          "taillow"
+        ],
+        [
+          "combusken",
+          "psyduck",
+          "swellow",
+          "snorlax"
+        ],
+        [
+          "blaziken",
+          "golduck",
+          "swellow",
+          "snorlax",
+          "cramorant"
+        ],
+        [
+          "blaziken",
+          "golduck",
+          "swellow",
+          "snorlax",
+          "cramorant",
+          "ludicolo"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Abigail",
+      "Theme": "Gemstones, haunted adventures and swordplay",
+      "Teams": [
+        [
+          "sableye",
+          "mimikyu",
+          "gastly"
+        ],
+        [
+          "sableye",
+          "mimikyu",
+          "haunter",
+          "mawile"
+        ],
+        [
+          "sableye",
+          "mimikyu",
+          "gengar",
+          "mawile",
+          "aerodactyl"
+        ],
+        [
+          "sableye",
+          "mimikyu",
+          "gengar",
+          "mawile",
+          "aerodactyl",
+          "carbink"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Emily",
+      "Theme": "Dreams, crystals, wool and bright colors",
+      "Teams": [
+        [
+          "munna",
+          "carbink",
+          "spinda"
+        ],
+        [
+          "musharna",
+          "carbink",
+          "spinda",
+          "dubwool"
+        ],
+        [
+          "musharna",
+          "carbink",
+          "spinda",
+          "dubwool",
+          "espeon"
+        ],
+        [
+          "musharna",
+          "carbink",
+          "spinda",
+          "dubwool",
+          "espeon",
+          "altaria"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Haley",
+      "Theme": "Sunflowers, fashion and beautiful photography subjects",
+      "Teams": [
+        [
+          "sunflora",
+          "buneary",
+          "skitty"
+        ],
+        [
+          "sunflora",
+          "lopunny",
+          "delcatty",
+          "ninetales"
+        ],
+        [
+          "sunflora",
+          "lopunny",
+          "delcatty",
+          "ninetales",
+          "roserade"
+        ],
+        [
+          "sunflora",
+          "lopunny",
+          "delcatty",
+          "ninetales",
+          "roserade",
+          "milotic"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Leah",
+      "Theme": "Wood sculpture, painting and forest foraging",
+      "Teams": [
+        [
+          "bonsly",
+          "vivillon",
+          "scyther"
+        ],
+        [
+          "sudowoodo",
+          "vivillon",
+          "scyther",
+          "trevenant"
+        ],
+        [
+          "sudowoodo",
+          "vivillon",
+          "scyther",
+          "trevenant",
+          "leafeon"
+        ],
+        [
+          "sudowoodo",
+          "vivillon",
+          "scyther",
+          "trevenant",
+          "leafeon",
+          "gourgeist"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Maru",
+      "Theme": "Astronomy, robotics and laboratory helpers",
+      "Teams": [
+        [
+          "staryu",
+          "magnemite",
+          "golett"
+        ],
+        [
+          "starmie",
+          "magneton",
+          "golett",
+          "metang"
+        ],
+        [
+          "starmie",
+          "magneton",
+          "golurk",
+          "metagross",
+          "porygon2"
+        ],
+        [
+          "starmie",
+          "magneton",
+          "golurk",
+          "metagross",
+          "porygon2",
+          "rotom"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Penny",
+      "Theme": "Gentle caregivers, storybooks and children",
+      "Teams": [
+        [
+          "audino",
+          "ralts",
+          "togepi"
+        ],
+        [
+          "audino",
+          "gardevoir",
+          "togetic",
+          "kangaskhan"
+        ],
+        [
+          "audino",
+          "gardevoir",
+          "togetic",
+          "kangaskhan",
+          "meowstic"
+        ],
+        [
+          "audino",
+          "gardevoir",
+          "togetic",
+          "kangaskhan",
+          "meowstic",
+          "wigglytuff"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Caroline",
+      "Theme": "Tea garden and tranquil afternoons",
+      "Teams": [
+        [
+          "bulbasaur",
+          "petilil",
+          "chikorita"
+        ],
+        [
+          "ivysaur",
+          "lilligant",
+          "bayleef",
+          "sinistea"
+        ],
+        [
+          "venusaur",
+          "lilligant",
+          "meganium",
+          "polteageist",
+          "vespiquen"
+        ],
+        [
+          "venusaur",
+          "lilligant",
+          "meganium",
+          "polteageist",
+          "vespiquen",
+          "politoed"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Clint",
+      "Theme": "Forge heat, ore and metalworking",
+      "Teams": [
+        [
+          "numel",
+          "aron",
+          "magby"
+        ],
+        [
+          "numel",
+          "aron",
+          "magmar",
+          "onix"
+        ],
+        [
+          "camerupt",
+          "aggron",
+          "magmar",
+          "steelix",
+          "torkoal"
+        ],
+        [
+          "camerupt",
+          "aggron",
+          "magmar",
+          "steelix",
+          "torkoal",
+          "durant"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Demetrius",
+      "Theme": "Fungal biology and scientific instruments",
+      "Teams": [
+        [
+          "paras",
+          "porygon",
+          "solosis"
+        ],
+        [
+          "parasect",
+          "porygon2",
+          "solosis",
+          "breloom"
+        ],
+        [
+          "parasect",
+          "porygon2",
+          "reuniclus",
+          "breloom",
+          "vileplume"
+        ],
+        [
+          "parasect",
+          "porygon2",
+          "reuniclus",
+          "breloom",
+          "vileplume",
+          "rotom"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Evelyn",
+      "Theme": "Flowers, baking and a welcoming garden",
+      "Teams": [
+        [
+          "chikorita",
+          "budew",
+          "applin"
+        ],
+        [
+          "bayleef",
+          "roselia",
+          "appletun",
+          "dachsbun"
+        ],
+        [
+          "meganium",
+          "roserade",
+          "appletun",
+          "dachsbun",
+          "togekiss"
+        ],
+        [
+          "meganium",
+          "roserade",
+          "appletun",
+          "dachsbun",
+          "togekiss",
+          "butterfree"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Gus",
+      "Theme": "Cooking, apples and generous hospitality",
+      "Teams": [
+        [
+          "munchlax",
+          "applin",
+          "fidough"
+        ],
+        [
+          "snorlax",
+          "dipplin",
+          "dachsbun",
+          "sinistea"
+        ],
+        [
+          "snorlax",
+          "dipplin",
+          "dachsbun",
+          "polteageist",
+          "ludicolo"
+        ],
+        [
+          "snorlax",
+          "dipplin",
+          "dachsbun",
+          "polteageist",
+          "ludicolo",
+          "farfetchd"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Jas",
+      "Theme": "Dolls, ribbons and gentle fairy tales",
+      "Teams": [
+        [
+          "cleffa",
+          "togepi",
+          "skitty"
+        ],
+        [
+          "clefable",
+          "togetic",
+          "delcatty",
+          "ponyta"
+        ],
+        [
+          "clefairy",
+          "togetic",
+          "delcatty",
+          "rapidash",
+          "politoed"
+        ],
+        [
+          "clefairy",
+          "togetic",
+          "delcatty",
+          "rapidash",
+          "politoed",
+          "ribombee"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Jodi",
+      "Theme": "Family care and household helpers",
+      "Teams": [
+        [
+          "kangaskhan",
+          "miltank",
+          "audino"
+        ],
+        [
+          "kangaskhan",
+          "miltank",
+          "audino",
+          "leavanny"
+        ],
+        [
+          "kangaskhan",
+          "miltank",
+          "audino",
+          "leavanny",
+          "corviknight"
+        ],
+        [
+          "kangaskhan",
+          "miltank",
+          "audino",
+          "leavanny",
+          "corviknight",
+          "vaporeon"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Kent",
+      "Theme": "Watchful protectors and disciplined veterans",
+      "Teams": [
+        [
+          "growlithe",
+          "houndour",
+          "ralts"
+        ],
+        [
+          "arcanine",
+          "houndoom",
+          "gallade",
+          "pidgeotto"
+        ],
+        [
+          "arcanine",
+          "houndoom",
+          "gallade",
+          "pidgeot",
+          "lucario"
+        ],
+        [
+          "arcanine",
+          "houndoom",
+          "gallade",
+          "pidgeot",
+          "lucario",
+          "skarmory"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Leo",
+      "Theme": "Bird companions and island life",
+      "Teams": [
+        [
+          "swablu",
+          "rowlet",
+          "taillow"
+        ],
+        [
+          "swablu",
+          "dartrix",
+          "swellow",
+          "alolan-exeggutor"
+        ],
+        [
+          "altaria",
+          "decidueye",
+          "swellow",
+          "alolan-exeggutor",
+          "araquanid"
+        ],
+        [
+          "altaria",
+          "decidueye",
+          "swellow",
+          "alolan-exeggutor",
+          "araquanid",
+          "alolan-raichu"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Lewis",
+      "Theme": "Town leadership, dignified pets and purple shorts",
+      "Teams": [
+        [
+          "slowpoke",
+          "meowth",
+          "furfrou"
+        ],
+        [
+          "slowking",
+          "persian",
+          "furfrou",
+          "honchkrow"
+        ],
+        [
+          "slowking",
+          "persian",
+          "furfrou",
+          "honchkrow",
+          "bronzong"
+        ],
+        [
+          "slowking",
+          "persian",
+          "furfrou",
+          "honchkrow",
+          "bronzong",
+          "nidoking"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Linus",
+      "Theme": "Forest friends, fishing and life outdoors",
+      "Teams": [
+        [
+          "farfetchd",
+          "phantump",
+          "slowpoke"
+        ],
+        [
+          "farfetchd",
+          "trevenant",
+          "slowpoke",
+          "pancham"
+        ],
+        [
+          "farfetchd",
+          "trevenant",
+          "slowbro",
+          "pangoro",
+          "heracross"
+        ],
+        [
+          "farfetchd",
+          "trevenant",
+          "slowbro",
+          "pangoro",
+          "heracross",
+          "breloom"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Marnie",
+      "Theme": "Ranch animals and caring for strays",
+      "Teams": [
+        [
+          "miltank",
+          "mareep",
+          "lillipup"
+        ],
+        [
+          "miltank",
+          "dubwool",
+          "herdier",
+          "ponyta"
+        ],
+        [
+          "miltank",
+          "dubwool",
+          "stoutland",
+          "rapidash",
+          "ampharos"
+        ],
+        [
+          "miltank",
+          "dubwool",
+          "stoutland",
+          "rapidash",
+          "ampharos",
+          "mudsdale"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Pam",
+      "Theme": "Stubborn strength, bus travel and resilient companions",
+      "Teams": [
+        [
+          "tauros",
+          "spinda",
+          "ponyta"
+        ],
+        [
+          "tauros",
+          "spinda",
+          "ponyta",
+          "glameow"
+        ],
+        [
+          "tauros",
+          "spinda",
+          "rapidash",
+          "purugly",
+          "mudsdale"
+        ],
+        [
+          "tauros",
+          "spinda",
+          "rapidash",
+          "purugly",
+          "mudsdale",
+          "krookodile"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Pierre",
+      "Theme": "Shopkeeping, rivalry and produce",
+      "Teams": [
+        [
+          "zangoose",
+          "meowth",
+          "furfrou"
+        ],
+        [
+          "zangoose",
+          "persian",
+          "furfrou",
+          "tsareena"
+        ],
+        [
+          "zangoose",
+          "persian",
+          "furfrou",
+          "tsareena",
+          "breloom"
+        ],
+        [
+          "zangoose",
+          "persian",
+          "furfrou",
+          "tsareena",
+          "breloom",
+          "honchkrow"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Robin",
+      "Theme": "Carpentry, heavy lifting and stone construction",
+      "Teams": [
+        [
+          "machop",
+          "rhyhorn",
+          "scyther"
+        ],
+        [
+          "machoke",
+          "rhyhorn",
+          "scyther",
+          "sudowoodo"
+        ],
+        [
+          "machamp",
+          "rhyperior",
+          "kleavor",
+          "sudowoodo",
+          "excadrill"
+        ],
+        [
+          "machamp",
+          "rhyperior",
+          "kleavor",
+          "sudowoodo",
+          "excadrill",
+          "corviknight"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Sandy",
+      "Theme": "Desert blooms, sand and elegant companions",
+      "Teams": [
+        [
+          "trapinch",
+          "vulpix",
+          "budew"
+        ],
+        [
+          "trapinch",
+          "ninetales",
+          "roselia",
+          "maractus"
+        ],
+        [
+          "flygon",
+          "ninetales",
+          "roserade",
+          "maractus",
+          "sandslash"
+        ],
+        [
+          "flygon",
+          "ninetales",
+          "roserade",
+          "maractus",
+          "sandslash",
+          "milotic"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Vincent",
+      "Theme": "Playful small partners and adventure stories",
+      "Teams": [
+        [
+          "totodile",
+          "pichu",
+          "bonsly"
+        ],
+        [
+          "feraligatr",
+          "raichu",
+          "sudowoodo",
+          "yanma"
+        ],
+        [
+          "feraligatr",
+          "raichu",
+          "sudowoodo",
+          "yanma",
+          "dragonair"
+        ],
+        [
+          "feraligatr",
+          "raichu",
+          "sudowoodo",
+          "yanma",
+          "dragonite",
+          "goodra"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Willy",
+      "Theme": "Fishing and life at sea",
+      "Teams": [
+        [
+          "wingull",
+          "seel",
+          "horsea"
+        ],
+        [
+          "pelipper",
+          "lapras",
+          "horsea",
+          "dhelmise"
+        ],
+        [
+          "pelipper",
+          "lapras",
+          "kingdra",
+          "dhelmise",
+          "pincurchin"
+        ],
+        [
+          "pelipper",
+          "lapras",
+          "kingdra",
+          "dhelmise",
+          "pincurchin",
+          "cradily"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Wizard",
+      "Theme": "Arcane knowledge, spirits and transformation",
+      "Teams": [
+        [
+          "espurr",
+          "litwick",
+          "misdreavus"
+        ],
+        [
+          "kadabra",
+          "litwick",
+          "mismagius",
+          "braixen"
+        ],
+        [
+          "alakazam",
+          "lampent",
+          "mismagius",
+          "delphox",
+          "noctowl"
+        ],
+        [
+          "alakazam",
+          "chandelure",
+          "mismagius",
+          "delphox",
+          "noctowl",
+          "clefairy"
+        ]
+      ],
+      "NpcAliases": [
+        "Magnus"
+      ]
+    },
+    {
+      "NpcName": "Morris",
+      "Theme": "Corporate rivalry, persuasion and sharp deals",
+      "Teams": [
+        [
+          "seviper",
+          "mime-jr",
+          "drowzee"
+        ],
+        [
+          "seviper",
+          "mr-mime",
+          "hypno",
+          "persian"
+        ],
+        [
+          "seviper",
+          "mr-mime",
+          "hypno",
+          "persian",
+          "honchkrow"
+        ],
+        [
+          "seviper",
+          "mr-mime",
+          "hypno",
+          "persian",
+          "honchkrow",
+          "weavile"
+        ]
+      ],
+      "NpcAliases": [
+        "MorrisTod"
+      ]
+    },
+    {
+      "NpcName": "Andy",
+      "Theme": "Working farm, loyal dogs and tough livestock",
+      "Teams": [
+        [
+          "donphan",
+          "tauros",
+          "ponyta"
+        ],
+        [
+          "donphan",
+          "tauros",
+          "ponyta",
+          "mudsdale"
+        ],
+        [
+          "donphan",
+          "tauros",
+          "rapidash",
+          "mudsdale",
+          "ampharos"
+        ],
+        [
+          "donphan",
+          "tauros",
+          "rapidash",
+          "mudsdale",
+          "ampharos",
+          "gogoat"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Claire",
+      "Theme": "Cinema, graceful performers and quiet dreams",
+      "Teams": [
+        [
+          "ralts",
+          "eevee",
+          "togepi"
+        ],
+        [
+          "gardevoir",
+          "sylveon",
+          "togetic",
+          "floragato"
+        ],
+        [
+          "gardevoir",
+          "sylveon",
+          "togekiss",
+          "meowscarada",
+          "milotic"
+        ],
+        [
+          "gardevoir",
+          "sylveon",
+          "togekiss",
+          "meowscarada",
+          "milotic",
+          "chandelure"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Martin",
+      "Theme": "Movies, technology and a young enthusiast",
+      "Teams": [
+        [
+          "eevee",
+          "porygon",
+          "rotom"
+        ],
+        [
+          "eevee",
+          "porygon2",
+          "rotom",
+          "raichu"
+        ],
+        [
+          "eevee",
+          "porygon-z",
+          "rotom",
+          "raichu",
+          "zoroark"
+        ],
+        [
+          "eevee",
+          "porygon-z",
+          "rotom",
+          "raichu",
+          "zoroark",
+          "dragonite"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Olivia",
+      "Theme": "Refinement, flowers and graceful companions",
+      "Teams": [
+        [
+          "meowth",
+          "budew",
+          "skitty"
+        ],
+        [
+          "persian",
+          "roselia",
+          "delcatty",
+          "ninetales"
+        ],
+        [
+          "persian",
+          "roserade",
+          "delcatty",
+          "ninetales",
+          "primarina"
+        ],
+        [
+          "persian",
+          "roserade",
+          "delcatty",
+          "ninetales",
+          "primarina",
+          "gardevoir"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Scarlett",
+      "Theme": "Ranch life and dependable animals",
+      "Teams": [
+        [
+          "miltank",
+          "yamper",
+          "ponyta"
+        ],
+        [
+          "miltank",
+          "boltund",
+          "ponyta",
+          "vespiquen"
+        ],
+        [
+          "miltank",
+          "boltund",
+          "rapidash",
+          "vespiquen",
+          "ampharos"
+        ],
+        [
+          "miltank",
+          "boltund",
+          "rapidash",
+          "vespiquen",
+          "ampharos",
+          "mudsdale"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Sophia",
+      "Theme": "Cosplay, fairy tales and the vineyard",
+      "Teams": [
+        [
+          "eevee",
+          "cleffa",
+          "ralts"
+        ],
+        [
+          "sylveon",
+          "clefable",
+          "gardevoir",
+          "galarian-ponyta"
+        ],
+        [
+          "sylveon",
+          "sliggoo",
+          "gardevoir",
+          "galarian-rapidash",
+          "appletun"
+        ],
+        [
+          "sylveon",
+          "goodra",
+          "gardevoir",
+          "galarian-rapidash",
+          "appletun",
+          "polteageist"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Suki",
+      "Theme": "Adaptable partners and household hospitality",
+      "Teams": [
+        [
+          "furfrou",
+          "bibarel",
+          "farfetchd"
+        ],
+        [
+          "furfrou",
+          "bibarel",
+          "farfetchd",
+          "ludicolo"
+        ],
+        [
+          "furfrou",
+          "bibarel",
+          "farfetchd",
+          "ludicolo",
+          "tsareena"
+        ],
+        [
+          "furfrou",
+          "bibarel",
+          "farfetchd",
+          "ludicolo",
+          "tsareena",
+          "rotom"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Susan",
+      "Theme": "Gardens, agriculture and mountain living",
+      "Teams": [
+        [
+          "chikorita",
+          "exeggcute",
+          "miltank"
+        ],
+        [
+          "bayleef",
+          "exeggutor",
+          "miltank",
+          "joltik"
+        ],
+        [
+          "meganium",
+          "exeggutor",
+          "miltank",
+          "galvantula",
+          "mudsdale"
+        ],
+        [
+          "meganium",
+          "exeggutor",
+          "miltank",
+          "galvantula",
+          "mudsdale",
+          "politoed"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Victor",
+      "Theme": "Engineering, electronics and sturdy constructs",
+      "Teams": [
+        [
+          "beldum",
+          "rotom",
+          "porygon"
+        ],
+        [
+          "metang",
+          "rotom",
+          "porygon2",
+          "magneton"
+        ],
+        [
+          "metagross",
+          "rotom",
+          "porygon2",
+          "magneton",
+          "golurk"
+        ],
+        [
+          "metagross",
+          "rotom",
+          "porygon2",
+          "magneton",
+          "golurk",
+          "revavroom"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Camilla",
+      "Theme": "Magic, theatrical spirits and foxes",
+      "Teams": [
+        [
+          "mimikyu",
+          "gastly",
+          "alolan-vulpix"
+        ],
+        [
+          "mimikyu",
+          "haunter",
+          "alolan-ninetales",
+          "gardevoir"
+        ],
+        [
+          "mimikyu",
+          "gengar",
+          "alolan-ninetales",
+          "gardevoir",
+          "mismagius"
+        ],
+        [
+          "mimikyu",
+          "gengar",
+          "alolan-ninetales",
+          "gardevoir",
+          "mismagius",
+          "drampa"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Morgan",
+      "Theme": "An apprentice with frogs and fairy magic",
+      "Teams": [
+        [
+          "froakie",
+          "poliwag",
+          "cleffa"
+        ],
+        [
+          "frogadier",
+          "poliwhirl",
+          "clefable",
+          "mismagius"
+        ],
+        [
+          "greninja",
+          "poliwrath",
+          "clefairy",
+          "mismagius",
+          "espeon"
+        ],
+        [
+          "greninja",
+          "poliwrath",
+          "clefairy",
+          "mismagius",
+          "espeon",
+          "hydrapple"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Alesia",
+      "Theme": "Ranged combat and watchful woodland partners",
+      "Teams": [
+        [
+          "rowlet",
+          "scyther",
+          "pidgey"
+        ],
+        [
+          "dartrix",
+          "scyther",
+          "pidgeotto",
+          "quilladin"
+        ],
+        [
+          "decidueye",
+          "scyther",
+          "pidgeot",
+          "chesnaught",
+          "flygon"
+        ],
+        [
+          "decidueye",
+          "scyther",
+          "pidgeot",
+          "chesnaught",
+          "flygon",
+          "absol"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Isaac",
+      "Theme": "Blades, fire and experienced fighters",
+      "Teams": [
+        [
+          "charcadet",
+          "scyther",
+          "houndour"
+        ],
+        [
+          "ceruledge",
+          "scyther",
+          "houndoom",
+          "gallade"
+        ],
+        [
+          "ceruledge",
+          "scyther",
+          "houndoom",
+          "gallade",
+          "pawniard"
+        ],
+        [
+          "ceruledge",
+          "scyther",
+          "houndoom",
+          "gallade",
+          "bisharp",
+          "flygon"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Jadu",
+      "Theme": "Arcane constructs and volatile energies",
+      "Teams": [
+        [
+          "voltorb",
+          "golett",
+          "koffing"
+        ],
+        [
+          "electrode",
+          "golett",
+          "koffing",
+          "kadabra"
+        ],
+        [
+          "electrode",
+          "golurk",
+          "galarian-weezing",
+          "alakazam",
+          "lampent"
+        ],
+        [
+          "electrode",
+          "golurk",
+          "galarian-weezing",
+          "alakazam",
+          "chandelure",
+          "magneton"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Jolyne",
+      "Theme": "Leadership and reliable defenders",
+      "Teams": [
+        [
+          "ralts",
+          "growlithe",
+          "chespin"
+        ],
+        [
+          "gallade",
+          "arcanine",
+          "quilladin",
+          "pidgeotto"
+        ],
+        [
+          "gallade",
+          "arcanine",
+          "chesnaught",
+          "pidgeot",
+          "metagross"
+        ],
+        [
+          "gallade",
+          "arcanine",
+          "chesnaught",
+          "pidgeot",
+          "metagross",
+          "bastiodon"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Lance",
+      "Theme": "Dragons and magical swordplay",
+      "Teams": [
+        [
+          "dratini",
+          "riolu",
+          "charcadet"
+        ],
+        [
+          "dragonair",
+          "lucario",
+          "armarouge",
+          "ceruledge"
+        ],
+        [
+          "dragonair",
+          "lucario",
+          "armarouge",
+          "ceruledge",
+          "flygon"
+        ],
+        [
+          "dragonite",
+          "lucario",
+          "armarouge",
+          "ceruledge",
+          "flygon",
+          "bisharp"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Axel",
+      "Theme": "Electronic tools and machinery",
+      "Teams": [
+        [
+          "magnemite",
+          "porygon",
+          "voltorb"
+        ],
+        [
+          "magneton",
+          "porygon2",
+          "electrode",
+          "golett"
+        ],
+        [
+          "magneton",
+          "porygon2",
+          "electrode",
+          "golurk",
+          "scizor"
+        ],
+        [
+          "magneton",
+          "porygon2",
+          "electrode",
+          "golurk",
+          "scizor",
+          "galvantula"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Brooklyn",
+      "Theme": "Healing, kindness and supportive partners",
+      "Teams": [
+        [
+          "audino",
+          "happiny",
+          "togepi"
+        ],
+        [
+          "audino",
+          "chansey",
+          "togetic",
+          "eldegoss"
+        ],
+        [
+          "audino",
+          "chansey",
+          "togekiss",
+          "eldegoss",
+          "lapras"
+        ],
+        [
+          "audino",
+          "chansey",
+          "togekiss",
+          "eldegoss",
+          "lapras",
+          "ribombee"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Chloe",
+      "Theme": "Soft fur and elegant companions",
+      "Teams": [
+        [
+          "minccino",
+          "skitty",
+          "buneary"
+        ],
+        [
+          "cinccino",
+          "delcatty",
+          "lopunny",
+          "sylveon"
+        ],
+        [
+          "cinccino",
+          "delcatty",
+          "lopunny",
+          "sylveon",
+          "delphox"
+        ],
+        [
+          "cinccino",
+          "delcatty",
+          "lopunny",
+          "sylveon",
+          "delphox",
+          "florges"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Jace",
+      "Theme": "Clever cats, gemstones and sly partners",
+      "Teams": [
+        [
+          "meowth",
+          "sableye",
+          "glameow"
+        ],
+        [
+          "persian",
+          "sableye",
+          "glameow",
+          "weavile"
+        ],
+        [
+          "persian",
+          "sableye",
+          "purugly",
+          "weavile",
+          "zoroark"
+        ],
+        [
+          "persian",
+          "sableye",
+          "purugly",
+          "weavile",
+          "zoroark",
+          "meowstic"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Zoey",
+      "Theme": "Flowers, gardening and cheerful wildlife",
+      "Teams": [
+        [
+          "oddish",
+          "bulbasaur",
+          "sunflora"
+        ],
+        [
+          "gloom",
+          "ivysaur",
+          "sunflora",
+          "butterfree"
+        ],
+        [
+          "vileplume",
+          "venusaur",
+          "sunflora",
+          "butterfree",
+          "ribombee"
+        ],
+        [
+          "vileplume",
+          "venusaur",
+          "sunflora",
+          "butterfree",
+          "ribombee",
+          "politoed"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Aideen",
+      "Theme": "Flowers, music and colorful performers",
+      "Teams": [
+        [
+          "budew",
+          "sunflora",
+          "toxel"
+        ],
+        [
+          "roselia",
+          "sunflora",
+          "toxtricity",
+          "ribombee"
+        ],
+        [
+          "roserade",
+          "sunflora",
+          "toxtricity",
+          "ribombee",
+          "sylveon"
+        ],
+        [
+          "roserade",
+          "sunflora",
+          "toxtricity",
+          "ribombee",
+          "sylveon",
+          "ludicolo"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Beatrice",
+      "Theme": "Birds, flight and waterside company",
+      "Teams": [
+        [
+          "swablu",
+          "wingull",
+          "pidgey"
+        ],
+        [
+          "swablu",
+          "pelipper",
+          "pidgeotto",
+          "lapras"
+        ],
+        [
+          "altaria",
+          "pelipper",
+          "pidgeot",
+          "lapras",
+          "eiscue"
+        ],
+        [
+          "altaria",
+          "pelipper",
+          "pidgeot",
+          "lapras",
+          "eiscue",
+          "abomasnow"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Eloise",
+      "Theme": "Friendly pets and storybook creatures",
+      "Teams": [
+        [
+          "eevee",
+          "skitty",
+          "fidough"
+        ],
+        [
+          "eevee",
+          "delcatty",
+          "dachsbun",
+          "raichu"
+        ],
+        [
+          "eevee",
+          "delcatty",
+          "dachsbun",
+          "raichu",
+          "butterfree"
+        ],
+        [
+          "eevee",
+          "delcatty",
+          "dachsbun",
+          "raichu",
+          "butterfree",
+          "dragonite"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Eyvinder",
+      "Theme": "Goats, wool and rural life",
+      "Teams": [
+        [
+          "skiddo",
+          "mareep",
+          "mudbray"
+        ],
+        [
+          "skiddo",
+          "dubwool",
+          "mudsdale",
+          "ampharos"
+        ],
+        [
+          "gogoat",
+          "dubwool",
+          "mudsdale",
+          "ampharos",
+          "rapidash"
+        ],
+        [
+          "gogoat",
+          "dubwool",
+          "mudsdale",
+          "ampharos",
+          "rapidash",
+          "lycanroc"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Jacob",
+      "Theme": "Caregivers and dependable companions",
+      "Teams": [
+        [
+          "audino",
+          "happiny",
+          "furfrou"
+        ],
+        [
+          "audino",
+          "chansey",
+          "furfrou",
+          "bayleef"
+        ],
+        [
+          "audino",
+          "chansey",
+          "furfrou",
+          "meganium",
+          "walrein"
+        ],
+        [
+          "audino",
+          "chansey",
+          "furfrou",
+          "meganium",
+          "walrein",
+          "arcanine"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Jessie",
+      "Theme": "Loyal dogs and familiar comforts",
+      "Teams": [
+        [
+          "lillipup",
+          "fidough",
+          "growlithe"
+        ],
+        [
+          "herdier",
+          "dachsbun",
+          "arcanine",
+          "boltund"
+        ],
+        [
+          "stoutland",
+          "dachsbun",
+          "arcanine",
+          "boltund",
+          "lycanroc"
+        ],
+        [
+          "stoutland",
+          "dachsbun",
+          "arcanine",
+          "boltund",
+          "lycanroc",
+          "furret"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "JosephineK",
+      "Theme": "Gardens, flowers and graceful support",
+      "Teams": [
+        [
+          "chikorita",
+          "budew",
+          "ralts"
+        ],
+        [
+          "bayleef",
+          "roselia",
+          "gardevoir",
+          "milotic"
+        ],
+        [
+          "meganium",
+          "roserade",
+          "gardevoir",
+          "milotic",
+          "florges"
+        ],
+        [
+          "meganium",
+          "roserade",
+          "gardevoir",
+          "milotic",
+          "florges",
+          "froslass"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Juliet",
+      "Theme": "Music and independent companions",
+      "Teams": [
+        [
+          "toxel",
+          "meowth",
+          "houndour"
+        ],
+        [
+          "toxtricity",
+          "persian",
+          "houndoom",
+          "thwackey"
+        ],
+        [
+          "toxtricity",
+          "persian",
+          "houndoom",
+          "rillaboom",
+          "crobat"
+        ],
+        [
+          "toxtricity",
+          "persian",
+          "houndoom",
+          "rillaboom",
+          "crobat",
+          "salazzle"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "KatarynaLK",
+      "Theme": "Graceful cats, foxes and soft fur",
+      "Teams": [
+        [
+          "alolan-meowth",
+          "vulpix",
+          "minccino"
+        ],
+        [
+          "alolan-persian",
+          "ninetales",
+          "cinccino",
+          "snorunt"
+        ],
+        [
+          "alolan-persian",
+          "ninetales",
+          "cinccino",
+          "froslass",
+          "gothitelle"
+        ],
+        [
+          "alolan-persian",
+          "ninetales",
+          "cinccino",
+          "froslass",
+          "gothitelle",
+          "serperior"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Leximonster",
+      "Theme": "Sea creatures, mystery and intellect",
+      "Teams": [
+        [
+          "seel",
+          "inkay",
+          "horsea"
+        ],
+        [
+          "lapras",
+          "malamar",
+          "horsea",
+          "dhelmise"
+        ],
+        [
+          "lapras",
+          "malamar",
+          "kingdra",
+          "dhelmise",
+          "reuniclus"
+        ],
+        [
+          "lapras",
+          "malamar",
+          "kingdra",
+          "dhelmise",
+          "reuniclus",
+          "sableye"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "OliverK",
+      "Theme": "Sensitive companions and gentle magic",
+      "Teams": [
+        [
+          "ralts",
+          "eevee",
+          "togepi"
+        ],
+        [
+          "gardevoir",
+          "eevee",
+          "togetic",
+          "dubwool"
+        ],
+        [
+          "gardevoir",
+          "eevee",
+          "togekiss",
+          "dubwool",
+          "politoed"
+        ],
+        [
+          "gardevoir",
+          "eevee",
+          "togekiss",
+          "dubwool",
+          "politoed",
+          "bellossom"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Rosa",
+      "Theme": "Graceful water partners and hospitality",
+      "Teams": [
+        [
+          "feebas",
+          "audino",
+          "fidough"
+        ],
+        [
+          "milotic",
+          "audino",
+          "dachsbun",
+          "lilligant"
+        ],
+        [
+          "milotic",
+          "audino",
+          "dachsbun",
+          "lilligant",
+          "tropius"
+        ],
+        [
+          "milotic",
+          "audino",
+          "dachsbun",
+          "lilligant",
+          "tropius",
+          "primarina"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "ToriLK",
+      "Theme": "Shapeshifters, strange science and spirits",
+      "Teams": [
+        [
+          "trubbish",
+          "grimer",
+          "rotom"
+        ],
+        [
+          "trubbish",
+          "grimer",
+          "rotom",
+          "haunter"
+        ],
+        [
+          "garbodor",
+          "muk",
+          "rotom",
+          "gengar",
+          "porygon-z"
+        ],
+        [
+          "garbodor",
+          "muk",
+          "rotom",
+          "gengar",
+          "porygon-z",
+          "malamar"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "VivienneLK",
+      "Theme": "Warmth, foxes and flowers",
+      "Teams": [
+        [
+          "vulpix",
+          "growlithe",
+          "larvesta"
+        ],
+        [
+          "ninetales",
+          "arcanine",
+          "larvesta",
+          "floette"
+        ],
+        [
+          "ninetales",
+          "arcanine",
+          "larvesta",
+          "florges",
+          "gardevoir"
+        ],
+        [
+          "ninetales",
+          "arcanine",
+          "volcarona",
+          "florges",
+          "gardevoir",
+          "frosmoth"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "KennedyLK",
+      "Theme": "Style, soft fur and elegant pets",
+      "Teams": [
+        [
+          "minccino",
+          "eevee",
+          "meowth"
+        ],
+        [
+          "cinccino",
+          "sylveon",
+          "persian",
+          "alolan-ninetales"
+        ],
+        [
+          "cinccino",
+          "sylveon",
+          "persian",
+          "alolan-ninetales",
+          "lilligant"
+        ],
+        [
+          "cinccino",
+          "sylveon",
+          "persian",
+          "alolan-ninetales",
+          "lilligant",
+          "tsareena"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Jasper",
+      "Theme": "Ancient life and fossil research",
+      "Teams": [
+        [
+          "relicanth",
+          "lileep",
+          "anorith"
+        ],
+        [
+          "relicanth",
+          "lileep",
+          "anorith",
+          "bronzor"
+        ],
+        [
+          "relicanth",
+          "cradily",
+          "armaldo",
+          "bronzong",
+          "sigilyph"
+        ],
+        [
+          "relicanth",
+          "cradily",
+          "armaldo",
+          "bronzong",
+          "sigilyph",
+          "metagross"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "CorwinLK",
+      "Theme": "Coastal birds and nautical mysteries",
+      "Teams": [
+        [
+          "wingull",
+          "seel",
+          "swablu"
+        ],
+        [
+          "pelipper",
+          "lapras",
+          "swablu",
+          "dhelmise"
+        ],
+        [
+          "pelipper",
+          "lapras",
+          "altaria",
+          "dhelmise",
+          "bellibolt"
+        ],
+        [
+          "pelipper",
+          "lapras",
+          "altaria",
+          "dhelmise",
+          "bellibolt",
+          "dragalge"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "EdithHart",
+      "Theme": "Baking, kindness and comforting companions",
+      "Teams": [
+        [
+          "fidough",
+          "happiny",
+          "applin"
+        ],
+        [
+          "dachsbun",
+          "chansey",
+          "appletun",
+          "audino"
+        ],
+        [
+          "dachsbun",
+          "chansey",
+          "appletun",
+          "audino",
+          "gourgeist"
+        ],
+        [
+          "dachsbun",
+          "chansey",
+          "appletun",
+          "audino",
+          "gourgeist",
+          "polteageist"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "MichaelHart",
+      "Theme": "Protective dogs and dependable friends",
+      "Teams": [
+        [
+          "growlithe",
+          "houndour",
+          "yamper"
+        ],
+        [
+          "arcanine",
+          "houndoom",
+          "boltund",
+          "lycanroc"
+        ],
+        [
+          "arcanine",
+          "houndoom",
+          "boltund",
+          "lycanroc",
+          "lucario"
+        ],
+        [
+          "arcanine",
+          "houndoom",
+          "boltund",
+          "lycanroc",
+          "lucario",
+          "blastoise"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "EthanHart",
+      "Theme": "Bright young companions and adventure",
+      "Teams": [
+        [
+          "pichu",
+          "furret",
+          "butterfree"
+        ],
+        [
+          "raichu",
+          "furret",
+          "butterfree",
+          "arcanine"
+        ],
+        [
+          "raichu",
+          "furret",
+          "butterfree",
+          "arcanine",
+          "dragonair"
+        ],
+        [
+          "raichu",
+          "furret",
+          "butterfree",
+          "arcanine",
+          "dragonite",
+          "floatzel"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "StellaHart",
+      "Theme": "Gentle pets, flowers and bright colors",
+      "Teams": [
+        [
+          "eevee",
+          "minccino",
+          "oddish"
+        ],
+        [
+          "sylveon",
+          "cinccino",
+          "gloom",
+          "seel"
+        ],
+        [
+          "sylveon",
+          "cinccino",
+          "bellossom",
+          "dewgong",
+          "ribombee"
+        ],
+        [
+          "sylveon",
+          "cinccino",
+          "bellossom",
+          "dewgong",
+          "ribombee",
+          "frosmoth"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "DaleWaede",
+      "Theme": "Rugged dogs, goats and country living",
+      "Teams": [
+        [
+          "poochyena",
+          "houndour",
+          "lillipup"
+        ],
+        [
+          "mightyena",
+          "houndoom",
+          "herdier",
+          "skiddo"
+        ],
+        [
+          "mightyena",
+          "houndoom",
+          "stoutland",
+          "gogoat",
+          "mudsdale"
+        ],
+        [
+          "mightyena",
+          "houndoom",
+          "stoutland",
+          "gogoat",
+          "mudsdale",
+          "lycanroc"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "KeanuAvis",
+      "Theme": "Owls, birds and woodland watchers",
+      "Teams": [
+        [
+          "rowlet",
+          "swablu",
+          "hoothoot"
+        ],
+        [
+          "dartrix",
+          "swablu",
+          "noctowl",
+          "trapinch"
+        ],
+        [
+          "decidueye",
+          "altaria",
+          "noctowl",
+          "flygon",
+          "torterra"
+        ],
+        [
+          "decidueye",
+          "altaria",
+          "noctowl",
+          "flygon",
+          "torterra",
+          "corviknight"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "JadeMalic",
+      "Theme": "Gemstones, unusual fairies and spectral blades",
+      "Teams": [
+        [
+          "sableye",
+          "mawile",
+          "mimikyu"
+        ],
+        [
+          "sableye",
+          "mawile",
+          "mimikyu",
+          "absol"
+        ],
+        [
+          "sableye",
+          "mawile",
+          "mimikyu",
+          "absol",
+          "ceruledge"
+        ],
+        [
+          "sableye",
+          "mawile",
+          "mimikyu",
+          "absol",
+          "ceruledge",
+          "carbink"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "kcspace.StarCrossed_Jack",
+      "Theme": "Fossils and adventurous loyal companions",
+      "Teams": [
+        [
+          "cranidos",
+          "shieldon",
+          "amaura"
+        ],
+        [
+          "rampardos",
+          "bastiodon",
+          "amaura",
+          "arcanine"
+        ],
+        [
+          "rampardos",
+          "bastiodon",
+          "aurorus",
+          "arcanine",
+          "sneasler"
+        ],
+        [
+          "rampardos",
+          "bastiodon",
+          "aurorus",
+          "arcanine",
+          "sneasler",
+          "yanmega"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "kcspace.StarCrossed_Fable",
+      "Theme": "Fishing and graceful sea companions",
+      "Teams": [
+        [
+          "popplio",
+          "piplup",
+          "horsea"
+        ],
+        [
+          "brionne",
+          "prinplup",
+          "horsea",
+          "dhelmise"
+        ],
+        [
+          "primarina",
+          "empoleon",
+          "kingdra",
+          "dhelmise",
+          "eelektrik"
+        ],
+        [
+          "primarina",
+          "empoleon",
+          "kingdra",
+          "dhelmise",
+          "eelektross",
+          "cradily"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "kcspace.StarCrossed_Chelsea",
+      "Theme": "Stylish pets and lively music",
+      "Teams": [
+        [
+          "skitty",
+          "minccino",
+          "meowth"
+        ],
+        [
+          "delcatty",
+          "cinccino",
+          "persian",
+          "toxtricity"
+        ],
+        [
+          "delcatty",
+          "cinccino",
+          "persian",
+          "toxtricity",
+          "roserade"
+        ],
+        [
+          "delcatty",
+          "cinccino",
+          "persian",
+          "toxtricity",
+          "roserade",
+          "beautifly"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "kcspace.StarCrossed_Cody",
+      "Theme": "Ranch animals and bright companions",
+      "Teams": [
+        [
+          "torchic",
+          "wooloo",
+          "tauros"
+        ],
+        [
+          "combusken",
+          "dubwool",
+          "tauros",
+          "ponyta"
+        ],
+        [
+          "blaziken",
+          "dubwool",
+          "tauros",
+          "rapidash",
+          "mudsdale"
+        ],
+        [
+          "blaziken",
+          "dubwool",
+          "tauros",
+          "rapidash",
+          "mudsdale",
+          "ampharos"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "kcspace.StarCrossed_Dominique",
+      "Theme": "Flowers and imaginative gentle partners",
+      "Teams": [
+        [
+          "ralts",
+          "petilil",
+          "budew"
+        ],
+        [
+          "gardevoir",
+          "lilligant",
+          "roselia",
+          "gloom"
+        ],
+        [
+          "gardevoir",
+          "lilligant",
+          "roserade",
+          "vileplume",
+          "swoobat"
+        ],
+        [
+          "gardevoir",
+          "lilligant",
+          "roserade",
+          "vileplume",
+          "swoobat",
+          "vivillon"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "kcspace.StarCrossed_Andre",
+      "Theme": "Sweet treats and friendly dogs",
+      "Teams": [
+        [
+          "fidough",
+          "lillipup",
+          "growlithe"
+        ],
+        [
+          "dachsbun",
+          "herdier",
+          "arcanine",
+          "snorlax"
+        ],
+        [
+          "dachsbun",
+          "stoutland",
+          "arcanine",
+          "snorlax",
+          "alolan-raichu"
+        ],
+        [
+          "dachsbun",
+          "stoutland",
+          "arcanine",
+          "snorlax",
+          "alolan-raichu",
+          "boltund"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Yuuma",
+      "Theme": "Brave little partners and friendship",
+      "Teams": [
+        [
+          "riolu",
+          "pichu",
+          "togepi"
+        ],
+        [
+          "lucario",
+          "raichu",
+          "togetic",
+          "vaporeon"
+        ],
+        [
+          "lucario",
+          "raichu",
+          "togekiss",
+          "vaporeon",
+          "furret"
+        ],
+        [
+          "lucario",
+          "raichu",
+          "togekiss",
+          "vaporeon",
+          "furret",
+          "sneasler"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Aguar",
+      "Theme": "Laboratory research and cave waters",
+      "Teams": [
+        [
+          "squirtle",
+          "porygon",
+          "psyduck"
+        ],
+        [
+          "wartortle",
+          "porygon2",
+          "psyduck",
+          "omanyte"
+        ],
+        [
+          "blastoise",
+          "porygon2",
+          "golduck",
+          "omastar",
+          "magnezone"
+        ],
+        [
+          "blastoise",
+          "porygon2",
+          "golduck",
+          "omastar",
+          "magnezone",
+          "reuniclus"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Alissa",
+      "Theme": "Orchards and cheerful songbirds",
+      "Teams": [
+        [
+          "swablu",
+          "applin",
+          "budew"
+        ],
+        [
+          "swablu",
+          "flapple",
+          "roselia",
+          "swellow"
+        ],
+        [
+          "altaria",
+          "flapple",
+          "roserade",
+          "swellow",
+          "bellossom"
+        ],
+        [
+          "altaria",
+          "flapple",
+          "roserade",
+          "swellow",
+          "bellossom",
+          "wigglytuff"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Anton",
+      "Theme": "Sturdy protectors and dependable workers",
+      "Teams": [
+        [
+          "shieldon",
+          "cubone",
+          "machop"
+        ],
+        [
+          "bastiodon",
+          "marowak",
+          "machoke",
+          "mightyena"
+        ],
+        [
+          "bastiodon",
+          "marowak",
+          "machamp",
+          "mightyena",
+          "excadrill"
+        ],
+        [
+          "bastiodon",
+          "marowak",
+          "machamp",
+          "mightyena",
+          "excadrill",
+          "donphan"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Ariah",
+      "Theme": "Curious minds and gentle psychic partners",
+      "Teams": [
+        [
+          "ralts",
+          "cleffa",
+          "eevee"
+        ],
+        [
+          "gardevoir",
+          "clefable",
+          "espeon",
+          "noctowl"
+        ],
+        [
+          "gardevoir",
+          "clefable",
+          "espeon",
+          "noctowl",
+          "swoobat"
+        ],
+        [
+          "gardevoir",
+          "clefable",
+          "espeon",
+          "noctowl",
+          "swoobat",
+          "carbink"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Belinda",
+      "Theme": "Mystical flowers and mountain spirits",
+      "Teams": [
+        [
+          "vulpix",
+          "flabebe",
+          "spiritomb"
+        ],
+        [
+          "ninetales",
+          "floette",
+          "spiritomb",
+          "litwick"
+        ],
+        [
+          "ninetales",
+          "florges",
+          "spiritomb",
+          "lampent",
+          "mismagius"
+        ],
+        [
+          "ninetales",
+          "florges",
+          "spiritomb",
+          "chandelure",
+          "mismagius",
+          "sigilyph"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Bert",
+      "Theme": "Orchards and strong farm helpers",
+      "Teams": [
+        [
+          "turtwig",
+          "skiddo",
+          "tropius"
+        ],
+        [
+          "grotle",
+          "skiddo",
+          "tropius",
+          "mudsdale"
+        ],
+        [
+          "torterra",
+          "gogoat",
+          "tropius",
+          "mudsdale",
+          "ampharos"
+        ],
+        [
+          "torterra",
+          "gogoat",
+          "tropius",
+          "mudsdale",
+          "ampharos",
+          "bibarel"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Blair",
+      "Theme": "Fishing birds and outdoor adventure",
+      "Teams": [
+        [
+          "cramorant",
+          "quaxly",
+          "poliwag"
+        ],
+        [
+          "cramorant",
+          "quaxwell",
+          "poliwhirl",
+          "heracross"
+        ],
+        [
+          "cramorant",
+          "quaquaval",
+          "politoed",
+          "heracross",
+          "yanmega"
+        ],
+        [
+          "cramorant",
+          "quaquaval",
+          "politoed",
+          "heracross",
+          "yanmega",
+          "charizard"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Bliss",
+      "Theme": "Tiny fairy tales and woodland friends",
+      "Teams": [
+        [
+          "cleffa",
+          "togepi",
+          "flabebe"
+        ],
+        [
+          "clefable",
+          "togetic",
+          "floette",
+          "furret"
+        ],
+        [
+          "clefable",
+          "togekiss",
+          "florges",
+          "furret",
+          "sunflora"
+        ],
+        [
+          "clefable",
+          "togekiss",
+          "florges",
+          "furret",
+          "sunflora",
+          "vaporeon"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Bryle",
+      "Theme": "Disciplined guardians and aerial travel",
+      "Teams": [
+        [
+          "ralts",
+          "riolu",
+          "absol"
+        ],
+        [
+          "gallade",
+          "lucario",
+          "absol",
+          "fearow"
+        ],
+        [
+          "gallade",
+          "lucario",
+          "absol",
+          "fearow",
+          "skarmory"
+        ],
+        [
+          "gallade",
+          "lucario",
+          "absol",
+          "fearow",
+          "skarmory",
+          "sneasler"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Carmen",
+      "Theme": "Fishing trips and resilient sea partners",
+      "Teams": [
+        [
+          "horsea",
+          "wingull",
+          "goldeen"
+        ],
+        [
+          "horsea",
+          "pelipper",
+          "goldeen",
+          "dhelmise"
+        ],
+        [
+          "kingdra",
+          "pelipper",
+          "seaking",
+          "dhelmise",
+          "pincurchin"
+        ],
+        [
+          "kingdra",
+          "pelipper",
+          "seaking",
+          "dhelmise",
+          "pincurchin",
+          "cradily"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Corine",
+      "Theme": "Warmth and helpful companions",
+      "Teams": [
+        [
+          "togepi",
+          "audino",
+          "budew"
+        ],
+        [
+          "togetic",
+          "audino",
+          "roselia",
+          "sylveon"
+        ],
+        [
+          "togekiss",
+          "audino",
+          "roserade",
+          "sylveon",
+          "swoobat"
+        ],
+        [
+          "togekiss",
+          "audino",
+          "roserade",
+          "sylveon",
+          "swoobat",
+          "bellossom"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Daia",
+      "Theme": "Stealth and agile woodland fighters",
+      "Teams": [
+        [
+          "froakie",
+          "sneasel",
+          "zorua"
+        ],
+        [
+          "frogadier",
+          "weavile",
+          "zoroark",
+          "dartrix"
+        ],
+        [
+          "greninja",
+          "weavile",
+          "zoroark",
+          "decidueye",
+          "salazzle"
+        ],
+        [
+          "greninja",
+          "weavile",
+          "zoroark",
+          "decidueye",
+          "salazzle",
+          "scyther"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Ezekiel",
+      "Theme": "Steady workers and loyal protectors",
+      "Teams": [
+        [
+          "aron",
+          "rhyhorn",
+          "drilbur"
+        ],
+        [
+          "aron",
+          "rhyhorn",
+          "drilbur",
+          "mudsdale"
+        ],
+        [
+          "aggron",
+          "rhyperior",
+          "excadrill",
+          "mudsdale",
+          "corviknight"
+        ],
+        [
+          "aggron",
+          "rhyperior",
+          "excadrill",
+          "mudsdale",
+          "corviknight",
+          "pangoro"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Faye",
+      "Theme": "Creative performers and elegant pets",
+      "Teams": [
+        [
+          "skitty",
+          "eevee",
+          "spinda"
+        ],
+        [
+          "delcatty",
+          "sylveon",
+          "spinda",
+          "vivillon"
+        ],
+        [
+          "delcatty",
+          "sylveon",
+          "spinda",
+          "vivillon",
+          "swellow"
+        ],
+        [
+          "delcatty",
+          "sylveon",
+          "spinda",
+          "vivillon",
+          "swellow",
+          "beautifly"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Flor",
+      "Theme": "Dreams and caring companions",
+      "Teams": [
+        [
+          "munna",
+          "audino",
+          "galarian-weezing"
+        ],
+        [
+          "musharna",
+          "audino",
+          "galarian-weezing",
+          "farigiraf"
+        ],
+        [
+          "musharna",
+          "audino",
+          "galarian-weezing",
+          "farigiraf",
+          "swoobat"
+        ],
+        [
+          "musharna",
+          "audino",
+          "galarian-weezing",
+          "farigiraf",
+          "swoobat",
+          "eldegoss"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Freddie",
+      "Theme": "Blades and brave companions",
+      "Teams": [
+        [
+          "charcadet",
+          "scyther",
+          "absol"
+        ],
+        [
+          "ceruledge",
+          "scyther",
+          "absol",
+          "pawniard"
+        ],
+        [
+          "ceruledge",
+          "scizor",
+          "absol",
+          "pawniard",
+          "samurott"
+        ],
+        [
+          "ceruledge",
+          "scizor",
+          "absol",
+          "kingambit",
+          "samurott",
+          "farfetchd"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Helen",
+      "Theme": "Quiet spirits and elegant protectors",
+      "Teams": [
+        [
+          "snorunt",
+          "vulpix",
+          "spiritomb"
+        ],
+        [
+          "snorunt",
+          "ninetales",
+          "spiritomb",
+          "swoobat"
+        ],
+        [
+          "froslass",
+          "ninetales",
+          "spiritomb",
+          "swoobat",
+          "noctowl"
+        ],
+        [
+          "froslass",
+          "ninetales",
+          "spiritomb",
+          "swoobat",
+          "noctowl",
+          "chandelure"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Ian",
+      "Theme": "Hard work and reliable helpers",
+      "Teams": [
+        [
+          "machop",
+          "bibarel",
+          "skiddo"
+        ],
+        [
+          "machoke",
+          "bibarel",
+          "skiddo",
+          "rhyhorn"
+        ],
+        [
+          "machamp",
+          "bibarel",
+          "gogoat",
+          "rhyperior",
+          "donphan"
+        ],
+        [
+          "machamp",
+          "bibarel",
+          "gogoat",
+          "rhyperior",
+          "donphan",
+          "excadrill"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Irene",
+      "Theme": "Baking and elegant food partners",
+      "Teams": [
+        [
+          "applin",
+          "fidough",
+          "sinistea"
+        ],
+        [
+          "appletun",
+          "dachsbun",
+          "sinistea",
+          "floette"
+        ],
+        [
+          "appletun",
+          "dachsbun",
+          "polteageist",
+          "florges",
+          "alolan-raichu"
+        ],
+        [
+          "appletun",
+          "dachsbun",
+          "polteageist",
+          "florges",
+          "alolan-raichu",
+          "tsareena"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Jeric",
+      "Theme": "Farm produce and strong livestock",
+      "Teams": [
+        [
+          "tauros",
+          "skiddo",
+          "grookey"
+        ],
+        [
+          "tauros",
+          "skiddo",
+          "thwackey",
+          "ponyta"
+        ],
+        [
+          "tauros",
+          "gogoat",
+          "rillaboom",
+          "rapidash",
+          "scovillain"
+        ],
+        [
+          "tauros",
+          "gogoat",
+          "rillaboom",
+          "rapidash",
+          "scovillain",
+          "mamoswine"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Jio",
+      "Theme": "Focused martial arts and stealth",
+      "Teams": [
+        [
+          "tyrogue",
+          "froakie",
+          "absol"
+        ],
+        [
+          "hitmonlee",
+          "frogadier",
+          "absol",
+          "lokix"
+        ],
+        [
+          "hitmonlee",
+          "greninja",
+          "absol",
+          "lokix",
+          "hypno"
+        ],
+        [
+          "hitmonlee",
+          "greninja",
+          "absol",
+          "lokix",
+          "hypno",
+          "grapploct"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "June",
+      "Theme": "Music and graceful performers",
+      "Teams": [
+        [
+          "swablu",
+          "jigglypuff",
+          "popplio"
+        ],
+        [
+          "swablu",
+          "wigglytuff",
+          "brionne",
+          "toxtricity"
+        ],
+        [
+          "altaria",
+          "wigglytuff",
+          "primarina",
+          "toxtricity",
+          "swoobat"
+        ],
+        [
+          "altaria",
+          "wigglytuff",
+          "primarina",
+          "toxtricity",
+          "swoobat",
+          "leavanny"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Keahi",
+      "Theme": "Playful mischief and energetic athletes",
+      "Teams": [
+        [
+          "monferno",
+          "impidimp",
+          "scorbunny"
+        ],
+        [
+          "monferno",
+          "impidimp",
+          "raboot",
+          "raichu"
+        ],
+        [
+          "infernape",
+          "grimmsnarl",
+          "cinderace",
+          "raichu",
+          "annihilape"
+        ],
+        [
+          "infernape",
+          "grimmsnarl",
+          "cinderace",
+          "raichu",
+          "annihilape",
+          "ludicolo"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Kenneth",
+      "Theme": "Electronics and patient precision",
+      "Teams": [
+        [
+          "rotom",
+          "magnemite",
+          "porygon"
+        ],
+        [
+          "rotom",
+          "magneton",
+          "porygon2",
+          "joltik"
+        ],
+        [
+          "rotom",
+          "magnezone",
+          "porygon2",
+          "galvantula",
+          "metagross"
+        ],
+        [
+          "rotom",
+          "magnezone",
+          "porygon2",
+          "galvantula",
+          "metagross",
+          "revavroom"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Kiarra",
+      "Theme": "Music and digital creativity",
+      "Teams": [
+        [
+          "toxel",
+          "porygon",
+          "spinda"
+        ],
+        [
+          "toxtricity",
+          "porygon2",
+          "spinda",
+          "thwackey"
+        ],
+        [
+          "toxtricity",
+          "porygon2",
+          "spinda",
+          "rillaboom",
+          "rotom"
+        ],
+        [
+          "toxtricity",
+          "porygon2",
+          "spinda",
+          "rillaboom",
+          "rotom",
+          "swellow"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Kimpoi",
+      "Theme": "Relaxed tropical company",
+      "Teams": [
+        [
+          "lombre",
+          "cramorant",
+          "tropius"
+        ],
+        [
+          "ludicolo",
+          "cramorant",
+          "tropius",
+          "hypno"
+        ],
+        [
+          "ludicolo",
+          "cramorant",
+          "tropius",
+          "hypno",
+          "snorlax"
+        ],
+        [
+          "ludicolo",
+          "cramorant",
+          "tropius",
+          "hypno",
+          "snorlax",
+          "bellossom"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Kiwi",
+      "Theme": "Small birds and woodland guardians",
+      "Teams": [
+        [
+          "rowlet",
+          "piplup",
+          "torchic"
+        ],
+        [
+          "dartrix",
+          "prinplup",
+          "combusken",
+          "sigilyph"
+        ],
+        [
+          "decidueye",
+          "empoleon",
+          "blaziken",
+          "sigilyph",
+          "noctowl"
+        ],
+        [
+          "decidueye",
+          "empoleon",
+          "blaziken",
+          "sigilyph",
+          "noctowl",
+          "simisage"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Lenny",
+      "Theme": "Village leadership and caring protectors",
+      "Teams": [
+        [
+          "chikorita",
+          "pidgey",
+          "audino"
+        ],
+        [
+          "bayleef",
+          "pidgeotto",
+          "audino",
+          "eldegoss"
+        ],
+        [
+          "meganium",
+          "pidgeot",
+          "audino",
+          "eldegoss",
+          "kangaskhan"
+        ],
+        [
+          "meganium",
+          "pidgeot",
+          "audino",
+          "eldegoss",
+          "kangaskhan",
+          "corviknight"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Lola",
+      "Theme": "Veteran fighters and sharp instincts",
+      "Teams": [
+        [
+          "charcadet",
+          "sneasel",
+          "absol"
+        ],
+        [
+          "armarouge",
+          "weavile",
+          "absol",
+          "scyther"
+        ],
+        [
+          "armarouge",
+          "weavile",
+          "absol",
+          "scizor",
+          "druddigon"
+        ],
+        [
+          "armarouge",
+          "weavile",
+          "absol",
+          "scizor",
+          "druddigon",
+          "drapion"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Lorenzo",
+      "Theme": "Refined pets and loyal companions",
+      "Teams": [
+        [
+          "meowth",
+          "minccino",
+          "furfrou"
+        ],
+        [
+          "persian",
+          "cinccino",
+          "furfrou",
+          "boltund"
+        ],
+        [
+          "persian",
+          "cinccino",
+          "furfrou",
+          "boltund",
+          "houndoom"
+        ],
+        [
+          "persian",
+          "cinccino",
+          "furfrou",
+          "boltund",
+          "houndoom",
+          "honchkrow"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Louie",
+      "Theme": "Brave small companions and friendship",
+      "Teams": [
+        [
+          "riolu",
+          "pichu",
+          "togepi"
+        ],
+        [
+          "lucario",
+          "raichu",
+          "togetic",
+          "vaporeon"
+        ],
+        [
+          "lucario",
+          "raichu",
+          "togekiss",
+          "vaporeon",
+          "floatzel"
+        ],
+        [
+          "lucario",
+          "raichu",
+          "togekiss",
+          "vaporeon",
+          "floatzel",
+          "furret"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Maddie",
+      "Theme": "Technology and imaginative partners",
+      "Teams": [
+        [
+          "beldum",
+          "rotom",
+          "golett"
+        ],
+        [
+          "metang",
+          "rotom",
+          "golett",
+          "magneton"
+        ],
+        [
+          "metagross",
+          "rotom",
+          "golurk",
+          "magnezone",
+          "farigiraf"
+        ],
+        [
+          "metagross",
+          "rotom",
+          "golurk",
+          "magnezone",
+          "farigiraf",
+          "reuniclus"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Maive",
+      "Theme": "Dignified leaders and formal elegance",
+      "Teams": [
+        [
+          "combee",
+          "piplup",
+          "feebas"
+        ],
+        [
+          "vespiquen",
+          "prinplup",
+          "milotic",
+          "servine"
+        ],
+        [
+          "vespiquen",
+          "empoleon",
+          "milotic",
+          "serperior",
+          "honchkrow"
+        ],
+        [
+          "vespiquen",
+          "empoleon",
+          "milotic",
+          "serperior",
+          "honchkrow",
+          "kingambit"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Malaya",
+      "Theme": "Tropical music and family care",
+      "Teams": [
+        [
+          "popplio",
+          "tropius",
+          "kangaskhan"
+        ],
+        [
+          "brionne",
+          "tropius",
+          "kangaskhan",
+          "ludicolo"
+        ],
+        [
+          "primarina",
+          "tropius",
+          "kangaskhan",
+          "ludicolo",
+          "bellossom"
+        ],
+        [
+          "primarina",
+          "tropius",
+          "kangaskhan",
+          "ludicolo",
+          "bellossom",
+          "alolan-raichu"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Naomi",
+      "Theme": "Gentle caregivers and loyal family pets",
+      "Teams": [
+        [
+          "kangaskhan",
+          "audino",
+          "happiny"
+        ],
+        [
+          "kangaskhan",
+          "audino",
+          "blissey",
+          "dachsbun"
+        ],
+        [
+          "kangaskhan",
+          "audino",
+          "blissey",
+          "dachsbun",
+          "eldegoss"
+        ],
+        [
+          "kangaskhan",
+          "audino",
+          "blissey",
+          "dachsbun",
+          "eldegoss",
+          "leavanny"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Olga",
+      "Theme": "Gardens and orchard helpers",
+      "Teams": [
+        [
+          "tropius",
+          "chikorita",
+          "applin"
+        ],
+        [
+          "tropius",
+          "bayleef",
+          "flapple",
+          "vespiquen"
+        ],
+        [
+          "tropius",
+          "meganium",
+          "flapple",
+          "vespiquen",
+          "bellibolt"
+        ],
+        [
+          "tropius",
+          "meganium",
+          "flapple",
+          "vespiquen",
+          "bellibolt",
+          "donphan"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Paula",
+      "Theme": "Medicine and attentive assistants",
+      "Teams": [
+        [
+          "happiny",
+          "sewaddle",
+          "girafarig"
+        ],
+        [
+          "blissey",
+          "leavanny",
+          "farigiraf",
+          "galarian-weezing"
+        ],
+        [
+          "blissey",
+          "leavanny",
+          "farigiraf",
+          "galarian-weezing",
+          "eldegoss"
+        ],
+        [
+          "blissey",
+          "leavanny",
+          "farigiraf",
+          "galarian-weezing",
+          "eldegoss",
+          "seismitoad"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Philip",
+      "Theme": "Physical therapy and balanced movement",
+      "Teams": [
+        [
+          "tyrogue",
+          "poliwag",
+          "drowzee"
+        ],
+        [
+          "hitmontop",
+          "poliwhirl",
+          "hypno",
+          "grapploct"
+        ],
+        [
+          "hitmontop",
+          "poliwrath",
+          "hypno",
+          "grapploct",
+          "blissey"
+        ],
+        [
+          "hitmontop",
+          "poliwrath",
+          "hypno",
+          "grapploct",
+          "blissey",
+          "leavanny"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Pika",
+      "Theme": "Spicy cooking and hearty meals",
+      "Teams": [
+        [
+          "capsakid",
+          "munchlax",
+          "fuecoco"
+        ],
+        [
+          "scovillain",
+          "snorlax",
+          "crocalor",
+          "appletun"
+        ],
+        [
+          "scovillain",
+          "snorlax",
+          "skeledirge",
+          "appletun",
+          "kingler"
+        ],
+        [
+          "scovillain",
+          "snorlax",
+          "skeledirge",
+          "appletun",
+          "kingler",
+          "camerupt"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Pipo",
+      "Theme": "Water play and pond adventures",
+      "Teams": [
+        [
+          "froakie",
+          "sobble",
+          "lombre"
+        ],
+        [
+          "frogadier",
+          "drizzile",
+          "ludicolo",
+          "bellibolt"
+        ],
+        [
+          "greninja",
+          "inteleon",
+          "ludicolo",
+          "bellibolt",
+          "sliggoo"
+        ],
+        [
+          "greninja",
+          "inteleon",
+          "ludicolo",
+          "bellibolt",
+          "goodra",
+          "yanmega"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Raeriyala",
+      "Theme": "Ancient mountains and guardian spirits",
+      "Teams": [
+        [
+          "celebi",
+          "flabebe",
+          "suicune"
+        ],
+        [
+          "celebi",
+          "floette",
+          "suicune",
+          "carbink"
+        ],
+        [
+          "celebi",
+          "florges",
+          "suicune",
+          "carbink",
+          "sigilyph"
+        ],
+        [
+          "celebi",
+          "florges",
+          "suicune",
+          "carbink",
+          "sigilyph",
+          "cofagrigus"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Richard",
+      "Theme": "Leadership and watchful companions",
+      "Teams": [
+        [
+          "pidgey",
+          "murkrow",
+          "luxio"
+        ],
+        [
+          "pidgeotto",
+          "honchkrow",
+          "luxray",
+          "fearow"
+        ],
+        [
+          "pidgeot",
+          "honchkrow",
+          "luxray",
+          "fearow",
+          "mamoswine"
+        ],
+        [
+          "pidgeot",
+          "honchkrow",
+          "luxray",
+          "fearow",
+          "mamoswine",
+          "kingambit"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Sari",
+      "Theme": "Foxes and gentle magic",
+      "Teams": [
+        [
+          "fennekin",
+          "misdreavus",
+          "zorua"
+        ],
+        [
+          "braixen",
+          "mismagius",
+          "zoroark",
+          "noctowl"
+        ],
+        [
+          "delphox",
+          "mismagius",
+          "zoroark",
+          "noctowl",
+          "meowstic"
+        ],
+        [
+          "delphox",
+          "mismagius",
+          "zoroark",
+          "noctowl",
+          "meowstic",
+          "chandelure"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Sean",
+      "Theme": "Playful tricks and relaxed companions",
+      "Teams": [
+        [
+          "impidimp",
+          "munchlax",
+          "mime-jr"
+        ],
+        [
+          "impidimp",
+          "snorlax",
+          "mr-mime",
+          "zoroark"
+        ],
+        [
+          "grimmsnarl",
+          "snorlax",
+          "mr-mime",
+          "zoroark",
+          "spinda"
+        ],
+        [
+          "grimmsnarl",
+          "snorlax",
+          "mr-mime",
+          "zoroark",
+          "spinda",
+          "annihilape"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Shanice",
+      "Theme": "Welcoming caregivers and soft-furred pets",
+      "Teams": [
+        [
+          "kangaskhan",
+          "minccino",
+          "furfrou"
+        ],
+        [
+          "kangaskhan",
+          "cinccino",
+          "furfrou",
+          "dachsbun"
+        ],
+        [
+          "kangaskhan",
+          "cinccino",
+          "furfrou",
+          "dachsbun",
+          "eldegoss"
+        ],
+        [
+          "kangaskhan",
+          "cinccino",
+          "furfrou",
+          "dachsbun",
+          "eldegoss",
+          "leavanny"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Shiro",
+      "Theme": "Healing and patient martial strength",
+      "Teams": [
+        [
+          "absol",
+          "drowzee",
+          "clobbopus"
+        ],
+        [
+          "absol",
+          "hypno",
+          "grapploct",
+          "leafeon"
+        ],
+        [
+          "absol",
+          "hypno",
+          "grapploct",
+          "leafeon",
+          "golurk"
+        ],
+        [
+          "absol",
+          "hypno",
+          "grapploct",
+          "leafeon",
+          "golurk",
+          "hitmonlee"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Sonny",
+      "Theme": "Theatrical spirits and gentle guardians",
+      "Teams": [
+        [
+          "mime-jr",
+          "woobat",
+          "drowzee"
+        ],
+        [
+          "mr-mime",
+          "swoobat",
+          "hypno",
+          "drampa"
+        ],
+        [
+          "mr-mime",
+          "swoobat",
+          "hypno",
+          "drampa",
+          "froslass"
+        ],
+        [
+          "mr-mime",
+          "swoobat",
+          "hypno",
+          "drampa",
+          "froslass",
+          "banette"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Torts",
+      "Theme": "Shells and slow woodland adventures",
+      "Teams": [
+        [
+          "turtwig",
+          "squirtle",
+          "torkoal"
+        ],
+        [
+          "grotle",
+          "wartortle",
+          "torkoal",
+          "parasect"
+        ],
+        [
+          "torterra",
+          "blastoise",
+          "torkoal",
+          "parasect",
+          "kabutops"
+        ],
+        [
+          "torterra",
+          "blastoise",
+          "torkoal",
+          "parasect",
+          "kabutops",
+          "relicanth"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Trinnie",
+      "Theme": "Playful pets and bright little sparks",
+      "Teams": [
+        [
+          "cleffa",
+          "buneary",
+          "furret"
+        ],
+        [
+          "clefable",
+          "lopunny",
+          "furret",
+          "ribombee"
+        ],
+        [
+          "clefable",
+          "lopunny",
+          "furret",
+          "ribombee",
+          "vaporeon"
+        ],
+        [
+          "clefable",
+          "lopunny",
+          "furret",
+          "ribombee",
+          "vaporeon",
+          "jolteon"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Undreya",
+      "Theme": "Hidden identities and mischievous spirits",
+      "Teams": [
+        [
+          "zorua",
+          "mimikyu",
+          "shuppet"
+        ],
+        [
+          "zoroark",
+          "mimikyu",
+          "shuppet",
+          "mismagius"
+        ],
+        [
+          "zoroark",
+          "mimikyu",
+          "banette",
+          "mismagius",
+          "meowscarada"
+        ],
+        [
+          "zoroark",
+          "mimikyu",
+          "banette",
+          "mismagius",
+          "meowscarada",
+          "spinda"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Ysabelle",
+      "Theme": "Dance and graceful companions",
+      "Teams": [
+        [
+          "quaxly",
+          "buneary",
+          "beautifly"
+        ],
+        [
+          "quaxwell",
+          "lopunny",
+          "beautifly",
+          "lilligant"
+        ],
+        [
+          "quaquaval",
+          "lopunny",
+          "beautifly",
+          "lilligant",
+          "grapploct"
+        ],
+        [
+          "quaquaval",
+          "lopunny",
+          "beautifly",
+          "lilligant",
+          "grapploct",
+          "swellow"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Zayne",
+      "Theme": "Dignity and precise command",
+      "Teams": [
+        [
+          "piplup",
+          "horsea",
+          "beldum"
+        ],
+        [
+          "prinplup",
+          "horsea",
+          "metang",
+          "pawniard"
+        ],
+        [
+          "empoleon",
+          "kingdra",
+          "metagross",
+          "pawniard",
+          "honchkrow"
+        ],
+        [
+          "empoleon",
+          "kingdra",
+          "metagross",
+          "kingambit",
+          "honchkrow",
+          "serperior"
+        ]
+      ],
+      "NpcAliases": []
+    },
+    {
+      "NpcName": "Acorn",
+      "Theme": "Forest seedlings and tiny guardians",
+      "Teams": [
+        [
+          "chespin",
+          "bonsly",
+          "bulbasaur"
+        ],
+        [
+          "quilladin",
+          "sudowoodo",
+          "ivysaur",
+          "simisage"
+        ],
+        [
+          "chesnaught",
+          "sudowoodo",
+          "venusaur",
+          "simisage",
+          "ribombee"
+        ],
+        [
+          "chesnaught",
+          "sudowoodo",
+          "venusaur",
+          "simisage",
+          "ribombee",
+          "furret"
+        ]
+      ],
+      "NpcAliases": [
+        "LilAcorn",
+        "Lil Acorn"
+      ]
+    }
+  ]
+}

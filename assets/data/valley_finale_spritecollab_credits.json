@@ -1,0 +1,1393 @@
+{
+  "Source": "https://github.com/PMDCollab/SpriteCollab",
+  "Revision": "dff28caa17112667670a7da7acd81c92f4301ba7",
+  "LicenseUrl": "https://github.com/PMDCollab/SpriteCollab/blob/dff28caa17112667670a7da7acd81c92f4301ba7/LICENSE.md",
+  "Species": [
+    {
+      "NationalDex": 198,
+      "Id": "murkrow",
+      "DisplayName": "Murkrow",
+      "Sprite": [
+        {
+          "Contributor": "CHUNSOFT",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "Unspecified",
+          "Status": "CUR",
+          "Timestamp": "2020-10-07 17:58:43.881946",
+          "Contact": "https://www.spike-chunsoft.com/"
+        }
+      ],
+      "Portrait": [
+        {
+          "Contributor": "CHUNSOFT",
+          "Files": [
+            "Normal"
+          ],
+          "Source": "Unspecified",
+          "Status": "CUR",
+          "Timestamp": "2020-10-07 17:58:43.882942",
+          "Contact": "https://www.spike-chunsoft.com/"
+        },
+        {
+          "Contributor": "baronessfaron",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2022-04-01 03:30:21.776742",
+          "Handle": "<@!544245909639397378>"
+        },
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Sigh",
+            "Determined",
+            "Pain"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2023-04-26 22:43:27.490520",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        }
+      ],
+      "ShinySprite": [
+        {
+          "Contributor": "Scizivire",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2020-10-07 17:58:43.882942",
+          "Handle": "<@!207188665959448576>",
+          "Contact": "<@207188665959448576>"
+        },
+        {
+          "Contributor": "Caitemis",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "PMDCollab_2",
+          "Status": "CUR",
+          "Timestamp": "2023-05-30 03:27:56.580004",
+          "Handle": "<@!330751862590406656>",
+          "Contact": "https://caitemis-art.tumblr.com/"
+        }
+      ],
+      "ShinyPortrait": [
+        {
+          "Contributor": "Morei",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2022-02-16 00:40:21.366368",
+          "Handle": "<@!593113130213572610>",
+          "Contact": "https://bsky.app/profile/murpia57.bsky.social"
+        },
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2023-04-25 17:51:43.251712",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        }
+      ]
+    },
+    {
+      "NationalDex": 430,
+      "Id": "honchkrow",
+      "DisplayName": "Honchkrow",
+      "Sprite": [
+        {
+          "Contributor": "CHUNSOFT",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "Unspecified",
+          "Status": "CUR",
+          "Timestamp": "2020-10-07 17:58:44.671442",
+          "Contact": "https://www.spike-chunsoft.com/"
+        }
+      ],
+      "Portrait": [
+        {
+          "Contributor": "CHUNSOFT",
+          "Files": [
+            "Normal"
+          ],
+          "Source": "Unspecified",
+          "Status": "CUR",
+          "Timestamp": "2020-10-07 17:58:44.672437",
+          "Contact": "https://www.spike-chunsoft.com/"
+        },
+        {
+          "Contributor": "CamusZekeSirius",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2021-02-09 13:54:58.152121",
+          "Handle": "<@!533406104256905257>"
+        }
+      ],
+      "ShinySprite": [
+        {
+          "Contributor": "Scizivire",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2020-10-07 17:58:44.672437",
+          "Handle": "<@!207188665959448576>",
+          "Contact": "<@207188665959448576>"
+        }
+      ],
+      "ShinyPortrait": [
+        {
+          "Contributor": "Prismatic",
+          "Files": [
+            "Normal"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2020-10-07 17:58:44.673436",
+          "Handle": "<@!215699178553212929>",
+          "Contact": "prismaticphenomenal@gmail.com"
+        },
+        {
+          "Contributor": "CamusZekeSirius",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2021-02-09 15:04:30.588577",
+          "Handle": "<@!533406104256905257>"
+        }
+      ]
+    },
+    {
+      "NationalDex": 399,
+      "Id": "bidoof",
+      "DisplayName": "Bidoof",
+      "Sprite": [
+        {
+          "Contributor": "CHUNSOFT",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "Unspecified",
+          "Status": "CUR",
+          "Timestamp": "2022-08-24 13:24:21.242763",
+          "Contact": "https://www.spike-chunsoft.com/"
+        }
+      ],
+      "Portrait": [
+        {
+          "Contributor": "CHUNSOFT",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "Unspecified",
+          "Status": "CUR",
+          "Timestamp": "2022-08-24 06:49:31.815155",
+          "Contact": "https://www.spike-chunsoft.com/"
+        },
+        {
+          "Contributor": "Gust",
+          "Files": [
+            "Sigh"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2022-08-25 23:26:59.102574",
+          "Handle": "<@!861005464682889266>",
+          "Contact": "https://twitter.com/Estelaris__"
+        }
+      ],
+      "ShinySprite": [
+        {
+          "Contributor": "Caitemis",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "OLD",
+          "Timestamp": "2022-10-05 14:46:24.874139",
+          "Handle": "<@!330751862590406656>",
+          "Contact": "https://caitemis-art.tumblr.com/"
+        }
+      ],
+      "ShinyPortrait": [
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2022-09-01 04:20:16.282824",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        }
+      ]
+    },
+    {
+      "NationalDex": 400,
+      "Id": "bibarel",
+      "DisplayName": "Bibarel",
+      "Sprite": [
+        {
+          "Contributor": "CHUNSOFT",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "Unspecified",
+          "Status": "CUR",
+          "Timestamp": "2020-10-07 17:58:44.573702",
+          "Contact": "https://www.spike-chunsoft.com/"
+        }
+      ],
+      "Portrait": [
+        {
+          "Contributor": "CHUNSOFT",
+          "Files": [
+            "Normal"
+          ],
+          "Source": "Unspecified",
+          "Status": "CUR",
+          "Timestamp": "2020-10-07 17:58:44.573702",
+          "Contact": "https://www.spike-chunsoft.com/"
+        }
+      ],
+      "ShinySprite": [
+        {
+          "Contributor": "Scizivire",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2020-10-07 17:58:44.574699",
+          "Handle": "<@!207188665959448576>",
+          "Contact": "<@207188665959448576>"
+        },
+        {
+          "Contributor": "G〜",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "PMDCollab_2",
+          "Status": "CUR",
+          "Timestamp": "2023-07-29 04:36:39.016718",
+          "Handle": "<@!350050109741858829>",
+          "Contact": "https://bsky.app/profile/justtr4sh.pmd.social"
+        }
+      ],
+      "ShinyPortrait": [
+        {
+          "Contributor": "Lovi",
+          "Files": [
+            "Normal"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2020-10-07 17:58:44.575697",
+          "Handle": "<@!95650095034273792>",
+          "Contact": "<@95650095034273792>"
+        },
+        {
+          "Contributor": "G〜",
+          "Files": [
+            "Normal"
+          ],
+          "Source": "PMDCollab_2",
+          "Status": "CUR",
+          "Timestamp": "2023-07-29 04:28:36.826005",
+          "Handle": "<@!350050109741858829>",
+          "Contact": "https://bsky.app/profile/justtr4sh.pmd.social"
+        }
+      ]
+    },
+    {
+      "NationalDex": 270,
+      "Id": "lotad",
+      "DisplayName": "Lotad",
+      "Sprite": [
+        {
+          "Contributor": "CHUNSOFT",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "Unspecified",
+          "Status": "CUR",
+          "Timestamp": "2020-10-07 17:58:44.229622",
+          "Contact": "https://www.spike-chunsoft.com/"
+        }
+      ],
+      "Portrait": [
+        {
+          "Contributor": "CHUNSOFT",
+          "Files": [
+            "Normal"
+          ],
+          "Source": "Unspecified",
+          "Status": "CUR",
+          "Timestamp": "2020-10-07 17:58:44.229622",
+          "Contact": "https://www.spike-chunsoft.com/"
+        },
+        {
+          "Contributor": "smartini",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2020-12-14 05:49:26.484973",
+          "Handle": "<@!136476806055198720>",
+          "Contact": "https://github.com/CSCMe"
+        },
+        {
+          "Contributor": "Morei",
+          "Files": [
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2022-09-01 17:39:07.953696",
+          "Handle": "<@!593113130213572610>",
+          "Contact": "https://bsky.app/profile/murpia57.bsky.social"
+        },
+        {
+          "Contributor": "Morei",
+          "Files": [
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_2",
+          "Status": "CUR",
+          "Timestamp": "2023-10-06 22:40:53.290819",
+          "Handle": "<@!593113130213572610>",
+          "Contact": "https://bsky.app/profile/murpia57.bsky.social"
+        }
+      ],
+      "ShinySprite": [
+        {
+          "Contributor": "G〜",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2024-07-04 19:37:55.334672",
+          "Handle": "<@!350050109741858829>",
+          "Contact": "https://bsky.app/profile/justtr4sh.pmd.social"
+        }
+      ],
+      "ShinyPortrait": [
+        {
+          "Contributor": "Morei",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2021-08-26 17:26:16.197348",
+          "Handle": "<@!593113130213572610>",
+          "Contact": "https://bsky.app/profile/murpia57.bsky.social"
+        },
+        {
+          "Contributor": "Morei",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2022-09-01 18:00:34.299054",
+          "Handle": "<@!593113130213572610>",
+          "Contact": "https://bsky.app/profile/murpia57.bsky.social"
+        },
+        {
+          "Contributor": "Morei",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_2",
+          "Status": "CUR",
+          "Timestamp": "2023-10-09 04:41:40.458451",
+          "Handle": "<@!593113130213572610>",
+          "Contact": "https://bsky.app/profile/murpia57.bsky.social"
+        },
+        {
+          "Contributor": "Morei",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_2",
+          "Status": "CUR",
+          "Timestamp": "2023-10-20 17:16:15.339939",
+          "Handle": "<@!593113130213572610>",
+          "Contact": "https://bsky.app/profile/murpia57.bsky.social"
+        }
+      ]
+    },
+    {
+      "NationalDex": 271,
+      "Id": "lombre",
+      "DisplayName": "Lombre",
+      "Sprite": [
+        {
+          "Contributor": "CHUNSOFT",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "Unspecified",
+          "Status": "CUR",
+          "Timestamp": "2022-12-17 00:13:26.435454",
+          "Contact": "https://www.spike-chunsoft.com/"
+        }
+      ],
+      "Portrait": [
+        {
+          "Contributor": "CHUNSOFT",
+          "Files": [
+            "Normal",
+            "Happy"
+          ],
+          "Source": "Unspecified",
+          "Status": "CUR",
+          "Timestamp": "2020-10-07 17:58:44.232615",
+          "Contact": "https://www.spike-chunsoft.com/"
+        },
+        {
+          "Contributor": "baronessfaron",
+          "Files": [
+            "Pain"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2022-10-10 23:57:07.377392",
+          "Handle": "<@!544245909639397378>"
+        },
+        {
+          "Contributor": "Gust",
+          "Files": [
+            "Sigh",
+            "Determined",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2023-01-12 07:55:10.838416",
+          "Handle": "<@!861005464682889266>",
+          "Contact": "https://twitter.com/Estelaris__"
+        }
+      ],
+      "ShinySprite": [
+        {
+          "Contributor": "Morei",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "PMDCollab_2",
+          "Status": "CUR",
+          "Timestamp": "2023-07-20 00:21:30.144578",
+          "Handle": "<@!593113130213572610>",
+          "Contact": "https://bsky.app/profile/murpia57.bsky.social"
+        }
+      ],
+      "ShinyPortrait": [
+        {
+          "Contributor": "Morei",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Pain"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2022-12-27 18:02:08.321873",
+          "Handle": "<@!593113130213572610>",
+          "Contact": "https://bsky.app/profile/murpia57.bsky.social"
+        },
+        {
+          "Contributor": "Morei",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_2",
+          "Status": "CUR",
+          "Timestamp": "2023-07-18 20:29:19.602563",
+          "Handle": "<@!593113130213572610>",
+          "Contact": "https://bsky.app/profile/murpia57.bsky.social"
+        },
+        {
+          "Contributor": "Morei",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_2",
+          "Status": "CUR",
+          "Timestamp": "2023-07-19 20:45:40.573885",
+          "Handle": "<@!593113130213572610>",
+          "Contact": "https://bsky.app/profile/murpia57.bsky.social"
+        }
+      ]
+    },
+    {
+      "NationalDex": 272,
+      "Id": "ludicolo",
+      "DisplayName": "Ludicolo",
+      "Sprite": [
+        {
+          "Contributor": "CHUNSOFT",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "Unspecified",
+          "Status": "CUR",
+          "Timestamp": "2022-11-08 03:47:08.670253",
+          "Contact": "https://www.spike-chunsoft.com/"
+        }
+      ],
+      "Portrait": [
+        {
+          "Contributor": "CHUNSOFT",
+          "Files": [
+            "Normal"
+          ],
+          "Source": "Unspecified",
+          "Status": "CUR",
+          "Timestamp": "2020-10-07 17:58:44.234610",
+          "Contact": "https://www.spike-chunsoft.com/"
+        }
+      ],
+      "ShinySprite": [
+        {
+          "Contributor": "Morei",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "PMDCollab_2",
+          "Status": "CUR",
+          "Timestamp": "2023-08-17 17:37:42.182225",
+          "Handle": "<@!593113130213572610>",
+          "Contact": "https://bsky.app/profile/murpia57.bsky.social"
+        }
+      ],
+      "ShinyPortrait": [
+        {
+          "Contributor": "Morei",
+          "Files": [
+            "Normal"
+          ],
+          "Source": "PMDCollab_2",
+          "Status": "CUR",
+          "Timestamp": "2023-08-17 17:28:56.005497",
+          "Handle": "<@!593113130213572610>",
+          "Contact": "https://bsky.app/profile/murpia57.bsky.social"
+        }
+      ]
+    },
+    {
+      "NationalDex": 215,
+      "Id": "sneasel",
+      "DisplayName": "Sneasel",
+      "Sprite": [
+        {
+          "Contributor": "CHUNSOFT",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "Unspecified",
+          "Status": "CUR",
+          "Timestamp": "2022-09-19 23:21:15.193733",
+          "Contact": "https://www.spike-chunsoft.com/"
+        }
+      ],
+      "Portrait": [
+        {
+          "Contributor": "CHUNSOFT",
+          "Files": [
+            "Normal",
+            "Pain"
+          ],
+          "Source": "Unspecified",
+          "Status": "CUR",
+          "Timestamp": "2020-10-07 17:58:43.988660",
+          "Contact": "https://www.spike-chunsoft.com/"
+        },
+        {
+          "Contributor": "cosmosully",
+          "Files": [
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2022-08-13 23:32:19.797256",
+          "Handle": "<@!411407718839222272>",
+          "Contact": "https://twitter.com/cosmosully"
+        }
+      ],
+      "ShinySprite": [
+        {
+          "Contributor": "ShyStarryRain",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "OLD",
+          "Timestamp": "2022-11-08 05:19:17.386166",
+          "Handle": "<@!576876006636519434>"
+        }
+      ],
+      "ShinyPortrait": [
+        {
+          "Contributor": "Lovi",
+          "Files": [
+            "Normal",
+            "Pain"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2020-10-07 17:58:43.989657",
+          "Handle": "<@!95650095034273792>",
+          "Contact": "<@95650095034273792>"
+        },
+        {
+          "Contributor": "Morei",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2021-08-24 17:30:29.628158",
+          "Handle": "<@!593113130213572610>",
+          "Contact": "https://bsky.app/profile/murpia57.bsky.social"
+        },
+        {
+          "Contributor": "Morei",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2022-04-28 06:50:38.557520",
+          "Handle": "<@!593113130213572610>",
+          "Contact": "https://bsky.app/profile/murpia57.bsky.social"
+        },
+        {
+          "Contributor": "Morei",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2022-09-22 04:52:13.613153",
+          "Handle": "<@!593113130213572610>",
+          "Contact": "https://bsky.app/profile/murpia57.bsky.social"
+        }
+      ]
+    },
+    {
+      "NationalDex": 461,
+      "Id": "weavile",
+      "DisplayName": "Weavile",
+      "Sprite": [
+        {
+          "Contributor": "CHUNSOFT",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "Unspecified",
+          "Status": "CUR",
+          "Timestamp": "2022-11-08 03:48:25.770646",
+          "Contact": "https://www.spike-chunsoft.com/"
+        }
+      ],
+      "Portrait": [
+        {
+          "Contributor": "CHUNSOFT",
+          "Files": [
+            "Normal",
+            "Pain"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2025-06-16 16:44:01.449391",
+          "Contact": "https://www.spike-chunsoft.com/"
+        },
+        {
+          "Contributor": "PhillipsYoung",
+          "Files": [
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Dizzy"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2025-06-16 16:47:06.382263",
+          "Handle": "<@!772726854188400641>",
+          "Contact": "https://twitter.com/PhilliYoung196"
+        }
+      ],
+      "ShinySprite": [
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "PMDCollab_2",
+          "Status": "CUR",
+          "Timestamp": "2023-10-21 18:47:06.068431",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        }
+      ],
+      "ShinyPortrait": [
+        {
+          "Contributor": "baronessfaron",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_2",
+          "Status": "CUR",
+          "Timestamp": "2023-08-17 15:40:47.869259",
+          "Handle": "<@!544245909639397378>"
+        },
+        {
+          "Contributor": "PhillipsYoung",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2024-05-08 02:39:26.226707",
+          "Handle": "<@!772726854188400641>",
+          "Contact": "https://twitter.com/PhilliYoung196"
+        },
+        {
+          "Contributor": "PhillipsYoung",
+          "Files": [
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2024-05-08 19:24:30.984274",
+          "Handle": "<@!772726854188400641>",
+          "Contact": "https://twitter.com/PhilliYoung196"
+        }
+      ]
+    },
+    {
+      "NationalDex": 529,
+      "Id": "drilbur",
+      "DisplayName": "Drilbur",
+      "Sprite": [
+        {
+          "Contributor": "baronessfaron",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2024-03-05 05:24:08.945412",
+          "Handle": "<@!544245909639397378>"
+        }
+      ],
+      "Portrait": [
+        {
+          "Contributor": "Gust",
+          "Files": [
+            "Normal"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2024-04-24 02:26:24.270101",
+          "Handle": "<@!861005464682889266>",
+          "Contact": "https://twitter.com/Estelaris__"
+        },
+        {
+          "Contributor": "Top_Kec",
+          "Files": [
+            "Worried"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2024-05-04 22:59:51.388149",
+          "Handle": "<@!276369635304275968>",
+          "Contact": "@topkec.bsky.social"
+        }
+      ],
+      "ShinySprite": [
+        {
+          "Contributor": "baronessfaron",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2024-04-10 04:28:31.344589",
+          "Handle": "<@!544245909639397378>"
+        }
+      ],
+      "ShinyPortrait": [
+        {
+          "Contributor": "Gust",
+          "Files": [
+            "Normal"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2024-04-24 10:21:02.481408",
+          "Handle": "<@!861005464682889266>",
+          "Contact": "https://twitter.com/Estelaris__"
+        },
+        {
+          "Contributor": "Top_Kec",
+          "Files": [
+            "Worried"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2024-05-04 23:01:47.932569",
+          "Handle": "<@!276369635304275968>",
+          "Contact": "@topkec.bsky.social"
+        }
+      ]
+    },
+    {
+      "NationalDex": 530,
+      "Id": "excadrill",
+      "DisplayName": "Excadrill",
+      "Sprite": [
+        {
+          "Contributor": "Soulja",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2024-11-20 07:45:40.899881",
+          "Handle": "<@!229131140903075840>",
+          "Contact": "https://twitter.com/OlSoulja"
+        },
+        {
+          "Contributor": "Soulja",
+          "Files": [
+            "Attack",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2024-12-02 03:47:24.829197",
+          "Handle": "<@!229131140903075840>",
+          "Contact": "https://twitter.com/OlSoulja"
+        }
+      ],
+      "Portrait": [
+        {
+          "Contributor": "baronessfaron",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2022-11-27 05:33:00.112568",
+          "Handle": "<@!544245909639397378>"
+        }
+      ],
+      "ShinySprite": [
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2024-12-02 04:11:16.756711",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        }
+      ],
+      "ShinyPortrait": [
+        {
+          "Contributor": "ShyStarryRain",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2023-01-15 04:35:31.468051",
+          "Handle": "<@!576876006636519434>"
+        }
+      ]
+    },
+    {
+      "NationalDex": 459,
+      "Id": "snover",
+      "DisplayName": "Snover",
+      "Sprite": [
+        {
+          "Contributor": "CHUNSOFT",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "Unspecified",
+          "Status": "CUR",
+          "Timestamp": "2023-05-04 17:19:43.322269",
+          "Contact": "https://www.spike-chunsoft.com/"
+        }
+      ],
+      "Portrait": [
+        {
+          "Contributor": "CHUNSOFT",
+          "Files": [
+            "Normal",
+            "Pain"
+          ],
+          "Source": "Unspecified",
+          "Status": "CUR",
+          "Timestamp": "2020-10-07 17:58:44.763194",
+          "Contact": "https://www.spike-chunsoft.com/"
+        },
+        {
+          "Contributor": "Jarleypeño",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2021-01-19 03:49:35.925850",
+          "Handle": "JARLEYPENO",
+          "Contact": "https://www.deviantart.com/applecone413"
+        }
+      ],
+      "ShinySprite": [
+        {
+          "Contributor": "Scizivire",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2024-11-30 20:00:51.185895",
+          "Handle": "<@!207188665959448576>",
+          "Contact": "<@207188665959448576>"
+        }
+      ],
+      "ShinyPortrait": [
+        {
+          "Contributor": "Lovi",
+          "Files": [
+            "Normal",
+            "Pain"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2020-10-07 17:58:44.764193",
+          "Handle": "<@!95650095034273792>",
+          "Contact": "<@95650095034273792>"
+        },
+        {
+          "Contributor": "Morei",
+          "Files": [
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2021-09-04 20:13:15.460411",
+          "Handle": "<@!593113130213572610>",
+          "Contact": "https://bsky.app/profile/murpia57.bsky.social"
+        }
+      ]
+    },
+    {
+      "NationalDex": 460,
+      "Id": "abomasnow",
+      "DisplayName": "Abomasnow",
+      "Sprite": [
+        {
+          "Contributor": "CHUNSOFT",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "Unspecified",
+          "Status": "CUR",
+          "Timestamp": "2020-10-07 17:58:44.768180",
+          "Contact": "https://www.spike-chunsoft.com/"
+        }
+      ],
+      "Portrait": [
+        {
+          "Contributor": "CHUNSOFT",
+          "Files": [
+            "Normal"
+          ],
+          "Source": "Unspecified",
+          "Status": "CUR",
+          "Timestamp": "2020-10-07 17:58:44.768180",
+          "Contact": "https://www.spike-chunsoft.com/"
+        },
+        {
+          "Contributor": "SingingMudkip",
+          "Files": [
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_2",
+          "Status": "CUR",
+          "Timestamp": "2023-07-07 02:03:17.816144",
+          "Handle": "<@!220580080194289664>"
+        }
+      ],
+      "ShinySprite": [
+        {
+          "Contributor": "Scizivire",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2020-10-07 17:58:44.769180",
+          "Handle": "<@!207188665959448576>",
+          "Contact": "<@207188665959448576>"
+        }
+      ],
+      "ShinyPortrait": [
+        {
+          "Contributor": "Prismatic",
+          "Files": [
+            "Normal"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2020-10-07 17:58:44.769180",
+          "Handle": "<@!215699178553212929>",
+          "Contact": "prismaticphenomenal@gmail.com"
+        },
+        {
+          "Contributor": "SingingMudkip",
+          "Files": [
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_2",
+          "Status": "CUR",
+          "Timestamp": "2023-07-07 02:11:44.663748",
+          "Handle": "<@!220580080194289664>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,5601 @@
+{
+  "Source": "https://github.com/PMDCollab/SpriteCollab",
+  "Revision": "dff28caa17112667670a7da7acd81c92f4301ba7",
+  "LicenseUrl": "https://github.com/PMDCollab/SpriteCollab/blob/dff28caa17112667670a7da7acd81c92f4301ba7/LICENSE.md",
+  "Species": [
+    {
+      "NationalDex": 387,
+      "Id": "turtwig",
+      "DisplayName": "Turtwig",
+      "Sprite": [
+        {
+          "Contributor": "CHUNSOFT",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "Unspecified",
+          "Status": "CUR",
+          "Timestamp": "2020-10-07 17:58:44.539795",
+          "Contact": "https://www.spike-chunsoft.com/"
+        }
+      ],
+      "Portrait": [
+        {
+          "Contributor": "CHUNSOFT",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "Unspecified",
+          "Status": "CUR",
+          "Timestamp": "2020-10-07 17:58:44.539795",
+          "Contact": "https://www.spike-chunsoft.com/"
+        }
+      ],
+      "ShinySprite": [
+        {
+          "Contributor": "Chi",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2020-10-07 17:58:44.540789",
+          "Handle": "<@!95638225439166464>",
+          "Contact": "<@95638225439166464>"
+        }
+      ],
+      "ShinyPortrait": [
+        {
+          "Contributor": "Chi",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2020-10-07 17:58:44.541788",
+          "Handle": "<@!95638225439166464>",
+          "Contact": "<@95638225439166464>"
+        }
+      ]
+    },
+    {
+      "NationalDex": 388,
+      "Id": "grotle",
+      "DisplayName": "Grotle",
+      "Sprite": [
+        {
+          "Contributor": "CHUNSOFT",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "Unspecified",
+          "Status": "CUR",
+          "Timestamp": "2020-10-07 17:58:44.541788",
+          "Contact": "https://www.spike-chunsoft.com/"
+        }
+      ],
+      "Portrait": [
+        {
+          "Contributor": "CHUNSOFT",
+          "Files": [
+            "Normal"
+          ],
+          "Source": "Unspecified",
+          "Status": "CUR",
+          "Timestamp": "2020-10-07 17:58:44.542785",
+          "Contact": "https://www.spike-chunsoft.com/"
+        },
+        {
+          "Contributor": "Emboarger",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2021-07-09 03:11:34.897999",
+          "Handle": "<@!237286997645983744>"
+        }
+      ],
+      "ShinySprite": [
+        {
+          "Contributor": "Chi",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2020-10-07 17:58:44.542785",
+          "Handle": "<@!95638225439166464>",
+          "Contact": "<@95638225439166464>"
+        }
+      ],
+      "ShinyPortrait": [
+        {
+          "Contributor": "Anonymous",
+          "Files": [
+            "Normal"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2020-10-07 17:58:44.543781",
+          "Handle": "<@!200318546750865418>",
+          "Contact": "<@200318546750865418>"
+        },
+        {
+          "Contributor": "Morei",
+          "Files": [
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2021-09-04 20:12:35.269103",
+          "Handle": "<@!593113130213572610>",
+          "Contact": "https://bsky.app/profile/murpia57.bsky.social"
+        }
+      ]
+    },
+    {
+      "NationalDex": 389,
+      "Id": "torterra",
+      "DisplayName": "Torterra",
+      "Sprite": [
+        {
+          "Contributor": "CHUNSOFT",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "Unspecified",
+          "Status": "CUR",
+          "Timestamp": "2020-10-07 17:58:44.544779",
+          "Contact": "https://www.spike-chunsoft.com/"
+        }
+      ],
+      "Portrait": [
+        {
+          "Contributor": "CHUNSOFT",
+          "Files": [
+            "Normal"
+          ],
+          "Source": "Unspecified",
+          "Status": "CUR",
+          "Timestamp": "2020-10-07 17:58:44.544779",
+          "Contact": "https://www.spike-chunsoft.com/"
+        },
+        {
+          "Contributor": "JFain",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2021-02-09 21:47:20.979803",
+          "Handle": "<@!702275233125630042>"
+        }
+      ],
+      "ShinySprite": [
+        {
+          "Contributor": "Anonymous",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2020-10-07 17:58:44.545776",
+          "Handle": "<@!200318546750865418>",
+          "Contact": "<@200318546750865418>"
+        }
+      ],
+      "ShinyPortrait": [
+        {
+          "Contributor": "Anonymous",
+          "Files": [
+            "Normal"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2020-10-07 17:58:44.545776",
+          "Handle": "<@!200318546750865418>",
+          "Contact": "<@200318546750865418>"
+        },
+        {
+          "Contributor": "Morei",
+          "Files": [
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2021-09-03 18:56:09.982993",
+          "Handle": "<@!593113130213572610>",
+          "Contact": "https://bsky.app/profile/murpia57.bsky.social"
+        }
+      ]
+    },
+    {
+      "NationalDex": 390,
+      "Id": "chimchar",
+      "DisplayName": "Chimchar",
+      "Sprite": [
+        {
+          "Contributor": "CHUNSOFT",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "Unspecified",
+          "Status": "CUR",
+          "Timestamp": "2020-10-07 17:58:44.546774",
+          "Contact": "https://www.spike-chunsoft.com/"
+        }
+      ],
+      "Portrait": [
+        {
+          "Contributor": "CHUNSOFT",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "Unspecified",
+          "Status": "CUR",
+          "Timestamp": "2020-10-07 17:58:44.547771",
+          "Contact": "https://www.spike-chunsoft.com/"
+        }
+      ],
+      "ShinySprite": [
+        {
+          "Contributor": "Lovi",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2020-10-07 17:58:44.547771",
+          "Handle": "<@!95650095034273792>",
+          "Contact": "<@95650095034273792>"
+        }
+      ],
+      "ShinyPortrait": [
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_2",
+          "Status": "CUR",
+          "Timestamp": "2023-07-21 15:53:37.966195",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        }
+      ]
+    },
+    {
+      "NationalDex": 391,
+      "Id": "monferno",
+      "DisplayName": "Monferno",
+      "Sprite": [
+        {
+          "Contributor": "CHUNSOFT",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "Unspecified",
+          "Status": "CUR",
+          "Timestamp": "2020-10-07 17:58:44.548769",
+          "Contact": "https://www.spike-chunsoft.com/"
+        }
+      ],
+      "Portrait": [
+        {
+          "Contributor": "CHUNSOFT",
+          "Files": [
+            "Normal"
+          ],
+          "Source": "Unspecified",
+          "Status": "CUR",
+          "Timestamp": "2020-10-07 17:58:44.549826",
+          "Contact": "https://www.spike-chunsoft.com/"
+        },
+        {
+          "Contributor": "baronessfaron",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2021-06-20 03:13:35.074445",
+          "Handle": "<@!544245909639397378>"
+        },
+        {
+          "Contributor": "baronessfaron",
+          "Files": [
+            "Happy"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2021-06-21 16:00:21.429020",
+          "Handle": "<@!544245909639397378>"
+        },
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2023-02-28 21:47:27.361924",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        }
+      ],
+      "ShinySprite": [
+        {
+          "Contributor": "Lovi",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2020-10-07 17:58:44.550762",
+          "Handle": "<@!95650095034273792>",
+          "Contact": "<@95650095034273792>"
+        }
+      ],
+      "ShinyPortrait": [
+        {
+          "Contributor": "Lovi",
+          "Files": [
+            "Normal"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2020-10-07 17:58:44.550762",
+          "Handle": "<@!95650095034273792>",
+          "Contact": "<@95650095034273792>"
+        },
+        {
+          "Contributor": "baronessfaron",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2021-06-23 05:06:31.894770",
+          "Handle": "<@!544245909639397378>"
+        },
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2023-02-28 22:32:27.195940",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        }
+      ]
+    },
+    {
+      "NationalDex": 392,
+      "Id": "infernape",
+      "DisplayName": "Infernape",
+      "Sprite": [
+        {
+          "Contributor": "CHUNSOFT",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "Unspecified",
+          "Status": "CUR",
+          "Timestamp": "2020-10-07 17:58:44.551761",
+          "Contact": "https://www.spike-chunsoft.com/"
+        }
+      ],
+      "Portrait": [
+        {
+          "Contributor": "CHUNSOFT",
+          "Files": [
+            "Normal"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2025-02-11 18:42:27.871414",
+          "Contact": "https://www.spike-chunsoft.com/"
+        },
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2025-02-12 06:36:46.830412",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        }
+      ],
+      "ShinySprite": [
+        {
+          "Contributor": "Lovi",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2020-10-07 17:58:44.552758",
+          "Handle": "<@!95650095034273792>",
+          "Contact": "<@95650095034273792>"
+        }
+      ],
+      "ShinyPortrait": [
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2025-02-12 06:50:42.267415",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        }
+      ]
+    },
+    {
+      "NationalDex": 393,
+      "Id": "piplup",
+      "DisplayName": "Piplup",
+      "Sprite": [
+        {
+          "Contributor": "CHUNSOFT",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "Unspecified",
+          "Status": "CUR",
+          "Timestamp": "2020-10-07 17:58:44.553755",
+          "Contact": "https://www.spike-chunsoft.com/"
+        }
+      ],
+      "Portrait": [
+        {
+          "Contributor": "CHUNSOFT",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "Unspecified",
+          "Status": "CUR",
+          "Timestamp": "2020-10-07 17:58:44.554751",
+          "Contact": "https://www.spike-chunsoft.com/"
+        }
+      ],
+      "ShinySprite": [
+        {
+          "Contributor": "Lovi",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2020-10-07 17:58:44.554751",
+          "Handle": "<@!95650095034273792>",
+          "Contact": "<@95650095034273792>"
+        }
+      ],
+      "ShinyPortrait": [
+        {
+          "Contributor": "Lovi",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2020-10-07 17:58:44.555750",
+          "Handle": "<@!95650095034273792>",
+          "Contact": "<@95650095034273792>"
+        }
+      ]
+    },
+    {
+      "NationalDex": 394,
+      "Id": "prinplup",
+      "DisplayName": "Prinplup",
+      "Sprite": [
+        {
+          "Contributor": "CHUNSOFT",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "Unspecified",
+          "Status": "CUR",
+          "Timestamp": "2020-10-07 17:58:44.555750",
+          "Contact": "https://www.spike-chunsoft.com/"
+        }
+      ],
+      "Portrait": [
+        {
+          "Contributor": "CHUNSOFT",
+          "Files": [
+            "Normal"
+          ],
+          "Source": "Unspecified",
+          "Status": "CUR",
+          "Timestamp": "2020-10-07 17:58:44.555750",
+          "Contact": "https://www.spike-chunsoft.com/"
+        },
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2022-07-10 08:03:07.520040",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        }
+      ],
+      "ShinySprite": [
+        {
+          "Contributor": "Lovi",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2020-10-07 17:58:44.556747",
+          "Handle": "<@!95650095034273792>",
+          "Contact": "<@95650095034273792>"
+        }
+      ],
+      "ShinyPortrait": [
+        {
+          "Contributor": "Lovi",
+          "Files": [
+            "Normal"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2020-10-07 17:58:44.556747",
+          "Handle": "<@!95650095034273792>",
+          "Contact": "<@95650095034273792>"
+        },
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2022-07-10 08:36:33.953042",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        }
+      ]
+    },
+    {
+      "NationalDex": 395,
+      "Id": "empoleon",
+      "DisplayName": "Empoleon",
+      "Sprite": [
+        {
+          "Contributor": "CHUNSOFT",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "Unspecified",
+          "Status": "CUR",
+          "Timestamp": "2020-10-07 17:58:44.557744",
+          "Contact": "https://www.spike-chunsoft.com/"
+        }
+      ],
+      "Portrait": [
+        {
+          "Contributor": "CHUNSOFT",
+          "Files": [
+            "Normal"
+          ],
+          "Source": "Unspecified",
+          "Status": "CUR",
+          "Timestamp": "2020-10-07 17:58:44.557744",
+          "Contact": "https://www.spike-chunsoft.com/"
+        },
+        {
+          "Contributor": "0palite",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2021-02-22 00:29:45.923257",
+          "Handle": "<@!327927398941196289>",
+          "Contact": "https://zeropalart.tumblr.com/"
+        }
+      ],
+      "ShinySprite": [
+        {
+          "Contributor": "Lovi",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2020-10-07 17:58:44.558740",
+          "Handle": "<@!95650095034273792>",
+          "Contact": "<@95650095034273792>"
+        }
+      ],
+      "ShinyPortrait": [
+        {
+          "Contributor": "Lovi",
+          "Files": [
+            "Normal"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2020-10-07 17:58:44.559740",
+          "Handle": "<@!95650095034273792>",
+          "Contact": "<@95650095034273792>"
+        },
+        {
+          "Contributor": "Noo",
+          "Files": [
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2021-06-25 16:21:12.288241",
+          "Handle": "<@!217899432652308480>",
+          "Contact": "https://artfight.net/~NooNoo_Skidoo"
+        }
+      ]
+    },
+    {
+      "NationalDex": 495,
+      "Id": "snivy",
+      "DisplayName": "Snivy",
+      "Sprite": [
+        {
+          "Contributor": "NeroIntruder",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Charge"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2021-01-26 01:09:47.750942",
+          "Handle": "<@!319945906600411179>",
+          "Contact": "https://twitter.com/NeroIntruder"
+        },
+        {
+          "Contributor": "G〜",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Charge"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2023-05-07 23:15:13.127523",
+          "Handle": "<@!350050109741858829>",
+          "Contact": "https://bsky.app/profile/justtr4sh.pmd.social"
+        }
+      ],
+      "Portrait": [
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Normal"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2022-08-22 19:09:31.218542",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        },
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2023-01-22 23:54:49.854166",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        },
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2023-03-23 00:59:31.290540",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        },
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2024-05-16 04:25:10.395992",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        }
+      ],
+      "ShinySprite": [
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Charge"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2021-10-10 23:32:47.141337",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        },
+        {
+          "Contributor": "G〜",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Charge"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2023-05-08 03:23:35.482529",
+          "Handle": "<@!350050109741858829>",
+          "Contact": "https://bsky.app/profile/justtr4sh.pmd.social"
+        }
+      ],
+      "ShinyPortrait": [
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Normal"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2022-12-16 20:09:35.555122",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        },
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2023-01-23 00:10:08.038817",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        },
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2023-03-23 02:03:09.272798",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        },
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2024-05-16 04:26:59.733217",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        }
+      ]
+    },
+    {
+      "NationalDex": 496,
+      "Id": "servine",
+      "DisplayName": "Servine",
+      "Sprite": [
+        {
+          "Contributor": "NeroIntruder",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Charge"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2021-03-26 04:24:41.337918",
+          "Handle": "<@!319945906600411179>",
+          "Contact": "https://twitter.com/NeroIntruder"
+        }
+      ],
+      "Portrait": [
+        {
+          "Contributor": "Deeshura",
+          "Files": [
+            "Normal"
+          ],
+          "Source": "PMDCollab_2",
+          "Status": "CUR",
+          "Timestamp": "2024-01-24 19:21:10.040565",
+          "Handle": "<@!157796074457661440>",
+          "Contact": "https://bsky.app/profile/deeshura.bsky.social"
+        },
+        {
+          "Contributor": "Deeshura",
+          "Files": [
+            "Happy",
+            "Sigh",
+            "Determined"
+          ],
+          "Source": "PMDCollab_2",
+          "Status": "CUR",
+          "Timestamp": "2024-01-26 03:29:59.044894",
+          "Handle": "<@!157796074457661440>",
+          "Contact": "https://bsky.app/profile/deeshura.bsky.social"
+        },
+        {
+          "Contributor": "Deeshura",
+          "Files": [
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_2",
+          "Status": "CUR",
+          "Timestamp": "2024-01-26 11:40:30.373162",
+          "Handle": "<@!157796074457661440>",
+          "Contact": "https://bsky.app/profile/deeshura.bsky.social"
+        }
+      ],
+      "ShinySprite": [
+        {
+          "Contributor": "Emboarger",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Charge"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2021-10-26 08:57:43.012497",
+          "Handle": "<@!237286997645983744>"
+        },
+        {
+          "Contributor": "ShyStarryRain",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Charge"
+          ],
+          "Source": "PMDCollab_2",
+          "Status": "CUR",
+          "Timestamp": "2023-08-28 01:24:21.054234",
+          "Handle": "<@!576876006636519434>"
+        }
+      ],
+      "ShinyPortrait": [
+        {
+          "Contributor": "Deeshura",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_2",
+          "Status": "CUR",
+          "Timestamp": "2024-01-26 18:18:14.513766",
+          "Handle": "<@!157796074457661440>",
+          "Contact": "https://bsky.app/profile/deeshura.bsky.social"
+        },
+        {
+          "Contributor": "Deeshura",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2024-05-16 06:02:27.019747",
+          "Handle": "<@!157796074457661440>",
+          "Contact": "https://bsky.app/profile/deeshura.bsky.social"
+        }
+      ]
+    },
+    {
+      "NationalDex": 497,
+      "Id": "serperior",
+      "DisplayName": "Serperior",
+      "Sprite": [
+        {
+          "Contributor": "NeroIntruder",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2021-03-26 04:24:43.905111",
+          "Handle": "<@!319945906600411179>",
+          "Contact": "https://twitter.com/NeroIntruder"
+        }
+      ],
+      "Portrait": [
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2023-04-17 16:51:11.742628",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        }
+      ],
+      "ShinySprite": [
+        {
+          "Contributor": "Caitemis",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2022-03-04 11:13:46.934773",
+          "Handle": "<@!330751862590406656>",
+          "Contact": "https://caitemis-art.tumblr.com/"
+        }
+      ],
+      "ShinyPortrait": [
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2023-04-17 17:44:26.359886",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        }
+      ]
+    },
+    {
+      "NationalDex": 498,
+      "Id": "tepig",
+      "DisplayName": "Tepig",
+      "Sprite": [
+        {
+          "Contributor": "NeroIntruder",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2022-02-18 08:50:55.881762",
+          "Handle": "<@!319945906600411179>",
+          "Contact": "https://twitter.com/NeroIntruder"
+        },
+        {
+          "Contributor": "Emboarger",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2022-02-22 04:29:43.784034",
+          "Handle": "<@!237286997645983744>"
+        },
+        {
+          "Contributor": "Emboarger",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2022-06-29 13:26:20.537869",
+          "Handle": "<@!237286997645983744>"
+        },
+        {
+          "Contributor": "NikolaP",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2022-06-30 04:41:29.958524",
+          "Handle": "<@!704349360929898516>",
+          "Contact": "nikolasnonsense@gmail.com"
+        }
+      ],
+      "Portrait": [
+        {
+          "Contributor": "Noivern",
+          "Files": [
+            "Normal"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2021-04-06 09:55:34.370732",
+          "Handle": "<@!150809243816165377>",
+          "Contact": "https://twitter.com/notarealnoivern"
+        },
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2021-05-24 07:54:16.450827",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        },
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Normal"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2021-05-24 16:13:10.865734",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        },
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Normal"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2021-07-12 21:06:20.440841",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        },
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2023-03-05 20:41:30.141654",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        }
+      ],
+      "ShinySprite": [
+        {
+          "Contributor": "Emboarger",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2022-02-20 23:00:55.171083",
+          "Handle": "<@!237286997645983744>"
+        },
+        {
+          "Contributor": "Emboarger",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2022-02-22 18:33:24.627268",
+          "Handle": "<@!237286997645983744>"
+        },
+        {
+          "Contributor": "Emboarger",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2022-06-29 14:00:35.566815",
+          "Handle": "<@!237286997645983744>"
+        },
+        {
+          "Contributor": "NikolaP",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2022-07-01 04:38:24.345487",
+          "Handle": "<@!704349360929898516>",
+          "Contact": "nikolasnonsense@gmail.com"
+        }
+      ],
+      "ShinyPortrait": [
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2021-05-31 02:26:01.376886",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        },
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2023-03-06 02:05:35.332915",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        }
+      ]
+    },
+    {
+      "NationalDex": 499,
+      "Id": "pignite",
+      "DisplayName": "Pignite",
+      "Sprite": [
+        {
+          "Contributor": "NeroIntruder",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2022-02-20 13:15:03.101714",
+          "Handle": "<@!319945906600411179>",
+          "Contact": "https://twitter.com/NeroIntruder"
+        },
+        {
+          "Contributor": "Emboarger",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2022-02-25 00:57:34.268248",
+          "Handle": "<@!237286997645983744>"
+        },
+        {
+          "Contributor": "Emboarger",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2022-06-29 13:26:32.423844",
+          "Handle": "<@!237286997645983744>"
+        }
+      ],
+      "Portrait": [
+        {
+          "Contributor": "Gust",
+          "Files": [
+            "Normal"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2024-05-20 02:27:15.656290",
+          "Handle": "<@!861005464682889266>",
+          "Contact": "https://twitter.com/Estelaris__"
+        },
+        {
+          "Contributor": "baronessfaron",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2024-08-07 05:38:15.614666",
+          "Handle": "<@!544245909639397378>"
+        }
+      ],
+      "ShinySprite": [
+        {
+          "Contributor": "Emboarger",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2022-02-20 23:00:27.775126",
+          "Handle": "<@!237286997645983744>"
+        },
+        {
+          "Contributor": "Morei",
+          "Files": [
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2022-05-01 11:50:31.727442",
+          "Handle": "<@!593113130213572610>",
+          "Contact": "https://bsky.app/profile/murpia57.bsky.social"
+        },
+        {
+          "Contributor": "Emboarger",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2022-06-29 14:01:07.107821",
+          "Handle": "<@!237286997645983744>"
+        }
+      ],
+      "ShinyPortrait": [
+        {
+          "Contributor": "Gust",
+          "Files": [
+            "Normal"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2024-05-20 02:38:36.053661",
+          "Handle": "<@!861005464682889266>",
+          "Contact": "https://twitter.com/Estelaris__"
+        },
+        {
+          "Contributor": "baronessfaron",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2024-08-07 06:03:52.677456",
+          "Handle": "<@!544245909639397378>"
+        }
+      ]
+    },
+    {
+      "NationalDex": 500,
+      "Id": "emboar",
+      "DisplayName": "Emboar",
+      "Sprite": [
+        {
+          "Contributor": "NeroIntruder",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2022-02-18 08:50:59.186639",
+          "Handle": "<@!319945906600411179>",
+          "Contact": "https://twitter.com/NeroIntruder"
+        },
+        {
+          "Contributor": "Emboarger",
+          "Files": [
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2022-02-20 13:14:58.974812",
+          "Handle": "<@!237286997645983744>"
+        }
+      ],
+      "Portrait": [
+        {
+          "Contributor": "G〜",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_2",
+          "Status": "CUR",
+          "Timestamp": "2023-10-25 17:35:39.458435",
+          "Handle": "<@!350050109741858829>",
+          "Contact": "https://bsky.app/profile/justtr4sh.pmd.social"
+        }
+      ],
+      "ShinySprite": [
+        {
+          "Contributor": "Emboarger",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2022-02-20 23:00:52.096140",
+          "Handle": "<@!237286997645983744>"
+        },
+        {
+          "Contributor": "G〜",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2023-04-24 04:16:37.309528",
+          "Handle": "<@!350050109741858829>",
+          "Contact": "https://bsky.app/profile/justtr4sh.pmd.social"
+        }
+      ],
+      "ShinyPortrait": [
+        {
+          "Contributor": "Magu",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2024-12-21 20:35:31.983434",
+          "Handle": "<@!108260609241423872>",
+          "Contact": "@magu_boi"
+        }
+      ]
+    },
+    {
+      "NationalDex": 501,
+      "Id": "oshawott",
+      "DisplayName": "Oshawott",
+      "Sprite": [
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2021-05-25 18:52:13.553944",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        },
+        {
+          "Contributor": "◥θ┴θ◤",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2023-05-04 02:51:24.771695",
+          "Handle": "<@!215638650434617345>",
+          "Contact": "DC:<@215638650434617345>"
+        }
+      ],
+      "Portrait": [
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2021-05-24 07:54:17.172727",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        },
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2021-05-24 16:13:06.947784",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        },
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2023-03-05 20:41:36.710270",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        }
+      ],
+      "ShinySprite": [
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2021-06-04 00:01:29.448248",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        }
+      ],
+      "ShinyPortrait": [
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2021-05-31 02:26:04.919429",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        },
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2023-03-06 02:06:12.297377",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        }
+      ]
+    },
+    {
+      "NationalDex": 502,
+      "Id": "dewott",
+      "DisplayName": "Dewott",
+      "Sprite": [
+        {
+          "Contributor": "JFain",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Charge"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2021-07-06 00:16:37.725732",
+          "Handle": "<@!702275233125630042>"
+        },
+        {
+          "Contributor": "JFain",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Charge"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2025-07-26 00:41:58.001429",
+          "Handle": "<@!702275233125630042>"
+        },
+        {
+          "Contributor": "JFain",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Sleep"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2025-08-24 23:27:08.070805",
+          "Handle": "<@!702275233125630042>"
+        }
+      ],
+      "Portrait": [
+        {
+          "Contributor": "baronessfaron",
+          "Files": [
+            "Normal"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2021-07-09 03:11:53.299398",
+          "Handle": "<@!544245909639397378>"
+        },
+        {
+          "Contributor": "baronessfaron",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2021-10-04 03:02:32.935654",
+          "Handle": "<@!544245909639397378>"
+        },
+        {
+          "Contributor": "baronessfaron",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2023-04-30 03:17:20.902856",
+          "Handle": "<@!544245909639397378>"
+        }
+      ],
+      "ShinySprite": [
+        {
+          "Contributor": "Caitemis",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Charge"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2022-03-05 21:02:18.903992",
+          "Handle": "<@!330751862590406656>",
+          "Contact": "https://caitemis-art.tumblr.com/"
+        }
+      ],
+      "ShinyPortrait": [
+        {
+          "Contributor": "LegendaryPhoenix",
+          "Files": [
+            "Normal"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2021-06-02 06:43:40.820140",
+          "Handle": "<@!573283158674505749>"
+        },
+        {
+          "Contributor": "LegendaryPhoenix",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2021-11-29 23:02:38.538780",
+          "Handle": "<@!573283158674505749>"
+        },
+        {
+          "Contributor": "baronessfaron",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2023-04-30 22:17:50.436179",
+          "Handle": "<@!544245909639397378>"
+        }
+      ]
+    },
+    {
+      "NationalDex": 503,
+      "Id": "samurott",
+      "DisplayName": "Samurott",
+      "Sprite": [
+        {
+          "Contributor": "Top_Kec",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2022-07-07 22:34:09.001300",
+          "Handle": "<@!276369635304275968>",
+          "Contact": "@topkec.bsky.social"
+        }
+      ],
+      "Portrait": [
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2022-03-10 09:43:37.755710",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        }
+      ],
+      "ShinySprite": [
+        {
+          "Contributor": "Top_Kec",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2022-07-08 13:22:34.813581",
+          "Handle": "<@!276369635304275968>",
+          "Contact": "@topkec.bsky.social"
+        }
+      ],
+      "ShinyPortrait": [
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2022-03-10 21:40:18.039435",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        }
+      ]
+    },
+    {
+      "NationalDex": 650,
+      "Id": "chespin",
+      "DisplayName": "Chespin",
+      "Sprite": [
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2021-05-25 18:52:17.374939",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        },
+        {
+          "Contributor": "G〜",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "PMDCollab_2",
+          "Status": "CUR",
+          "Timestamp": "2023-05-27 03:10:29.885325",
+          "Handle": "<@!350050109741858829>",
+          "Contact": "https://bsky.app/profile/justtr4sh.pmd.social"
+        },
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2024-06-21 17:58:28.407741",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        }
+      ],
+      "Portrait": [
+        {
+          "Contributor": "Noo",
+          "Files": [
+            "Normal"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2021-03-14 10:03:08.962957",
+          "Handle": "<@!217899432652308480>",
+          "Contact": "https://artfight.net/~NooNoo_Skidoo"
+        },
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2021-05-24 07:54:18.286820",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        },
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2021-05-24 16:13:03.257657",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        },
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2022-09-23 04:00:20.721627",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        }
+      ],
+      "ShinySprite": [
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2021-06-04 00:01:37.898981",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        },
+        {
+          "Contributor": "◥θ┴θ◤",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2024-06-21 21:09:37.884213",
+          "Handle": "<@!215638650434617345>",
+          "Contact": "DC:<@215638650434617345>"
+        }
+      ],
+      "ShinyPortrait": [
+        {
+          "Contributor": "Waffluffe",
+          "Files": [
+            "Normal"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2021-03-19 01:36:32.219901",
+          "Handle": "<@!388808249165479939>",
+          "Contact": "https://twitter.com/waffluffe"
+        },
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2021-05-31 02:25:53.621687",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        },
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2022-10-11 18:53:08.214293",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        }
+      ]
+    },
+    {
+      "NationalDex": 651,
+      "Id": "quilladin",
+      "DisplayName": "Quilladin",
+      "Sprite": [
+        {
+          "Contributor": "◥θ┴θ◤",
+          "Files": [
+            "Idle"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2024-08-27 04:07:24.222705",
+          "Handle": "<@!215638650434617345>",
+          "Contact": "DC:<@215638650434617345>"
+        },
+        {
+          "Contributor": "baronessfaron",
+          "Files": [
+            "Idle"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2024-08-27 04:29:26.498999",
+          "Handle": "<@!544245909639397378>"
+        },
+        {
+          "Contributor": "Soulja",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2024-12-22 02:33:28.834136",
+          "Handle": "<@!229131140903075840>",
+          "Contact": "https://twitter.com/OlSoulja"
+        },
+        {
+          "Contributor": "Soulja",
+          "Files": [
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2024-12-24 04:33:20.051352",
+          "Handle": "<@!229131140903075840>",
+          "Contact": "https://twitter.com/OlSoulja"
+        }
+      ],
+      "Portrait": [
+        {
+          "Contributor": "baronessfaron",
+          "Files": [
+            "Normal"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2022-01-02 14:51:54.654271",
+          "Handle": "<@!544245909639397378>"
+        },
+        {
+          "Contributor": "JustAGunk",
+          "Files": [
+            "Happy",
+            "Inspired",
+            "Pain"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2025-12-31 06:02:05.112510",
+          "Handle": "<@!1377429093997477928>",
+          "Contact": "<@1377429093997477928>"
+        }
+      ],
+      "ShinySprite": [
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Idle"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2024-09-20 18:28:58.527970",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        },
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2025-02-01 20:07:34.203796",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        }
+      ],
+      "ShinyPortrait": [
+        {
+          "Contributor": "Caitemis",
+          "Files": [
+            "Normal"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2022-03-31 11:33:37.888742",
+          "Handle": "<@!330751862590406656>",
+          "Contact": "https://caitemis-art.tumblr.com/"
+        }
+      ]
+    },
+    {
+      "NationalDex": 652,
+      "Id": "chesnaught",
+      "DisplayName": "Chesnaught",
+      "Sprite": [
+        {
+          "Contributor": "Soulja",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2024-12-22 02:20:40.253268",
+          "Handle": "<@!229131140903075840>",
+          "Contact": "https://twitter.com/OlSoulja"
+        },
+        {
+          "Contributor": "Soulja",
+          "Files": [
+            "Attack"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2024-12-24 04:39:24.251029",
+          "Handle": "<@!229131140903075840>",
+          "Contact": "https://twitter.com/OlSoulja"
+        }
+      ],
+      "Portrait": [
+        {
+          "Contributor": "Soulja",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2024-11-21 21:14:36.555695",
+          "Handle": "<@!229131140903075840>",
+          "Contact": "https://twitter.com/OlSoulja"
+        }
+      ],
+      "ShinySprite": [
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2025-02-01 21:40:46.502536",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        }
+      ],
+      "ShinyPortrait": [
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2025-02-01 18:50:27.042381",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        }
+      ]
+    },
+    {
+      "NationalDex": 653,
+      "Id": "fennekin",
+      "DisplayName": "Fennekin",
+      "Sprite": [
+        {
+          "Contributor": "Smalusion",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2021-01-24 12:05:08.503248",
+          "Handle": "<@!177074597315870720>",
+          "Contact": "https://twitter.com/Smalusion"
+        },
+        {
+          "Contributor": "Smalusion",
+          "Files": [
+            "Walk",
+            "Sleep"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2021-01-27 17:00:59.706552",
+          "Handle": "<@!177074597315870720>",
+          "Contact": "https://twitter.com/Smalusion"
+        },
+        {
+          "Contributor": "Smalusion",
+          "Files": [
+            "Shoot"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2021-05-11 03:23:35.662523",
+          "Handle": "<@!177074597315870720>",
+          "Contact": "https://twitter.com/Smalusion"
+        },
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2021-05-19 17:34:13.140717",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        },
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Walk"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2022-04-06 23:41:58.351063",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        }
+      ],
+      "Portrait": [
+        {
+          "Contributor": "G〜",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Determined",
+            "Dizzy"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2024-06-06 00:41:40.979817",
+          "Handle": "<@!350050109741858829>",
+          "Contact": "https://bsky.app/profile/justtr4sh.pmd.social"
+        },
+        {
+          "Contributor": "G〜",
+          "Files": [
+            "Sigh",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2024-06-08 02:29:04.747164",
+          "Handle": "<@!350050109741858829>",
+          "Contact": "https://bsky.app/profile/justtr4sh.pmd.social"
+        }
+      ],
+      "ShinySprite": [
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2021-05-14 16:38:34.913353",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        },
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2021-05-24 07:54:11.452070",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        },
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2021-05-24 08:22:59.054262",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        },
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2021-05-24 08:46:38.997104",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        },
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2021-05-24 14:32:09.665576",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        },
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2021-05-24 16:08:49.389603",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        },
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2021-05-24 16:12:29.870607",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        },
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Walk"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2022-04-07 15:22:34.151812",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        }
+      ],
+      "ShinyPortrait": [
+        {
+          "Contributor": "G〜",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Determined",
+            "Dizzy"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2024-06-06 04:42:03.874989",
+          "Handle": "<@!350050109741858829>",
+          "Contact": "https://bsky.app/profile/justtr4sh.pmd.social"
+        },
+        {
+          "Contributor": "G〜",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2024-06-08 03:41:29.725944",
+          "Handle": "<@!350050109741858829>",
+          "Contact": "https://bsky.app/profile/justtr4sh.pmd.social"
+        }
+      ]
+    },
+    {
+      "NationalDex": 654,
+      "Id": "braixen",
+      "DisplayName": "Braixen",
+      "Sprite": [
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Charge"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2021-06-04 06:31:32.828151",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        },
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Charge"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2023-02-27 04:43:04.021202",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        },
+        {
+          "Contributor": "baronessfaron",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Charge"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2024-09-08 18:23:57.267670",
+          "Handle": "<@!544245909639397378>"
+        }
+      ],
+      "Portrait": [
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2021-05-19 22:01:37.331526",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        },
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_2",
+          "Status": "CUR",
+          "Timestamp": "2023-05-15 02:40:24.201621",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        }
+      ],
+      "ShinySprite": [
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Charge"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2021-07-27 11:07:31.645248",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        },
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Charge"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2023-02-27 04:58:16.377067",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        },
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Charge"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2024-09-22 19:42:47.535147",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        }
+      ],
+      "ShinyPortrait": [
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2021-05-20 02:53:23.689542",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        },
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_2",
+          "Status": "CUR",
+          "Timestamp": "2023-05-15 03:34:55.850514",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        }
+      ]
+    },
+    {
+      "NationalDex": 655,
+      "Id": "delphox",
+      "DisplayName": "Delphox",
+      "Sprite": [
+        {
+          "Contributor": "Jhony-Rex",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2021-12-11 01:34:29.496640",
+          "Handle": "JHONY_REX",
+          "Contact": "https://www.deviantart.com/jhony-rex"
+        },
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2021-12-12 09:34:56.901817",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        }
+      ],
+      "Portrait": [
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2022-06-17 08:30:20.052004",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        }
+      ],
+      "ShinySprite": [
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2021-12-13 19:22:03.724848",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        },
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "PMDCollab_2",
+          "Status": "CUR",
+          "Timestamp": "2023-12-30 04:37:17.679919",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        }
+      ],
+      "ShinyPortrait": [
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Normal"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2021-12-13 09:27:59.329727",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        },
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2022-06-17 18:19:13.797548",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        }
+      ]
+    },
+    {
+      "NationalDex": 725,
+      "Id": "litten",
+      "DisplayName": "Litten",
+      "Sprite": [
+        {
+          "Contributor": "Top_Kec",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2022-05-15 13:35:23.928774",
+          "Handle": "<@!276369635304275968>",
+          "Contact": "@topkec.bsky.social"
+        }
+      ],
+      "Portrait": [
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_2",
+          "Status": "CUR",
+          "Timestamp": "2023-07-06 05:00:06.173030",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        }
+      ],
+      "ShinySprite": [
+        {
+          "Contributor": "Emboarger",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2022-05-15 15:35:54.879366",
+          "Handle": "<@!237286997645983744>"
+        }
+      ],
+      "ShinyPortrait": [
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_2",
+          "Status": "CUR",
+          "Timestamp": "2023-07-06 05:59:18.924008",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        }
+      ]
+    },
+    {
+      "NationalDex": 726,
+      "Id": "torracat",
+      "DisplayName": "Torracat",
+      "Sprite": [
+        {
+          "Contributor": "baronessfaron",
+          "Files": [
+            "Walk",
+            "Idle"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2024-03-30 16:28:37.205835",
+          "Handle": "<@!544245909639397378>"
+        },
+        {
+          "Contributor": "◥θ┴θ◤",
+          "Files": [
+            "Walk",
+            "Idle"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2024-05-02 21:32:25.838034",
+          "Handle": "<@!215638650434617345>",
+          "Contact": "DC:<@215638650434617345>"
+        },
+        {
+          "Contributor": "baronessfaron",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2024-11-03 17:10:48.041613",
+          "Handle": "<@!544245909639397378>"
+        }
+      ],
+      "Portrait": [
+        {
+          "Contributor": "baronessfaron",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Inspired",
+            "Pain"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2026-07-19 22:42:36.649121",
+          "Handle": "<@!544245909639397378>"
+        }
+      ],
+      "ShinySprite": [
+        {
+          "Contributor": "G〜",
+          "Files": [
+            "Walk",
+            "Idle"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2024-05-01 23:26:48.147725",
+          "Handle": "<@!350050109741858829>",
+          "Contact": "https://bsky.app/profile/justtr4sh.pmd.social"
+        },
+        {
+          "Contributor": "Kawaiitron",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2024-11-29 23:46:10.352295",
+          "Handle": "<@!412938965713158144>",
+          "Contact": "<@412938965713158144>"
+        }
+      ],
+      "ShinyPortrait": [
+        {
+          "Contributor": "baronessfaron",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Inspired",
+            "Pain"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2026-07-20 00:48:26.451424",
+          "Handle": "<@!544245909639397378>"
+        }
+      ]
+    },
+    {
+      "NationalDex": 727,
+      "Id": "incineroar",
+      "DisplayName": "Incineroar",
+      "Sprite": [
+        {
+          "Contributor": "avalancheman",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Charge"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2022-03-10 23:19:35.777404",
+          "Handle": "<@!783493257506062387>",
+          "Contact": "milesbehemoth@gmail.com"
+        },
+        {
+          "Contributor": "G〜",
+          "Files": [
+            "Hurt"
+          ],
+          "Source": "PMDCollab_2",
+          "Status": "CUR",
+          "Timestamp": "2023-06-19 00:50:30.118573",
+          "Handle": "<@!350050109741858829>",
+          "Contact": "https://bsky.app/profile/justtr4sh.pmd.social"
+        },
+        {
+          "Contributor": "G〜",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Charge"
+          ],
+          "Source": "PMDCollab_2",
+          "Status": "CUR",
+          "Timestamp": "2023-06-25 22:38:49.371752",
+          "Handle": "<@!350050109741858829>",
+          "Contact": "https://bsky.app/profile/justtr4sh.pmd.social"
+        },
+        {
+          "Contributor": "G〜",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Charge"
+          ],
+          "Source": "PMDCollab_2",
+          "Status": "CUR",
+          "Timestamp": "2023-12-16 03:45:07.799492",
+          "Handle": "<@!350050109741858829>",
+          "Contact": "https://bsky.app/profile/justtr4sh.pmd.social"
+        }
+      ],
+      "Portrait": [
+        {
+          "Contributor": "baronessfaron",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2022-06-08 07:37:52.803205",
+          "Handle": "<@!544245909639397378>"
+        },
+        {
+          "Contributor": "baronessfaron",
+          "Files": [
+            "Determined",
+            "Dizzy"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2024-03-10 22:43:47.121357",
+          "Handle": "<@!544245909639397378>"
+        }
+      ],
+      "ShinySprite": [
+        {
+          "Contributor": "ShyStarryRain",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Charge"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2022-10-11 22:40:43.080192",
+          "Handle": "<@!576876006636519434>"
+        }
+      ],
+      "ShinyPortrait": [
+        {
+          "Contributor": "Caitemis",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2022-06-15 00:44:14.978126",
+          "Handle": "<@!330751862590406656>",
+          "Contact": "https://caitemis-art.tumblr.com/"
+        }
+      ]
+    },
+    {
+      "NationalDex": 728,
+      "Id": "popplio",
+      "DisplayName": "Popplio",
+      "Sprite": [
+        {
+          "Contributor": "◥θ┴θ◤",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2022-07-29 05:45:16.568282",
+          "Handle": "<@!215638650434617345>",
+          "Contact": "DC:<@215638650434617345>"
+        },
+        {
+          "Contributor": "◥θ┴θ◤",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2022-07-30 08:05:17.036697",
+          "Handle": "<@!215638650434617345>",
+          "Contact": "DC:<@215638650434617345>"
+        },
+        {
+          "Contributor": "JFain",
+          "Files": [
+            "Idle",
+            "Shoot"
+          ],
+          "Source": "PMDCollab_2",
+          "Status": "CUR",
+          "Timestamp": "2023-07-11 02:51:28.624823",
+          "Handle": "<@!702275233125630042>"
+        }
+      ],
+      "Portrait": [
+        {
+          "Contributor": "Fable",
+          "Files": [
+            "Normal"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2021-02-19 04:20:01.892561",
+          "Handle": "<@!225813236589527041>",
+          "Contact": "https://twitter.com/fabledpainter"
+        },
+        {
+          "Contributor": "◥θ┴θ◤",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Determined",
+            "Pain"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2022-05-05 15:43:00.771073",
+          "Handle": "<@!215638650434617345>",
+          "Contact": "DC:<@215638650434617345>"
+        },
+        {
+          "Contributor": "◥θ┴θ◤",
+          "Files": [
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2022-07-02 10:25:01.944053",
+          "Handle": "<@!215638650434617345>",
+          "Contact": "DC:<@215638650434617345>"
+        },
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2022-09-28 19:49:49.854516",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        }
+      ],
+      "ShinySprite": [
+        {
+          "Contributor": "◥θ┴θ◤",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2022-07-30 23:36:23.126195",
+          "Handle": "<@!215638650434617345>",
+          "Contact": "DC:<@215638650434617345>"
+        },
+        {
+          "Contributor": "JFain",
+          "Files": [
+            "Idle",
+            "Shoot"
+          ],
+          "Source": "PMDCollab_2",
+          "Status": "CUR",
+          "Timestamp": "2023-07-16 17:45:27.365200",
+          "Handle": "<@!702275233125630042>"
+        }
+      ],
+      "ShinyPortrait": [
+        {
+          "Contributor": "Waffluffe",
+          "Files": [
+            "Normal"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2021-03-18 08:03:34.002359",
+          "Handle": "<@!388808249165479939>",
+          "Contact": "https://twitter.com/waffluffe"
+        },
+        {
+          "Contributor": "◥θ┴θ◤",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Determined",
+            "Pain"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2022-05-05 21:58:13.388358",
+          "Handle": "<@!215638650434617345>",
+          "Contact": "DC:<@215638650434617345>"
+        },
+        {
+          "Contributor": "◥θ┴θ◤",
+          "Files": [
+            "Sigh",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2022-07-03 02:58:40.160594",
+          "Handle": "<@!215638650434617345>",
+          "Contact": "DC:<@215638650434617345>"
+        },
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2022-10-11 18:53:13.435200",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        }
+      ]
+    },
+    {
+      "NationalDex": 729,
+      "Id": "brionne",
+      "DisplayName": "Brionne",
+      "Sprite": [
+        {
+          "Contributor": "◥θ┴θ◤",
+          "Files": [
+            "Walk",
+            "Idle"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2022-07-20 19:27:04.739107",
+          "Handle": "<@!215638650434617345>",
+          "Contact": "DC:<@215638650434617345>"
+        },
+        {
+          "Contributor": "baronessfaron",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2023-02-25 15:12:36.849160",
+          "Handle": "<@!544245909639397378>"
+        }
+      ],
+      "Portrait": [
+        {
+          "Contributor": "baronessfaron",
+          "Files": [
+            "Normal"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2021-06-12 22:50:54.239992",
+          "Handle": "<@!544245909639397378>"
+        },
+        {
+          "Contributor": "Top_Kec",
+          "Files": [
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2022-07-16 11:55:37.840127",
+          "Handle": "<@!276369635304275968>",
+          "Contact": "@topkec.bsky.social"
+        }
+      ],
+      "ShinySprite": [
+        {
+          "Contributor": "◥θ┴θ◤",
+          "Files": [
+            "Walk",
+            "Idle"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2022-07-20 22:32:38.003800",
+          "Handle": "<@!215638650434617345>",
+          "Contact": "DC:<@215638650434617345>"
+        },
+        {
+          "Contributor": "ShyStarryRain",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2023-03-03 01:30:30.517279",
+          "Handle": "<@!576876006636519434>"
+        }
+      ],
+      "ShinyPortrait": [
+        {
+          "Contributor": "Emboarger",
+          "Files": [
+            "Normal"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2021-12-16 12:43:19.393465",
+          "Handle": "<@!237286997645983744>"
+        },
+        {
+          "Contributor": "Top_Kec",
+          "Files": [
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2022-07-16 14:16:36.523367",
+          "Handle": "<@!276369635304275968>",
+          "Contact": "@topkec.bsky.social"
+        }
+      ]
+    },
+    {
+      "NationalDex": 730,
+      "Id": "primarina",
+      "DisplayName": "Primarina",
+      "Sprite": [
+        {
+          "Contributor": "baronessfaron",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2022-07-04 22:32:35.083023",
+          "Handle": "<@!544245909639397378>"
+        }
+      ],
+      "Portrait": [
+        {
+          "Contributor": "<@!225139021079117824>",
+          "Files": [
+            "Normal"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2021-07-24 23:19:57.504041"
+        },
+        {
+          "Contributor": "◥θ┴θ◤",
+          "Files": [
+            "Normal",
+            "Happy"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2022-05-05 21:57:57.630212",
+          "Handle": "<@!215638650434617345>",
+          "Contact": "DC:<@215638650434617345>"
+        },
+        {
+          "Contributor": "baronessfaron",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2022-06-29 03:22:35.106731",
+          "Handle": "<@!544245909639397378>"
+        },
+        {
+          "Contributor": "baronessfaron",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2024-03-02 00:48:50.056806",
+          "Handle": "<@!544245909639397378>"
+        }
+      ],
+      "ShinySprite": [
+        {
+          "Contributor": "◥θ┴θ◤",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2022-07-05 01:03:03.926214",
+          "Handle": "<@!215638650434617345>",
+          "Contact": "DC:<@215638650434617345>"
+        }
+      ],
+      "ShinyPortrait": [
+        {
+          "Contributor": "◥θ┴θ◤",
+          "Files": [
+            "Normal",
+            "Happy"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2022-05-06 15:18:45.253533",
+          "Handle": "<@!215638650434617345>",
+          "Contact": "DC:<@215638650434617345>"
+        },
+        {
+          "Contributor": "◥θ┴θ◤",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2022-06-29 13:26:32.666155",
+          "Handle": "<@!215638650434617345>",
+          "Contact": "DC:<@215638650434617345>"
+        },
+        {
+          "Contributor": "◥θ┴θ◤",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2024-03-02 02:14:35.898103",
+          "Handle": "<@!215638650434617345>",
+          "Contact": "DC:<@215638650434617345>"
+        },
+        {
+          "Contributor": "◥θ┴θ◤",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2025-11-08 20:18:59.819249",
+          "Handle": "<@!215638650434617345>",
+          "Contact": "DC:<@215638650434617345>"
+        }
+      ]
+    },
+    {
+      "NationalDex": 810,
+      "Id": "grookey",
+      "DisplayName": "Grookey",
+      "Sprite": [
+        {
+          "Contributor": "bwappi",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2024-02-24 06:11:21.962703",
+          "Handle": "<@!193530896211509248>",
+          "Contact": "https://bsky.app/profile/bwappi.bsky.social"
+        },
+        {
+          "Contributor": "JFain",
+          "Files": [
+            "Sleep"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2026-01-12 22:42:41.858023",
+          "Handle": "<@!702275233125630042>"
+        }
+      ],
+      "Portrait": [
+        {
+          "Contributor": "G〜",
+          "Files": [
+            "Normal",
+            "Happy"
+          ],
+          "Source": "PMDCollab_2",
+          "Status": "CUR",
+          "Timestamp": "2023-05-31 01:43:05.722060",
+          "Handle": "<@!350050109741858829>",
+          "Contact": "https://bsky.app/profile/justtr4sh.pmd.social"
+        },
+        {
+          "Contributor": "G〜",
+          "Files": [
+            "Normal",
+            "Happy"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2025-01-17 20:31:20.893829",
+          "Handle": "<@!350050109741858829>",
+          "Contact": "https://bsky.app/profile/justtr4sh.pmd.social"
+        },
+        {
+          "Contributor": "JustAGunk",
+          "Files": [
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2025-07-09 22:56:26.109611",
+          "Handle": "<@!1377429093997477928>",
+          "Contact": "<@1377429093997477928>"
+        }
+      ],
+      "ShinySprite": [
+        {
+          "Contributor": "bwappi",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2024-02-26 22:52:12.420851",
+          "Handle": "<@!193530896211509248>",
+          "Contact": "https://bsky.app/profile/bwappi.bsky.social"
+        }
+      ],
+      "ShinyPortrait": [
+        {
+          "Contributor": "G〜",
+          "Files": [
+            "Normal",
+            "Happy"
+          ],
+          "Source": "PMDCollab_2",
+          "Status": "CUR",
+          "Timestamp": "2023-05-31 02:13:52.056006",
+          "Handle": "<@!350050109741858829>",
+          "Contact": "https://bsky.app/profile/justtr4sh.pmd.social"
+        }
+      ]
+    },
+    {
+      "NationalDex": 811,
+      "Id": "thwackey",
+      "DisplayName": "Thwackey",
+      "Sprite": [
+        {
+          "Contributor": "baronessfaron",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2025-04-04 04:23:56.848514",
+          "Handle": "<@!544245909639397378>"
+        },
+        {
+          "Contributor": "baronessfaron",
+          "Files": [
+            "Attack",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2025-05-13 07:08:14.696603",
+          "Handle": "<@!544245909639397378>"
+        }
+      ],
+      "Portrait": [
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Normal"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2023-01-17 20:49:18.870077",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        },
+        {
+          "Contributor": "JustAGunk",
+          "Files": [
+            "Happy",
+            "Sigh",
+            "Pain"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2026-05-10 05:52:11.740822",
+          "Handle": "<@!1377429093997477928>",
+          "Contact": "<@1377429093997477928>"
+        }
+      ],
+      "ShinySprite": [
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2025-05-18 00:02:55.379598",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        }
+      ],
+      "ShinyPortrait": [
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Normal"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2023-01-17 21:09:37.325434",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        },
+        {
+          "Contributor": "JustAGunk",
+          "Files": [
+            "Happy",
+            "Sigh",
+            "Pain"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2026-07-16 02:12:24.207282",
+          "Handle": "<@!1377429093997477928>",
+          "Contact": "<@1377429093997477928>"
+        }
+      ]
+    },
+    {
+      "NationalDex": 812,
+      "Id": "rillaboom",
+      "DisplayName": "Rillaboom",
+      "Sprite": [
+        {
+          "Contributor": "baronessfaron",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2025-05-16 06:41:48.216309",
+          "Handle": "<@!544245909639397378>"
+        },
+        {
+          "Contributor": "baronessfaron",
+          "Files": [
+            "Charge"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2025-09-09 04:37:04.395147",
+          "Handle": "<@!544245909639397378>"
+        }
+      ],
+      "Portrait": [
+        {
+          "Contributor": "G〜",
+          "Files": [
+            "Normal"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2024-08-07 02:33:40.024844",
+          "Handle": "<@!350050109741858829>",
+          "Contact": "https://bsky.app/profile/justtr4sh.pmd.social"
+        }
+      ],
+      "ShinySprite": [
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2025-09-09 14:22:29.439575",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        }
+      ],
+      "ShinyPortrait": [
+        {
+          "Contributor": "G〜",
+          "Files": [
+            "Normal"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2024-08-07 02:55:43.749943",
+          "Handle": "<@!350050109741858829>",
+          "Contact": "https://bsky.app/profile/justtr4sh.pmd.social"
+        }
+      ]
+    },
+    {
+      "NationalDex": 816,
+      "Id": "sobble",
+      "DisplayName": "Sobble",
+      "Sprite": [
+        {
+          "Contributor": "JFain",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2023-04-29 22:15:09.786700",
+          "Handle": "<@!702275233125630042>"
+        },
+        {
+          "Contributor": "G〜",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2023-05-05 19:39:44.210811",
+          "Handle": "<@!350050109741858829>",
+          "Contact": "https://bsky.app/profile/justtr4sh.pmd.social"
+        },
+        {
+          "Contributor": "baronessfaron",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "PMDCollab_2",
+          "Status": "CUR",
+          "Timestamp": "2023-11-16 02:53:54.263960",
+          "Handle": "<@!544245909639397378>"
+        }
+      ],
+      "Portrait": [
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Normal"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2021-10-01 08:17:13.580917",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        },
+        {
+          "Contributor": "G〜",
+          "Files": [
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2023-05-07 15:57:14.806800",
+          "Handle": "<@!350050109741858829>",
+          "Contact": "https://bsky.app/profile/justtr4sh.pmd.social"
+        }
+      ],
+      "ShinySprite": [
+        {
+          "Contributor": "G〜",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2023-05-05 14:44:46.280606",
+          "Handle": "<@!350050109741858829>",
+          "Contact": "https://bsky.app/profile/justtr4sh.pmd.social"
+        },
+        {
+          "Contributor": "baronessfaron",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "PMDCollab_2",
+          "Status": "CUR",
+          "Timestamp": "2023-11-16 03:10:29.257288",
+          "Handle": "<@!544245909639397378>"
+        },
+        {
+          "Contributor": "baronessfaron",
+          "Files": [
+            "Shoot"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2024-11-16 08:40:18.273679",
+          "Handle": "<@!544245909639397378>"
+        }
+      ],
+      "ShinyPortrait": [
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Normal"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2022-05-17 19:39:19.524697",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        },
+        {
+          "Contributor": "ShyStarryRain",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2023-05-07 23:13:32.697722",
+          "Handle": "<@!576876006636519434>"
+        }
+      ]
+    },
+    {
+      "NationalDex": 817,
+      "Id": "drizzile",
+      "DisplayName": "Drizzile",
+      "Sprite": [
+        {
+          "Contributor": "JFain",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "PMDCollab_2",
+          "Status": "CUR",
+          "Timestamp": "2024-01-11 22:48:59.853630",
+          "Handle": "<@!702275233125630042>"
+        }
+      ],
+      "Portrait": [
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2021-09-20 15:55:28.016992",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        }
+      ],
+      "ShinySprite": [
+        {
+          "Contributor": "baronessfaron",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2025-06-22 02:02:17.224371",
+          "Handle": "<@!544245909639397378>"
+        }
+      ],
+      "ShinyPortrait": [
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2021-09-29 06:57:04.110926",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        }
+      ]
+    },
+    {
+      "NationalDex": 818,
+      "Id": "inteleon",
+      "DisplayName": "Inteleon",
+      "Sprite": [
+        {
+          "Contributor": "TawnySoup",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "PMDCollab_2",
+          "Status": "CUR",
+          "Timestamp": "2023-11-07 08:35:04.314297",
+          "Handle": "<@!216640380408430592>",
+          "Contact": "https://linktr.ee/tawnysoup"
+        }
+      ],
+      "Portrait": [
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Normal"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2021-10-18 02:12:46.176583",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        },
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Normal"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2022-05-17 22:15:28.461983",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        },
+        {
+          "Contributor": "TawnySoup",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_2",
+          "Status": "CUR",
+          "Timestamp": "2023-10-01 22:57:34.049004",
+          "Handle": "<@!216640380408430592>",
+          "Contact": "https://linktr.ee/tawnysoup"
+        },
+        {
+          "Contributor": "TawnySoup",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_2",
+          "Status": "CUR",
+          "Timestamp": "2023-10-02 18:59:32.636819",
+          "Handle": "<@!216640380408430592>",
+          "Contact": "https://linktr.ee/tawnysoup"
+        },
+        {
+          "Contributor": "TawnySoup",
+          "Files": [
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2025-12-07 17:10:03.185027",
+          "Handle": "<@!216640380408430592>",
+          "Contact": "https://linktr.ee/tawnysoup"
+        }
+      ],
+      "ShinySprite": [
+        {
+          "Contributor": "TawnySoup",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "PMDCollab_2",
+          "Status": "CUR",
+          "Timestamp": "2023-11-07 21:45:50.918466",
+          "Handle": "<@!216640380408430592>",
+          "Contact": "https://linktr.ee/tawnysoup"
+        }
+      ],
+      "ShinyPortrait": [
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Normal"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2022-05-18 03:40:38.750062",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        },
+        {
+          "Contributor": "TawnySoup",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_2",
+          "Status": "CUR",
+          "Timestamp": "2023-10-02 21:31:56.329515",
+          "Handle": "<@!216640380408430592>",
+          "Contact": "https://linktr.ee/tawnysoup"
+        }
+      ]
+    },
+    {
+      "NationalDex": 906,
+      "Id": "sprigatito",
+      "DisplayName": "Sprigatito",
+      "Sprite": [
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2022-06-07 07:37:11.876371",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        },
+        {
+          "Contributor": "baronessfaron",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2025-01-25 02:14:25.092697",
+          "Handle": "<@!544245909639397378>"
+        },
+        {
+          "Contributor": "baronessfaron",
+          "Files": [
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2025-05-13 06:53:47.317227",
+          "Handle": "<@!544245909639397378>"
+        }
+      ],
+      "Portrait": [
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Normal"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2022-02-27 19:01:53.558309",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        },
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2022-11-11 18:24:41.311928",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        }
+      ],
+      "ShinySprite": [
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2022-11-18 22:20:30.201087",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        },
+        {
+          "Contributor": "baronessfaron",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2025-05-18 00:02:17.009908",
+          "Handle": "<@!544245909639397378>"
+        }
+      ],
+      "ShinyPortrait": [
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2022-11-18 16:00:02.298293",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        }
+      ]
+    },
+    {
+      "NationalDex": 907,
+      "Id": "floragato",
+      "DisplayName": "Floragato",
+      "Sprite": [
+        {
+          "Contributor": "◥θ┴θ◤",
+          "Files": [
+            "Walk",
+            "Idle"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2025-01-04 14:26:04.063640",
+          "Handle": "<@!215638650434617345>",
+          "Contact": "DC:<@215638650434617345>"
+        },
+        {
+          "Contributor": "Soulja",
+          "Files": [
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Charge"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2025-01-11 03:56:33.749114",
+          "Handle": "<@!229131140903075840>",
+          "Contact": "https://twitter.com/OlSoulja"
+        }
+      ],
+      "Portrait": [
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Normal"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2023-01-10 22:30:01.213423",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        },
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Normal"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2023-01-11 07:44:11.425539",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        },
+        {
+          "Contributor": "JustAGunk",
+          "Files": [
+            "Happy",
+            "Pain"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2026-03-29 23:02:42.492492",
+          "Handle": "<@!1377429093997477928>",
+          "Contact": "<@1377429093997477928>"
+        },
+        {
+          "Contributor": "G〜",
+          "Files": [
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2026-05-11 02:33:33.100981",
+          "Handle": "<@!350050109741858829>",
+          "Contact": "https://bsky.app/profile/justtr4sh.pmd.social"
+        }
+      ],
+      "ShinySprite": [
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Charge"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2025-02-03 05:21:25.747814",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        }
+      ],
+      "ShinyPortrait": [
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Normal"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2023-01-11 03:10:04.158475",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        },
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Normal"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2023-01-11 07:49:27.979645",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        },
+        {
+          "Contributor": "JustAGunk",
+          "Files": [
+            "Happy",
+            "Inspired",
+            "Pain"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2026-03-29 23:19:19.092557",
+          "Handle": "<@!1377429093997477928>",
+          "Contact": "<@1377429093997477928>"
+        }
+      ]
+    },
+    {
+      "NationalDex": 908,
+      "Id": "meowscarada",
+      "DisplayName": "Meowscarada",
+      "Sprite": [
+        {
+          "Contributor": "LazerBlitz",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2025-03-09 22:57:06.105313",
+          "Handle": "<@!585276060136898591>",
+          "Contact": "<@585276060136898591>"
+        },
+        {
+          "Contributor": "LazerBlitz",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2025-03-09 22:57:12.381475",
+          "Handle": "<@!585276060136898591>",
+          "Contact": "<@585276060136898591>"
+        },
+        {
+          "Contributor": "LazerBlitz",
+          "Files": [
+            "Idle",
+            "Sleep"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2025-03-14 06:25:23.905093",
+          "Handle": "<@!585276060136898591>",
+          "Contact": "<@585276060136898591>"
+        }
+      ],
+      "Portrait": [
+        {
+          "Contributor": "distress",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_2",
+          "Status": "CUR",
+          "Timestamp": "2023-05-25 01:48:57.122285",
+          "Handle": "<@!177489961275097088>",
+          "Contact": "artstation.com/distress"
+        }
+      ],
+      "ShinySprite": [
+        {
+          "Contributor": "LazerBlitz",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2025-03-16 10:12:27.016866",
+          "Handle": "<@!585276060136898591>",
+          "Contact": "<@585276060136898591>"
+        }
+      ],
+      "ShinyPortrait": [
+        {
+          "Contributor": "distress",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_2",
+          "Status": "CUR",
+          "Timestamp": "2023-05-25 07:28:52.198949",
+          "Handle": "<@!177489961275097088>",
+          "Contact": "artstation.com/distress"
+        }
+      ]
+    },
+    {
+      "NationalDex": 909,
+      "Id": "fuecoco",
+      "DisplayName": "Fuecoco",
+      "Sprite": [
+        {
+          "Contributor": "JFain",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2023-04-09 18:39:05.707747",
+          "Handle": "<@!702275233125630042>"
+        },
+        {
+          "Contributor": "JFain",
+          "Files": [
+            "Attack",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2023-04-29 22:15:48.301125",
+          "Handle": "<@!702275233125630042>"
+        },
+        {
+          "Contributor": "G〜",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2023-05-07 18:00:19.440971",
+          "Handle": "<@!350050109741858829>",
+          "Contact": "https://bsky.app/profile/justtr4sh.pmd.social"
+        },
+        {
+          "Contributor": "Caitemis",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2025-12-09 17:58:27.609352",
+          "Handle": "<@!330751862590406656>",
+          "Contact": "https://caitemis-art.tumblr.com/"
+        }
+      ],
+      "Portrait": [
+        {
+          "Contributor": "G〜",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_2",
+          "Status": "CUR",
+          "Timestamp": "2023-05-17 18:29:17.188070",
+          "Handle": "<@!350050109741858829>",
+          "Contact": "https://bsky.app/profile/justtr4sh.pmd.social"
+        },
+        {
+          "Contributor": "G〜",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_2",
+          "Status": "CUR",
+          "Timestamp": "2024-01-28 23:53:10.846055",
+          "Handle": "<@!350050109741858829>",
+          "Contact": "https://bsky.app/profile/justtr4sh.pmd.social"
+        }
+      ],
+      "ShinySprite": [
+        {
+          "Contributor": "G〜",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2023-05-07 23:11:21.649279",
+          "Handle": "<@!350050109741858829>",
+          "Contact": "https://bsky.app/profile/justtr4sh.pmd.social"
+        },
+        {
+          "Contributor": "G〜",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "PMDCollab_2",
+          "Status": "CUR",
+          "Timestamp": "2023-05-18 02:30:43.061171",
+          "Handle": "<@!350050109741858829>",
+          "Contact": "https://bsky.app/profile/justtr4sh.pmd.social"
+        }
+      ],
+      "ShinyPortrait": [
+        {
+          "Contributor": "G〜",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_2",
+          "Status": "CUR",
+          "Timestamp": "2023-05-18 01:33:55.330211",
+          "Handle": "<@!350050109741858829>",
+          "Contact": "https://bsky.app/profile/justtr4sh.pmd.social"
+        },
+        {
+          "Contributor": "G〜",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_2",
+          "Status": "CUR",
+          "Timestamp": "2024-01-29 00:13:46.856612",
+          "Handle": "<@!350050109741858829>",
+          "Contact": "https://bsky.app/profile/justtr4sh.pmd.social"
+        }
+      ]
+    },
+    {
+      "NationalDex": 910,
+      "Id": "crocalor",
+      "DisplayName": "Crocalor",
+      "Sprite": [
+        {
+          "Contributor": "Soulja",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2024-04-20 08:49:58.650520",
+          "Handle": "<@!229131140903075840>",
+          "Contact": "https://twitter.com/OlSoulja"
+        }
+      ],
+      "Portrait": [
+        {
+          "Contributor": "◥θ┴θ◤",
+          "Files": [
+            "Normal"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2023-04-12 16:48:22.618527",
+          "Handle": "<@!215638650434617345>",
+          "Contact": "DC:<@215638650434617345>"
+        },
+        {
+          "Contributor": "JustAGunk",
+          "Files": [
+            "Happy",
+            "Inspired",
+            "Pain"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2026-04-12 00:01:05.678355",
+          "Handle": "<@!1377429093997477928>",
+          "Contact": "<@1377429093997477928>"
+        }
+      ],
+      "ShinySprite": [
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2024-07-21 22:55:37.434154",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        }
+      ],
+      "ShinyPortrait": [
+        {
+          "Contributor": "G〜",
+          "Files": [
+            "Normal"
+          ],
+          "Source": "PMDCollab_2",
+          "Status": "CUR",
+          "Timestamp": "2023-05-17 01:34:24.314783",
+          "Handle": "<@!350050109741858829>",
+          "Contact": "https://bsky.app/profile/justtr4sh.pmd.social"
+        },
+        {
+          "Contributor": "JustAGunk",
+          "Files": [
+            "Happy",
+            "Inspired",
+            "Pain"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2026-07-16 02:11:30.785804",
+          "Handle": "<@!1377429093997477928>",
+          "Contact": "<@1377429093997477928>"
+        }
+      ]
+    },
+    {
+      "NationalDex": 911,
+      "Id": "skeledirge",
+      "DisplayName": "Skeledirge",
+      "Sprite": [
+        {
+          "Contributor": "Soulja",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2024-04-20 08:45:55.011484",
+          "Handle": "<@!229131140903075840>",
+          "Contact": "https://twitter.com/OlSoulja"
+        }
+      ],
+      "Portrait": [
+        {
+          "Contributor": "◥θ┴θ◤",
+          "Files": [
+            "Normal"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2024-03-03 03:52:43.207808",
+          "Handle": "<@!215638650434617345>",
+          "Contact": "DC:<@215638650434617345>"
+        }
+      ],
+      "ShinySprite": [
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2024-07-21 22:55:44.512267",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        }
+      ],
+      "ShinyPortrait": [
+        {
+          "Contributor": "◥θ┴θ◤",
+          "Files": [
+            "Normal"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2024-03-03 05:41:56.304095",
+          "Handle": "<@!215638650434617345>",
+          "Contact": "DC:<@215638650434617345>"
+        }
+      ]
+    },
+    {
+      "NationalDex": 912,
+      "Id": "quaxly",
+      "DisplayName": "Quaxly",
+      "Sprite": [
+        {
+          "Contributor": "JFain",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2023-02-11 01:30:06.484901",
+          "Handle": "<@!702275233125630042>"
+        },
+        {
+          "Contributor": "JFain",
+          "Files": [
+            "Hurt"
+          ],
+          "Source": "PMDCollab_2",
+          "Status": "CUR",
+          "Timestamp": "2023-08-21 02:35:11.453976",
+          "Handle": "<@!702275233125630042>"
+        },
+        {
+          "Contributor": "NickOnimura",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2026-05-13 19:00:00.596373",
+          "Handle": "<@!151462460316975104>",
+          "Contact": "nickonimura.bsky.social"
+        }
+      ],
+      "Portrait": [
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Normal"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2022-03-03 06:30:23.524894",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        },
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Normal"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2022-11-17 18:12:20.986934",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        },
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Normal"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2022-11-18 01:16:12.600374",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        },
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Normal"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2025-07-21 00:40:12.965599",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        },
+        {
+          "Contributor": "Caitemis",
+          "Files": [
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2025-08-04 01:31:12.531964",
+          "Handle": "<@!330751862590406656>",
+          "Contact": "https://caitemis-art.tumblr.com/"
+        }
+      ],
+      "ShinySprite": [
+        {
+          "Contributor": "ShyStarryRain",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2023-02-14 03:07:49.060004",
+          "Handle": "<@!576876006636519434>"
+        },
+        {
+          "Contributor": "ShyStarryRain",
+          "Files": [
+            "Hurt"
+          ],
+          "Source": "PMDCollab_2",
+          "Status": "CUR",
+          "Timestamp": "2023-08-21 04:23:04.870236",
+          "Handle": "<@!576876006636519434>"
+        }
+      ],
+      "ShinyPortrait": [
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Normal"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2022-11-18 16:00:20.030999",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        },
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Normal"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2022-11-18 22:20:34.032622",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        },
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Normal"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2025-07-21 02:43:30.915752",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        }
+      ]
+    },
+    {
+      "NationalDex": 913,
+      "Id": "quaxwell",
+      "DisplayName": "Quaxwell",
+      "Sprite": [
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2025-12-17 22:30:18.104962",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        }
+      ],
+      "Portrait": [
+        {
+          "Contributor": "◥θ┴θ◤",
+          "Files": [
+            "Normal"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2023-02-16 18:05:22.669313",
+          "Handle": "<@!215638650434617345>",
+          "Contact": "DC:<@215638650434617345>"
+        },
+        {
+          "Contributor": "JustAGunk",
+          "Files": [
+            "Happy",
+            "Inspired",
+            "Pain"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2026-04-09 22:33:46.652425",
+          "Handle": "<@!1377429093997477928>",
+          "Contact": "<@1377429093997477928>"
+        }
+      ],
+      "ShinySprite": [
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2025-12-18 20:58:01.027127",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        }
+      ],
+      "ShinyPortrait": [
+        {
+          "Contributor": "lokatts",
+          "Files": [
+            "Normal"
+          ],
+          "Source": "PMDCollab_2",
+          "Status": "CUR",
+          "Timestamp": "2024-02-10 04:49:27.065339",
+          "Handle": "<@!232091727094218752>",
+          "Contact": "https://twitter.com/lokatts"
+        },
+        {
+          "Contributor": "JustAGunk",
+          "Files": [
+            "Happy",
+            "Inspired",
+            "Pain"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2026-07-16 02:11:37.473889",
+          "Handle": "<@!1377429093997477928>",
+          "Contact": "<@1377429093997477928>"
+        }
+      ]
+    },
+    {
+      "NationalDex": 914,
+      "Id": "quaquaval",
+      "DisplayName": "Quaquaval",
+      "Sprite": [
+        {
+          "Contributor": "Top_Kec",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2024-07-02 14:22:16.586232",
+          "Handle": "<@!276369635304275968>",
+          "Contact": "@topkec.bsky.social"
+        }
+      ],
+      "Portrait": [
+        {
+          "Contributor": "Top_Kec",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_2",
+          "Status": "CUR",
+          "Timestamp": "2023-07-09 16:36:07.842525",
+          "Handle": "<@!276369635304275968>",
+          "Contact": "@topkec.bsky.social"
+        }
+      ],
+      "ShinySprite": [
+        {
+          "Contributor": "Top_Kec",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "CC_BY-NC_4",
+          "Status": "CUR",
+          "Timestamp": "2024-07-03 03:52:49.544343",
+          "Handle": "<@!276369635304275968>",
+          "Contact": "@topkec.bsky.social"
+        }
+      ],
+      "ShinyPortrait": [
+        {
+          "Contributor": "Top_Kec",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_2",
+          "Status": "CUR",
+          "Timestamp": "2023-07-10 00:29:34.394164",
+          "Handle": "<@!276369635304275968>",
+          "Contact": "@topkec.bsky.social"
+        }
+      ]
+    }
+  ]
+}

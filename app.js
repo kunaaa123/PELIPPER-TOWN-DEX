@@ -60,6 +60,14 @@ document.addEventListener('DOMContentLoaded', () => {
         };
     }
 
+    // Asset URL helper to ensure compatibility with GitHub Pages (relative paths)
+    function fixAssetUrl(url) {
+        if (!url) return 'assets/items/pokeball_stardew.png';
+        if (url.startsWith('/assets/')) return url.slice(1);
+        if (url.startsWith('/')) return '.' + url;
+        return url;
+    }
+
     // Lazy Tab Render Tracking
     const renderedTabs = new Set(['pokedex']);
 
@@ -332,7 +340,8 @@ document.addEventListener('DOMContentLoaded', () => {
             `;
         } else {
             pokemonGrid.innerHTML = displayList.map(sp => {
-                const portrait = (state.isShinyMode && sp.portraitShiny) ? sp.portraitShiny : (sp.portrait || '/assets/items/pokeball_stardew.png');
+                const rawPortrait = (state.isShinyMode && sp.portraitShiny) ? sp.portraitShiny : (sp.portrait || 'assets/items/pokeball_stardew.png');
+                const portrait = fixAssetUrl(rawPortrait);
                 const typesHtml = sp.types.map(t => `<span class="type-tag type-${t}">${t}</span>`).join('');
                 const jobsHtml = sp.jobs.slice(0, 3).map(j => `<span class="job-tag">${JOB_NAMES_TH[j] || j}</span>`).join('');
                 const rideBadge = sp.isRideable ? `<span class="badge-ride">🏇 ขี่ได้</span>` : '';
@@ -345,7 +354,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             <div class="card-badges">${rideBadge}</div>
                         </div>
                         <div class="card-image-box">
-                            <img src="${portrait}" alt="${sp.name}" class="pokemon-portrait" loading="lazy" decoding="async" onerror="this.onerror=null; this.src='/assets/items/pokeball_stardew.png'" />
+                            <img src="${portrait}" alt="${sp.name}" class="pokemon-portrait" loading="lazy" decoding="async" onerror="this.onerror=null; this.src='assets/items/pokeball_stardew.png'" />
                         </div>
                         <div class="card-info">
                             <div class="pokemon-name">${sp.name}</div>
@@ -491,12 +500,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
         villagerGrid.innerHTML = filtered.map(v => {
             const partnerSpecies = data.species.find(s => s.id.toLowerCase() === (v.partnerId || '').toLowerCase());
-            let partnerPortrait = '/assets/items/pokeball_stardew.png';
+            let partnerPortrait = 'assets/items/pokeball_stardew.png';
             if (partnerSpecies) {
-                partnerPortrait = (state.isShinyMode && partnerSpecies.portraitShiny) ? partnerSpecies.portraitShiny : (partnerSpecies.portrait || '/assets/items/pokeball_stardew.png');
+                const rawPartner = (state.isShinyMode && partnerSpecies.portraitShiny) ? partnerSpecies.portraitShiny : (partnerSpecies.portrait || 'assets/items/pokeball_stardew.png');
+                partnerPortrait = fixAssetUrl(rawPartner);
             }
             const partnerDisplayName = partnerSpecies ? partnerSpecies.name : (v.partnerId || 'คู่หู');
-            const villagerPortrait = v.portrait || '/assets/items/pokeball_stardew.png';
+            const villagerPortrait = fixAssetUrl(v.portrait || 'assets/items/pokeball_stardew.png');
 
             // Render VS Seeker tiers
             let vsTiersHtml = '';
@@ -508,10 +518,10 @@ document.addEventListener('DOMContentLoaded', () => {
                         <div class="tier-pokemon-list">
                             ${team.map(pokeId => {
                                 const teamPoke = data.species.find(s => s.id.toLowerCase() === pokeId.toLowerCase());
-                                const iconUrl = teamPoke ? ((state.isShinyMode && teamPoke.portraitShiny) ? teamPoke.portraitShiny : teamPoke.portrait) : '/assets/items/pokeball_stardew.png';
+                                const iconUrl = teamPoke ? fixAssetUrl((state.isShinyMode && teamPoke.portraitShiny) ? teamPoke.portraitShiny : teamPoke.portrait) : 'assets/items/pokeball_stardew.png';
                                 const displayName = teamPoke ? teamPoke.name : pokeId;
                                 return `<span class="mini-poke-badge" title="${displayName}" style="display:inline-flex; align-items:center; gap:5px;">
-                                    <img src="${iconUrl}" style="width:20px; height:20px; image-rendering:pixelated;" loading="lazy" decoding="async" onerror="this.onerror=null; this.src='/assets/items/pokeball_stardew.png';" />
+                                    <img src="${iconUrl}" style="width:20px; height:20px; image-rendering:pixelated;" loading="lazy" decoding="async" onerror="this.onerror=null; this.src='assets/items/pokeball_stardew.png';" />
                                     <span>${displayName}</span>
                                 </span>`;
                             }).join('')}
@@ -528,7 +538,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <div class="villager-card">
                     <div class="villager-profile-top">
                         <div class="villager-portrait-frame">
-                            <img src="${villagerPortrait}" class="villager-avatar" alt="${v.name}" loading="lazy" decoding="async" onerror="this.onerror=null; this.src='/assets/items/pokeball_stardew.png'" />
+                            <img src="${villagerPortrait}" class="villager-avatar" alt="${v.name}" loading="lazy" decoding="async" onerror="this.onerror=null; this.src='assets/items/pokeball_stardew.png'" />
                         </div>
                         <div class="villager-info-col">
                             <div class="villager-title-row">
@@ -541,7 +551,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
                     <div class="partner-box">
                         <div class="partner-avatar-frame">
-                            <img src="${partnerPortrait}" class="partner-portrait" alt="${partnerDisplayName}" loading="lazy" decoding="async" onerror="this.onerror=null; this.src='/assets/items/pokeball_stardew.png'" />
+                            <img src="${partnerPortrait}" class="partner-portrait" alt="${partnerDisplayName}" loading="lazy" decoding="async" onerror="this.onerror=null; this.src='assets/items/pokeball_stardew.png'" />
                         </div>
                         <div class="partner-info">
                             <div class="partner-label">⭐ โปเกมอนคู่หูประจำตัว (Partner Pokémon)</div>
@@ -567,11 +577,11 @@ document.addEventListener('DOMContentLoaded', () => {
         mountGrid.innerHTML = mounts.map(m => {
             const ride = m.rideInfo || {};
             const speedBonusPercent = Math.round((ride.speedBonus || 0) * 100);
-            const portrait = (state.isShinyMode && m.portraitShiny) ? m.portraitShiny : (m.portrait || '/assets/items/pokeball_stardew.png');
+            const portrait = fixAssetUrl((state.isShinyMode && m.portraitShiny) ? m.portraitShiny : (m.portrait || 'assets/items/pokeball_stardew.png'));
             return `
                 <div class="mount-card">
                     <div class="mount-header">
-                        <img src="${portrait}" class="mount-portrait" alt="${m.name}" loading="lazy" decoding="async" onerror="this.onerror=null; this.src='/assets/items/pokeball_stardew.png'" />
+                        <img src="${portrait}" class="mount-portrait" alt="${m.name}" loading="lazy" decoding="async" onerror="this.onerror=null; this.src='assets/items/pokeball_stardew.png'" />
                         <div>
                             <div class="mount-title">${m.name}</div>
                             <div style="font-size:0.8rem; color:#f59e0b;">🏇 ความเร็ว +${speedBonusPercent}%</div>
@@ -634,7 +644,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <div class="item-card">
                 <div class="item-card-header">
                     <div class="item-sprite-box">
-                        <img src="${it.sprite}" class="item-sprite" alt="${it.nameEn || it.nameTh}" loading="lazy" decoding="async" onerror="this.onerror=null; this.src='/assets/items/pokeball_stardew.png';" />
+                        <img src="${fixAssetUrl(it.sprite)}" class="item-sprite" alt="${it.nameEn || it.nameTh}" loading="lazy" decoding="async" onerror="this.onerror=null; this.src='assets/items/pokeball_stardew.png';" />
                     </div>
                     <div class="item-title-box">
                         <div class="item-name-th">${it.nameTh || it.nameEn}</div>
@@ -674,7 +684,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <div class="mega-card">
                 <div class="mega-card-header">
                     <div class="mega-portrait-box">
-                        <img src="${m.portrait}" alt="${m.displayName}" loading="lazy" decoding="async" onerror="this.onerror=null; this.src='/assets/items/pokeball_stardew.png';" />
+                        <img src="${fixAssetUrl(m.portrait)}" alt="${m.displayName}" loading="lazy" decoding="async" onerror="this.onerror=null; this.src='assets/items/pokeball_stardew.png';" />
                         <span class="mega-symbol-badge">MEGA</span>
                     </div>
                     <div class="mega-title-box">
@@ -750,7 +760,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 const typesHtml = (t.types || []).map(tp => `<span class="type-tag type-${tp}" style="font-size:0.6rem; padding:1px 5px;">${tp}</span>`).join('');
                 return `
                     <div class="quest-target-chip">
-                        <img src="${t.portrait}" class="quest-target-avatar" alt="${t.name}" loading="lazy" decoding="async" onerror="this.onerror=null; this.src='/assets/items/pokeball_stardew.png';" />
+                        <img src="${fixAssetUrl(t.portrait)}" class="quest-target-avatar" alt="${t.name}" loading="lazy" decoding="async" onerror="this.onerror=null; this.src='assets/items/pokeball_stardew.png';" />
                         <div class="quest-target-details">
                             <div class="quest-target-name">${t.name} ${t.level ? `<span class="quest-target-lv">Lv.${t.level}</span>` : ''}</div>
                             ${typesHtml ? `<div class="quest-target-types">${typesHtml}</div>` : ''}
@@ -769,7 +779,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         <div class="quest-targets-row">
                             ${q.targetsY2.map(t => `
                                 <div class="quest-target-chip">
-                                    <img src="${t.portrait}" class="quest-target-avatar" alt="${t.name}" loading="lazy" decoding="async" onerror="this.onerror=null; this.src='/assets/items/pokeball_stardew.png';" />
+                                    <img src="${fixAssetUrl(t.portrait)}" class="quest-target-avatar" alt="${t.name}" loading="lazy" decoding="async" onerror="this.onerror=null; this.src='assets/items/pokeball_stardew.png';" />
                                     <div class="quest-target-details">
                                         <div class="quest-target-name">${t.name}</div>
                                     </div>
@@ -791,7 +801,7 @@ document.addEventListener('DOMContentLoaded', () => {
             // Rewards
             const rewardsHtml = (q.rewards || []).map(r => `
                 <div class="quest-reward-pill">
-                    ${r.sprite ? `<img src="${r.sprite}" class="reward-sprite" alt="${r.name}" loading="lazy" decoding="async" onerror="this.onerror=null; this.src='/assets/items/pokeball_stardew.png';" />` : '🎁'}
+                    ${r.sprite ? `<img src="${fixAssetUrl(r.sprite)}" class="reward-sprite" alt="${r.name}" loading="lazy" decoding="async" onerror="this.onerror=null; this.src='assets/items/pokeball_stardew.png';" />` : '🎁'}
                     <span class="reward-name">${r.name}</span>
                     ${r.amount ? `<span class="reward-amount">${r.amount}</span>` : ''}
                 </div>
@@ -801,7 +811,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <div class="quest-item-card" data-category="${q.category}">
                     <div class="quest-card-header">
                         <div class="quest-requester-wrap">
-                            <img src="${q.requesterPortrait}" class="quest-requester-avatar" alt="${q.requester}" loading="lazy" decoding="async" onerror="this.onerror=null; this.src='/assets/items/pokeball_stardew.png';" />
+                            <img src="${fixAssetUrl(q.requesterPortrait)}" class="quest-requester-avatar" alt="${q.requester}" loading="lazy" decoding="async" onerror="this.onerror=null; this.src='assets/items/pokeball_stardew.png';" />
                             <div class="quest-requester-info">
                                 <span class="quest-cat-pill" style="color:${badge.color}; background:${badge.bg}; border-color:${badge.border};">${badge.label}</span>
                                 <h3 class="quest-title-th">${q.titleTh}</h3>
@@ -900,7 +910,8 @@ document.addEventListener('DOMContentLoaded', () => {
     // 9. Modal Detail Popup
     function openModal(sp) {
         state.activeSpeciesModal = sp;
-        const portrait = state.isShinyMode && sp.portraitShiny ? sp.portraitShiny : (sp.portrait || '/assets/items/pokeball_stardew.png');
+        const rawPortrait = state.isShinyMode && sp.portraitShiny ? sp.portraitShiny : (sp.portrait || 'assets/items/pokeball_stardew.png');
+        const portrait = fixAssetUrl(rawPortrait);
         const typesHtml = sp.types.map(t => `<span class="type-tag type-${t}">${t}</span>`).join('');
         const dexFormatted = sp.dex ? `#${String(sp.dex).padStart(3, '0')}` : '---';
 

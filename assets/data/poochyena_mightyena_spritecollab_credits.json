@@ -1,0 +1,306 @@
+{
+  "Source": "https://github.com/PMDCollab/SpriteCollab",
+  "Revision": "ad1646ab71c45feb806e7dbaa4c11913bc45d5fa",
+  "LicenseUrl": "https://github.com/PMDCollab/SpriteCollab/blob/ad1646ab71c45feb806e7dbaa4c11913bc45d5fa/LICENSE.md",
+  "Species": [
+    {
+      "NationalDex": 261,
+      "Id": "poochyena",
+      "DisplayName": "Poochyena",
+      "Sprite": [
+        {
+          "Contributor": "CHUNSOFT",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "Unspecified",
+          "Status": "CUR",
+          "Timestamp": "2020-10-07 17:58:44.203724",
+          "Contact": "https://www.spike-chunsoft.com/"
+        },
+        {
+          "Contributor": "Smalusion",
+          "Files": [
+            "Hurt"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2021-03-13 15:02:07.184263",
+          "Handle": "<@!177074597315870720>",
+          "Contact": "https://twitter.com/Smalusion"
+        }
+      ],
+      "Portrait": [
+        {
+          "Contributor": "CHUNSOFT",
+          "Files": [
+            "Normal"
+          ],
+          "Source": "Unspecified",
+          "Status": "CUR",
+          "Timestamp": "2020-10-07 17:58:44.203724",
+          "Contact": "https://www.spike-chunsoft.com/"
+        },
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2022-11-07 10:10:35.641637",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        }
+      ],
+      "ShinySprite": [
+        {
+          "Contributor": "Anonymous",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2020-10-07 17:58:44.204689",
+          "Handle": "<@!200318546750865418>",
+          "Contact": "<@200318546750865418>"
+        },
+        {
+          "Contributor": "Morei",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2021-08-27 04:25:33.904585",
+          "Handle": "<@!593113130213572610>",
+          "Contact": "https://bsky.app/profile/murpia57.bsky.social"
+        }
+      ],
+      "ShinyPortrait": [
+        {
+          "Contributor": "Anonymous",
+          "Files": [
+            "Normal"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2020-10-07 17:58:44.204689",
+          "Handle": "<@!200318546750865418>",
+          "Contact": "<@200318546750865418>"
+        },
+        {
+          "Contributor": "Emmuffin",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2022-11-08 03:11:01.052462",
+          "Handle": "<@!356635814668664832>",
+          "Contact": "https://twitter.com/Ernmuffin"
+        }
+      ]
+    },
+    {
+      "NationalDex": 262,
+      "Id": "mightyena",
+      "DisplayName": "Mightyena",
+      "Sprite": [
+        {
+          "Contributor": "CHUNSOFT",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "Unspecified",
+          "Status": "CUR",
+          "Timestamp": "2020-10-07 17:58:44.205686",
+          "Contact": "https://www.spike-chunsoft.com/"
+        },
+        {
+          "Contributor": "KCN015",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2021-12-03 15:05:43.321223",
+          "Handle": "<@!358038459237138432>"
+        }
+      ],
+      "Portrait": [
+        {
+          "Contributor": "CHUNSOFT",
+          "Files": [
+            "Normal"
+          ],
+          "Source": "Unspecified",
+          "Status": "CUR",
+          "Timestamp": "2020-10-07 17:58:44.205686",
+          "Contact": "https://www.spike-chunsoft.com/"
+        },
+        {
+          "Contributor": "deltaflare",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2021-06-28 15:48:01.453145",
+          "Handle": "<@!555360707617488904>",
+          "Contact": "<@555360707617488904>"
+        },
+        {
+          "Contributor": "Gust",
+          "Files": [
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_2",
+          "Status": "CUR",
+          "Timestamp": "2023-05-23 21:19:44.778551",
+          "Handle": "<@!861005464682889266>",
+          "Contact": "https://twitter.com/Estelaris__"
+        }
+      ],
+      "ShinySprite": [
+        {
+          "Contributor": "Anonymous",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Sleep",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2020-10-07 17:58:44.206684",
+          "Handle": "<@!200318546750865418>",
+          "Contact": "<@200318546750865418>"
+        },
+        {
+          "Contributor": "Emboarger",
+          "Files": [
+            "Walk",
+            "Idle",
+            "Attack",
+            "Hurt",
+            "Shoot",
+            "Charge"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2021-12-05 19:55:20.367777",
+          "Handle": "<@!237286997645983744>"
+        }
+      ],
+      "ShinyPortrait": [
+        {
+          "Contributor": "Anonymous",
+          "Files": [
+            "Normal"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2020-10-07 17:58:44.207680",
+          "Handle": "<@!200318546750865418>",
+          "Contact": "<@200318546750865418>"
+        },
+        {
+          "Contributor": "deltaflare",
+          "Files": [
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2021-06-28 15:48:38.044630",
+          "Handle": "<@!555360707617488904>",
+          "Contact": "<@555360707617488904>"
+        },
+        {
+          "Contributor": "deltaflare",
+          "Files": [
+            "Normal",
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2021-07-11 19:13:59.525492",
+          "Handle": "<@!555360707617488904>",
+          "Contact": "<@555360707617488904>"
+        },
+        {
+          "Contributor": "Morei",
+          "Files": [
+            "Happy",
+            "Sigh",
+            "Determined",
+            "Pain",
+            "Dizzy"
+          ],
+          "Source": "PMDCollab_2",
+          "Status": "CUR",
+          "Timestamp": "2023-05-25 04:51:22.564231",
+          "Handle": "<@!593113130213572610>",
+          "Contact": "https://bsky.app/profile/murpia57.bsky.social"
+        }
+      ]
+    }
+  ]
+}

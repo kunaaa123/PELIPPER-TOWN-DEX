@@ -1,0 +1,62 @@
+{
+  "Format": "PelipperTown/Integrations/1",
+  "Priority": 100,
+  "NpcPartners": {
+    "kcspace.StarCrossed_Jack": {
+      "DisplayName": "Jack",
+      "Default": "cranidos",
+      "Alternatives": [
+        "shieldon",
+        "amaura",
+        "growlithe"
+      ]
+    },
+    "kcspace.StarCrossed_Fable": {
+      "DisplayName": "Fable",
+      "Default": "popplio",
+      "Alternatives": [
+        "piplup",
+        "horsea",
+        "lapras"
+      ]
+    },
+    "kcspace.StarCrossed_Chelsea": {
+      "DisplayName": "Chelsea",
+      "Default": "skitty",
+      "Alternatives": [
+        "minccino",
+        "persian",
+        "toxtricity"
+      ]
+    },
+    "kcspace.StarCrossed_Cody": {
+      "DisplayName": "Cody",
+      "Default": "torchic",
+      "Alternatives": [
+        "wooloo",
+        "tauros",
+        "ponyta"
+      ]
+    },
+    "kcspace.StarCrossed_Dominique": {
+      "DisplayName": "Dominique",
+      "Default": "ralts",
+      "Alternatives": [
+        "petilil",
+        "budew",
+        "oddish"
+      ]
+    },
+    "kcspace.StarCrossed_Andre": {
+      "DisplayName": "Andre",
+      "Default": "fidough",
+      "Alternatives": [
+        "lillipup",
+        "growlithe",
+        "poliwag"
+      ]
+    }
+  },
+  "EncounterTables": {},
+  "Maps": []
+}

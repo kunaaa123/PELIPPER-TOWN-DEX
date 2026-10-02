@@ -1,0 +1,5241 @@
+{
+  "Format": "PelipperTown/1",
+  "BattleStatMultiplier": 1.25,
+  "HealthMultiplier": 1.25,
+  "MovementSpeedMultiplier": 1.15,
+  "PassiveStrengthMultiplier": 1.5,
+  "Forms": [
+    {
+      "BaseSpeciesId": "charizard",
+      "Presentation": {
+        "NationalDex": 6,
+        "Id": "mega-charizard-x",
+        "FormId": "mega-x",
+        "DisplayName": "Mega Charizard X",
+        "SpritePath": "assets/pokemon/mega-evolutions/mega-charizard-x/overworld_stardew.png",
+        "ShinySpritePath": "assets/pokemon/mega-evolutions/mega-charizard-x/overworld_shiny_stardew.png",
+        "FrameWidth": 96,
+        "FrameHeight": 96,
+        "AnimationLayout": "PmdEightDirectionAtlas",
+        "HasDistinctSideFrames": true,
+        "Body": {
+          "FootAnchorX": 48.0,
+          "FootAnchorY": 52,
+          "VisibleHeightPixels": 32
+        },
+        "Animation": {
+          "Directions": 4,
+          "FramesPerDirection": 47,
+          "DirectionRows": [
+            1,
+            1,
+            0,
+            0,
+            3,
+            3,
+            2,
+            2
+          ],
+          "Clips": {
+            "walk": {
+              "StartFrame": 0,
+              "FrameCount": 4,
+              "FrameDurations": [
+                8,
+                10,
+                8,
+                10
+              ],
+              "Loop": true
+            },
+            "idle": {
+              "StartFrame": 4,
+              "FrameCount": 4,
+              "FrameDurations": [
+                15,
+                15,
+                15,
+                15
+              ],
+              "Loop": true
+            },
+            "attack": {
+              "StartFrame": 8,
+              "FrameCount": 14,
+              "FrameDurations": [
+                2,
+                2,
+                2,
+                2,
+                4,
+                1,
+                1,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "Loop": false,
+              "Markers": {
+                "cast": 4,
+                "world-action": 12,
+                "recover": 16
+              }
+            },
+            "hurt": {
+              "StartFrame": 22,
+              "FrameCount": 2,
+              "FrameDurations": [
+                2,
+                8
+              ],
+              "Loop": false
+            },
+            "sleep": {
+              "StartFrame": 24,
+              "FrameCount": 2,
+              "FrameDurations": [
+                30,
+                35
+              ],
+              "Loop": true
+            },
+            "shoot": {
+              "StartFrame": 26,
+              "FrameCount": 11,
+              "FrameDurations": [
+                4,
+                6,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "Loop": false,
+              "Markers": {
+                "cast": 4,
+                "world-action": 10,
+                "recover": 18
+              }
+            },
+            "charge": {
+              "StartFrame": 37,
+              "FrameCount": 10,
+              "FrameDurations": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "Loop": false,
+              "Markers": {
+                "world-action": 10,
+                "recover": 18
+              }
+            }
+          }
+        },
+        "Encounter": {
+          "Enabled": false
+        },
+        "PortraitPath": "assets/pokemon/mega-evolutions/mega-charizard-x/portrait.png",
+        "MoodPortraitPaths": {
+          "happy": "assets/pokemon/mega-evolutions/mega-charizard-x/portrait_happy.png",
+          "hurt": "assets/pokemon/mega-evolutions/mega-charizard-x/portrait_hurt.png",
+          "fainted": "assets/pokemon/mega-evolutions/mega-charizard-x/portrait_fainted.png"
+        },
+        "ShinyPortraitPath": "assets/pokemon/mega-evolutions/mega-charizard-x/portrait_shiny.png",
+        "ShinyMoodPortraitPaths": {}
+      }
+    },
+    {
+      "BaseSpeciesId": "alakazam",
+      "Presentation": {
+        "NationalDex": 65,
+        "Id": "mega-alakazam",
+        "FormId": "mega",
+        "DisplayName": "Mega Alakazam",
+        "SpritePath": "assets/pokemon/mega-evolutions/mega-alakazam/overworld_stardew.png",
+        "ShinySpritePath": "assets/pokemon/mega-evolutions/mega-alakazam/overworld_shiny_stardew.png",
+        "FrameWidth": 96,
+        "FrameHeight": 96,
+        "AnimationLayout": "PmdEightDirectionAtlas",
+        "HasDistinctSideFrames": true,
+        "Body": {
+          "FootAnchorX": 48.0,
+          "FootAnchorY": 52,
+          "VisibleHeightPixels": 34
+        },
+        "Animation": {
+          "Directions": 4,
+          "FramesPerDirection": 70,
+          "DirectionRows": [
+            1,
+            1,
+            0,
+            0,
+            3,
+            3,
+            2,
+            2
+          ],
+          "Clips": {
+            "walk": {
+              "StartFrame": 0,
+              "FrameCount": 8,
+              "FrameDurations": [
+                8,
+                10,
+                8,
+                10,
+                8,
+                10,
+                8,
+                10
+              ],
+              "Loop": true
+            },
+            "idle": {
+              "StartFrame": 8,
+              "FrameCount": 8,
+              "FrameDurations": [
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6
+              ],
+              "Loop": true
+            },
+            "attack": {
+              "StartFrame": 16,
+              "FrameCount": 11,
+              "FrameDurations": [
+                4,
+                2,
+                4,
+                1,
+                1,
+                1,
+                2,
+                2,
+                2,
+                2,
+                4
+              ],
+              "Loop": false,
+              "Markers": {
+                "cast": 6,
+                "world-action": 11,
+                "recover": 15
+              }
+            },
+            "hurt": {
+              "StartFrame": 27,
+              "FrameCount": 2,
+              "FrameDurations": [
+                2,
+                8
+              ],
+              "Loop": false
+            },
+            "sleep": {
+              "StartFrame": 29,
+              "FrameCount": 8,
+              "FrameDurations": [
+                10,
+                9,
+                8,
+                14,
+                10,
+                9,
+                8,
+                14
+              ],
+              "Loop": true
+            },
+            "shoot": {
+              "StartFrame": 37,
+              "FrameCount": 12,
+              "FrameDurations": [
+                2,
+                2,
+                4,
+                6,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                4
+              ],
+              "Loop": false,
+              "Markers": {
+                "cast": 16,
+                "world-action": 18,
+                "recover": 26
+              }
+            },
+            "charge": {
+              "StartFrame": 49,
+              "FrameCount": 10,
+              "FrameDurations": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "Loop": false,
+              "Markers": {
+                "world-action": 10,
+                "recover": 18
+              }
+            },
+            "strike": {
+              "StartFrame": 59,
+              "FrameCount": 11,
+              "FrameDurations": [
+                4,
+                2,
+                4,
+                1,
+                1,
+                1,
+                2,
+                2,
+                2,
+                2,
+                4
+              ],
+              "Loop": false,
+              "Markers": {
+                "cast": 6,
+                "world-action": 11,
+                "recover": 15
+              }
+            }
+          }
+        },
+        "Encounter": {
+          "Enabled": false
+        },
+        "PortraitPath": "assets/pokemon/mega-evolutions/mega-alakazam/portrait.png",
+        "MoodPortraitPaths": {},
+        "ShinyPortraitPath": "assets/pokemon/mega-evolutions/mega-alakazam/portrait_shiny.png",
+        "ShinyMoodPortraitPaths": {}
+      }
+    },
+    {
+      "BaseSpeciesId": "gengar",
+      "Presentation": {
+        "NationalDex": 94,
+        "Id": "mega-gengar",
+        "FormId": "mega",
+        "DisplayName": "Mega Gengar",
+        "SpritePath": "assets/pokemon/mega-evolutions/mega-gengar/overworld_stardew.png",
+        "ShinySpritePath": "assets/pokemon/mega-evolutions/mega-gengar/overworld_shiny_stardew.png",
+        "FrameWidth": 80,
+        "FrameHeight": 80,
+        "AnimationLayout": "PmdEightDirectionAtlas",
+        "HasDistinctSideFrames": true,
+        "Body": {
+          "FootAnchorX": 40.0,
+          "FootAnchorY": 44,
+          "VisibleHeightPixels": 30
+        },
+        "Animation": {
+          "Directions": 4,
+          "FramesPerDirection": 59,
+          "DirectionRows": [
+            1,
+            1,
+            0,
+            0,
+            3,
+            3,
+            2,
+            2
+          ],
+          "Clips": {
+            "walk": {
+              "StartFrame": 0,
+              "FrameCount": 4,
+              "FrameDurations": [
+                8,
+                10,
+                8,
+                10
+              ],
+              "Loop": true
+            },
+            "idle": {
+              "StartFrame": 4,
+              "FrameCount": 8,
+              "FrameDurations": [
+                40,
+                4,
+                3,
+                3,
+                3,
+                3,
+                3,
+                4
+              ],
+              "Loop": true
+            },
+            "attack": {
+              "StartFrame": 12,
+              "FrameCount": 11,
+              "FrameDurations": [
+                4,
+                2,
+                4,
+                1,
+                1,
+                1,
+                2,
+                2,
+                2,
+                2,
+                4
+              ],
+              "Loop": false,
+              "Markers": {
+                "cast": 6,
+                "world-action": 11,
+                "recover": 15
+              }
+            },
+            "hurt": {
+              "StartFrame": 23,
+              "FrameCount": 2,
+              "FrameDurations": [
+                2,
+                8
+              ],
+              "Loop": false
+            },
+            "sleep": {
+              "StartFrame": 25,
+              "FrameCount": 2,
+              "FrameDurations": [
+                30,
+                35
+              ],
+              "Loop": true
+            },
+            "shoot": {
+              "StartFrame": 27,
+              "FrameCount": 12,
+              "FrameDurations": [
+                2,
+                4,
+                1,
+                1,
+                10,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "Loop": false,
+              "Markers": {
+                "cast": 18,
+                "world-action": 20,
+                "recover": 28
+              }
+            },
+            "charge": {
+              "StartFrame": 39,
+              "FrameCount": 10,
+              "FrameDurations": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "Loop": false,
+              "Markers": {
+                "world-action": 10,
+                "recover": 18
+              }
+            },
+            "strike": {
+              "StartFrame": 49,
+              "FrameCount": 10,
+              "FrameDurations": [
+                2,
+                2,
+                4,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                4
+              ],
+              "Loop": false,
+              "Markers": {
+                "cast": 4,
+                "world-action": 10,
+                "recover": 14
+              }
+            }
+          }
+        },
+        "Encounter": {
+          "Enabled": false
+        },
+        "PortraitPath": "assets/pokemon/mega-evolutions/mega-gengar/portrait.png",
+        "MoodPortraitPaths": {},
+        "ShinyPortraitPath": "assets/pokemon/mega-evolutions/mega-gengar/portrait_shiny.png",
+        "ShinyMoodPortraitPaths": {}
+      }
+    },
+    {
+      "BaseSpeciesId": "slowbro",
+      "Presentation": {
+        "NationalDex": 80,
+        "Id": "mega-slowbro",
+        "FormId": "mega",
+        "DisplayName": "Mega Slowbro",
+        "SpritePath": "assets/pokemon/mega-evolutions/mega-slowbro/overworld_stardew.png",
+        "ShinySpritePath": "assets/pokemon/mega-evolutions/mega-slowbro/overworld_shiny_stardew.png",
+        "FrameWidth": 96,
+        "FrameHeight": 96,
+        "AnimationLayout": "PmdEightDirectionAtlas",
+        "HasDistinctSideFrames": true,
+        "Body": {
+          "FootAnchorX": 48.0,
+          "FootAnchorY": 56,
+          "VisibleHeightPixels": 31
+        },
+        "Animation": {
+          "Directions": 4,
+          "FramesPerDirection": 37,
+          "DirectionRows": [
+            1,
+            1,
+            0,
+            0,
+            3,
+            3,
+            2,
+            2
+          ],
+          "Clips": {
+            "walk": {
+              "StartFrame": 0,
+              "FrameCount": 8,
+              "FrameDurations": [
+                6,
+                6,
+                10,
+                4,
+                4,
+                4,
+                6,
+                8
+              ],
+              "Loop": true
+            },
+            "idle": {
+              "StartFrame": 8,
+              "FrameCount": 5,
+              "FrameDurations": [
+                40,
+                4,
+                2,
+                6,
+                6
+              ],
+              "Loop": true
+            },
+            "attack": {
+              "StartFrame": 13,
+              "FrameCount": 14,
+              "FrameDurations": [
+                2,
+                2,
+                6,
+                1,
+                1,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "Loop": false,
+              "Markers": {
+                "cast": 4,
+                "world-action": 14,
+                "recover": 18
+              }
+            },
+            "charge": {
+              "StartFrame": 27,
+              "FrameCount": 10,
+              "FrameDurations": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "Loop": false,
+              "Markers": {
+                "world-action": 10,
+                "recover": 18
+              }
+            },
+            "hurt": {
+              "StartFrame": 13,
+              "FrameCount": 14,
+              "FrameDurations": [
+                2,
+                2,
+                6,
+                1,
+                1,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "Loop": false,
+              "Markers": {
+                "cast": 4,
+                "world-action": 14,
+                "recover": 18
+              }
+            },
+            "sleep": {
+              "StartFrame": 8,
+              "FrameCount": 5,
+              "FrameDurations": [
+                40,
+                4,
+                2,
+                6,
+                6
+              ],
+              "Loop": true
+            }
+          }
+        },
+        "Encounter": {
+          "Enabled": false
+        },
+        "PortraitPath": "assets/pokemon/mega-evolutions/mega-slowbro/portrait.png",
+        "MoodPortraitPaths": {
+          "happy": "assets/pokemon/mega-evolutions/mega-slowbro/portrait_happy.png",
+          "tired": "assets/pokemon/mega-evolutions/mega-slowbro/portrait_tired.png",
+          "sleepy": "assets/pokemon/mega-evolutions/mega-slowbro/portrait_sleepy.png",
+          "focused": "assets/pokemon/mega-evolutions/mega-slowbro/portrait_focused.png",
+          "resting": "assets/pokemon/mega-evolutions/mega-slowbro/portrait_resting.png",
+          "hurt": "assets/pokemon/mega-evolutions/mega-slowbro/portrait_hurt.png",
+          "fainted": "assets/pokemon/mega-evolutions/mega-slowbro/portrait_fainted.png"
+        },
+        "ShinyPortraitPath": "assets/pokemon/mega-evolutions/mega-slowbro/portrait_shiny.png",
+        "ShinyMoodPortraitPaths": {
+          "happy": "assets/pokemon/mega-evolutions/mega-slowbro/portrait_shiny_happy.png",
+          "tired": "assets/pokemon/mega-evolutions/mega-slowbro/portrait_shiny_tired.png",
+          "sleepy": "assets/pokemon/mega-evolutions/mega-slowbro/portrait_shiny_sleepy.png",
+          "focused": "assets/pokemon/mega-evolutions/mega-slowbro/portrait_shiny_focused.png",
+          "resting": "assets/pokemon/mega-evolutions/mega-slowbro/portrait_shiny_resting.png",
+          "hurt": "assets/pokemon/mega-evolutions/mega-slowbro/portrait_shiny_hurt.png",
+          "fainted": "assets/pokemon/mega-evolutions/mega-slowbro/portrait_shiny_fainted.png"
+        }
+      }
+    },
+    {
+      "BaseSpeciesId": "kangaskhan",
+      "Presentation": {
+        "NationalDex": 115,
+        "Id": "mega-kangaskhan",
+        "FormId": "mega",
+        "DisplayName": "Mega Kangaskhan",
+        "SpritePath": "assets/pokemon/mega-evolutions/mega-kangaskhan/overworld_stardew.png",
+        "ShinySpritePath": "assets/pokemon/mega-evolutions/mega-kangaskhan/overworld_shiny_stardew.png",
+        "FrameWidth": 96,
+        "FrameHeight": 96,
+        "AnimationLayout": "PmdEightDirectionAtlas",
+        "HasDistinctSideFrames": true,
+        "Body": {
+          "FootAnchorX": 48.0,
+          "FootAnchorY": 52,
+          "VisibleHeightPixels": 32
+        },
+        "Animation": {
+          "Directions": 4,
+          "FramesPerDirection": 64,
+          "DirectionRows": [
+            1,
+            1,
+            0,
+            0,
+            3,
+            3,
+            2,
+            2
+          ],
+          "Clips": {
+            "walk": {
+              "StartFrame": 0,
+              "FrameCount": 4,
+              "FrameDurations": [
+                16,
+                10,
+                16,
+                10
+              ],
+              "Loop": true
+            },
+            "idle": {
+              "StartFrame": 4,
+              "FrameCount": 5,
+              "FrameDurations": [
+                30,
+                3,
+                4,
+                3,
+                20
+              ],
+              "Loop": true
+            },
+            "attack": {
+              "StartFrame": 9,
+              "FrameCount": 13,
+              "FrameDurations": [
+                1,
+                2,
+                3,
+                2,
+                1,
+                1,
+                1,
+                1,
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "Loop": false,
+              "Markers": {
+                "world-action": 10,
+                "recover": 14
+              }
+            },
+            "hurt": {
+              "StartFrame": 22,
+              "FrameCount": 2,
+              "FrameDurations": [
+                2,
+                8
+              ],
+              "Loop": false
+            },
+            "sleep": {
+              "StartFrame": 24,
+              "FrameCount": 2,
+              "FrameDurations": [
+                30,
+                35
+              ],
+              "Loop": true
+            },
+            "shoot": {
+              "StartFrame": 26,
+              "FrameCount": 16,
+              "FrameDurations": [
+                2,
+                1,
+                1,
+                1,
+                1,
+                1,
+                6,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "Loop": false,
+              "Markers": {
+                "cast": 13,
+                "world-action": 15,
+                "recover": 23
+              }
+            },
+            "charge": {
+              "StartFrame": 42,
+              "FrameCount": 10,
+              "FrameDurations": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "Loop": false,
+              "Markers": {
+                "world-action": 10,
+                "recover": 18
+              }
+            },
+            "strike": {
+              "StartFrame": 52,
+              "FrameCount": 12,
+              "FrameDurations": [
+                2,
+                4,
+                1,
+                2,
+                1,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "Loop": false,
+              "Markers": {
+                "cast": 2,
+                "world-action": 7,
+                "recover": 10
+              }
+            }
+          }
+        },
+        "Encounter": {
+          "Enabled": false
+        }
+      }
+    },
+    {
+      "BaseSpeciesId": "aerodactyl",
+      "Presentation": {
+        "NationalDex": 142,
+        "Id": "mega-aerodactyl",
+        "FormId": "mega",
+        "DisplayName": "Mega Aerodactyl",
+        "SpritePath": "assets/pokemon/mega-evolutions/mega-aerodactyl/overworld_stardew.png",
+        "ShinySpritePath": "assets/pokemon/mega-evolutions/mega-aerodactyl/overworld_shiny_stardew.png",
+        "FrameWidth": 80,
+        "FrameHeight": 80,
+        "AnimationLayout": "PmdEightDirectionAtlas",
+        "HasDistinctSideFrames": true,
+        "Body": {
+          "FootAnchorX": 40.0,
+          "FootAnchorY": 44,
+          "VisibleHeightPixels": 33
+        },
+        "Animation": {
+          "Directions": 4,
+          "FramesPerDirection": 63,
+          "DirectionRows": [
+            1,
+            1,
+            0,
+            0,
+            3,
+            3,
+            2,
+            2
+          ],
+          "Clips": {
+            "walk": {
+              "StartFrame": 0,
+              "FrameCount": 4,
+              "FrameDurations": [
+                8,
+                8,
+                8,
+                8
+              ],
+              "Loop": true
+            },
+            "idle": {
+              "StartFrame": 4,
+              "FrameCount": 8,
+              "FrameDurations": [
+                8,
+                8,
+                8,
+                8,
+                8,
+                8,
+                8,
+                8
+              ],
+              "Loop": true
+            },
+            "attack": {
+              "StartFrame": 12,
+              "FrameCount": 13,
+              "FrameDurations": [
+                2,
+                2,
+                6,
+                1,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "Loop": false,
+              "Markers": {
+                "cast": 4,
+                "world-action": 11,
+                "recover": 15
+              }
+            },
+            "hurt": {
+              "StartFrame": 25,
+              "FrameCount": 2,
+              "FrameDurations": [
+                2,
+                8
+              ],
+              "Loop": false
+            },
+            "sleep": {
+              "StartFrame": 27,
+              "FrameCount": 2,
+              "FrameDurations": [
+                30,
+                35
+              ],
+              "Loop": true
+            },
+            "shoot": {
+              "StartFrame": 29,
+              "FrameCount": 12,
+              "FrameDurations": [
+                2,
+                2,
+                6,
+                1,
+                1,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "Loop": false,
+              "Markers": {
+                "cast": 2,
+                "world-action": 4,
+                "recover": 12
+              }
+            },
+            "charge": {
+              "StartFrame": 41,
+              "FrameCount": 10,
+              "FrameDurations": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "Loop": false,
+              "Markers": {
+                "world-action": 10,
+                "recover": 18
+              }
+            },
+            "strike": {
+              "StartFrame": 51,
+              "FrameCount": 12,
+              "FrameDurations": [
+                2,
+                2,
+                6,
+                1,
+                1,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "Loop": false,
+              "Markers": {
+                "cast": 4,
+                "world-action": 10,
+                "recover": 12
+              }
+            }
+          }
+        },
+        "Encounter": {
+          "Enabled": false
+        },
+        "PortraitPath": "assets/pokemon/mega-evolutions/mega-aerodactyl/portrait.png",
+        "MoodPortraitPaths": {},
+        "ShinyPortraitPath": "assets/pokemon/mega-evolutions/mega-aerodactyl/portrait_shiny.png",
+        "ShinyMoodPortraitPaths": {}
+      }
+    },
+    {
+      "BaseSpeciesId": "mewtwo",
+      "Presentation": {
+        "NationalDex": 150,
+        "Id": "mega-mewtwo-y",
+        "FormId": "mega-y",
+        "DisplayName": "Mega Mewtwo Y",
+        "SpritePath": "assets/pokemon/mega-evolutions/mega-mewtwo-y/overworld_stardew.png",
+        "ShinySpritePath": "assets/pokemon/mega-evolutions/mega-mewtwo-y/overworld_shiny_stardew.png",
+        "FrameWidth": 88,
+        "FrameHeight": 88,
+        "AnimationLayout": "PmdEightDirectionAtlas",
+        "HasDistinctSideFrames": true,
+        "Body": {
+          "FootAnchorX": 44.0,
+          "FootAnchorY": 51,
+          "VisibleHeightPixels": 34
+        },
+        "Animation": {
+          "Directions": 4,
+          "FramesPerDirection": 49,
+          "DirectionRows": [
+            1,
+            1,
+            0,
+            0,
+            3,
+            3,
+            2,
+            2
+          ],
+          "Clips": {
+            "walk": {
+              "StartFrame": 0,
+              "FrameCount": 6,
+              "FrameDurations": [
+                12,
+                8,
+                8,
+                12,
+                8,
+                8
+              ],
+              "Loop": true
+            },
+            "idle": {
+              "StartFrame": 6,
+              "FrameCount": 8,
+              "FrameDurations": [
+                20,
+                15,
+                12,
+                12,
+                12,
+                15,
+                12,
+                15
+              ],
+              "Loop": true
+            },
+            "attack": {
+              "StartFrame": 14,
+              "FrameCount": 11,
+              "FrameDurations": [
+                2,
+                3,
+                4,
+                1,
+                1,
+                1,
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "Loop": false,
+              "Markers": {
+                "cast": 5,
+                "world-action": 10,
+                "recover": 14
+              }
+            },
+            "hurt": {
+              "StartFrame": 25,
+              "FrameCount": 2,
+              "FrameDurations": [
+                2,
+                8
+              ],
+              "Loop": false
+            },
+            "sleep": {
+              "StartFrame": 27,
+              "FrameCount": 3,
+              "FrameDurations": [
+                30,
+                35,
+                30
+              ],
+              "Loop": true
+            },
+            "shoot": {
+              "StartFrame": 30,
+              "FrameCount": 9,
+              "FrameDurations": [
+                3,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                3
+              ],
+              "Loop": false,
+              "Markers": {
+                "cast": 23,
+                "world-action": 28,
+                "recover": 38
+              }
+            },
+            "charge": {
+              "StartFrame": 39,
+              "FrameCount": 10,
+              "FrameDurations": [
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4
+              ],
+              "Loop": false,
+              "Markers": {
+                "world-action": 20,
+                "recover": 36
+              }
+            }
+          }
+        },
+        "Encounter": {
+          "Enabled": false
+        },
+        "PortraitPath": "assets/pokemon/mega-evolutions/mega-mewtwo-y/portrait.png",
+        "MoodPortraitPaths": {
+          "happy": "assets/pokemon/mega-evolutions/mega-mewtwo-y/portrait_happy.png",
+          "tired": "assets/pokemon/mega-evolutions/mega-mewtwo-y/portrait_tired.png",
+          "sleepy": "assets/pokemon/mega-evolutions/mega-mewtwo-y/portrait_sleepy.png",
+          "focused": "assets/pokemon/mega-evolutions/mega-mewtwo-y/portrait_focused.png",
+          "resting": "assets/pokemon/mega-evolutions/mega-mewtwo-y/portrait_resting.png",
+          "hurt": "assets/pokemon/mega-evolutions/mega-mewtwo-y/portrait_hurt.png",
+          "fainted": "assets/pokemon/mega-evolutions/mega-mewtwo-y/portrait_fainted.png"
+        },
+        "ShinyPortraitPath": "assets/pokemon/mega-evolutions/mega-mewtwo-y/portrait_shiny.png",
+        "ShinyMoodPortraitPaths": {
+          "happy": "assets/pokemon/mega-evolutions/mega-mewtwo-y/portrait_shiny_happy.png",
+          "tired": "assets/pokemon/mega-evolutions/mega-mewtwo-y/portrait_shiny_tired.png",
+          "sleepy": "assets/pokemon/mega-evolutions/mega-mewtwo-y/portrait_shiny_sleepy.png",
+          "focused": "assets/pokemon/mega-evolutions/mega-mewtwo-y/portrait_shiny_focused.png",
+          "resting": "assets/pokemon/mega-evolutions/mega-mewtwo-y/portrait_shiny_resting.png",
+          "hurt": "assets/pokemon/mega-evolutions/mega-mewtwo-y/portrait_shiny_hurt.png",
+          "fainted": "assets/pokemon/mega-evolutions/mega-mewtwo-y/portrait_shiny_fainted.png"
+        }
+      }
+    },
+    {
+      "BaseSpeciesId": "steelix",
+      "Presentation": {
+        "NationalDex": 208,
+        "Id": "mega-steelix",
+        "FormId": "mega",
+        "DisplayName": "Mega Steelix",
+        "SpritePath": "assets/pokemon/mega-evolutions/mega-steelix/overworld_stardew.png",
+        "ShinySpritePath": "assets/pokemon/mega-evolutions/mega-steelix/overworld_shiny_stardew.png",
+        "FrameWidth": 176,
+        "FrameHeight": 176,
+        "AnimationLayout": "PmdEightDirectionAtlas",
+        "HasDistinctSideFrames": true,
+        "Body": {
+          "FootAnchorX": 88.0,
+          "FootAnchorY": 92,
+          "VisibleHeightPixels": 74
+        },
+        "Animation": {
+          "Directions": 4,
+          "FramesPerDirection": 56,
+          "DirectionRows": [
+            1,
+            1,
+            0,
+            0,
+            3,
+            3,
+            2,
+            2
+          ],
+          "Clips": {
+            "walk": {
+              "StartFrame": 0,
+              "FrameCount": 4,
+              "FrameDurations": [
+                10,
+                14,
+                10,
+                14
+              ],
+              "Loop": true
+            },
+            "idle": {
+              "StartFrame": 4,
+              "FrameCount": 4,
+              "FrameDurations": [
+                16,
+                12,
+                16,
+                12
+              ],
+              "Loop": true
+            },
+            "attack": {
+              "StartFrame": 8,
+              "FrameCount": 11,
+              "FrameDurations": [
+                2,
+                6,
+                1,
+                1,
+                1,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "Loop": false,
+              "Markers": {
+                "cast": 2,
+                "world-action": 9,
+                "recover": 13
+              }
+            },
+            "hurt": {
+              "StartFrame": 19,
+              "FrameCount": 2,
+              "FrameDurations": [
+                2,
+                8
+              ],
+              "Loop": false
+            },
+            "sleep": {
+              "StartFrame": 21,
+              "FrameCount": 2,
+              "FrameDurations": [
+                30,
+                35
+              ],
+              "Loop": true
+            },
+            "shoot": {
+              "StartFrame": 23,
+              "FrameCount": 12,
+              "FrameDurations": [
+                2,
+                2,
+                6,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "Loop": false,
+              "Markers": {
+                "cast": 2,
+                "world-action": 4,
+                "recover": 12
+              }
+            },
+            "charge": {
+              "StartFrame": 35,
+              "FrameCount": 10,
+              "FrameDurations": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "Loop": false,
+              "Markers": {
+                "world-action": 10,
+                "recover": 18
+              }
+            },
+            "strike": {
+              "StartFrame": 45,
+              "FrameCount": 11,
+              "FrameDurations": [
+                2,
+                6,
+                1,
+                1,
+                1,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "Loop": false,
+              "Markers": {
+                "cast": 2,
+                "world-action": 9,
+                "recover": 13
+              }
+            }
+          }
+        },
+        "Encounter": {
+          "Enabled": false
+        },
+        "PortraitPath": "assets/pokemon/mega-evolutions/mega-steelix/portrait.png",
+        "MoodPortraitPaths": {},
+        "ShinyPortraitPath": "assets/pokemon/mega-evolutions/mega-steelix/portrait_shiny.png",
+        "ShinyMoodPortraitPaths": {}
+      }
+    },
+    {
+      "BaseSpeciesId": "houndoom",
+      "Presentation": {
+        "NationalDex": 229,
+        "Id": "mega-houndoom",
+        "FormId": "mega",
+        "DisplayName": "Mega Houndoom",
+        "SpritePath": "assets/pokemon/mega-evolutions/mega-houndoom/overworld_stardew.png",
+        "ShinySpritePath": "assets/pokemon/mega-evolutions/mega-houndoom/overworld_shiny_stardew.png",
+        "FrameWidth": 88,
+        "FrameHeight": 88,
+        "AnimationLayout": "PmdEightDirectionAtlas",
+        "HasDistinctSideFrames": true,
+        "Body": {
+          "FootAnchorX": 44.0,
+          "FootAnchorY": 48,
+          "VisibleHeightPixels": 42
+        },
+        "Animation": {
+          "Directions": 4,
+          "FramesPerDirection": 64,
+          "DirectionRows": [
+            1,
+            1,
+            0,
+            0,
+            3,
+            3,
+            2,
+            2
+          ],
+          "Clips": {
+            "walk": {
+              "StartFrame": 0,
+              "FrameCount": 4,
+              "FrameDurations": [
+                8,
+                12,
+                8,
+                12
+              ],
+              "Loop": true
+            },
+            "idle": {
+              "StartFrame": 4,
+              "FrameCount": 14,
+              "FrameDurations": [
+                60,
+                10,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                10
+              ],
+              "Loop": true
+            },
+            "attack": {
+              "StartFrame": 18,
+              "FrameCount": 10,
+              "FrameDurations": [
+                2,
+                4,
+                1,
+                1,
+                1,
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "Loop": false,
+              "Markers": {
+                "world-action": 7,
+                "recover": 11
+              }
+            },
+            "hurt": {
+              "StartFrame": 28,
+              "FrameCount": 2,
+              "FrameDurations": [
+                2,
+                8
+              ],
+              "Loop": false
+            },
+            "sleep": {
+              "StartFrame": 30,
+              "FrameCount": 2,
+              "FrameDurations": [
+                30,
+                35
+              ],
+              "Loop": true
+            },
+            "shoot": {
+              "StartFrame": 32,
+              "FrameCount": 12,
+              "FrameDurations": [
+                6,
+                2,
+                6,
+                1,
+                1,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "Loop": false,
+              "Markers": {
+                "cast": 6,
+                "world-action": 8,
+                "recover": 16
+              }
+            },
+            "charge": {
+              "StartFrame": 44,
+              "FrameCount": 10,
+              "FrameDurations": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "Loop": false,
+              "Markers": {
+                "world-action": 10,
+                "recover": 18
+              }
+            },
+            "strike": {
+              "StartFrame": 54,
+              "FrameCount": 10,
+              "FrameDurations": [
+                2,
+                4,
+                1,
+                1,
+                1,
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "Loop": false,
+              "Markers": {
+                "world-action": 7,
+                "recover": 11
+              }
+            }
+          }
+        },
+        "Encounter": {
+          "Enabled": false
+        },
+        "PortraitPath": "assets/pokemon/mega-evolutions/mega-houndoom/portrait.png",
+        "MoodPortraitPaths": {},
+        "ShinyPortraitPath": "assets/pokemon/mega-evolutions/mega-houndoom/portrait_shiny.png",
+        "ShinyMoodPortraitPaths": {}
+      }
+    },
+    {
+      "BaseSpeciesId": "tyranitar",
+      "Presentation": {
+        "NationalDex": 248,
+        "Id": "mega-tyranitar",
+        "FormId": "mega",
+        "DisplayName": "Mega Tyranitar",
+        "SpritePath": "assets/pokemon/mega-evolutions/mega-tyranitar/overworld_stardew.png",
+        "ShinySpritePath": "assets/pokemon/mega-evolutions/mega-tyranitar/overworld_shiny_stardew.png",
+        "FrameWidth": 88,
+        "FrameHeight": 88,
+        "AnimationLayout": "PmdEightDirectionAtlas",
+        "HasDistinctSideFrames": true,
+        "Body": {
+          "FootAnchorX": 44.0,
+          "FootAnchorY": 48,
+          "VisibleHeightPixels": 35
+        },
+        "Animation": {
+          "Directions": 4,
+          "FramesPerDirection": 57,
+          "DirectionRows": [
+            1,
+            1,
+            0,
+            0,
+            3,
+            3,
+            2,
+            2
+          ],
+          "Clips": {
+            "walk": {
+              "StartFrame": 0,
+              "FrameCount": 4,
+              "FrameDurations": [
+                10,
+                16,
+                10,
+                16
+              ],
+              "Loop": true
+            },
+            "idle": {
+              "StartFrame": 4,
+              "FrameCount": 4,
+              "FrameDurations": [
+                14,
+                24,
+                14,
+                24
+              ],
+              "Loop": true
+            },
+            "attack": {
+              "StartFrame": 8,
+              "FrameCount": 11,
+              "FrameDurations": [
+                2,
+                2,
+                4,
+                1,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "Loop": false,
+              "Markers": {
+                "cast": 4,
+                "world-action": 9,
+                "recover": 13
+              }
+            },
+            "hurt": {
+              "StartFrame": 19,
+              "FrameCount": 2,
+              "FrameDurations": [
+                2,
+                8
+              ],
+              "Loop": false
+            },
+            "sleep": {
+              "StartFrame": 21,
+              "FrameCount": 2,
+              "FrameDurations": [
+                30,
+                35
+              ],
+              "Loop": true
+            },
+            "shoot": {
+              "StartFrame": 23,
+              "FrameCount": 13,
+              "FrameDurations": [
+                2,
+                3,
+                6,
+                1,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "Loop": false,
+              "Markers": {
+                "cast": 5,
+                "world-action": 11,
+                "recover": 20
+              }
+            },
+            "charge": {
+              "StartFrame": 36,
+              "FrameCount": 10,
+              "FrameDurations": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "Loop": false,
+              "Markers": {
+                "world-action": 10,
+                "recover": 18
+              }
+            },
+            "strike": {
+              "StartFrame": 46,
+              "FrameCount": 11,
+              "FrameDurations": [
+                2,
+                2,
+                4,
+                1,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "Loop": false,
+              "Markers": {
+                "cast": 4,
+                "world-action": 9,
+                "recover": 13
+              }
+            }
+          }
+        },
+        "Encounter": {
+          "Enabled": false
+        },
+        "PortraitPath": "assets/pokemon/mega-evolutions/mega-tyranitar/portrait.png",
+        "MoodPortraitPaths": {},
+        "ShinyPortraitPath": "assets/pokemon/mega-evolutions/mega-tyranitar/portrait_shiny.png",
+        "ShinyMoodPortraitPaths": {}
+      }
+    },
+    {
+      "BaseSpeciesId": "sceptile",
+      "Presentation": {
+        "NationalDex": 254,
+        "Id": "mega-sceptile",
+        "FormId": "mega",
+        "DisplayName": "Mega Sceptile",
+        "SpritePath": "assets/pokemon/mega-evolutions/mega-sceptile/overworld_stardew.png",
+        "ShinySpritePath": "assets/pokemon/mega-evolutions/mega-sceptile/overworld_shiny_stardew.png",
+        "FrameWidth": 72,
+        "FrameHeight": 72,
+        "AnimationLayout": "PmdEightDirectionAtlas",
+        "HasDistinctSideFrames": true,
+        "Body": {
+          "FootAnchorX": 36.0,
+          "FootAnchorY": 40,
+          "VisibleHeightPixels": 37
+        },
+        "Animation": {
+          "Directions": 4,
+          "FramesPerDirection": 15,
+          "DirectionRows": [
+            1,
+            1,
+            0,
+            0,
+            3,
+            3,
+            2,
+            2
+          ],
+          "Clips": {
+            "walk": {
+              "StartFrame": 0,
+              "FrameCount": 4,
+              "FrameDurations": [
+                10,
+                8,
+                10,
+                8
+              ],
+              "Loop": true
+            },
+            "idle": {
+              "StartFrame": 4,
+              "FrameCount": 2,
+              "FrameDurations": [
+                40,
+                30
+              ],
+              "Loop": true
+            },
+            "rotate": {
+              "StartFrame": 6,
+              "FrameCount": 9,
+              "FrameDurations": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "Loop": true,
+              "Markers": {
+                "world-action": 16
+              }
+            },
+            "attack": {
+              "StartFrame": 6,
+              "FrameCount": 9,
+              "FrameDurations": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "Loop": false,
+              "Markers": {
+                "world-action": 16
+              }
+            },
+            "hurt": {
+              "StartFrame": 4,
+              "FrameCount": 2,
+              "FrameDurations": [
+                40,
+                30
+              ],
+              "Loop": false
+            },
+            "sleep": {
+              "StartFrame": 4,
+              "FrameCount": 2,
+              "FrameDurations": [
+                40,
+                30
+              ],
+              "Loop": true
+            }
+          }
+        },
+        "Encounter": {
+          "Enabled": false
+        },
+        "PortraitPath": "assets/pokemon/mega-evolutions/mega-sceptile/portrait.png",
+        "MoodPortraitPaths": {
+          "happy": "assets/pokemon/mega-evolutions/mega-sceptile/portrait_happy.png",
+          "hurt": "assets/pokemon/mega-evolutions/mega-sceptile/portrait_hurt.png",
+          "fainted": "assets/pokemon/mega-evolutions/mega-sceptile/portrait_fainted.png"
+        },
+        "ShinyPortraitPath": "assets/pokemon/mega-evolutions/mega-sceptile/portrait_shiny.png",
+        "ShinyMoodPortraitPaths": {}
+      }
+    },
+    {
+      "BaseSpeciesId": "gardevoir",
+      "Presentation": {
+        "NationalDex": 282,
+        "Id": "mega-gardevoir",
+        "FormId": "mega",
+        "DisplayName": "Mega Gardevoir",
+        "SpritePath": "assets/pokemon/mega-evolutions/mega-gardevoir/overworld_stardew.png",
+        "ShinySpritePath": "assets/pokemon/mega-evolutions/mega-gardevoir/overworld_shiny_stardew.png",
+        "FrameWidth": 80,
+        "FrameHeight": 80,
+        "AnimationLayout": "PmdEightDirectionAtlas",
+        "HasDistinctSideFrames": true,
+        "Body": {
+          "FootAnchorX": 40.0,
+          "FootAnchorY": 44,
+          "VisibleHeightPixels": 28
+        },
+        "Animation": {
+          "Directions": 4,
+          "FramesPerDirection": 52,
+          "DirectionRows": [
+            1,
+            1,
+            0,
+            0,
+            3,
+            3,
+            2,
+            2
+          ],
+          "Clips": {
+            "walk": {
+              "StartFrame": 0,
+              "FrameCount": 4,
+              "FrameDurations": [
+                8,
+                12,
+                8,
+                12
+              ],
+              "Loop": true
+            },
+            "idle": {
+              "StartFrame": 4,
+              "FrameCount": 4,
+              "FrameDurations": [
+                6,
+                12,
+                6,
+                12
+              ],
+              "Loop": true
+            },
+            "attack": {
+              "StartFrame": 8,
+              "FrameCount": 10,
+              "FrameDurations": [
+                2,
+                4,
+                1,
+                1,
+                1,
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "Loop": false,
+              "Markers": {
+                "cast": 2,
+                "world-action": 7,
+                "recover": 11
+              }
+            },
+            "hurt": {
+              "StartFrame": 18,
+              "FrameCount": 2,
+              "FrameDurations": [
+                2,
+                8
+              ],
+              "Loop": false
+            },
+            "sleep": {
+              "StartFrame": 20,
+              "FrameCount": 2,
+              "FrameDurations": [
+                30,
+                35
+              ],
+              "Loop": true
+            },
+            "shoot": {
+              "StartFrame": 22,
+              "FrameCount": 10,
+              "FrameDurations": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "Loop": false,
+              "Markers": {
+                "cast": 8,
+                "world-action": 10,
+                "recover": 18
+              }
+            },
+            "charge": {
+              "StartFrame": 32,
+              "FrameCount": 10,
+              "FrameDurations": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "Loop": false,
+              "Markers": {
+                "world-action": 10,
+                "recover": 18
+              }
+            },
+            "strike": {
+              "StartFrame": 42,
+              "FrameCount": 10,
+              "FrameDurations": [
+                2,
+                4,
+                1,
+                1,
+                1,
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "Loop": false,
+              "Markers": {
+                "cast": 2,
+                "world-action": 7,
+                "recover": 11
+              }
+            }
+          }
+        },
+        "Encounter": {
+          "Enabled": false
+        },
+        "PortraitPath": "assets/pokemon/mega-evolutions/mega-gardevoir/portrait.png",
+        "MoodPortraitPaths": {
+          "happy": "assets/pokemon/mega-evolutions/mega-gardevoir/portrait_happy.png",
+          "tired": "assets/pokemon/mega-evolutions/mega-gardevoir/portrait_tired.png",
+          "sleepy": "assets/pokemon/mega-evolutions/mega-gardevoir/portrait_sleepy.png",
+          "focused": "assets/pokemon/mega-evolutions/mega-gardevoir/portrait_focused.png",
+          "resting": "assets/pokemon/mega-evolutions/mega-gardevoir/portrait_resting.png",
+          "hurt": "assets/pokemon/mega-evolutions/mega-gardevoir/portrait_hurt.png",
+          "fainted": "assets/pokemon/mega-evolutions/mega-gardevoir/portrait_fainted.png"
+        },
+        "ShinyPortraitPath": "assets/pokemon/mega-evolutions/mega-gardevoir/portrait_shiny.png",
+        "ShinyMoodPortraitPaths": {
+          "happy": "assets/pokemon/mega-evolutions/mega-gardevoir/portrait_shiny_happy.png",
+          "tired": "assets/pokemon/mega-evolutions/mega-gardevoir/portrait_shiny_tired.png",
+          "sleepy": "assets/pokemon/mega-evolutions/mega-gardevoir/portrait_shiny_sleepy.png",
+          "focused": "assets/pokemon/mega-evolutions/mega-gardevoir/portrait_shiny_focused.png",
+          "resting": "assets/pokemon/mega-evolutions/mega-gardevoir/portrait_shiny_resting.png",
+          "hurt": "assets/pokemon/mega-evolutions/mega-gardevoir/portrait_shiny_hurt.png",
+          "fainted": "assets/pokemon/mega-evolutions/mega-gardevoir/portrait_shiny_fainted.png"
+        }
+      }
+    },
+    {
+      "BaseSpeciesId": "sableye",
+      "Presentation": {
+        "NationalDex": 302,
+        "Id": "mega-sableye",
+        "FormId": "mega",
+        "DisplayName": "Mega Sableye",
+        "SpritePath": "assets/pokemon/mega-evolutions/mega-sableye/overworld_stardew.png",
+        "ShinySpritePath": "assets/pokemon/mega-evolutions/mega-sableye/overworld_shiny_stardew.png",
+        "FrameWidth": 96,
+        "FrameHeight": 96,
+        "AnimationLayout": "PmdEightDirectionAtlas",
+        "HasDistinctSideFrames": true,
+        "Body": {
+          "FootAnchorX": 48.0,
+          "FootAnchorY": 52,
+          "VisibleHeightPixels": 36
+        },
+        "Animation": {
+          "Directions": 4,
+          "FramesPerDirection": 50,
+          "DirectionRows": [
+            1,
+            1,
+            0,
+            0,
+            3,
+            3,
+            2,
+            2
+          ],
+          "Clips": {
+            "walk": {
+              "StartFrame": 0,
+              "FrameCount": 4,
+              "FrameDurations": [
+                6,
+                8,
+                6,
+                8
+              ],
+              "Loop": true
+            },
+            "idle": {
+              "StartFrame": 4,
+              "FrameCount": 2,
+              "FrameDurations": [
+                40,
+                20
+              ],
+              "Loop": true
+            },
+            "attack": {
+              "StartFrame": 6,
+              "FrameCount": 10,
+              "FrameDurations": [
+                2,
+                6,
+                1,
+                1,
+                1,
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "Loop": false,
+              "Markers": {
+                "cast": 2,
+                "world-action": 9,
+                "recover": 13
+              }
+            },
+            "hurt": {
+              "StartFrame": 16,
+              "FrameCount": 2,
+              "FrameDurations": [
+                2,
+                8
+              ],
+              "Loop": false
+            },
+            "sleep": {
+              "StartFrame": 18,
+              "FrameCount": 2,
+              "FrameDurations": [
+                30,
+                35
+              ],
+              "Loop": true
+            },
+            "shoot": {
+              "StartFrame": 20,
+              "FrameCount": 10,
+              "FrameDurations": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "Loop": false,
+              "Markers": {
+                "cast": 8,
+                "world-action": 10,
+                "recover": 18
+              }
+            },
+            "charge": {
+              "StartFrame": 30,
+              "FrameCount": 10,
+              "FrameDurations": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "Loop": false,
+              "Markers": {
+                "world-action": 10,
+                "recover": 18
+              }
+            },
+            "strike": {
+              "StartFrame": 40,
+              "FrameCount": 10,
+              "FrameDurations": [
+                2,
+                6,
+                1,
+                1,
+                1,
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "Loop": false,
+              "Markers": {
+                "cast": 8,
+                "world-action": 9,
+                "recover": 13
+              }
+            }
+          }
+        },
+        "Encounter": {
+          "Enabled": false
+        },
+        "PortraitPath": "assets/pokemon/mega-evolutions/mega-sableye/portrait.png",
+        "MoodPortraitPaths": {
+          "happy": "assets/pokemon/mega-evolutions/mega-sableye/portrait_happy.png",
+          "tired": "assets/pokemon/mega-evolutions/mega-sableye/portrait_tired.png",
+          "sleepy": "assets/pokemon/mega-evolutions/mega-sableye/portrait_sleepy.png",
+          "focused": "assets/pokemon/mega-evolutions/mega-sableye/portrait_focused.png",
+          "hurt": "assets/pokemon/mega-evolutions/mega-sableye/portrait_hurt.png",
+          "fainted": "assets/pokemon/mega-evolutions/mega-sableye/portrait_fainted.png"
+        },
+        "ShinyPortraitPath": "assets/pokemon/mega-evolutions/mega-sableye/portrait_shiny.png",
+        "ShinyMoodPortraitPaths": {
+          "happy": "assets/pokemon/mega-evolutions/mega-sableye/portrait_shiny_happy.png",
+          "tired": "assets/pokemon/mega-evolutions/mega-sableye/portrait_shiny_tired.png",
+          "sleepy": "assets/pokemon/mega-evolutions/mega-sableye/portrait_shiny_sleepy.png",
+          "focused": "assets/pokemon/mega-evolutions/mega-sableye/portrait_shiny_focused.png",
+          "hurt": "assets/pokemon/mega-evolutions/mega-sableye/portrait_shiny_hurt.png",
+          "fainted": "assets/pokemon/mega-evolutions/mega-sableye/portrait_shiny_fainted.png"
+        }
+      }
+    },
+    {
+      "BaseSpeciesId": "mawile",
+      "Presentation": {
+        "NationalDex": 303,
+        "Id": "mega-mawile",
+        "FormId": "mega",
+        "DisplayName": "Mega Mawile",
+        "SpritePath": "assets/pokemon/mega-evolutions/mega-mawile/overworld_stardew.png",
+        "ShinySpritePath": "assets/pokemon/mega-evolutions/mega-mawile/overworld_shiny_stardew.png",
+        "FrameWidth": 96,
+        "FrameHeight": 96,
+        "AnimationLayout": "PmdEightDirectionAtlas",
+        "HasDistinctSideFrames": true,
+        "Body": {
+          "FootAnchorX": 48.0,
+          "FootAnchorY": 52,
+          "VisibleHeightPixels": 34
+        },
+        "Animation": {
+          "Directions": 4,
+          "FramesPerDirection": 56,
+          "DirectionRows": [
+            1,
+            1,
+            0,
+            0,
+            3,
+            3,
+            2,
+            2
+          ],
+          "Clips": {
+            "walk": {
+              "StartFrame": 0,
+              "FrameCount": 4,
+              "FrameDurations": [
+                8,
+                10,
+                8,
+                10
+              ],
+              "Loop": true
+            },
+            "idle": {
+              "StartFrame": 4,
+              "FrameCount": 13,
+              "FrameDurations": [
+                40,
+                2,
+                2,
+                2,
+                4,
+                6,
+                4,
+                6,
+                4,
+                2,
+                2,
+                2,
+                4
+              ],
+              "Loop": true
+            },
+            "attack": {
+              "StartFrame": 17,
+              "FrameCount": 10,
+              "FrameDurations": [
+                2,
+                6,
+                1,
+                1,
+                1,
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "Loop": false,
+              "Markers": {
+                "cast": 2,
+                "world-action": 9,
+                "recover": 13
+              }
+            },
+            "hurt": {
+              "StartFrame": 27,
+              "FrameCount": 2,
+              "FrameDurations": [
+                2,
+                8
+              ],
+              "Loop": false
+            },
+            "sleep": {
+              "StartFrame": 29,
+              "FrameCount": 2,
+              "FrameDurations": [
+                30,
+                35
+              ],
+              "Loop": true
+            },
+            "shoot": {
+              "StartFrame": 31,
+              "FrameCount": 15,
+              "FrameDurations": [
+                1,
+                1,
+                1,
+                2,
+                6,
+                1,
+                1,
+                2,
+                2,
+                2,
+                4,
+                2,
+                2,
+                1,
+                1
+              ],
+              "Loop": false,
+              "Markers": {
+                "cast": 3,
+                "world-action": 5,
+                "recover": 13
+              }
+            },
+            "charge": {
+              "StartFrame": 46,
+              "FrameCount": 10,
+              "FrameDurations": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "Loop": false,
+              "Markers": {
+                "world-action": 10,
+                "recover": 18
+              }
+            }
+          }
+        },
+        "Encounter": {
+          "Enabled": false
+        },
+        "PortraitPath": "assets/pokemon/mega-evolutions/mega-mawile/portrait.png",
+        "MoodPortraitPaths": {
+          "happy": "assets/pokemon/mega-evolutions/mega-mawile/portrait_happy.png",
+          "tired": "assets/pokemon/mega-evolutions/mega-mawile/portrait_tired.png",
+          "sleepy": "assets/pokemon/mega-evolutions/mega-mawile/portrait_sleepy.png",
+          "focused": "assets/pokemon/mega-evolutions/mega-mawile/portrait_focused.png",
+          "resting": "assets/pokemon/mega-evolutions/mega-mawile/portrait_resting.png",
+          "hurt": "assets/pokemon/mega-evolutions/mega-mawile/portrait_hurt.png",
+          "fainted": "assets/pokemon/mega-evolutions/mega-mawile/portrait_fainted.png"
+        },
+        "ShinyPortraitPath": "assets/pokemon/mega-evolutions/mega-mawile/portrait_shiny.png",
+        "ShinyMoodPortraitPaths": {
+          "happy": "assets/pokemon/mega-evolutions/mega-mawile/portrait_shiny_happy.png",
+          "tired": "assets/pokemon/mega-evolutions/mega-mawile/portrait_shiny_tired.png",
+          "sleepy": "assets/pokemon/mega-evolutions/mega-mawile/portrait_shiny_sleepy.png",
+          "focused": "assets/pokemon/mega-evolutions/mega-mawile/portrait_shiny_focused.png",
+          "resting": "assets/pokemon/mega-evolutions/mega-mawile/portrait_shiny_resting.png",
+          "hurt": "assets/pokemon/mega-evolutions/mega-mawile/portrait_shiny_hurt.png",
+          "fainted": "assets/pokemon/mega-evolutions/mega-mawile/portrait_shiny_fainted.png"
+        }
+      }
+    },
+    {
+      "BaseSpeciesId": "camerupt",
+      "Presentation": {
+        "NationalDex": 323,
+        "Id": "mega-camerupt",
+        "FormId": "mega",
+        "DisplayName": "Mega Camerupt",
+        "SpritePath": "assets/pokemon/mega-evolutions/mega-camerupt/overworld_stardew.png",
+        "ShinySpritePath": "assets/pokemon/mega-evolutions/mega-camerupt/overworld_shiny_stardew.png",
+        "FrameWidth": 80,
+        "FrameHeight": 80,
+        "AnimationLayout": "PmdEightDirectionAtlas",
+        "HasDistinctSideFrames": true,
+        "Body": {
+          "FootAnchorX": 40.0,
+          "FootAnchorY": 44,
+          "VisibleHeightPixels": 30
+        },
+        "Animation": {
+          "Directions": 4,
+          "FramesPerDirection": 53,
+          "DirectionRows": [
+            1,
+            1,
+            0,
+            0,
+            3,
+            3,
+            2,
+            2
+          ],
+          "Clips": {
+            "walk": {
+              "StartFrame": 0,
+              "FrameCount": 4,
+              "FrameDurations": [
+                8,
+                10,
+                8,
+                10
+              ],
+              "Loop": true
+            },
+            "idle": {
+              "StartFrame": 4,
+              "FrameCount": 4,
+              "FrameDurations": [
+                8,
+                20,
+                8,
+                20
+              ],
+              "Loop": true
+            },
+            "attack": {
+              "StartFrame": 8,
+              "FrameCount": 10,
+              "FrameDurations": [
+                2,
+                6,
+                1,
+                1,
+                1,
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "Loop": false,
+              "Markers": {
+                "cast": 2,
+                "world-action": 9,
+                "recover": 13
+              }
+            },
+            "hurt": {
+              "StartFrame": 18,
+              "FrameCount": 2,
+              "FrameDurations": [
+                2,
+                8
+              ],
+              "Loop": false
+            },
+            "sleep": {
+              "StartFrame": 20,
+              "FrameCount": 2,
+              "FrameDurations": [
+                30,
+                35
+              ],
+              "Loop": true
+            },
+            "shoot": {
+              "StartFrame": 22,
+              "FrameCount": 11,
+              "FrameDurations": [
+                2,
+                6,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "Loop": false,
+              "Markers": {
+                "cast": 0,
+                "world-action": 2,
+                "recover": 10
+              }
+            },
+            "charge": {
+              "StartFrame": 33,
+              "FrameCount": 10,
+              "FrameDurations": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "Loop": false,
+              "Markers": {
+                "world-action": 10,
+                "recover": 18
+              }
+            },
+            "strike": {
+              "StartFrame": 43,
+              "FrameCount": 10,
+              "FrameDurations": [
+                2,
+                6,
+                1,
+                1,
+                1,
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "Loop": false,
+              "Markers": {
+                "cast": 2,
+                "world-action": 9,
+                "recover": 13
+              }
+            }
+          }
+        },
+        "Encounter": {
+          "Enabled": false
+        },
+        "PortraitPath": "assets/pokemon/mega-evolutions/mega-camerupt/portrait.png",
+        "MoodPortraitPaths": {},
+        "ShinyPortraitPath": "assets/pokemon/mega-evolutions/mega-camerupt/portrait_shiny.png",
+        "ShinyMoodPortraitPaths": {}
+      }
+    },
+    {
+      "BaseSpeciesId": "altaria",
+      "Presentation": {
+        "NationalDex": 334,
+        "Id": "mega-altaria",
+        "FormId": "mega",
+        "DisplayName": "Mega Altaria",
+        "SpritePath": "assets/pokemon/mega-evolutions/mega-altaria/overworld_stardew.png",
+        "ShinySpritePath": "assets/pokemon/mega-evolutions/mega-altaria/overworld_shiny_stardew.png",
+        "FrameWidth": 128,
+        "FrameHeight": 128,
+        "AnimationLayout": "PmdEightDirectionAtlas",
+        "HasDistinctSideFrames": true,
+        "Body": {
+          "FootAnchorX": 64.0,
+          "FootAnchorY": 68,
+          "VisibleHeightPixels": 53
+        },
+        "Animation": {
+          "Directions": 4,
+          "FramesPerDirection": 76,
+          "DirectionRows": [
+            1,
+            1,
+            0,
+            0,
+            3,
+            3,
+            2,
+            2
+          ],
+          "Clips": {
+            "walk": {
+              "StartFrame": 0,
+              "FrameCount": 10,
+              "FrameDurations": [
+                6,
+                6,
+                8,
+                8,
+                6,
+                6,
+                6,
+                8,
+                8,
+                6
+              ],
+              "Loop": true
+            },
+            "idle": {
+              "StartFrame": 10,
+              "FrameCount": 8,
+              "FrameDurations": [
+                12,
+                12,
+                12,
+                12,
+                12,
+                12,
+                12,
+                12
+              ],
+              "Loop": true
+            },
+            "attack": {
+              "StartFrame": 18,
+              "FrameCount": 15,
+              "FrameDurations": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                4,
+                1,
+                1,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "Loop": false,
+              "Markers": {
+                "world-action": 10,
+                "recover": 16
+              }
+            },
+            "hurt": {
+              "StartFrame": 33,
+              "FrameCount": 2,
+              "FrameDurations": [
+                2,
+                8
+              ],
+              "Loop": false
+            },
+            "sleep": {
+              "StartFrame": 35,
+              "FrameCount": 2,
+              "FrameDurations": [
+                30,
+                35
+              ],
+              "Loop": true
+            },
+            "shoot": {
+              "StartFrame": 37,
+              "FrameCount": 14,
+              "FrameDurations": [
+                2,
+                2,
+                2,
+                2,
+                6,
+                1,
+                1,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "Loop": false,
+              "Markers": {
+                "cast": 6,
+                "world-action": 8,
+                "recover": 16
+              }
+            },
+            "charge": {
+              "StartFrame": 51,
+              "FrameCount": 10,
+              "FrameDurations": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "Loop": false,
+              "Markers": {
+                "world-action": 10,
+                "recover": 18
+              }
+            },
+            "strike": {
+              "StartFrame": 61,
+              "FrameCount": 15,
+              "FrameDurations": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                4,
+                1,
+                1,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "Loop": false,
+              "Markers": {
+                "world-action": 10,
+                "recover": 16
+              }
+            }
+          }
+        },
+        "Encounter": {
+          "Enabled": false
+        },
+        "PortraitPath": "assets/pokemon/mega-evolutions/mega-altaria/portrait.png",
+        "MoodPortraitPaths": {
+          "happy": "assets/pokemon/mega-evolutions/mega-altaria/portrait_happy.png",
+          "tired": "assets/pokemon/mega-evolutions/mega-altaria/portrait_tired.png",
+          "sleepy": "assets/pokemon/mega-evolutions/mega-altaria/portrait_sleepy.png",
+          "resting": "assets/pokemon/mega-evolutions/mega-altaria/portrait_resting.png",
+          "hurt": "assets/pokemon/mega-evolutions/mega-altaria/portrait_hurt.png"
+        },
+        "ShinyPortraitPath": "assets/pokemon/mega-evolutions/mega-altaria/portrait_shiny.png",
+        "ShinyMoodPortraitPaths": {
+          "happy": "assets/pokemon/mega-evolutions/mega-altaria/portrait_shiny_happy.png",
+          "tired": "assets/pokemon/mega-evolutions/mega-altaria/portrait_shiny_tired.png",
+          "sleepy": "assets/pokemon/mega-evolutions/mega-altaria/portrait_shiny_sleepy.png",
+          "resting": "assets/pokemon/mega-evolutions/mega-altaria/portrait_shiny_resting.png",
+          "hurt": "assets/pokemon/mega-evolutions/mega-altaria/portrait_shiny_hurt.png"
+        }
+      }
+    },
+    {
+      "BaseSpeciesId": "banette",
+      "Presentation": {
+        "NationalDex": 354,
+        "Id": "mega-banette",
+        "FormId": "mega",
+        "DisplayName": "Mega Banette",
+        "SpritePath": "assets/pokemon/mega-evolutions/mega-banette/overworld_stardew.png",
+        "ShinySpritePath": "assets/pokemon/mega-evolutions/mega-banette/overworld_shiny_stardew.png",
+        "FrameWidth": 96,
+        "FrameHeight": 96,
+        "AnimationLayout": "PmdEightDirectionAtlas",
+        "HasDistinctSideFrames": true,
+        "Body": {
+          "FootAnchorX": 48.0,
+          "FootAnchorY": 52,
+          "VisibleHeightPixels": 35
+        },
+        "Animation": {
+          "Directions": 4,
+          "FramesPerDirection": 61,
+          "DirectionRows": [
+            1,
+            1,
+            0,
+            0,
+            3,
+            3,
+            2,
+            2
+          ],
+          "Clips": {
+            "walk": {
+              "StartFrame": 0,
+              "FrameCount": 4,
+              "FrameDurations": [
+                8,
+                10,
+                8,
+                10
+              ],
+              "Loop": true
+            },
+            "idle": {
+              "StartFrame": 4,
+              "FrameCount": 9,
+              "FrameDurations": [
+                50,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6
+              ],
+              "Loop": true
+            },
+            "attack": {
+              "StartFrame": 13,
+              "FrameCount": 10,
+              "FrameDurations": [
+                2,
+                4,
+                1,
+                1,
+                1,
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "Loop": false,
+              "Markers": {
+                "cast": 2,
+                "world-action": 7,
+                "recover": 11
+              }
+            },
+            "hurt": {
+              "StartFrame": 23,
+              "FrameCount": 2,
+              "FrameDurations": [
+                2,
+                8
+              ],
+              "Loop": false
+            },
+            "sleep": {
+              "StartFrame": 25,
+              "FrameCount": 2,
+              "FrameDurations": [
+                30,
+                35
+              ],
+              "Loop": true
+            },
+            "shoot": {
+              "StartFrame": 27,
+              "FrameCount": 10,
+              "FrameDurations": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "Loop": false,
+              "Markers": {
+                "cast": 8,
+                "world-action": 10,
+                "recover": 18
+              }
+            },
+            "charge": {
+              "StartFrame": 37,
+              "FrameCount": 10,
+              "FrameDurations": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "Loop": false,
+              "Markers": {
+                "world-action": 10,
+                "recover": 18
+              }
+            },
+            "strike": {
+              "StartFrame": 47,
+              "FrameCount": 14,
+              "FrameDurations": [
+                2,
+                2,
+                6,
+                1,
+                1,
+                2,
+                1,
+                1,
+                1,
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "Loop": false,
+              "Markers": {
+                "cast": 4,
+                "world-action": 10,
+                "recover": 14
+              }
+            }
+          }
+        },
+        "Encounter": {
+          "Enabled": false
+        },
+        "PortraitPath": "assets/pokemon/mega-evolutions/mega-banette/portrait.png",
+        "MoodPortraitPaths": {
+          "happy": "assets/pokemon/mega-evolutions/mega-banette/portrait_happy.png",
+          "tired": "assets/pokemon/mega-evolutions/mega-banette/portrait_tired.png",
+          "sleepy": "assets/pokemon/mega-evolutions/mega-banette/portrait_sleepy.png",
+          "focused": "assets/pokemon/mega-evolutions/mega-banette/portrait_focused.png",
+          "hurt": "assets/pokemon/mega-evolutions/mega-banette/portrait_hurt.png"
+        },
+        "ShinyPortraitPath": "assets/pokemon/mega-evolutions/mega-banette/portrait_shiny.png",
+        "ShinyMoodPortraitPaths": {
+          "happy": "assets/pokemon/mega-evolutions/mega-banette/portrait_shiny_happy.png",
+          "tired": "assets/pokemon/mega-evolutions/mega-banette/portrait_shiny_tired.png",
+          "sleepy": "assets/pokemon/mega-evolutions/mega-banette/portrait_shiny_sleepy.png",
+          "focused": "assets/pokemon/mega-evolutions/mega-banette/portrait_shiny_focused.png",
+          "hurt": "assets/pokemon/mega-evolutions/mega-banette/portrait_shiny_hurt.png"
+        }
+      }
+    },
+    {
+      "BaseSpeciesId": "absol",
+      "Presentation": {
+        "NationalDex": 359,
+        "Id": "mega-absol",
+        "FormId": "mega",
+        "DisplayName": "Mega Absol",
+        "SpritePath": "assets/pokemon/mega-evolutions/mega-absol/overworld_stardew.png",
+        "ShinySpritePath": "assets/pokemon/mega-evolutions/mega-absol/overworld_shiny_stardew.png",
+        "FrameWidth": 80,
+        "FrameHeight": 80,
+        "AnimationLayout": "PmdEightDirectionAtlas",
+        "HasDistinctSideFrames": true,
+        "Body": {
+          "FootAnchorX": 40.0,
+          "FootAnchorY": 47,
+          "VisibleHeightPixels": 36
+        },
+        "Animation": {
+          "Directions": 4,
+          "FramesPerDirection": 30,
+          "DirectionRows": [
+            1,
+            1,
+            0,
+            0,
+            3,
+            3,
+            2,
+            2
+          ],
+          "Clips": {
+            "walk": {
+              "StartFrame": 0,
+              "FrameCount": 4,
+              "FrameDurations": [
+                8,
+                10,
+                8,
+                10
+              ],
+              "Loop": true
+            },
+            "idle": {
+              "StartFrame": 4,
+              "FrameCount": 2,
+              "FrameDurations": [
+                30,
+                30
+              ],
+              "Loop": true
+            },
+            "attack": {
+              "StartFrame": 6,
+              "FrameCount": 10,
+              "FrameDurations": [
+                2,
+                4,
+                1,
+                1,
+                1,
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "Loop": false,
+              "Markers": {
+                "cast": 2,
+                "world-action": 7,
+                "recover": 11
+              }
+            },
+            "hurt": {
+              "StartFrame": 16,
+              "FrameCount": 2,
+              "FrameDurations": [
+                2,
+                8
+              ],
+              "Loop": false
+            },
+            "sleep": {
+              "StartFrame": 18,
+              "FrameCount": 2,
+              "FrameDurations": [
+                30,
+                35
+              ],
+              "Loop": true
+            },
+            "charge": {
+              "StartFrame": 20,
+              "FrameCount": 10,
+              "FrameDurations": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "Loop": false,
+              "Markers": {
+                "world-action": 10,
+                "recover": 18
+              }
+            }
+          }
+        },
+        "Encounter": {
+          "Enabled": false
+        },
+        "PortraitPath": "assets/pokemon/mega-evolutions/mega-absol/portrait.png",
+        "MoodPortraitPaths": {
+          "happy": "assets/pokemon/mega-evolutions/mega-absol/portrait_happy.png",
+          "tired": "assets/pokemon/mega-evolutions/mega-absol/portrait_tired.png",
+          "sleepy": "assets/pokemon/mega-evolutions/mega-absol/portrait_sleepy.png",
+          "focused": "assets/pokemon/mega-evolutions/mega-absol/portrait_focused.png",
+          "resting": "assets/pokemon/mega-evolutions/mega-absol/portrait_resting.png",
+          "hurt": "assets/pokemon/mega-evolutions/mega-absol/portrait_hurt.png",
+          "fainted": "assets/pokemon/mega-evolutions/mega-absol/portrait_fainted.png"
+        },
+        "ShinyPortraitPath": "assets/pokemon/mega-evolutions/mega-absol/portrait_shiny.png",
+        "ShinyMoodPortraitPaths": {
+          "happy": "assets/pokemon/mega-evolutions/mega-absol/portrait_shiny_happy.png",
+          "tired": "assets/pokemon/mega-evolutions/mega-absol/portrait_shiny_tired.png",
+          "sleepy": "assets/pokemon/mega-evolutions/mega-absol/portrait_shiny_sleepy.png",
+          "focused": "assets/pokemon/mega-evolutions/mega-absol/portrait_shiny_focused.png",
+          "resting": "assets/pokemon/mega-evolutions/mega-absol/portrait_shiny_resting.png",
+          "hurt": "assets/pokemon/mega-evolutions/mega-absol/portrait_shiny_hurt.png",
+          "fainted": "assets/pokemon/mega-evolutions/mega-absol/portrait_shiny_fainted.png"
+        }
+      }
+    },
+    {
+      "BaseSpeciesId": "glalie",
+      "Presentation": {
+        "NationalDex": 362,
+        "Id": "mega-glalie",
+        "FormId": "mega",
+        "DisplayName": "Mega Glalie",
+        "SpritePath": "assets/pokemon/mega-evolutions/mega-glalie/overworld_stardew.png",
+        "ShinySpritePath": "assets/pokemon/mega-evolutions/mega-glalie/overworld_shiny_stardew.png",
+        "FrameWidth": 104,
+        "FrameHeight": 104,
+        "AnimationLayout": "PmdEightDirectionAtlas",
+        "HasDistinctSideFrames": true,
+        "Body": {
+          "FootAnchorX": 52.0,
+          "FootAnchorY": 56,
+          "VisibleHeightPixels": 36
+        },
+        "Animation": {
+          "Directions": 4,
+          "FramesPerDirection": 51,
+          "DirectionRows": [
+            1,
+            1,
+            0,
+            0,
+            3,
+            3,
+            2,
+            2
+          ],
+          "Clips": {
+            "walk": {
+              "StartFrame": 0,
+              "FrameCount": 8,
+              "FrameDurations": [
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6
+              ],
+              "Loop": true
+            },
+            "idle": {
+              "StartFrame": 8,
+              "FrameCount": 8,
+              "FrameDurations": [
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6
+              ],
+              "Loop": true
+            },
+            "attack": {
+              "StartFrame": 16,
+              "FrameCount": 10,
+              "FrameDurations": [
+                2,
+                6,
+                1,
+                1,
+                1,
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "Loop": false,
+              "Markers": {
+                "cast": 2,
+                "world-action": 9,
+                "recover": 13
+              }
+            },
+            "hurt": {
+              "StartFrame": 26,
+              "FrameCount": 2,
+              "FrameDurations": [
+                2,
+                8
+              ],
+              "Loop": false
+            },
+            "sleep": {
+              "StartFrame": 28,
+              "FrameCount": 2,
+              "FrameDurations": [
+                30,
+                35
+              ],
+              "Loop": true
+            },
+            "shoot": {
+              "StartFrame": 30,
+              "FrameCount": 11,
+              "FrameDurations": [
+                2,
+                6,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "Loop": false,
+              "Markers": {
+                "cast": 0,
+                "world-action": 2,
+                "recover": 10
+              }
+            },
+            "charge": {
+              "StartFrame": 41,
+              "FrameCount": 10,
+              "FrameDurations": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "Loop": false,
+              "Markers": {
+                "world-action": 10,
+                "recover": 18
+              }
+            }
+          }
+        },
+        "Encounter": {
+          "Enabled": false
+        },
+        "PortraitPath": "assets/pokemon/mega-evolutions/mega-glalie/portrait.png",
+        "MoodPortraitPaths": {},
+        "ShinyPortraitPath": "assets/pokemon/mega-evolutions/mega-glalie/portrait_shiny.png",
+        "ShinyMoodPortraitPaths": {}
+      }
+    },
+    {
+      "BaseSpeciesId": "latias",
+      "Presentation": {
+        "NationalDex": 380,
+        "Id": "mega-latias",
+        "FormId": "mega",
+        "DisplayName": "Mega Latias",
+        "SpritePath": "assets/pokemon/mega-evolutions/mega-latias/overworld_stardew.png",
+        "ShinySpritePath": "assets/pokemon/mega-evolutions/mega-latias/overworld_shiny_stardew.png",
+        "FrameWidth": 96,
+        "FrameHeight": 96,
+        "AnimationLayout": "PmdEightDirectionAtlas",
+        "HasDistinctSideFrames": true,
+        "Body": {
+          "FootAnchorX": 48.0,
+          "FootAnchorY": 52,
+          "VisibleHeightPixels": 42
+        },
+        "Animation": {
+          "Directions": 4,
+          "FramesPerDirection": 66,
+          "DirectionRows": [
+            1,
+            1,
+            0,
+            0,
+            3,
+            3,
+            2,
+            2
+          ],
+          "Clips": {
+            "walk": {
+              "StartFrame": 0,
+              "FrameCount": 12,
+              "FrameDurations": [
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4
+              ],
+              "Loop": true
+            },
+            "idle": {
+              "StartFrame": 12,
+              "FrameCount": 6,
+              "FrameDurations": [
+                8,
+                8,
+                8,
+                8,
+                8,
+                8
+              ],
+              "Loop": true
+            },
+            "attack": {
+              "StartFrame": 18,
+              "FrameCount": 11,
+              "FrameDurations": [
+                2,
+                2,
+                6,
+                1,
+                1,
+                1,
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "Loop": false,
+              "Markers": {
+                "cast": 4,
+                "world-action": 11,
+                "recover": 15
+              }
+            },
+            "hurt": {
+              "StartFrame": 29,
+              "FrameCount": 2,
+              "FrameDurations": [
+                2,
+                8
+              ],
+              "Loop": false
+            },
+            "sleep": {
+              "StartFrame": 31,
+              "FrameCount": 2,
+              "FrameDurations": [
+                30,
+                35
+              ],
+              "Loop": true
+            },
+            "shoot": {
+              "StartFrame": 33,
+              "FrameCount": 12,
+              "FrameDurations": [
+                2,
+                6,
+                1,
+                1,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "Loop": false,
+              "Markers": {
+                "cast": 0,
+                "world-action": 2,
+                "recover": 10
+              }
+            },
+            "charge": {
+              "StartFrame": 45,
+              "FrameCount": 10,
+              "FrameDurations": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "Loop": false,
+              "Markers": {
+                "world-action": 10,
+                "recover": 18
+              }
+            },
+            "strike": {
+              "StartFrame": 55,
+              "FrameCount": 11,
+              "FrameDurations": [
+                2,
+                2,
+                6,
+                1,
+                1,
+                1,
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "Loop": false,
+              "Markers": {
+                "cast": 4,
+                "world-action": 11,
+                "recover": 15
+              }
+            }
+          }
+        },
+        "Encounter": {
+          "Enabled": false
+        },
+        "PortraitPath": "assets/pokemon/mega-evolutions/mega-latias/portrait.png",
+        "MoodPortraitPaths": {
+          "happy": "assets/pokemon/mega-evolutions/mega-latias/portrait_happy.png",
+          "tired": "assets/pokemon/mega-evolutions/mega-latias/portrait_tired.png",
+          "sleepy": "assets/pokemon/mega-evolutions/mega-latias/portrait_sleepy.png",
+          "focused": "assets/pokemon/mega-evolutions/mega-latias/portrait_focused.png",
+          "resting": "assets/pokemon/mega-evolutions/mega-latias/portrait_resting.png",
+          "hurt": "assets/pokemon/mega-evolutions/mega-latias/portrait_hurt.png",
+          "fainted": "assets/pokemon/mega-evolutions/mega-latias/portrait_fainted.png"
+        },
+        "ShinyPortraitPath": "assets/pokemon/mega-evolutions/mega-latias/portrait_shiny.png",
+        "ShinyMoodPortraitPaths": {
+          "happy": "assets/pokemon/mega-evolutions/mega-latias/portrait_shiny_happy.png",
+          "tired": "assets/pokemon/mega-evolutions/mega-latias/portrait_shiny_tired.png",
+          "sleepy": "assets/pokemon/mega-evolutions/mega-latias/portrait_shiny_sleepy.png",
+          "focused": "assets/pokemon/mega-evolutions/mega-latias/portrait_shiny_focused.png",
+          "resting": "assets/pokemon/mega-evolutions/mega-latias/portrait_shiny_resting.png",
+          "hurt": "assets/pokemon/mega-evolutions/mega-latias/portrait_shiny_hurt.png",
+          "fainted": "assets/pokemon/mega-evolutions/mega-latias/portrait_shiny_fainted.png"
+        }
+      }
+    },
+    {
+      "BaseSpeciesId": "latios",
+      "Presentation": {
+        "NationalDex": 381,
+        "Id": "mega-latios",
+        "FormId": "mega",
+        "DisplayName": "Mega Latios",
+        "SpritePath": "assets/pokemon/mega-evolutions/mega-latios/overworld_stardew.png",
+        "ShinySpritePath": "assets/pokemon/mega-evolutions/mega-latios/overworld_shiny_stardew.png",
+        "FrameWidth": 104,
+        "FrameHeight": 104,
+        "AnimationLayout": "PmdEightDirectionAtlas",
+        "HasDistinctSideFrames": true,
+        "Body": {
+          "FootAnchorX": 52.0,
+          "FootAnchorY": 56,
+          "VisibleHeightPixels": 44
+        },
+        "Animation": {
+          "Directions": 4,
+          "FramesPerDirection": 66,
+          "DirectionRows": [
+            1,
+            1,
+            0,
+            0,
+            3,
+            3,
+            2,
+            2
+          ],
+          "Clips": {
+            "walk": {
+              "StartFrame": 0,
+              "FrameCount": 12,
+              "FrameDurations": [
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4
+              ],
+              "Loop": true
+            },
+            "idle": {
+              "StartFrame": 12,
+              "FrameCount": 6,
+              "FrameDurations": [
+                8,
+                8,
+                8,
+                8,
+                8,
+                8
+              ],
+              "Loop": true
+            },
+            "attack": {
+              "StartFrame": 18,
+              "FrameCount": 11,
+              "FrameDurations": [
+                2,
+                2,
+                6,
+                1,
+                1,
+                1,
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "Loop": false,
+              "Markers": {
+                "cast": 4,
+                "world-action": 11,
+                "recover": 15
+              }
+            },
+            "hurt": {
+              "StartFrame": 29,
+              "FrameCount": 2,
+              "FrameDurations": [
+                2,
+                8
+              ],
+              "Loop": false
+            },
+            "sleep": {
+              "StartFrame": 31,
+              "FrameCount": 2,
+              "FrameDurations": [
+                30,
+                35
+              ],
+              "Loop": true
+            },
+            "shoot": {
+              "StartFrame": 33,
+              "FrameCount": 12,
+              "FrameDurations": [
+                2,
+                6,
+                1,
+                1,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "Loop": false,
+              "Markers": {
+                "cast": 0,
+                "world-action": 2,
+                "recover": 10
+              }
+            },
+            "charge": {
+              "StartFrame": 45,
+              "FrameCount": 10,
+              "FrameDurations": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "Loop": false,
+              "Markers": {
+                "world-action": 10,
+                "recover": 18
+              }
+            },
+            "strike": {
+              "StartFrame": 55,
+              "FrameCount": 11,
+              "FrameDurations": [
+                2,
+                2,
+                6,
+                1,
+                1,
+                1,
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "Loop": false,
+              "Markers": {
+                "cast": 4,
+                "world-action": 11,
+                "recover": 15
+              }
+            }
+          }
+        },
+        "Encounter": {
+          "Enabled": false
+        },
+        "PortraitPath": "assets/pokemon/mega-evolutions/mega-latios/portrait.png",
+        "MoodPortraitPaths": {
+          "happy": "assets/pokemon/mega-evolutions/mega-latios/portrait_happy.png",
+          "tired": "assets/pokemon/mega-evolutions/mega-latios/portrait_tired.png",
+          "sleepy": "assets/pokemon/mega-evolutions/mega-latios/portrait_sleepy.png",
+          "focused": "assets/pokemon/mega-evolutions/mega-latios/portrait_focused.png",
+          "resting": "assets/pokemon/mega-evolutions/mega-latios/portrait_resting.png",
+          "hurt": "assets/pokemon/mega-evolutions/mega-latios/portrait_hurt.png",
+          "fainted": "assets/pokemon/mega-evolutions/mega-latios/portrait_fainted.png"
+        },
+        "ShinyPortraitPath": "assets/pokemon/mega-evolutions/mega-latios/portrait_shiny.png",
+        "ShinyMoodPortraitPaths": {
+          "happy": "assets/pokemon/mega-evolutions/mega-latios/portrait_shiny_happy.png",
+          "tired": "assets/pokemon/mega-evolutions/mega-latios/portrait_shiny_tired.png",
+          "sleepy": "assets/pokemon/mega-evolutions/mega-latios/portrait_shiny_sleepy.png",
+          "focused": "assets/pokemon/mega-evolutions/mega-latios/portrait_shiny_focused.png",
+          "resting": "assets/pokemon/mega-evolutions/mega-latios/portrait_shiny_resting.png",
+          "hurt": "assets/pokemon/mega-evolutions/mega-latios/portrait_shiny_hurt.png",
+          "fainted": "assets/pokemon/mega-evolutions/mega-latios/portrait_shiny_fainted.png"
+        }
+      }
+    },
+    {
+      "BaseSpeciesId": "rayquaza",
+      "Presentation": {
+        "NationalDex": 384,
+        "Id": "mega-rayquaza",
+        "FormId": "mega",
+        "DisplayName": "Mega Rayquaza",
+        "SpritePath": "assets/pokemon/mega-evolutions/mega-rayquaza/overworld_stardew.png",
+        "ShinySpritePath": "assets/pokemon/mega-evolutions/mega-rayquaza/overworld_shiny_stardew.png",
+        "FrameWidth": 176,
+        "FrameHeight": 176,
+        "AnimationLayout": "PmdEightDirectionAtlas",
+        "HasDistinctSideFrames": true,
+        "Body": {
+          "FootAnchorX": 88.0,
+          "FootAnchorY": 92,
+          "VisibleHeightPixels": 82
+        },
+        "Animation": {
+          "Directions": 4,
+          "FramesPerDirection": 55,
+          "DirectionRows": [
+            1,
+            1,
+            0,
+            0,
+            3,
+            3,
+            2,
+            2
+          ],
+          "Clips": {
+            "walk": {
+              "StartFrame": 0,
+              "FrameCount": 4,
+              "FrameDurations": [
+                16,
+                16,
+                16,
+                16
+              ],
+              "Loop": true
+            },
+            "idle": {
+              "StartFrame": 4,
+              "FrameCount": 10,
+              "FrameDurations": [
+                10,
+                14,
+                14,
+                14,
+                14,
+                10,
+                14,
+                14,
+                14,
+                14
+              ],
+              "Loop": true
+            },
+            "attack": {
+              "StartFrame": 14,
+              "FrameCount": 10,
+              "FrameDurations": [
+                2,
+                4,
+                1,
+                1,
+                1,
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "Loop": false,
+              "Markers": {
+                "cast": 2,
+                "world-action": 7,
+                "recover": 11
+              }
+            },
+            "hurt": {
+              "StartFrame": 24,
+              "FrameCount": 2,
+              "FrameDurations": [
+                2,
+                8
+              ],
+              "Loop": false
+            },
+            "sleep": {
+              "StartFrame": 26,
+              "FrameCount": 8,
+              "FrameDurations": [
+                10,
+                10,
+                10,
+                30,
+                10,
+                10,
+                10,
+                30
+              ],
+              "Loop": true
+            },
+            "shoot": {
+              "StartFrame": 34,
+              "FrameCount": 11,
+              "FrameDurations": [
+                2,
+                6,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "Loop": false,
+              "Markers": {
+                "cast": 0,
+                "world-action": 2,
+                "recover": 10
+              }
+            },
+            "charge": {
+              "StartFrame": 45,
+              "FrameCount": 10,
+              "FrameDurations": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "Loop": false,
+              "Markers": {
+                "world-action": 10,
+                "recover": 18
+              }
+            }
+          }
+        },
+        "Encounter": {
+          "Enabled": false
+        },
+        "PortraitPath": "assets/pokemon/mega-evolutions/mega-rayquaza/portrait.png",
+        "MoodPortraitPaths": {},
+        "ShinyPortraitPath": "assets/pokemon/mega-evolutions/mega-rayquaza/portrait_shiny.png",
+        "ShinyMoodPortraitPaths": {}
+      }
+    },
+    {
+      "BaseSpeciesId": "lopunny",
+      "Presentation": {
+        "NationalDex": 428,
+        "Id": "mega-lopunny",
+        "FormId": "mega",
+        "DisplayName": "Mega Lopunny",
+        "SpritePath": "assets/pokemon/mega-evolutions/mega-lopunny/overworld_stardew.png",
+        "ShinySpritePath": "assets/pokemon/mega-evolutions/mega-lopunny/overworld_shiny_stardew.png",
+        "FrameWidth": 80,
+        "FrameHeight": 80,
+        "AnimationLayout": "PmdEightDirectionAtlas",
+        "HasDistinctSideFrames": true,
+        "Body": {
+          "FootAnchorX": 40.0,
+          "FootAnchorY": 47,
+          "VisibleHeightPixels": 29
+        },
+        "Animation": {
+          "Directions": 4,
+          "FramesPerDirection": 52,
+          "DirectionRows": [
+            1,
+            1,
+            0,
+            0,
+            3,
+            3,
+            2,
+            2
+          ],
+          "Clips": {
+            "walk": {
+              "StartFrame": 0,
+              "FrameCount": 9,
+              "FrameDurations": [
+                6,
+                2,
+                2,
+                4,
+                4,
+                4,
+                4,
+                6,
+                4
+              ],
+              "Loop": true
+            },
+            "idle": {
+              "StartFrame": 9,
+              "FrameCount": 7,
+              "FrameDurations": [
+                20,
+                4,
+                2,
+                4,
+                4,
+                2,
+                6
+              ],
+              "Loop": true
+            },
+            "attack": {
+              "StartFrame": 16,
+              "FrameCount": 10,
+              "FrameDurations": [
+                2,
+                2,
+                6,
+                1,
+                2,
+                2,
+                4,
+                4,
+                2,
+                2
+              ],
+              "Loop": false,
+              "Markers": {
+                "cast": 2,
+                "world-action": 4,
+                "recover": 15
+              }
+            },
+            "hurt": {
+              "StartFrame": 26,
+              "FrameCount": 2,
+              "FrameDurations": [
+                2,
+                8
+              ],
+              "Loop": false
+            },
+            "sleep": {
+              "StartFrame": 28,
+              "FrameCount": 2,
+              "FrameDurations": [
+                30,
+                35
+              ],
+              "Loop": true
+            },
+            "shoot": {
+              "StartFrame": 30,
+              "FrameCount": 12,
+              "FrameDurations": [
+                2,
+                2,
+                6,
+                1,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "Loop": false,
+              "Markers": {
+                "cast": 2,
+                "world-action": 4,
+                "recover": 13
+              }
+            },
+            "charge": {
+              "StartFrame": 42,
+              "FrameCount": 10,
+              "FrameDurations": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "Loop": false,
+              "Markers": {
+                "world-action": 10,
+                "recover": 18
+              }
+            }
+          }
+        },
+        "Encounter": {
+          "Enabled": false
+        },
+        "PortraitPath": "assets/pokemon/mega-evolutions/mega-lopunny/portrait.png",
+        "MoodPortraitPaths": {},
+        "ShinyPortraitPath": "assets/pokemon/mega-evolutions/mega-lopunny/portrait_shiny.png",
+        "ShinyMoodPortraitPaths": {}
+      }
+    },
+    {
+      "BaseSpeciesId": "lucario",
+      "Presentation": {
+        "NationalDex": 448,
+        "Id": "mega-lucario",
+        "FormId": "mega",
+        "DisplayName": "Mega Lucario",
+        "SpritePath": "assets/pokemon/mega-evolutions/mega-lucario/overworld_stardew.png",
+        "ShinySpritePath": "assets/pokemon/mega-evolutions/mega-lucario/overworld_shiny_stardew.png",
+        "FrameWidth": 80,
+        "FrameHeight": 80,
+        "AnimationLayout": "PmdEightDirectionAtlas",
+        "HasDistinctSideFrames": true,
+        "Body": {
+          "FootAnchorX": 40.0,
+          "FootAnchorY": 44,
+          "VisibleHeightPixels": 30
+        },
+        "Animation": {
+          "Directions": 4,
+          "FramesPerDirection": 50,
+          "DirectionRows": [
+            1,
+            1,
+            0,
+            0,
+            3,
+            3,
+            2,
+            2
+          ],
+          "Clips": {
+            "walk": {
+              "StartFrame": 0,
+              "FrameCount": 4,
+              "FrameDurations": [
+                8,
+                10,
+                8,
+                10
+              ],
+              "Loop": true
+            },
+            "idle": {
+              "StartFrame": 4,
+              "FrameCount": 10,
+              "FrameDurations": [
+                40,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                12
+              ],
+              "Loop": true
+            },
+            "attack": {
+              "StartFrame": 14,
+              "FrameCount": 13,
+              "FrameDurations": [
+                2,
+                2,
+                2,
+                2,
+                1,
+                1,
+                1,
+                1,
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "Loop": false,
+              "Markers": {
+                "cast": 2,
+                "world-action": 10,
+                "recover": 14
+              }
+            },
+            "hurt": {
+              "StartFrame": 27,
+              "FrameCount": 2,
+              "FrameDurations": [
+                2,
+                8
+              ],
+              "Loop": false
+            },
+            "sleep": {
+              "StartFrame": 29,
+              "FrameCount": 2,
+              "FrameDurations": [
+                30,
+                35
+              ],
+              "Loop": true
+            },
+            "charge": {
+              "StartFrame": 31,
+              "FrameCount": 10,
+              "FrameDurations": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "Loop": false,
+              "Markers": {
+                "world-action": 10,
+                "recover": 18
+              }
+            },
+            "strike": {
+              "StartFrame": 41,
+              "FrameCount": 9,
+              "FrameDurations": [
+                2,
+                6,
+                1,
+                2,
+                2,
+                6,
+                1,
+                2,
+                2
+              ],
+              "Loop": false,
+              "Markers": {
+                "cast": 2,
+                "world-action": 8,
+                "recover": 13
+              }
+            }
+          }
+        },
+        "Encounter": {
+          "Enabled": false
+        },
+        "PortraitPath": "assets/pokemon/mega-evolutions/mega-lucario/portrait.png",
+        "MoodPortraitPaths": {
+          "happy": "assets/pokemon/mega-evolutions/mega-lucario/portrait_happy.png",
+          "tired": "assets/pokemon/mega-evolutions/mega-lucario/portrait_tired.png",
+          "sleepy": "assets/pokemon/mega-evolutions/mega-lucario/portrait_sleepy.png",
+          "focused": "assets/pokemon/mega-evolutions/mega-lucario/portrait_focused.png",
+          "resting": "assets/pokemon/mega-evolutions/mega-lucario/portrait_resting.png",
+          "hurt": "assets/pokemon/mega-evolutions/mega-lucario/portrait_hurt.png",
+          "fainted": "assets/pokemon/mega-evolutions/mega-lucario/portrait_fainted.png"
+        },
+        "ShinyPortraitPath": "assets/pokemon/mega-evolutions/mega-lucario/portrait_shiny.png",
+        "ShinyMoodPortraitPaths": {
+          "happy": "assets/pokemon/mega-evolutions/mega-lucario/portrait_shiny_happy.png",
+          "tired": "assets/pokemon/mega-evolutions/mega-lucario/portrait_shiny_tired.png",
+          "sleepy": "assets/pokemon/mega-evolutions/mega-lucario/portrait_shiny_sleepy.png",
+          "focused": "assets/pokemon/mega-evolutions/mega-lucario/portrait_shiny_focused.png",
+          "resting": "assets/pokemon/mega-evolutions/mega-lucario/portrait_shiny_resting.png",
+          "hurt": "assets/pokemon/mega-evolutions/mega-lucario/portrait_shiny_hurt.png",
+          "fainted": "assets/pokemon/mega-evolutions/mega-lucario/portrait_shiny_fainted.png"
+        }
+      }
+    },
+    {
+      "BaseSpeciesId": "gallade",
+      "Presentation": {
+        "NationalDex": 475,
+        "Id": "mega-gallade",
+        "FormId": "mega",
+        "DisplayName": "Mega Gallade",
+        "SpritePath": "assets/pokemon/mega-evolutions/mega-gallade/overworld_stardew.png",
+        "ShinySpritePath": "assets/pokemon/mega-evolutions/mega-gallade/overworld_shiny_stardew.png",
+        "FrameWidth": 80,
+        "FrameHeight": 80,
+        "AnimationLayout": "PmdEightDirectionAtlas",
+        "HasDistinctSideFrames": true,
+        "Body": {
+          "FootAnchorX": 40.0,
+          "FootAnchorY": 44,
+          "VisibleHeightPixels": 34
+        },
+        "Animation": {
+          "Directions": 4,
+          "FramesPerDirection": 62,
+          "DirectionRows": [
+            1,
+            1,
+            0,
+            0,
+            3,
+            3,
+            2,
+            2
+          ],
+          "Clips": {
+            "walk": {
+              "StartFrame": 0,
+              "FrameCount": 4,
+              "FrameDurations": [
+                12,
+                12,
+                12,
+                12
+              ],
+              "Loop": true
+            },
+            "idle": {
+              "StartFrame": 4,
+              "FrameCount": 5,
+              "FrameDurations": [
+                60,
+                2,
+                6,
+                2,
+                26
+              ],
+              "Loop": true
+            },
+            "attack": {
+              "StartFrame": 9,
+              "FrameCount": 13,
+              "FrameDurations": [
+                2,
+                2,
+                6,
+                1,
+                1,
+                1,
+                2,
+                2,
+                2,
+                2,
+                2,
+                1,
+                2
+              ],
+              "Loop": false,
+              "Markers": {
+                "cast": 2,
+                "world-action": 4,
+                "recover": 15
+              }
+            },
+            "hurt": {
+              "StartFrame": 22,
+              "FrameCount": 2,
+              "FrameDurations": [
+                2,
+                8
+              ],
+              "Loop": false
+            },
+            "sleep": {
+              "StartFrame": 24,
+              "FrameCount": 2,
+              "FrameDurations": [
+                30,
+                35
+              ],
+              "Loop": true
+            },
+            "shoot": {
+              "StartFrame": 26,
+              "FrameCount": 12,
+              "FrameDurations": [
+                2,
+                2,
+                6,
+                1,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "Loop": false,
+              "Markers": {
+                "cast": 2,
+                "world-action": 4,
+                "recover": 13
+              }
+            },
+            "charge": {
+              "StartFrame": 38,
+              "FrameCount": 10,
+              "FrameDurations": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "Loop": false,
+              "Markers": {
+                "world-action": 10,
+                "recover": 18
+              }
+            },
+            "strike": {
+              "StartFrame": 48,
+              "FrameCount": 14,
+              "FrameDurations": [
+                2,
+                2,
+                6,
+                1,
+                1,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "Loop": false,
+              "Markers": {
+                "cast": 2,
+                "world-action": 4,
+                "recover": 16
+              }
+            }
+          }
+        },
+        "Encounter": {
+          "Enabled": false
+        },
+        "PortraitPath": "assets/pokemon/mega-evolutions/mega-gallade/portrait.png",
+        "MoodPortraitPaths": {
+          "happy": "assets/pokemon/mega-evolutions/mega-gallade/portrait_happy.png",
+          "tired": "assets/pokemon/mega-evolutions/mega-gallade/portrait_tired.png",
+          "sleepy": "assets/pokemon/mega-evolutions/mega-gallade/portrait_sleepy.png",
+          "focused": "assets/pokemon/mega-evolutions/mega-gallade/portrait_focused.png",
+          "resting": "assets/pokemon/mega-evolutions/mega-gallade/portrait_resting.png",
+          "hurt": "assets/pokemon/mega-evolutions/mega-gallade/portrait_hurt.png",
+          "fainted": "assets/pokemon/mega-evolutions/mega-gallade/portrait_fainted.png"
+        },
+        "ShinyPortraitPath": "assets/pokemon/mega-evolutions/mega-gallade/portrait_shiny.png",
+        "ShinyMoodPortraitPaths": {
+          "happy": "assets/pokemon/mega-evolutions/mega-gallade/portrait_shiny_happy.png",
+          "tired": "assets/pokemon/mega-evolutions/mega-gallade/portrait_shiny_tired.png",
+          "sleepy": "assets/pokemon/mega-evolutions/mega-gallade/portrait_shiny_sleepy.png",
+          "focused": "assets/pokemon/mega-evolutions/mega-gallade/portrait_shiny_focused.png",
+          "resting": "assets/pokemon/mega-evolutions/mega-gallade/portrait_shiny_resting.png",
+          "hurt": "assets/pokemon/mega-evolutions/mega-gallade/portrait_shiny_hurt.png",
+          "fainted": "assets/pokemon/mega-evolutions/mega-gallade/portrait_shiny_fainted.png"
+        }
+      }
+    },
+    {
+      "BaseSpeciesId": "darkrai",
+      "Presentation": {
+        "NationalDex": 491,
+        "Id": "mega-darkrai",
+        "FormId": "mega",
+        "DisplayName": "Mega Darkrai",
+        "SpritePath": "assets/pokemon/mega-evolutions/mega-darkrai/overworld_stardew.png",
+        "ShinySpritePath": "assets/pokemon/mega-evolutions/mega-darkrai/overworld_shiny_stardew.png",
+        "FrameWidth": 136,
+        "FrameHeight": 136,
+        "AnimationLayout": "PmdEightDirectionAtlas",
+        "HasDistinctSideFrames": true,
+        "Body": {
+          "FootAnchorX": 68.0,
+          "FootAnchorY": 72,
+          "VisibleHeightPixels": 65
+        },
+        "Animation": {
+          "Directions": 4,
+          "FramesPerDirection": 53,
+          "DirectionRows": [
+            1,
+            1,
+            0,
+            0,
+            3,
+            3,
+            2,
+            2
+          ],
+          "Clips": {
+            "walk": {
+              "StartFrame": 0,
+              "FrameCount": 6,
+              "FrameDurations": [
+                10,
+                10,
+                10,
+                10,
+                10,
+                10
+              ],
+              "Loop": true
+            },
+            "idle": {
+              "StartFrame": 6,
+              "FrameCount": 11,
+              "FrameDurations": [
+                10,
+                5,
+                10,
+                5,
+                10,
+                5,
+                10,
+                5,
+                10,
+                5,
+                15
+              ],
+              "Loop": true
+            },
+            "attack": {
+              "StartFrame": 17,
+              "FrameCount": 10,
+              "FrameDurations": [
+                3,
+                3,
+                2,
+                2,
+                2,
+                2,
+                4,
+                4,
+                4,
+                2
+              ],
+              "Loop": false,
+              "Markers": {
+                "cast": 6,
+                "world-action": 14,
+                "recover": 22
+              }
+            },
+            "hurt": {
+              "StartFrame": 27,
+              "FrameCount": 2,
+              "FrameDurations": [
+                2,
+                8
+              ],
+              "Loop": false
+            },
+            "sleep": {
+              "StartFrame": 29,
+              "FrameCount": 2,
+              "FrameDurations": [
+                30,
+                35
+              ],
+              "Loop": true
+            },
+            "shoot": {
+              "StartFrame": 31,
+              "FrameCount": 12,
+              "FrameDurations": [
+                3,
+                5,
+                6,
+                3,
+                3,
+                4,
+                4,
+                4,
+                4,
+                4,
+                2,
+                2
+              ],
+              "Loop": false,
+              "Markers": {
+                "cast": 14,
+                "world-action": 17,
+                "recover": 36
+              }
+            },
+            "charge": {
+              "StartFrame": 43,
+              "FrameCount": 10,
+              "FrameDurations": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "Loop": false,
+              "Markers": {
+                "world-action": 10,
+                "recover": 18
+              }
+            }
+          }
+        },
+        "Encounter": {
+          "Enabled": false
+        },
+        "PortraitPath": "assets/pokemon/mega-evolutions/mega-darkrai/portrait.png",
+        "MoodPortraitPaths": {},
+        "ShinyPortraitPath": "assets/pokemon/mega-evolutions/mega-darkrai/portrait_shiny.png",
+        "ShinyMoodPortraitPaths": {}
+      }
+    },
+    {
+      "BaseSpeciesId": "excadrill",
+      "Presentation": {
+        "NationalDex": 530,
+        "Id": "mega-excadrill",
+        "FormId": "mega",
+        "DisplayName": "Mega Excadrill",
+        "SpritePath": "assets/pokemon/mega-evolutions/mega-excadrill/overworld_stardew.png",
+        "ShinySpritePath": "assets/pokemon/mega-evolutions/mega-excadrill/overworld_shiny_stardew.png",
+        "FrameWidth": 120,
+        "FrameHeight": 120,
+        "AnimationLayout": "PmdEightDirectionAtlas",
+        "HasDistinctSideFrames": true,
+        "Body": {
+          "FootAnchorX": 60.0,
+          "FootAnchorY": 64,
+          "VisibleHeightPixels": 39
+        },
+        "Animation": {
+          "Directions": 4,
+          "FramesPerDirection": 57,
+          "DirectionRows": [
+            1,
+            1,
+            0,
+            0,
+            3,
+            3,
+            2,
+            2
+          ],
+          "Clips": {
+            "walk": {
+              "StartFrame": 0,
+              "FrameCount": 4,
+              "FrameDurations": [
+                10,
+                16,
+                10,
+                16
+              ],
+              "Loop": true
+            },
+            "idle": {
+              "StartFrame": 4,
+              "FrameCount": 4,
+              "FrameDurations": [
+                48,
+                18,
+                28,
+                24
+              ],
+              "Loop": true
+            },
+            "attack": {
+              "StartFrame": 8,
+              "FrameCount": 11,
+              "FrameDurations": [
+                2,
+                2,
+                2,
+                6,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "Loop": false,
+              "Markers": {
+                "cast": 4,
+                "world-action": 12,
+                "recover": 16
+              }
+            },
+            "hurt": {
+              "StartFrame": 19,
+              "FrameCount": 2,
+              "FrameDurations": [
+                2,
+                8
+              ],
+              "Loop": false
+            },
+            "sleep": {
+              "StartFrame": 21,
+              "FrameCount": 2,
+              "FrameDurations": [
+                30,
+                35
+              ],
+              "Loop": true
+            },
+            "shoot": {
+              "StartFrame": 23,
+              "FrameCount": 13,
+              "FrameDurations": [
+                2,
+                3,
+                6,
+                1,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "Loop": false,
+              "Markers": {
+                "cast": 5,
+                "world-action": 11,
+                "recover": 20
+              }
+            },
+            "charge": {
+              "StartFrame": 36,
+              "FrameCount": 10,
+              "FrameDurations": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "Loop": false,
+              "Markers": {
+                "world-action": 10,
+                "recover": 18
+              }
+            },
+            "strike": {
+              "StartFrame": 46,
+              "FrameCount": 11,
+              "FrameDurations": [
+                2,
+                4,
+                1,
+                1,
+                1,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "Loop": false,
+              "Markers": {
+                "cast": 2,
+                "world-action": 7,
+                "recover": 11
+              }
+            }
+          }
+        },
+        "Encounter": {
+          "Enabled": false
+        },
+        "PortraitPath": "assets/pokemon/mega-evolutions/mega-excadrill/portrait.png",
+        "MoodPortraitPaths": {},
+        "ShinyPortraitPath": "assets/pokemon/mega-evolutions/mega-excadrill/portrait_shiny.png",
+        "ShinyMoodPortraitPaths": {}
+      }
+    },
+    {
+      "BaseSpeciesId": "scrafty",
+      "Presentation": {
+        "NationalDex": 560,
+        "Id": "mega-scrafty",
+        "FormId": "mega",
+        "DisplayName": "Mega Scrafty",
+        "SpritePath": "assets/pokemon/mega-evolutions/mega-scrafty/overworld_stardew.png",
+        "ShinySpritePath": "assets/pokemon/mega-evolutions/mega-scrafty/overworld_shiny_stardew.png",
+        "FrameWidth": 96,
+        "FrameHeight": 96,
+        "AnimationLayout": "PmdEightDirectionAtlas",
+        "HasDistinctSideFrames": true,
+        "Body": {
+          "FootAnchorX": 48.0,
+          "FootAnchorY": 52,
+          "VisibleHeightPixels": 32
+        },
+        "Animation": {
+          "Directions": 4,
+          "FramesPerDirection": 21,
+          "DirectionRows": [
+            1,
+            1,
+            0,
+            0,
+            3,
+            3,
+            2,
+            2
+          ],
+          "Clips": {
+            "walk": {
+              "StartFrame": 0,
+              "FrameCount": 4,
+              "FrameDurations": [
+                8,
+                10,
+                8,
+                10
+              ],
+              "Loop": true
+            },
+            "idle": {
+              "StartFrame": 4,
+              "FrameCount": 1,
+              "FrameDurations": [
+                8
+              ],
+              "Loop": true
+            },
+            "attack": {
+              "StartFrame": 5,
+              "FrameCount": 14,
+              "FrameDurations": [
+                2,
+                2,
+                2,
+                2,
+                4,
+                1,
+                1,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "Loop": false,
+              "Markers": {
+                "cast": 4,
+                "world-action": 12,
+                "recover": 16
+              }
+            },
+            "sleep": {
+              "StartFrame": 19,
+              "FrameCount": 2,
+              "FrameDurations": [
+                30,
+                35
+              ],
+              "Loop": true
+            },
+            "hurt": {
+              "StartFrame": 5,
+              "FrameCount": 14,
+              "FrameDurations": [
+                2,
+                2,
+                2,
+                2,
+                4,
+                1,
+                1,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "Loop": false,
+              "Markers": {
+                "cast": 4,
+                "world-action": 12,
+                "recover": 16
+              }
+            }
+          }
+        },
+        "Encounter": {
+          "Enabled": false
+        },
+        "PortraitPath": "assets/pokemon/mega-evolutions/mega-scrafty/portrait.png",
+        "MoodPortraitPaths": {},
+        "ShinyPortraitPath": "assets/pokemon/mega-evolutions/mega-scrafty/portrait_shiny.png",
+        "ShinyMoodPortraitPaths": {}
+      }
+    },
+    {
+      "BaseSpeciesId": "eelektross",
+      "Presentation": {
+        "NationalDex": 604,
+        "Id": "mega-eelektross",
+        "FormId": "mega",
+        "DisplayName": "Mega Eelektross",
+        "SpritePath": "assets/pokemon/mega-evolutions/mega-eelektross/overworld_stardew.png",
+        "ShinySpritePath": "assets/pokemon/mega-evolutions/mega-eelektross/overworld_shiny_stardew.png",
+        "FrameWidth": 104,
+        "FrameHeight": 104,
+        "AnimationLayout": "PmdEightDirectionAtlas",
+        "HasDistinctSideFrames": true,
+        "Body": {
+          "FootAnchorX": 52.0,
+          "FootAnchorY": 56,
+          "VisibleHeightPixels": 48
+        },
+        "Animation": {
+          "Directions": 4,
+          "FramesPerDirection": 80,
+          "DirectionRows": [
+            1,
+            1,
+            0,
+            0,
+            3,
+            3,
+            2,
+            2
+          ],
+          "Clips": {
+            "walk": {
+              "StartFrame": 0,
+              "FrameCount": 10,
+              "FrameDurations": [
+                8,
+                8,
+                8,
+                8,
+                8,
+                8,
+                8,
+                8,
+                8,
+                8
+              ],
+              "Loop": true
+            },
+            "idle": {
+              "StartFrame": 10,
+              "FrameCount": 10,
+              "FrameDurations": [
+                10,
+                14,
+                14,
+                14,
+                14,
+                10,
+                14,
+                14,
+                14,
+                14
+              ],
+              "Loop": true
+            },
+            "attack": {
+              "StartFrame": 20,
+              "FrameCount": 14,
+              "FrameDurations": [
+                2,
+                2,
+                6,
+                1,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "Loop": false,
+              "Markers": {
+                "cast": 2,
+                "world-action": 4,
+                "recover": 17
+              }
+            },
+            "hurt": {
+              "StartFrame": 34,
+              "FrameCount": 2,
+              "FrameDurations": [
+                2,
+                8
+              ],
+              "Loop": false
+            },
+            "sleep": {
+              "StartFrame": 36,
+              "FrameCount": 8,
+              "FrameDurations": [
+                10,
+                8,
+                12,
+                12,
+                10,
+                8,
+                12,
+                12
+              ],
+              "Loop": true
+            },
+            "shoot": {
+              "StartFrame": 44,
+              "FrameCount": 12,
+              "FrameDurations": [
+                2,
+                2,
+                6,
+                1,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "Loop": false,
+              "Markers": {
+                "cast": 2,
+                "world-action": 4,
+                "recover": 13
+              }
+            },
+            "charge": {
+              "StartFrame": 56,
+              "FrameCount": 10,
+              "FrameDurations": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "Loop": false,
+              "Markers": {
+                "world-action": 10,
+                "recover": 18
+              }
+            },
+            "strike": {
+              "StartFrame": 66,
+              "FrameCount": 14,
+              "FrameDurations": [
+                2,
+                2,
+                6,
+                1,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "Loop": false,
+              "Markers": {
+                "cast": 2,
+                "world-action": 4,
+                "recover": 17
+              }
+            }
+          }
+        },
+        "Encounter": {
+          "Enabled": false
+        },
+        "PortraitPath": "assets/pokemon/mega-evolutions/mega-eelektross/portrait.png",
+        "MoodPortraitPaths": {},
+        "ShinyPortraitPath": "assets/pokemon/mega-evolutions/mega-eelektross/portrait_shiny.png",
+        "ShinyMoodPortraitPaths": {}
+      }
+    },
+    {
+      "BaseSpeciesId": "floette",
+      "Presentation": {
+        "NationalDex": 670,
+        "Id": "mega-floette",
+        "FormId": "mega",
+        "DisplayName": "Mega Floette",
+        "SpritePath": "assets/pokemon/mega-evolutions/mega-floette/overworld_stardew.png",
+        "ShinySpritePath": "assets/pokemon/mega-evolutions/mega-floette/overworld_shiny_stardew.png",
+        "FrameWidth": 128,
+        "FrameHeight": 128,
+        "AnimationLayout": "PmdEightDirectionAtlas",
+        "HasDistinctSideFrames": true,
+        "Body": {
+          "FootAnchorX": 64.0,
+          "FootAnchorY": 68,
+          "VisibleHeightPixels": 54
+        },
+        "Animation": {
+          "Directions": 4,
+          "FramesPerDirection": 89,
+          "DirectionRows": [
+            1,
+            1,
+            0,
+            0,
+            3,
+            3,
+            2,
+            2
+          ],
+          "Clips": {
+            "walk": {
+              "StartFrame": 0,
+              "FrameCount": 10,
+              "FrameDurations": [
+                8,
+                8,
+                8,
+                8,
+                8,
+                8,
+                8,
+                8,
+                8,
+                8
+              ],
+              "Loop": true
+            },
+            "idle": {
+              "StartFrame": 10,
+              "FrameCount": 18,
+              "FrameDurations": [
+                10,
+                14,
+                14,
+                14,
+                14,
+                10,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                14,
+                14,
+                14,
+                14,
+                14
+              ],
+              "Loop": true
+            },
+            "attack": {
+              "StartFrame": 28,
+              "FrameCount": 15,
+              "FrameDurations": [
+                2,
+                2,
+                1,
+                3,
+                1,
+                3,
+                2,
+                1,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                10
+              ],
+              "Loop": false,
+              "Markers": {
+                "cast": 2,
+                "world-action": 14,
+                "recover": 19
+              }
+            },
+            "hurt": {
+              "StartFrame": 43,
+              "FrameCount": 2,
+              "FrameDurations": [
+                2,
+                8
+              ],
+              "Loop": false
+            },
+            "sleep": {
+              "StartFrame": 45,
+              "FrameCount": 6,
+              "FrameDurations": [
+                16,
+                12,
+                16,
+                16,
+                12,
+                16
+              ],
+              "Loop": true
+            },
+            "shoot": {
+              "StartFrame": 51,
+              "FrameCount": 13,
+              "FrameDurations": [
+                2,
+                3,
+                4,
+                4,
+                1,
+                1,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                8
+              ],
+              "Loop": false,
+              "Markers": {
+                "cast": 5,
+                "world-action": 9,
+                "recover": 17
+              }
+            },
+            "charge": {
+              "StartFrame": 64,
+              "FrameCount": 10,
+              "FrameDurations": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "Loop": false,
+              "Markers": {
+                "world-action": 10,
+                "recover": 18
+              }
+            },
+            "strike": {
+              "StartFrame": 74,
+              "FrameCount": 15,
+              "FrameDurations": [
+                2,
+                2,
+                1,
+                3,
+                1,
+                3,
+                2,
+                1,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                10
+              ],
+              "Loop": false,
+              "Markers": {
+                "cast": 2,
+                "world-action": 14,
+                "recover": 19
+              }
+            }
+          }
+        },
+        "Encounter": {
+          "Enabled": false
+        },
+        "PortraitPath": "assets/pokemon/mega-evolutions/mega-floette/portrait.png",
+        "MoodPortraitPaths": {},
+        "ShinyPortraitPath": "assets/pokemon/mega-evolutions/mega-floette/portrait_shiny.png",
+        "ShinyMoodPortraitPaths": {}
+      }
+    }
+  ]
+}

@@ -1,0 +1,5197 @@
+{
+  "Format": "PmdExtraEffectLibrary/1",
+  "Source": "pret/pmd-sky files/EFFECT/effect.bin",
+  "SourceCommit": "b65f50cf1d0e56bdb70e63883038e99d1d5836a9",
+  "SourceTables": [
+    "asm/overlay_10_022C5938.s (MOVE_ANIMATION_INFO and EFFECT_ANIMATION_INFO)",
+    "include/enums.h (move IDs)"
+  ],
+  "DurationUnit": "Nintendo DS display frames (approximately 60 fps)",
+  "RightsNotice": "These PNGs contain official game graphics. pret/pmd-sky and the decoding tools do not grant redistribution rights to the underlying artwork; confirm permission before distributing them.",
+  "Notes": [
+    "Every source sequence entry is retained, including transparent blink frames.",
+    "Packed WAN duration flags are removed while preserving each entry's low-byte display-frame duration.",
+    "Shared runtime palettes are replaced with deterministic type-appropriate ramps; embedded palettes are preserved.",
+    "MoveEffectOffset is a raw byte offset in the 24-byte MOVE_ANIMATION_INFO entry; SuggestedRole is an integration recommendation."
+  ],
+  "Effects": [
+    {
+      "Id": "pmd.extra.normal.scratch",
+      "Type": "Normal",
+      "Move": "Scratch",
+      "MoveId": 260,
+      "MoveEffectOffset": 4,
+      "EffectId": 138,
+      "ArchiveEntry": 54,
+      "Sequence": 0,
+      "SoundEffectId": 3600,
+      "AnchorIndex": 3,
+      "SourceRepeats": false,
+      "SuggestedRole": "TargetImpact",
+      "PaletteNote": "Uses shared runtime palette slot 0; rendered with a neutral hit ramp.",
+      "Texture": "assets/effects/extra/normal_scratch.png",
+      "FrameCount": 7,
+      "FrameWidth": 48,
+      "FrameHeight": 48,
+      "Columns": 7,
+      "Scale": 1.75,
+      "HorizontalOffset": 0,
+      "VerticalOffset": -8,
+      "ForwardOffset": 0,
+      "ArcHeight": 0,
+      "BaseDirectionDegrees": 45,
+      "DurationTicks": 13,
+      "Placement": "Target",
+      "Orientation": "EightWay",
+      "TrackTarget": true,
+      "FrameDurations": [
+        3,
+        2,
+        1,
+        1,
+        1,
+        2,
+        3
+      ],
+      "SourceFrameIndices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "FrameOffsets": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          -2
+        ]
+      ],
+      "TransparentFrames": [],
+      "OriginX": 24,
+      "OriginY": 28
+    },
+    {
+      "Id": "pmd.extra.dark.bite",
+      "Type": "Dark",
+      "Move": "Bite / Crunch",
+      "MoveId": 63,
+      "MoveEffectOffset": 2,
+      "EffectId": 96,
+      "ArchiveEntry": 122,
+      "Sequence": 8,
+      "SoundEffectId": 3074,
+      "AnchorIndex": 0,
+      "SourceRepeats": false,
+      "SuggestedRole": "TargetImpact",
+      "PaletteNote": "Uses shared runtime palette slot 11; rendered with a dark jaw ramp.",
+      "Texture": "assets/effects/extra/dark_bite.png",
+      "FrameCount": 4,
+      "FrameWidth": 40,
+      "FrameHeight": 56,
+      "Columns": 4,
+      "Scale": 1.6,
+      "HorizontalOffset": 0,
+      "VerticalOffset": -8,
+      "ForwardOffset": 0,
+      "ArcHeight": 0,
+      "BaseDirectionDegrees": 0,
+      "DurationTicks": 8,
+      "Placement": "Target",
+      "Orientation": "None",
+      "TrackTarget": true,
+      "FrameDurations": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "SourceFrameIndices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "FrameOffsets": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "TransparentFrames": [],
+      "OriginX": 20,
+      "OriginY": 27
+    },
+    {
+      "Id": "pmd.extra.fire.ember.projectile",
+      "Type": "Fire",
+      "Move": "Ember",
+      "MoveId": 262,
+      "MoveEffectOffset": 6,
+      "EffectId": 137,
+      "ArchiveEntry": 53,
+      "Sequence": 0,
+      "SoundEffectId": -1,
+      "AnchorIndex": 0,
+      "SourceRepeats": true,
+      "SuggestedRole": "ProjectileLoop",
+      "PaletteNote": "Uses shared runtime palette slot 0; rendered with a fire ramp.",
+      "Texture": "assets/effects/extra/fire_ember_projectile.png",
+      "FrameCount": 4,
+      "FrameWidth": 16,
+      "FrameHeight": 16,
+      "Columns": 4,
+      "AnimationClip": "shoot",
+      "Scale": 2.5,
+      "HorizontalOffset": 0,
+      "VerticalOffset": -6,
+      "ForwardOffset": 0,
+      "ArcHeight": 6,
+      "BaseDirectionDegrees": 0,
+      "DurationTicks": 10,
+      "Placement": "Travel",
+      "Orientation": "None",
+      "TrackTarget": true,
+      "FrameDurations": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "SourceFrameIndices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "FrameOffsets": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "TransparentFrames": [],
+      "OriginX": 8,
+      "OriginY": 4
+    },
+    {
+      "Id": "pmd.extra.fire.ember.impact",
+      "Type": "Fire",
+      "Move": "Ember",
+      "MoveId": 262,
+      "MoveEffectOffset": 4,
+      "EffectId": 317,
+      "ArchiveEntry": 53,
+      "Sequence": 3,
+      "SoundEffectId": 4378,
+      "AnchorIndex": 3,
+      "SourceRepeats": false,
+      "SuggestedRole": "TargetImpact",
+      "PaletteNote": "Uses shared runtime palette slot 0; rendered with a fire ramp.",
+      "Texture": "assets/effects/extra/fire_ember_impact.png",
+      "FrameCount": 9,
+      "FrameWidth": 24,
+      "FrameHeight": 32,
+      "Columns": 9,
+      "Scale": 2.25,
+      "HorizontalOffset": 0,
+      "VerticalOffset": -8,
+      "ForwardOffset": 0,
+      "ArcHeight": 0,
+      "BaseDirectionDegrees": 0,
+      "DurationTicks": 21,
+      "Placement": "Target",
+      "Orientation": "None",
+      "TrackTarget": true,
+      "FrameDurations": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        4
+      ],
+      "SourceFrameIndices": [
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79
+      ],
+      "FrameOffsets": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "TransparentFrames": [],
+      "OriginX": 12,
+      "OriginY": 20
+    },
+    {
+      "Id": "pmd.extra.water.water_gun",
+      "Type": "Water",
+      "Move": "Water Gun",
+      "MoveId": 308,
+      "MoveEffectOffset": 6,
+      "EffectId": 333,
+      "ArchiveEntry": 13,
+      "Sequence": 48,
+      "SoundEffectId": 1295,
+      "AnchorIndex": 0,
+      "SourceRepeats": true,
+      "SuggestedRole": "ProjectileLoop",
+      "PaletteNote": "Uses shared runtime palette slot 0; rendered with a water ramp.",
+      "Texture": "assets/effects/extra/water_water_gun.png",
+      "FrameCount": 2,
+      "FrameWidth": 16,
+      "FrameHeight": 32,
+      "Columns": 2,
+      "AnimationClip": "shoot",
+      "Scale": 2.0,
+      "HorizontalOffset": 0,
+      "VerticalOffset": -6,
+      "ForwardOffset": 0,
+      "ArcHeight": 0,
+      "BaseDirectionDegrees": 90,
+      "DurationTicks": 10,
+      "Placement": "Travel",
+      "Orientation": "EightWay",
+      "TrackTarget": true,
+      "FrameDurations": [
+        2,
+        2
+      ],
+      "SourceFrameIndices": [
+        140,
+        141
+      ],
+      "FrameOffsets": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "TransparentFrames": [],
+      "OriginX": 8,
+      "OriginY": 15
+    },
+    {
+      "Id": "pmd.extra.normal.morning_sun",
+      "Type": "Normal",
+      "Move": "Morning Sun",
+      "MoveId": 6,
+      "MoveEffectOffset": 4,
+      "EffectId": 27,
+      "ArchiveEntry": 113,
+      "Sequence": 0,
+      "SoundEffectId": 4364,
+      "AnchorIndex": -1,
+      "SourceRepeats": false,
+      "SuggestedRole": "SourceAura",
+      "PaletteNote": "Uses embedded palette slot 14; the fallback gold ramp is not substituted for it.",
+      "Texture": "assets/effects/extra/normal_morning_sun.png",
+      "FrameCount": 27,
+      "FrameWidth": 40,
+      "FrameHeight": 232,
+      "Columns": 16,
+      "Scale": 0.9,
+      "HorizontalOffset": 0,
+      "VerticalOffset": -4,
+      "ForwardOffset": 0,
+      "ArcHeight": 0,
+      "BaseDirectionDegrees": 0,
+      "DurationTicks": 49,
+      "Placement": "Source",
+      "Orientation": "None",
+      "TrackTarget": false,
+      "FrameDurations": [
+        2,
+        1,
+        2,
+        1,
+        2,
+        1,
+        3,
+        1,
+        3,
+        1,
+        3,
+        1,
+        3,
+        1,
+        3,
+        1,
+        3,
+        1,
+        3,
+        1,
+        3,
+        1,
+        2,
+        1,
+        2,
+        1,
+        2
+      ],
+      "SourceFrameIndices": [
+        21,
+        8,
+        20,
+        8,
+        9,
+        8,
+        0,
+        8,
+        4,
+        8,
+        1,
+        8,
+        5,
+        8,
+        2,
+        8,
+        6,
+        8,
+        3,
+        8,
+        7,
+        8,
+        9,
+        8,
+        20,
+        8,
+        21
+      ],
+      "FrameOffsets": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "TransparentFrames": [
+        1,
+        3,
+        5,
+        7,
+        9,
+        11,
+        13,
+        15,
+        17,
+        19,
+        21,
+        23,
+        25
+      ],
+      "OriginX": 20,
+      "OriginY": 248
+    },
+    {
+      "Id": "pmd.extra.poison.poison_powder",
+      "Type": "Poison",
+      "Move": "PoisonPowder",
+      "MoveId": 199,
+      "MoveEffectOffset": 4,
+      "EffectId": 258,
+      "ArchiveEntry": 93,
+      "Sequence": 1,
+      "SoundEffectId": 3344,
+      "AnchorIndex": 3,
+      "SourceRepeats": false,
+      "SuggestedRole": "TargetArea",
+      "PaletteNote": "Uses shared runtime palette slot 2; rendered with a poison ramp.",
+      "Texture": "assets/effects/extra/poison_poison_powder.png",
+      "FrameCount": 22,
+      "FrameWidth": 48,
+      "FrameHeight": 72,
+      "Columns": 16,
+      "Scale": 1.4,
+      "HorizontalOffset": 0,
+      "VerticalOffset": -6,
+      "ForwardOffset": 0,
+      "ArcHeight": 0,
+      "BaseDirectionDegrees": 0,
+      "DurationTicks": 44,
+      "Placement": "Target",
+      "Orientation": "None",
+      "TrackTarget": true,
+      "FrameDurations": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "SourceFrameIndices": [
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43
+      ],
+      "FrameOffsets": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "TransparentFrames": [],
+      "OriginX": 24,
+      "OriginY": 60
+    },
+    {
+      "Id": "pmd.extra.normal.smokescreen",
+      "Type": "Normal",
+      "Move": "Smokescreen",
+      "MoveId": 37,
+      "MoveEffectOffset": 6,
+      "EffectId": 65,
+      "ArchiveEntry": 56,
+      "Sequence": 0,
+      "SoundEffectId": 1814,
+      "AnchorIndex": 3,
+      "SourceRepeats": false,
+      "SuggestedRole": "ProjectileOrTargetCloud",
+      "PaletteNote": "Uses embedded palette slot 14; the fallback smoke ramp is not substituted for it.",
+      "Texture": "assets/effects/extra/normal_smokescreen.png",
+      "FrameCount": 7,
+      "FrameWidth": 40,
+      "FrameHeight": 40,
+      "Columns": 7,
+      "Scale": 2.0,
+      "HorizontalOffset": 0,
+      "VerticalOffset": -8,
+      "ForwardOffset": 0,
+      "ArcHeight": 0,
+      "BaseDirectionDegrees": 0,
+      "DurationTicks": 18,
+      "Placement": "Target",
+      "Orientation": "None",
+      "TrackTarget": true,
+      "FrameDurations": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "SourceFrameIndices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "FrameOffsets": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "TransparentFrames": [],
+      "OriginX": 20,
+      "OriginY": 16
+    },
+    {
+      "Id": "pmd.extra.normal.slash",
+      "Type": "Normal",
+      "Move": "Slash",
+      "MoveId": 81,
+      "MoveEffectOffset": 4,
+      "EffectId": 159,
+      "ArchiveEntry": 101,
+      "Sequence": 0,
+      "SoundEffectId": 3609,
+      "AnchorIndex": 3,
+      "SourceRepeats": false,
+      "SuggestedRole": "TargetImpact",
+      "PaletteNote": "Uses a neutral cutting ramp.",
+      "Texture": "assets/effects/extra/normal_slash.png",
+      "FrameCount": 8,
+      "FrameWidth": 56,
+      "FrameHeight": 48,
+      "Columns": 8,
+      "Scale": 1.5,
+      "HorizontalOffset": 0,
+      "VerticalOffset": -8,
+      "ForwardOffset": 0,
+      "ArcHeight": 0,
+      "BaseDirectionDegrees": 45,
+      "DurationTicks": 12,
+      "Placement": "Target",
+      "Orientation": "EightWay",
+      "TrackTarget": true,
+      "FrameDurations": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "SourceFrameIndices": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "FrameOffsets": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "TransparentFrames": [],
+      "OriginX": 28,
+      "OriginY": 27
+    },
+    {
+      "Id": "pmd.extra.flying.gust",
+      "Type": "Flying",
+      "Move": "Gust",
+      "MoveId": 57,
+      "MoveEffectOffset": 4,
+      "EffectId": 83,
+      "ArchiveEntry": 258,
+      "Sequence": 0,
+      "SoundEffectId": 4629,
+      "AnchorIndex": -1,
+      "SourceRepeats": false,
+      "SuggestedRole": "TargetArea",
+      "PaletteNote": "Uses a pale wind ramp.",
+      "Texture": "assets/effects/extra/flying_gust.png",
+      "FrameCount": 52,
+      "FrameWidth": 64,
+      "FrameHeight": 88,
+      "Columns": 16,
+      "Scale": 1.1,
+      "HorizontalOffset": 0,
+      "VerticalOffset": -8,
+      "ForwardOffset": 0,
+      "ArcHeight": 0,
+      "BaseDirectionDegrees": 0,
+      "DurationTicks": 26,
+      "Placement": "Target",
+      "Orientation": "None",
+      "TrackTarget": true,
+      "FrameDurations": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "SourceFrameIndices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51
+      ],
+      "FrameOffsets": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "TransparentFrames": [],
+      "OriginX": 32,
+      "OriginY": 66
+    },
+    {
+      "Id": "pmd.extra.flying.wing_attack",
+      "Type": "Flying",
+      "Move": "Wing Attack / Steel Wing",
+      "MoveId": 178,
+      "MoveEffectOffset": 4,
+      "EffectId": 669,
+      "ArchiveEntry": 135,
+      "Sequence": 2,
+      "SoundEffectId": 771,
+      "AnchorIndex": -1,
+      "SourceRepeats": false,
+      "SuggestedRole": "TargetImpact",
+      "PaletteNote": "Preserves embedded wing highlights over a wind ramp.",
+      "Texture": "assets/effects/extra/flying_wing_attack.png",
+      "FrameCount": 51,
+      "FrameWidth": 88,
+      "FrameHeight": 88,
+      "Columns": 16,
+      "Scale": 1.15,
+      "HorizontalOffset": 0,
+      "VerticalOffset": -8,
+      "ForwardOffset": 0,
+      "ArcHeight": 0,
+      "BaseDirectionDegrees": 0,
+      "DurationTicks": 24,
+      "Placement": "Target",
+      "Orientation": "None",
+      "TrackTarget": true,
+      "FrameDurations": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "SourceFrameIndices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        146
+      ],
+      "FrameOffsets": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "TransparentFrames": [],
+      "OriginX": 44,
+      "OriginY": 64
+    },
+    {
+      "Id": "pmd.extra.bug.leech_life",
+      "Type": "Bug",
+      "Move": "Leech Life",
+      "MoveId": 80,
+      "MoveEffectOffset": 4,
+      "EffectId": 158,
+      "ArchiveEntry": 23,
+      "Sequence": 8,
+      "SoundEffectId": 4362,
+      "AnchorIndex": 3,
+      "SourceRepeats": false,
+      "SuggestedRole": "TargetImpact",
+      "PaletteNote": "Uses a green draining-energy ramp.",
+      "Texture": "assets/effects/extra/bug_leech_life.png",
+      "FrameCount": 16,
+      "FrameWidth": 40,
+      "FrameHeight": 64,
+      "Columns": 16,
+      "Scale": 2.0,
+      "HorizontalOffset": 0,
+      "VerticalOffset": -8,
+      "ForwardOffset": 0,
+      "ArcHeight": 0,
+      "BaseDirectionDegrees": 0,
+      "DurationTicks": 24,
+      "Placement": "Target",
+      "Orientation": "None",
+      "TrackTarget": true,
+      "FrameDurations": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1,
+        1,
+        2,
+        2
+      ],
+      "SourceFrameIndices": [
+        15,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "FrameOffsets": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          -2
+        ],
+        [
+          0,
+          -4
+        ],
+        [
+          0,
+          -8
+        ],
+        [
+          0,
+          -12
+        ],
+        [
+          0,
+          -16
+        ],
+        [
+          0,
+          -20
+        ],
+        [
+          0,
+          -22
+        ],
+        [
+          0,
+          -24
+        ],
+        [
+          0,
+          -24
+        ],
+        [
+          0,
+          -24
+        ],
+        [
+          0,
+          -24
+        ],
+        [
+          0,
+          -24
+        ],
+        [
+          0,
+          -24
+        ]
+      ],
+      "TransparentFrames": [],
+      "OriginX": 20,
+      "OriginY": 41
+    },
+    {
+      "Id": "pmd.extra.grass.absorb",
+      "Type": "Grass",
+      "Move": "Absorb / Mega Drain / Giga Drain",
+      "MoveId": 135,
+      "MoveEffectOffset": 2,
+      "EffectId": 128,
+      "ArchiveEntry": 23,
+      "Sequence": 0,
+      "SoundEffectId": 1028,
+      "AnchorIndex": 3,
+      "SourceRepeats": false,
+      "SuggestedRole": "TargetDrain",
+      "PaletteNote": "Uses a grass-energy ramp.",
+      "Texture": "assets/effects/extra/grass_absorb.png",
+      "FrameCount": 16,
+      "FrameWidth": 40,
+      "FrameHeight": 64,
+      "Columns": 16,
+      "Scale": 2.0,
+      "HorizontalOffset": 0,
+      "VerticalOffset": -8,
+      "ForwardOffset": 0,
+      "ArcHeight": 0,
+      "BaseDirectionDegrees": 0,
+      "DurationTicks": 24,
+      "Placement": "Target",
+      "Orientation": "None",
+      "TrackTarget": true,
+      "FrameDurations": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1,
+        1,
+        2,
+        2
+      ],
+      "SourceFrameIndices": [
+        15,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "FrameOffsets": [
+        [
+          0,
+          24
+        ],
+        [
+          0,
+          24
+        ],
+        [
+          0,
+          24
+        ],
+        [
+          0,
+          22
+        ],
+        [
+          0,
+          20
+        ],
+        [
+          0,
+          16
+        ],
+        [
+          0,
+          12
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "TransparentFrames": [],
+      "OriginX": 20,
+      "OriginY": 17
+    },
+    {
+      "Id": "pmd.extra.grass.sleep_powder",
+      "Type": "Grass",
+      "Move": "Sleep Powder",
+      "MoveId": 231,
+      "MoveEffectOffset": 4,
+      "EffectId": 259,
+      "ArchiveEntry": 93,
+      "Sequence": 2,
+      "SoundEffectId": 3846,
+      "AnchorIndex": 3,
+      "SourceRepeats": false,
+      "SuggestedRole": "TargetArea",
+      "PaletteNote": "Uses a pale grass-powder ramp.",
+      "Texture": "assets/effects/extra/grass_sleep_powder.png",
+      "FrameCount": 22,
+      "FrameWidth": 48,
+      "FrameHeight": 72,
+      "Columns": 16,
+      "Scale": 1.4,
+      "HorizontalOffset": 0,
+      "VerticalOffset": -6,
+      "ForwardOffset": 0,
+      "ArcHeight": 0,
+      "BaseDirectionDegrees": 0,
+      "DurationTicks": 44,
+      "Placement": "Target",
+      "Orientation": "None",
+      "TrackTarget": true,
+      "FrameDurations": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "SourceFrameIndices": [
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65
+      ],
+      "FrameOffsets": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "TransparentFrames": [],
+      "OriginX": 24,
+      "OriginY": 60
+    },
+    {
+      "Id": "pmd.extra.ground.sand_attack",
+      "Type": "Ground",
+      "Move": "Sand Attack",
+      "MoveId": 142,
+      "MoveEffectOffset": 6,
+      "EffectId": 215,
+      "ArchiveEntry": 114,
+      "Sequence": 0,
+      "SoundEffectId": 4365,
+      "AnchorIndex": 3,
+      "SourceRepeats": false,
+      "SuggestedRole": "TargetArea",
+      "PaletteNote": "Uses a warm sand ramp.",
+      "Texture": "assets/effects/extra/ground_sand_attack.png",
+      "FrameCount": 8,
+      "FrameWidth": 40,
+      "FrameHeight": 48,
+      "Columns": 8,
+      "Scale": 1.8,
+      "HorizontalOffset": 0,
+      "VerticalOffset": -6,
+      "ForwardOffset": 0,
+      "ArcHeight": 0,
+      "BaseDirectionDegrees": 0,
+      "DurationTicks": 18,
+      "Placement": "Target",
+      "Orientation": "None",
+      "TrackTarget": true,
+      "FrameDurations": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        3,
+        3
+      ],
+      "SourceFrameIndices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        4,
+        5
+      ],
+      "FrameOffsets": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "TransparentFrames": [],
+      "OriginX": 20,
+      "OriginY": 19
+    },
+    {
+      "Id": "pmd.extra.poison.poison_sting",
+      "Type": "Poison",
+      "Move": "Poison Sting",
+      "MoveId": 200,
+      "MoveEffectOffset": 6,
+      "EffectId": 217,
+      "ArchiveEntry": 136,
+      "Sequence": 16,
+      "SoundEffectId": 4878,
+      "AnchorIndex": 3,
+      "SourceRepeats": true,
+      "SuggestedRole": "ProjectileLoop",
+      "PaletteNote": "Uses a poison projectile ramp.",
+      "Texture": "assets/effects/extra/poison_poison_sting.png",
+      "FrameCount": 2,
+      "FrameWidth": 16,
+      "FrameHeight": 24,
+      "Columns": 2,
+      "AnimationClip": "shoot",
+      "Scale": 2.4,
+      "HorizontalOffset": 0,
+      "VerticalOffset": -6,
+      "ForwardOffset": 0,
+      "ArcHeight": 4,
+      "BaseDirectionDegrees": 90,
+      "DurationTicks": 10,
+      "Placement": "Travel",
+      "Orientation": "EightWay",
+      "TrackTarget": true,
+      "FrameDurations": [
+        1,
+        1
+      ],
+      "SourceFrameIndices": [
+        4,
+        5
+      ],
+      "FrameOffsets": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "TransparentFrames": [],
+      "OriginX": 8,
+      "OriginY": 7
+    },
+    {
+      "Id": "pmd.extra.ghost.lick",
+      "Type": "Ghost",
+      "Move": "Lick",
+      "MoveId": 120,
+      "MoveEffectOffset": 4,
+      "EffectId": 211,
+      "ArchiveEntry": 98,
+      "Sequence": 0,
+      "SoundEffectId": 4376,
+      "AnchorIndex": 3,
+      "SourceRepeats": false,
+      "SuggestedRole": "TargetImpact",
+      "PaletteNote": "Uses a spectral purple ramp.",
+      "Texture": "assets/effects/extra/ghost_lick.png",
+      "FrameCount": 7,
+      "FrameWidth": 24,
+      "FrameHeight": 40,
+      "Columns": 7,
+      "Scale": 2.1,
+      "HorizontalOffset": 0,
+      "VerticalOffset": -8,
+      "ForwardOffset": 0,
+      "ArcHeight": 0,
+      "BaseDirectionDegrees": 90,
+      "DurationTicks": 10,
+      "Placement": "Target",
+      "Orientation": "EightWay",
+      "TrackTarget": true,
+      "FrameDurations": [
+        2,
+        1,
+        1,
+        2,
+        1,
+        1,
+        1
+      ],
+      "SourceFrameIndices": [
+        3,
+        2,
+        1,
+        0,
+        4,
+        0,
+        4
+      ],
+      "FrameOffsets": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "TransparentFrames": [
+        4,
+        6
+      ],
+      "OriginX": 12,
+      "OriginY": 30
+    },
+    {
+      "Id": "pmd.extra.grass.leaf_blade",
+      "Type": "Grass",
+      "Move": "Leaf Blade",
+      "MoveId": 336,
+      "MoveEffectOffset": 4,
+      "EffectId": 139,
+      "ArchiveEntry": 66,
+      "Sequence": 0,
+      "SoundEffectId": 1288,
+      "AnchorIndex": 3,
+      "SourceRepeats": false,
+      "SuggestedRole": "TargetImpact",
+      "PaletteNote": "Uses a bright leaf-blade ramp.",
+      "Texture": "assets/effects/extra/grass_leaf_blade.png",
+      "FrameCount": 31,
+      "FrameWidth": 80,
+      "FrameHeight": 80,
+      "Columns": 16,
+      "Scale": 1.4,
+      "HorizontalOffset": 0,
+      "VerticalOffset": -8,
+      "ForwardOffset": 0,
+      "ArcHeight": 0,
+      "BaseDirectionDegrees": 0,
+      "DurationTicks": 32,
+      "Placement": "Target",
+      "Orientation": "None",
+      "TrackTarget": true,
+      "FrameDurations": [
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        3,
+        3,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        3,
+        3,
+        3,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        3,
+        4
+      ],
+      "SourceFrameIndices": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32
+      ],
+      "FrameOffsets": [
+        [
+          24,
+          -24
+        ],
+        [
+          13,
+          -11
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          -10,
+          12
+        ],
+        [
+          -21,
+          12
+        ],
+        [
+          -24,
+          10
+        ],
+        [
+          -26,
+          3
+        ],
+        [
+          -27,
+          -8
+        ],
+        [
+          -24,
+          -13
+        ],
+        [
+          -16,
+          -14
+        ],
+        [
+          -13,
+          -14
+        ],
+        [
+          -11,
+          -13
+        ],
+        [
+          -4,
+          -6
+        ],
+        [
+          9,
+          7
+        ],
+        [
+          12,
+          18
+        ],
+        [
+          11,
+          25
+        ],
+        [
+          6,
+          28
+        ],
+        [
+          2,
+          28
+        ],
+        [
+          -3,
+          25
+        ],
+        [
+          -7,
+          18
+        ],
+        [
+          -9,
+          16
+        ],
+        [
+          -12,
+          13
+        ],
+        [
+          -11,
+          12
+        ],
+        [
+          0,
+          -3
+        ],
+        [
+          12,
+          -18
+        ],
+        [
+          27,
+          -34
+        ],
+        [
+          38,
+          -47
+        ],
+        [
+          22,
+          -29
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "TransparentFrames": [],
+      "OriginX": 40,
+      "OriginY": 36
+    },
+    {
+      "Id": "pmd.extra.normal.growl",
+      "Type": "Normal",
+      "Move": "Growl",
+      "MoveId": 217,
+      "MoveEffectOffset": 2,
+      "EffectId": 274,
+      "ArchiveEntry": 121,
+      "Sequence": 0,
+      "SoundEffectId": 1543,
+      "AnchorIndex": 0,
+      "SourceRepeats": false,
+      "SuggestedRole": "SourceWave",
+      "PaletteNote": "Uses a warm sound-wave ramp.",
+      "Texture": "assets/effects/extra/normal_growl.png",
+      "FrameCount": 13,
+      "FrameWidth": 80,
+      "FrameHeight": 56,
+      "Columns": 13,
+      "Scale": 1.35,
+      "HorizontalOffset": 0,
+      "VerticalOffset": -8,
+      "ForwardOffset": 0,
+      "ArcHeight": 0,
+      "BaseDirectionDegrees": 0,
+      "DurationTicks": 18,
+      "Placement": "Source",
+      "Orientation": "None",
+      "TrackTarget": false,
+      "FrameDurations": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        4,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "SourceFrameIndices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "FrameOffsets": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "TransparentFrames": [
+        6
+      ],
+      "OriginX": 40,
+      "OriginY": 9
+    },
+    {
+      "Id": "pmd.extra.fairy.charm",
+      "Type": "Fairy",
+      "Move": "Charm",
+      "MoveId": 11,
+      "MoveEffectOffset": 0,
+      "EffectId": 15,
+      "ArchiveEntry": 51,
+      "Sequence": 0,
+      "SoundEffectId": 1285,
+      "AnchorIndex": 0,
+      "SourceRepeats": false,
+      "SuggestedRole": "TargetAura",
+      "PaletteNote": "Uses a pink heart ramp; Fairy did not exist as a PMD Sky type.",
+      "Texture": "assets/effects/extra/fairy_charm.png",
+      "FrameCount": 26,
+      "FrameWidth": 56,
+      "FrameHeight": 40,
+      "Columns": 16,
+      "Scale": 1.6,
+      "HorizontalOffset": 0,
+      "VerticalOffset": -8,
+      "ForwardOffset": 0,
+      "ArcHeight": 0,
+      "BaseDirectionDegrees": 0,
+      "DurationTicks": 36,
+      "Placement": "Target",
+      "Orientation": "None",
+      "TrackTarget": true,
+      "FrameDurations": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "SourceFrameIndices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "FrameOffsets": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "TransparentFrames": [],
+      "OriginX": 28,
+      "OriginY": 31
+    },
+    {
+      "Id": "pmd.extra.psychic.reflect",
+      "Type": "Psychic",
+      "Move": "Reflect",
+      "MoveId": 338,
+      "MoveEffectOffset": 4,
+      "EffectId": 321,
+      "ArchiveEntry": 6,
+      "Sequence": 0,
+      "SoundEffectId": 1302,
+      "AnchorIndex": -1,
+      "SourceRepeats": false,
+      "SuggestedRole": "SourceShield",
+      "PaletteNote": "Uses a psychic barrier ramp.",
+      "Texture": "assets/effects/extra/psychic_reflect.png",
+      "FrameCount": 39,
+      "FrameWidth": 40,
+      "FrameHeight": 248,
+      "Columns": 16,
+      "Scale": 0.55,
+      "HorizontalOffset": 0,
+      "VerticalOffset": 0,
+      "ForwardOffset": 0,
+      "ArcHeight": 0,
+      "BaseDirectionDegrees": 0,
+      "DurationTicks": 39,
+      "Placement": "Source",
+      "Orientation": "None",
+      "TrackTarget": false,
+      "FrameDurations": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "SourceFrameIndices": [
+        0,
+        10,
+        1,
+        10,
+        2,
+        10,
+        3,
+        10,
+        4,
+        10,
+        5,
+        10,
+        5,
+        10,
+        5,
+        10,
+        5,
+        10,
+        5,
+        10,
+        5,
+        10,
+        5,
+        4,
+        10,
+        3,
+        10,
+        2,
+        10,
+        1,
+        10,
+        6,
+        10,
+        7,
+        10,
+        8,
+        10,
+        9,
+        10
+      ],
+      "FrameOffsets": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "TransparentFrames": [],
+      "OriginX": 20,
+      "OriginY": 231
+    },
+    {
+      "Id": "pmd.extra.steel.iron_defense",
+      "Type": "Steel",
+      "Move": "Iron Defense",
+      "MoveId": 186,
+      "MoveEffectOffset": 4,
+      "EffectId": 313,
+      "ArchiveEntry": 6,
+      "Sequence": 0,
+      "SoundEffectId": 1554,
+      "AnchorIndex": -1,
+      "SourceRepeats": false,
+      "SuggestedRole": "SourceShield",
+      "PaletteNote": "Uses a steel barrier ramp.",
+      "Texture": "assets/effects/extra/steel_iron_defense.png",
+      "FrameCount": 39,
+      "FrameWidth": 40,
+      "FrameHeight": 248,
+      "Columns": 16,
+      "Scale": 0.55,
+      "HorizontalOffset": 0,
+      "VerticalOffset": 0,
+      "ForwardOffset": 0,
+      "ArcHeight": 0,
+      "BaseDirectionDegrees": 0,
+      "DurationTicks": 39,
+      "Placement": "Source",
+      "Orientation": "None",
+      "TrackTarget": false,
+      "FrameDurations": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "SourceFrameIndices": [
+        0,
+        10,
+        1,
+        10,
+        2,
+        10,
+        3,
+        10,
+        4,
+        10,
+        5,
+        10,
+        5,
+        10,
+        5,
+        10,
+        5,
+        10,
+        5,
+        10,
+        5,
+        10,
+        5,
+        4,
+        10,
+        3,
+        10,
+        2,
+        10,
+        1,
+        10,
+        6,
+        10,
+        7,
+        10,
+        8,
+        10,
+        9,
+        10
+      ],
+      "FrameOffsets": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "TransparentFrames": [],
+      "OriginX": 20,
+      "OriginY": 231
+    },
+    {
+      "Id": "pmd.extra.water.aqua_ring",
+      "Type": "Water",
+      "Move": "Aqua Ring",
+      "MoveId": 434,
+      "MoveEffectOffset": 2,
+      "EffectId": 454,
+      "ArchiveEntry": 142,
+      "Sequence": 0,
+      "SoundEffectId": 1794,
+      "AnchorIndex": 3,
+      "SourceRepeats": false,
+      "SuggestedRole": "SourceAura",
+      "PaletteNote": "Uses a water-energy ramp.",
+      "Texture": "assets/effects/extra/water_aqua_ring.png",
+      "FrameCount": 21,
+      "FrameWidth": 72,
+      "FrameHeight": 72,
+      "Columns": 16,
+      "Scale": 1.25,
+      "HorizontalOffset": 0,
+      "VerticalOffset": -8,
+      "ForwardOffset": 0,
+      "ArcHeight": 0,
+      "BaseDirectionDegrees": 0,
+      "DurationTicks": 36,
+      "Placement": "Source",
+      "Orientation": "None",
+      "TrackTarget": false,
+      "FrameDurations": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "SourceFrameIndices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        0
+      ],
+      "FrameOffsets": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "TransparentFrames": [],
+      "OriginX": 36,
+      "OriginY": 32
+    },
+    {
+      "Id": "pmd.extra.rock.rock_throw",
+      "Type": "Rock",
+      "Move": "Rock Throw",
+      "MoveId": 28,
+      "MoveEffectOffset": 4,
+      "EffectId": 53,
+      "ArchiveEntry": 108,
+      "Sequence": 1,
+      "SoundEffectId": 4360,
+      "AnchorIndex": -1,
+      "SourceRepeats": false,
+      "SuggestedRole": "TargetArea",
+      "PaletteNote": "Uses a stone ramp.",
+      "Texture": "assets/effects/extra/rock_rock_throw.png",
+      "FrameCount": 64,
+      "FrameWidth": 88,
+      "FrameHeight": 264,
+      "Columns": 16,
+      "Scale": 0.75,
+      "HorizontalOffset": 0,
+      "VerticalOffset": -8,
+      "ForwardOffset": 0,
+      "ArcHeight": 0,
+      "BaseDirectionDegrees": 0,
+      "DurationTicks": 40,
+      "Placement": "Target",
+      "Orientation": "None",
+      "TrackTarget": true,
+      "FrameDurations": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "SourceFrameIndices": [
+        127,
+        126,
+        125,
+        124,
+        123,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        119,
+        121,
+        120,
+        121,
+        122,
+        121,
+        122
+      ],
+      "FrameOffsets": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "TransparentFrames": [
+        61,
+        63
+      ],
+      "OriginX": 44,
+      "OriginY": 248
+    },
+    {
+      "Id": "pmd.extra.bug.string_shot.cast",
+      "Type": "Bug",
+      "Move": "String Shot",
+      "MoveId": 23,
+      "MoveEffectOffset": 2,
+      "EffectId": 44,
+      "ArchiveEntry": 134,
+      "Sequence": 0,
+      "SoundEffectId": 1549,
+      "AnchorIndex": 0,
+      "SourceRepeats": false,
+      "SuggestedRole": "SourceCast",
+      "PaletteNote": "Uses a silk-green bug ramp.",
+      "Texture": "assets/effects/extra/bug_string_shot_cast.png",
+      "FrameCount": 11,
+      "FrameWidth": 24,
+      "FrameHeight": 24,
+      "Columns": 11,
+      "Scale": 2.0,
+      "HorizontalOffset": 0,
+      "VerticalOffset": -6,
+      "ForwardOffset": 0,
+      "ArcHeight": 0,
+      "BaseDirectionDegrees": 0,
+      "DurationTicks": 11,
+      "Placement": "Source",
+      "Orientation": "None",
+      "TrackTarget": false,
+      "FrameDurations": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "SourceFrameIndices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "FrameOffsets": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "TransparentFrames": [],
+      "OriginX": 12,
+      "OriginY": 8
+    },
+    {
+      "Id": "pmd.extra.bug.string_shot.projectile",
+      "Type": "Bug",
+      "Move": "String Shot",
+      "MoveId": 23,
+      "MoveEffectOffset": 6,
+      "EffectId": 45,
+      "ArchiveEntry": 134,
+      "Sequence": 1,
+      "SoundEffectId": -1,
+      "AnchorIndex": 0,
+      "SourceRepeats": true,
+      "SuggestedRole": "ProjectileLoop",
+      "PaletteNote": "Uses a silk-green bug ramp.",
+      "Texture": "assets/effects/extra/bug_string_shot_projectile.png",
+      "FrameCount": 2,
+      "FrameWidth": 24,
+      "FrameHeight": 24,
+      "Columns": 2,
+      "AnimationClip": "shoot",
+      "Scale": 2.2,
+      "HorizontalOffset": 0,
+      "VerticalOffset": -6,
+      "ForwardOffset": 0,
+      "ArcHeight": 4,
+      "BaseDirectionDegrees": 0,
+      "DurationTicks": 10,
+      "Placement": "Travel",
+      "Orientation": "None",
+      "TrackTarget": true,
+      "FrameDurations": [
+        4,
+        4
+      ],
+      "SourceFrameIndices": [
+        11,
+        12
+      ],
+      "FrameOffsets": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "TransparentFrames": [],
+      "OriginX": 12,
+      "OriginY": 8
+    },
+    {
+      "Id": "pmd.extra.bug.string_shot.impact",
+      "Type": "Bug",
+      "Move": "String Shot",
+      "MoveId": 23,
+      "MoveEffectOffset": 4,
+      "EffectId": 46,
+      "ArchiveEntry": 134,
+      "Sequence": 2,
+      "SoundEffectId": 1550,
+      "AnchorIndex": 3,
+      "SourceRepeats": false,
+      "SuggestedRole": "TargetImpact",
+      "PaletteNote": "Uses a silk-green bug ramp.",
+      "Texture": "assets/effects/extra/bug_string_shot_impact.png",
+      "FrameCount": 11,
+      "FrameWidth": 40,
+      "FrameHeight": 48,
+      "Columns": 11,
+      "Scale": 1.6,
+      "HorizontalOffset": 0,
+      "VerticalOffset": -8,
+      "ForwardOffset": 0,
+      "ArcHeight": 0,
+      "BaseDirectionDegrees": 0,
+      "DurationTicks": 44,
+      "Placement": "Target",
+      "Orientation": "None",
+      "TrackTarget": true,
+      "FrameDurations": [
+        2,
+        2,
+        10,
+        2,
+        6,
+        4,
+        2,
+        6,
+        6,
+        6,
+        6
+      ],
+      "SourceFrameIndices": [
+        13,
+        14,
+        15,
+        16,
+        15,
+        16,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "FrameOffsets": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "TransparentFrames": [],
+      "OriginX": 20,
+      "OriginY": 18
+    },
+    {
+      "Id": "pmd.extra.fire.fire_blast.projectile",
+      "Type": "Fire",
+      "Move": "Fire Blast",
+      "MoveId": 157,
+      "MoveEffectOffset": 6,
+      "EffectId": 263,
+      "ArchiveEntry": 30,
+      "Sequence": 0,
+      "SoundEffectId": 3612,
+      "AnchorIndex": 3,
+      "SourceRepeats": true,
+      "SuggestedRole": "ProjectileLoop",
+      "PaletteNote": "Uses a fire projectile ramp.",
+      "Texture": "assets/effects/extra/fire_fire_blast_projectile.png",
+      "FrameCount": 5,
+      "FrameWidth": 48,
+      "FrameHeight": 48,
+      "Columns": 5,
+      "AnimationClip": "shoot",
+      "Scale": 1.75,
+      "HorizontalOffset": 0,
+      "VerticalOffset": -6,
+      "ForwardOffset": 0,
+      "ArcHeight": 8,
+      "BaseDirectionDegrees": 0,
+      "DurationTicks": 12,
+      "Placement": "Travel",
+      "Orientation": "None",
+      "TrackTarget": true,
+      "FrameDurations": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "SourceFrameIndices": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "FrameOffsets": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "TransparentFrames": [],
+      "OriginX": 24,
+      "OriginY": 20
+    },
+    {
+      "Id": "pmd.extra.fire.fire_blast.impact",
+      "Type": "Fire",
+      "Move": "Fire Blast",
+      "MoveId": 157,
+      "MoveEffectOffset": 4,
+      "EffectId": 264,
+      "ArchiveEntry": 30,
+      "Sequence": 1,
+      "SoundEffectId": 3613,
+      "AnchorIndex": 3,
+      "SourceRepeats": false,
+      "SuggestedRole": "TargetImpact",
+      "PaletteNote": "Uses a fire impact ramp.",
+      "Texture": "assets/effects/extra/fire_fire_blast_impact.png",
+      "FrameCount": 22,
+      "FrameWidth": 72,
+      "FrameHeight": 72,
+      "Columns": 16,
+      "Scale": 1.15,
+      "HorizontalOffset": 0,
+      "VerticalOffset": -8,
+      "ForwardOffset": 0,
+      "ArcHeight": 0,
+      "BaseDirectionDegrees": 0,
+      "DurationTicks": 32,
+      "Placement": "Target",
+      "Orientation": "None",
+      "TrackTarget": true,
+      "FrameDurations": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "SourceFrameIndices": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "FrameOffsets": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "TransparentFrames": [],
+      "OriginX": 36,
+      "OriginY": 37
+    },
+    {
+      "Id": "pmd.extra.ice.ice_fang",
+      "Type": "Ice",
+      "Move": "Ice Fang",
+      "MoveId": 461,
+      "MoveEffectOffset": 4,
+      "EffectId": 495,
+      "ArchiveEntry": 155,
+      "Sequence": 0,
+      "SoundEffectId": 2579,
+      "AnchorIndex": 3,
+      "SourceRepeats": false,
+      "SuggestedRole": "TargetImpact",
+      "PaletteNote": "Uses an icy jaw-and-shards ramp.",
+      "Texture": "assets/effects/extra/ice_ice_fang.png",
+      "FrameCount": 9,
+      "FrameWidth": 104,
+      "FrameHeight": 72,
+      "Columns": 9,
+      "Scale": 1.1,
+      "HorizontalOffset": 0,
+      "VerticalOffset": -8,
+      "ForwardOffset": 0,
+      "ArcHeight": 0,
+      "BaseDirectionDegrees": 0,
+      "DurationTicks": 18,
+      "Placement": "Target",
+      "Orientation": "None",
+      "TrackTarget": true,
+      "FrameDurations": [
+        3,
+        2,
+        1,
+        3,
+        3,
+        2,
+        2,
+        2,
+        1
+      ],
+      "SourceFrameIndices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "FrameOffsets": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "TransparentFrames": [],
+      "OriginX": 52,
+      "OriginY": 34
+    },
+    {
+      "Id": "pmd.extra.electric.spark",
+      "Type": "Electric",
+      "Move": "Spark",
+      "MoveId": 144,
+      "MoveEffectOffset": 4,
+      "EffectId": 114,
+      "ArchiveEntry": 119,
+      "Sequence": 1,
+      "SoundEffectId": 1542,
+      "AnchorIndex": 3,
+      "SourceRepeats": false,
+      "SuggestedRole": "SourceCharge",
+      "PaletteNote": "Uses an electric charge ramp.",
+      "Texture": "assets/effects/extra/electric_spark.png",
+      "FrameCount": 4,
+      "FrameWidth": 80,
+      "FrameHeight": 80,
+      "Columns": 4,
+      "Scale": 1.15,
+      "HorizontalOffset": 0,
+      "VerticalOffset": -8,
+      "ForwardOffset": 0,
+      "ArcHeight": 0,
+      "BaseDirectionDegrees": 0,
+      "DurationTicks": 10,
+      "Placement": "Source",
+      "Orientation": "None",
+      "TrackTarget": false,
+      "FrameDurations": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "SourceFrameIndices": [
+        13,
+        14,
+        15,
+        16
+      ],
+      "FrameOffsets": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "TransparentFrames": [],
+      "OriginX": 40,
+      "OriginY": 36
+    },
+    {
+      "Id": "pmd.extra.fighting.punch",
+      "Type": "Fighting",
+      "Move": "Mach Punch / Brick Break",
+      "MoveId": 300,
+      "MoveEffectOffset": 4,
+      "EffectId": 127,
+      "ArchiveEntry": 99,
+      "Sequence": 4,
+      "SoundEffectId": 1538,
+      "AnchorIndex": 3,
+      "SourceRepeats": false,
+      "SuggestedRole": "TargetImpact",
+      "PaletteNote": "Uses a blue-white fighting impact ramp.",
+      "Texture": "assets/effects/extra/fighting_punch.png",
+      "FrameCount": 5,
+      "FrameWidth": 40,
+      "FrameHeight": 40,
+      "Columns": 5,
+      "Scale": 1.8,
+      "HorizontalOffset": 0,
+      "VerticalOffset": -8,
+      "ForwardOffset": 0,
+      "ArcHeight": 0,
+      "BaseDirectionDegrees": 0,
+      "DurationTicks": 9,
+      "Placement": "Target",
+      "Orientation": "None",
+      "TrackTarget": true,
+      "FrameDurations": [
+        2,
+        2,
+        1,
+        1,
+        1
+      ],
+      "SourceFrameIndices": [
+        27,
+        28,
+        29,
+        28,
+        29
+      ],
+      "FrameOffsets": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "TransparentFrames": [],
+      "OriginX": 20,
+      "OriginY": 16
+    },
+    {
+      "Id": "pmd.extra.dragon.dragon_claw",
+      "Type": "Dragon",
+      "Move": "Dragon Claw",
+      "MoveId": 208,
+      "MoveEffectOffset": 4,
+      "EffectId": 281,
+      "ArchiveEntry": 53,
+      "Sequence": 2,
+      "SoundEffectId": 1304,
+      "AnchorIndex": 3,
+      "SourceRepeats": false,
+      "SuggestedRole": "TargetImpact",
+      "PaletteNote": "Uses a dragon-energy claw ramp.",
+      "Texture": "assets/effects/extra/dragon_dragon_claw.png",
+      "FrameCount": 11,
+      "FrameWidth": 56,
+      "FrameHeight": 48,
+      "Columns": 11,
+      "Scale": 1.6,
+      "HorizontalOffset": 0,
+      "VerticalOffset": -8,
+      "ForwardOffset": 0,
+      "ArcHeight": 0,
+      "BaseDirectionDegrees": 45,
+      "DurationTicks": 14,
+      "Placement": "Target",
+      "Orientation": "EightWay",
+      "TrackTarget": true,
+      "FrameDurations": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "SourceFrameIndices": [
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70
+      ],
+      "FrameOffsets": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "TransparentFrames": [],
+      "OriginX": 28,
+      "OriginY": 25
+    },
+    {
+      "Id": "pmd.extra.ghost.shadow_claw",
+      "Type": "Ghost",
+      "Move": "Shadow Claw",
+      "MoveId": 476,
+      "MoveEffectOffset": 4,
+      "EffectId": 519,
+      "ArchiveEntry": 179,
+      "Sequence": 0,
+      "SoundEffectId": 2837,
+      "AnchorIndex": 3,
+      "SourceRepeats": false,
+      "SuggestedRole": "TargetImpact",
+      "PaletteNote": "Uses a spectral claw ramp.",
+      "Texture": "assets/effects/extra/ghost_shadow_claw.png",
+      "FrameCount": 18,
+      "FrameWidth": 64,
+      "FrameHeight": 72,
+      "Columns": 16,
+      "Scale": 1.4,
+      "HorizontalOffset": 0,
+      "VerticalOffset": -8,
+      "ForwardOffset": 0,
+      "ArcHeight": 0,
+      "BaseDirectionDegrees": 0,
+      "DurationTicks": 18,
+      "Placement": "Target",
+      "Orientation": "None",
+      "TrackTarget": true,
+      "FrameDurations": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "SourceFrameIndices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "FrameOffsets": [
+        [
+          -2,
+          0
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "TransparentFrames": [],
+      "OriginX": 32,
+      "OriginY": 36
+    },
+    {
+      "Id": "pmd.extra.poison.cross_poison",
+      "Type": "Poison",
+      "Move": "Cross Poison",
+      "MoveId": 459,
+      "MoveEffectOffset": 4,
+      "EffectId": 493,
+      "ArchiveEntry": 165,
+      "Sequence": 0,
+      "SoundEffectId": 2051,
+      "AnchorIndex": 3,
+      "SourceRepeats": false,
+      "SuggestedRole": "TargetImpact",
+      "PaletteNote": "Uses a poison burst ramp.",
+      "Texture": "assets/effects/extra/poison_cross_poison.png",
+      "FrameCount": 17,
+      "FrameWidth": 56,
+      "FrameHeight": 64,
+      "Columns": 16,
+      "Scale": 1.6,
+      "HorizontalOffset": 0,
+      "VerticalOffset": -8,
+      "ForwardOffset": 0,
+      "ArcHeight": 0,
+      "BaseDirectionDegrees": 0,
+      "DurationTicks": 20,
+      "Placement": "Target",
+      "Orientation": "None",
+      "TrackTarget": true,
+      "FrameDurations": [
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "SourceFrameIndices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        15,
+        13,
+        15,
+        14
+      ],
+      "FrameOffsets": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "TransparentFrames": [
+        13,
+        15
+      ],
+      "OriginX": 28,
+      "OriginY": 29
+    },
+    {
+      "Id": "pmd.extra.electric.thunder",
+      "Type": "Electric",
+      "Move": "Thunder",
+      "MoveId": 64,
+      "MoveEffectOffset": 4,
+      "EffectId": 113,
+      "ArchiveEntry": 119,
+      "Sequence": 0,
+      "SoundEffectId": 4617,
+      "AnchorIndex": -1,
+      "SourceRepeats": false,
+      "SuggestedRole": "TargetStrike",
+      "PaletteNote": "Uses a vertical lightning ramp.",
+      "Texture": "assets/effects/extra/electric_thunder.png",
+      "FrameCount": 12,
+      "FrameWidth": 48,
+      "FrameHeight": 152,
+      "Columns": 12,
+      "Scale": 0.9,
+      "HorizontalOffset": 0,
+      "VerticalOffset": -48,
+      "ForwardOffset": 0,
+      "ArcHeight": 0,
+      "BaseDirectionDegrees": 0,
+      "DurationTicks": 24,
+      "Placement": "Target",
+      "Orientation": "None",
+      "TrackTarget": true,
+      "FrameDurations": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "SourceFrameIndices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "FrameOffsets": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "TransparentFrames": [],
+      "OriginX": 24,
+      "OriginY": 137
+    }
+  ]
+}

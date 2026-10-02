@@ -1,0 +1,3912 @@
+{
+  "Format": "PelipperTown/1",
+  "Species": [
+    {
+      "NationalDex": 1,
+      "Id": "bulbasaur",
+      "FormId": "default",
+      "DisplayName": "Bulbasaur",
+      "Description": "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokémon.",
+      "Generation": 1,
+      "GenderRate": 1,
+      "Types": [
+        "Grass",
+        "Poison"
+      ],
+      "SpritePath": "assets/pokemon/gen1/bulbasaur/overworld_stardew.png",
+      "PortraitPath": "assets/pokemon/gen1/bulbasaur/portrait.png",
+      "FrameWidth": 61,
+      "FrameHeight": 59,
+      "AnimationLayout": "PmdEightDirectionAtlas",
+      "HasDistinctSideFrames": true,
+      "Jobs": [
+        "Harvest",
+        "Forage",
+        "OrchardCare",
+        "ClearBrush",
+        "ChopWood"
+      ],
+      "FieldSkills": {
+        "OrchardCare": {
+          "MaxTier": 1
+        },
+        "ClearBrush": {
+          "MaxTier": 1
+        },
+        "ChopWood": {
+          "MaxTier": 1
+        }
+      },
+      "Body": {
+        "FootAnchorX": 31.0,
+        "FootAnchorY": 41.0,
+        "VisibleHeightPixels": 22,
+        "Locomotion": "Grounded",
+        "CollisionOffsetX": 12,
+        "CollisionOffsetY": 32,
+        "CollisionWidth": 40,
+        "CollisionHeight": 28,
+        "DrawScale": 4.0,
+        "AttackOriginHeight": 52.0,
+        "AttackOriginForward": 8.0,
+        "HealthBarHeight": 94.0,
+        "ShadowScale": 3.25,
+        "ClearanceTiles": 1.0,
+        "AvoidsHazards": true
+      },
+      "Animation": {
+        "Directions": 4,
+        "FramesPerDirection": 40,
+        "DirectionRows": [
+          1,
+          1,
+          0,
+          0,
+          3,
+          3,
+          2,
+          2
+        ],
+        "Clips": {
+          "walk": {
+            "StartFrame": 0,
+            "FrameCount": 6,
+            "FrameDurations": [
+              4,
+              4,
+              4,
+              4,
+              4,
+              4
+            ],
+            "Loop": true
+          },
+          "idle": {
+            "StartFrame": 6,
+            "FrameCount": 1,
+            "FrameDurations": [
+              120
+            ],
+            "Loop": true,
+            "Static": true
+          },
+          "attack": {
+            "StartFrame": 9,
+            "FrameCount": 11,
+            "FrameDurations": [
+              4,
+              2,
+              4,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              4
+            ],
+            "Loop": false,
+            "Markers": {
+              "cast": 6,
+              "world-action": 14,
+              "recover": 18
+            }
+          },
+          "hurt": {
+            "StartFrame": 20,
+            "FrameCount": 2,
+            "FrameDurations": [
+              2,
+              8
+            ],
+            "Loop": false
+          },
+          "sleep": {
+            "StartFrame": 22,
+            "FrameCount": 2,
+            "FrameDurations": [
+              30,
+              35
+            ],
+            "Loop": true
+          },
+          "shoot": {
+            "StartFrame": 24,
+            "FrameCount": 6,
+            "FrameDurations": [
+              12,
+              4,
+              4,
+              4,
+              2,
+              2
+            ],
+            "Loop": false,
+            "Markers": {
+              "cast": 12,
+              "world-action": 16,
+              "recover": 24
+            }
+          },
+          "charge": {
+            "StartFrame": 30,
+            "FrameCount": 10,
+            "FrameDurations": [
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2
+            ],
+            "Loop": false,
+            "Markers": {
+              "world-action": 10,
+              "recover": 18
+            }
+          }
+        }
+      },
+      "BaseStats": {
+        "Health": 45,
+        "Attack": 49,
+        "Defense": 49,
+        "SpecialAttack": 65,
+        "SpecialDefense": 65,
+        "Speed": 45
+      },
+      "Progression": {
+        "GrowthRate": "MediumSlow",
+        "BaseExperienceYield": 64,
+        "BaseEnergy": 100,
+        "EnergyPerLevel": 0.75,
+        "DailyEnergyRecoveryRate": 0.35,
+        "AffectionEnergyRecovery": 6,
+        "BattleStatGrowthPerLevel": 0.006,
+        "BaseMovementSpeedBonus": 0,
+        "MovementSpeedLevelInterval": 30,
+        "MaxMovementSpeedBonus": 2,
+        "JobExperience": 8,
+        "AffectionExperience": 20
+      },
+      "Behavior": {
+        "FollowStyle": "CloseBehind",
+        "Curiosity": 0.66,
+        "Bravery": 0.52,
+        "Helpfulness": 0.9,
+        "Sociability": 0.74,
+        "Restlessness": 0.28,
+        "PreferredWeather": [
+          "Rain",
+          "Sun"
+        ],
+        "PreferredLocations": [
+          "Farm",
+          "Forest"
+        ],
+        "JobWeights": {
+          "Harvest": 1.35,
+          "Water": 1.2,
+          "Forage": 1.1,
+          "ClearBrush": 1.0,
+          "ChopWood": 0.8,
+          "Mine": 0.7
+        }
+      },
+      "Encounter": {
+        "Enabled": true,
+        "Weight": 2,
+        "MinLevel": 2,
+        "MaxLevel": 8,
+        "MinimumYearsByLocation": {
+          "Farm": 3
+        },
+        "CatchRate": 0.45,
+        "Locations": [
+          "Farm",
+          "Forest",
+          "Woods"
+        ],
+        "Seasons": [
+          "spring",
+          "summer",
+          "fall"
+        ],
+        "SpawnSurfaces": [
+          "Land"
+        ],
+        "PreferredTerrainTypes": [
+          "Grass"
+        ],
+        "DefeatDrops": [
+          {
+            "ItemId": "(O)771",
+            "Chance": 1.0,
+            "MinStack": 1,
+            "MaxStack": 2
+          },
+          {
+            "ItemId": "(O)770",
+            "Chance": 0.12,
+            "MinStack": 1,
+            "MaxStack": 1
+          }
+        ],
+        "ThreatTier": "Gentle",
+        "RarityTier": "Rare",
+        "TimesOfDay": [],
+        "Profiles": [
+          {
+            "Context": "Overworld",
+            "ThreatTier": "Gentle",
+            "RarityTier": "Rare",
+            "Weight": 2.0,
+            "MinLevel": 2,
+            "MaxLevel": 8,
+            "MinYear": 1,
+            "MaxYear": 0,
+            "MinimumYearsByLocation": {
+              "Farm": 3
+            },
+            "CatchRate": 0.45,
+            "Hostile": false,
+            "Locations": [
+              "Farm",
+              "Forest",
+              "Woods"
+            ],
+            "Seasons": [
+              "spring",
+              "summer",
+              "fall"
+            ],
+            "TimesOfDay": [],
+            "HabitatTags": [],
+            "SpawnSurfaces": [
+              "Land"
+            ],
+            "PreferredTerrainTypes": [
+              "Grass"
+            ]
+          }
+        ]
+      },
+      "AbilityIds": [
+        "green-thumb-1"
+      ],
+      "DefaultMoveIds": [
+        "kanto_solar_beam",
+        "kanto_power_whip",
+        "kanto_worry_seed",
+        "kanto_synthesis",
+        "kanto_take_down",
+        "kanto_seed_bomb",
+        "kanto_sleep_powder",
+        "kanto_poison_powder",
+        "kanto_razor_leaf",
+        "kanto_leech_seed",
+        "kanto_growth",
+        "kanto_vine_whip",
+        "kanto_tackle",
+        "kanto_growl"
+      ],
+      "Learnset": [
+        {
+          "Level": 1,
+          "MoveId": "kanto_growl"
+        },
+        {
+          "Level": 1,
+          "MoveId": "kanto_tackle"
+        },
+        {
+          "Level": 3,
+          "MoveId": "kanto_vine_whip"
+        },
+        {
+          "Level": 6,
+          "MoveId": "kanto_growth"
+        },
+        {
+          "Level": 9,
+          "MoveId": "kanto_leech_seed"
+        },
+        {
+          "Level": 12,
+          "MoveId": "kanto_razor_leaf"
+        },
+        {
+          "Level": 15,
+          "MoveId": "kanto_poison_powder"
+        },
+        {
+          "Level": 15,
+          "MoveId": "kanto_sleep_powder"
+        },
+        {
+          "Level": 18,
+          "MoveId": "kanto_seed_bomb"
+        },
+        {
+          "Level": 21,
+          "MoveId": "kanto_take_down"
+        },
+        {
+          "Level": 27,
+          "MoveId": "kanto_synthesis"
+        },
+        {
+          "Level": 30,
+          "MoveId": "kanto_worry_seed"
+        },
+        {
+          "Level": 33,
+          "MoveId": "kanto_power_whip"
+        },
+        {
+          "Level": 36,
+          "MoveId": "kanto_solar_beam"
+        }
+      ],
+      "JobEffectIds": {
+        "Harvest": "bulbasaur.synthesis",
+        "ClearBrush": "bulbasaur.razor_leaf",
+        "ChopTwig": "bulbasaur.vine_whip",
+        "ChopTree": "bulbasaur.vine_whip",
+        "ChopLog": "bulbasaur.vine_whip"
+      },
+      "Evolutions": [
+        {
+          "SpeciesId": "ivysaur",
+          "Conditions": [
+            {
+              "Kind": "Level",
+              "Amount": 16
+            }
+          ]
+        }
+      ],
+      "MoodPortraitPaths": {
+        "happy": "assets/pokemon/gen1/bulbasaur/portrait_happy.png",
+        "tired": "assets/pokemon/gen1/bulbasaur/portrait_tired.png",
+        "sleepy": "assets/pokemon/gen1/bulbasaur/portrait_sleepy.png",
+        "focused": "assets/pokemon/gen1/bulbasaur/portrait_focused.png",
+        "resting": "assets/pokemon/gen1/bulbasaur/portrait_resting.png",
+        "hurt": "assets/pokemon/gen1/bulbasaur/portrait_hurt.png",
+        "fainted": "assets/pokemon/gen1/bulbasaur/portrait_fainted.png"
+      },
+      "ShinySpritePath": "assets/pokemon/gen1/bulbasaur/overworld_shiny_stardew.png",
+      "ShinyPortraitPath": "assets/pokemon/gen1/bulbasaur/portrait_shiny.png",
+      "ShinyMoodPortraitPaths": {
+        "happy": "assets/pokemon/gen1/bulbasaur/portrait_shiny_happy.png",
+        "tired": "assets/pokemon/gen1/bulbasaur/portrait_shiny_tired.png",
+        "sleepy": "assets/pokemon/gen1/bulbasaur/portrait_shiny_sleepy.png",
+        "focused": "assets/pokemon/gen1/bulbasaur/portrait_shiny_focused.png",
+        "resting": "assets/pokemon/gen1/bulbasaur/portrait_shiny_resting.png",
+        "hurt": "assets/pokemon/gen1/bulbasaur/portrait_shiny_hurt.png",
+        "fainted": "assets/pokemon/gen1/bulbasaur/portrait_shiny_fainted.png"
+      },
+      "Breeding": {
+        "CanBreed": true,
+        "BabySpeciesId": "bulbasaur",
+        "BaseHatchSteps": 550,
+        "EggMoveIds": [],
+        "InheritForm": true
+      }
+    },
+    {
+      "NationalDex": 2,
+      "Id": "ivysaur",
+      "FormId": "default",
+      "DisplayName": "Ivysaur",
+      "Description": "There is a plant bulb on its back. When it absorbs nutrients, the bulb is said to blossom into a large flower.",
+      "Generation": 1,
+      "GenderRate": 1,
+      "Types": [
+        "Grass",
+        "Poison"
+      ],
+      "SpritePath": "assets/pokemon/gen1/ivysaur/overworld_stardew.png",
+      "PortraitPath": "assets/pokemon/gen1/ivysaur/portrait.png",
+      "FrameWidth": 59,
+      "FrameHeight": 57,
+      "AnimationLayout": "PmdEightDirectionAtlas",
+      "HasDistinctSideFrames": true,
+      "Jobs": [
+        "Harvest",
+        "Forage",
+        "OrchardCare",
+        "ClearBrush",
+        "ChopWood"
+      ],
+      "FieldSkills": {
+        "OrchardCare": {
+          "MaxTier": 3
+        },
+        "ClearBrush": {
+          "MaxTier": 3
+        },
+        "ChopWood": {
+          "MaxTier": 3
+        }
+      },
+      "Body": {
+        "FootAnchorX": 30.0,
+        "FootAnchorY": 40.0,
+        "VisibleHeightPixels": 23,
+        "Locomotion": "Grounded",
+        "CollisionOffsetX": 10,
+        "CollisionOffsetY": 30,
+        "CollisionWidth": 44,
+        "CollisionHeight": 30,
+        "DrawScale": 4.0,
+        "AttackOriginHeight": 58.0,
+        "AttackOriginForward": 10.0,
+        "HealthBarHeight": 102.0,
+        "ShadowScale": 3.6,
+        "ClearanceTiles": 1.0,
+        "AvoidsHazards": true
+      },
+      "Animation": {
+        "Directions": 4,
+        "FramesPerDirection": 37,
+        "DirectionRows": [
+          1,
+          1,
+          0,
+          0,
+          3,
+          3,
+          2,
+          2
+        ],
+        "Clips": {
+          "walk": {
+            "StartFrame": 0,
+            "FrameCount": 4,
+            "FrameDurations": [
+              8,
+              10,
+              8,
+              10
+            ],
+            "Loop": true
+          },
+          "idle": {
+            "StartFrame": 4,
+            "FrameCount": 4,
+            "FrameDurations": [
+              40,
+              12,
+              12,
+              12
+            ],
+            "Loop": true
+          },
+          "attack": {
+            "StartFrame": 8,
+            "FrameCount": 9,
+            "FrameDurations": [
+              4,
+              2,
+              4,
+              2,
+              2,
+              2,
+              2,
+              2,
+              4
+            ],
+            "Loop": false,
+            "Markers": {
+              "cast": 6,
+              "world-action": 10,
+              "recover": 14
+            }
+          },
+          "hurt": {
+            "StartFrame": 17,
+            "FrameCount": 2,
+            "FrameDurations": [
+              2,
+              8
+            ],
+            "Loop": false
+          },
+          "sleep": {
+            "StartFrame": 19,
+            "FrameCount": 2,
+            "FrameDurations": [
+              30,
+              35
+            ],
+            "Loop": true
+          },
+          "shoot": {
+            "StartFrame": 21,
+            "FrameCount": 6,
+            "FrameDurations": [
+              12,
+              4,
+              4,
+              4,
+              2,
+              2
+            ],
+            "Loop": false,
+            "Markers": {
+              "cast": 12,
+              "world-action": 16,
+              "recover": 24
+            }
+          },
+          "charge": {
+            "StartFrame": 27,
+            "FrameCount": 10,
+            "FrameDurations": [
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2
+            ],
+            "Loop": false,
+            "Markers": {
+              "world-action": 10,
+              "recover": 18
+            }
+          }
+        }
+      },
+      "BaseStats": {
+        "Health": 60,
+        "Attack": 62,
+        "Defense": 63,
+        "SpecialAttack": 80,
+        "SpecialDefense": 80,
+        "Speed": 60
+      },
+      "Progression": {
+        "GrowthRate": "MediumSlow",
+        "BaseExperienceYield": 142,
+        "BaseEnergy": 115,
+        "EnergyPerLevel": 0.9,
+        "DailyEnergyRecoveryRate": 0.35,
+        "AffectionEnergyRecovery": 7,
+        "BattleStatGrowthPerLevel": 0.0065,
+        "BaseMovementSpeedBonus": 0,
+        "MovementSpeedLevelInterval": 28,
+        "MaxMovementSpeedBonus": 2,
+        "JobExperience": 10,
+        "AffectionExperience": 20
+      },
+      "Behavior": {
+        "FollowStyle": "Side",
+        "Curiosity": 0.58,
+        "Bravery": 0.67,
+        "Helpfulness": 0.93,
+        "Sociability": 0.68,
+        "Restlessness": 0.24,
+        "PreferredWeather": [
+          "Rain",
+          "Sun"
+        ],
+        "PreferredLocations": [
+          "Woods",
+          "IslandWest"
+        ],
+        "JobWeights": {
+          "Harvest": 1.35,
+          "Water": 1.2,
+          "Forage": 1.1,
+          "ClearBrush": 1.1,
+          "ChopWood": 1.0,
+          "Mine": 0.8
+        }
+      },
+      "Encounter": {
+        "Enabled": true,
+        "Weight": 1,
+        "MinLevel": 16,
+        "MaxLevel": 24,
+        "CatchRate": 0.18,
+        "Locations": [
+          "Woods",
+          "IslandWest"
+        ],
+        "Seasons": [
+          "spring",
+          "summer",
+          "fall"
+        ],
+        "SpawnSurfaces": [
+          "Land"
+        ],
+        "PreferredTerrainTypes": [
+          "Grass"
+        ],
+        "DefeatDrops": [
+          {
+            "ItemId": "(O)771",
+            "Chance": 1.0,
+            "MinStack": 1,
+            "MaxStack": 2
+          },
+          {
+            "ItemId": "(O)770",
+            "Chance": 0.12,
+            "MinStack": 1,
+            "MaxStack": 1
+          }
+        ],
+        "ThreatTier": "Strong",
+        "RarityTier": "Rare",
+        "TimesOfDay": [],
+        "Profiles": [
+          {
+            "Context": "Overworld",
+            "ThreatTier": "Strong",
+            "RarityTier": "Rare",
+            "Weight": 1.0,
+            "MinLevel": 16,
+            "MaxLevel": 24,
+            "MinYear": 1,
+            "MaxYear": 0,
+            "MinimumYearsByLocation": {},
+            "CatchRate": 0.18,
+            "Hostile": false,
+            "Locations": [
+              "Woods"
+            ],
+            "Seasons": [
+              "spring",
+              "summer",
+              "fall"
+            ],
+            "TimesOfDay": [],
+            "HabitatTags": [],
+            "SpawnSurfaces": [
+              "Land"
+            ],
+            "PreferredTerrainTypes": [
+              "Grass"
+            ]
+          },
+          {
+            "Context": "Overworld",
+            "ThreatTier": "Strong",
+            "RarityTier": "Uncommon",
+            "Weight": 5,
+            "MinLevel": 28,
+            "MaxLevel": 31,
+            "MinYear": 1,
+            "MaxYear": 0,
+            "MinimumYearsByLocation": {},
+            "CatchRate": 0.18,
+            "Hostile": false,
+            "Locations": [
+              "IslandWest"
+            ],
+            "Seasons": [],
+            "TimesOfDay": [],
+            "HabitatTags": [],
+            "SpawnSurfaces": [
+              "Land"
+            ],
+            "PreferredTerrainTypes": [
+              "Grass"
+            ]
+          }
+        ]
+      },
+      "AbilityIds": [
+        "green-thumb-2"
+      ],
+      "DefaultMoveIds": [
+        "kanto_solar_beam",
+        "kanto_power_whip",
+        "kanto_worry_seed",
+        "kanto_synthesis",
+        "kanto_take_down",
+        "kanto_seed_bomb",
+        "kanto_sleep_powder",
+        "kanto_poison_powder",
+        "kanto_razor_leaf",
+        "kanto_leech_seed",
+        "kanto_growth",
+        "kanto_vine_whip",
+        "kanto_tackle",
+        "kanto_growl"
+      ],
+      "Learnset": [
+        {
+          "Level": 1,
+          "MoveId": "kanto_growl"
+        },
+        {
+          "Level": 1,
+          "MoveId": "kanto_tackle"
+        },
+        {
+          "Level": 3,
+          "MoveId": "kanto_vine_whip"
+        },
+        {
+          "Level": 6,
+          "MoveId": "kanto_growth"
+        },
+        {
+          "Level": 9,
+          "MoveId": "kanto_leech_seed"
+        },
+        {
+          "Level": 12,
+          "MoveId": "kanto_razor_leaf"
+        },
+        {
+          "Level": 15,
+          "MoveId": "kanto_poison_powder"
+        },
+        {
+          "Level": 15,
+          "MoveId": "kanto_sleep_powder"
+        },
+        {
+          "Level": 18,
+          "MoveId": "kanto_seed_bomb"
+        },
+        {
+          "Level": 21,
+          "MoveId": "kanto_take_down"
+        },
+        {
+          "Level": 27,
+          "MoveId": "kanto_synthesis"
+        },
+        {
+          "Level": 30,
+          "MoveId": "kanto_worry_seed"
+        },
+        {
+          "Level": 33,
+          "MoveId": "kanto_power_whip"
+        },
+        {
+          "Level": 36,
+          "MoveId": "kanto_solar_beam"
+        }
+      ],
+      "JobEffectIds": {
+        "Harvest": "bulbasaur.synthesis",
+        "ClearBrush": "bulbasaur.razor_leaf",
+        "ChopTwig": "bulbasaur.vine_whip",
+        "ChopTree": "bulbasaur.vine_whip",
+        "ChopLog": "bulbasaur.vine_whip"
+      },
+      "Evolutions": [
+        {
+          "SpeciesId": "venusaur",
+          "Conditions": [
+            {
+              "Kind": "Level",
+              "Amount": 32
+            }
+          ]
+        }
+      ],
+      "MoodPortraitPaths": {
+        "happy": "assets/pokemon/gen1/ivysaur/portrait_happy.png",
+        "tired": "assets/pokemon/gen1/ivysaur/portrait_tired.png",
+        "sleepy": "assets/pokemon/gen1/ivysaur/portrait_sleepy.png",
+        "focused": "assets/pokemon/gen1/ivysaur/portrait_focused.png",
+        "resting": "assets/pokemon/gen1/ivysaur/portrait_resting.png",
+        "hurt": "assets/pokemon/gen1/ivysaur/portrait_hurt.png",
+        "fainted": "assets/pokemon/gen1/ivysaur/portrait_fainted.png"
+      },
+      "ShinySpritePath": "assets/pokemon/gen1/ivysaur/overworld_shiny_stardew.png",
+      "ShinyPortraitPath": "assets/pokemon/gen1/ivysaur/portrait_shiny.png",
+      "ShinyMoodPortraitPaths": {
+        "happy": "assets/pokemon/gen1/ivysaur/portrait_shiny_happy.png",
+        "tired": "assets/pokemon/gen1/ivysaur/portrait_shiny_tired.png",
+        "sleepy": "assets/pokemon/gen1/ivysaur/portrait_shiny_sleepy.png",
+        "focused": "assets/pokemon/gen1/ivysaur/portrait_shiny_focused.png",
+        "resting": "assets/pokemon/gen1/ivysaur/portrait_shiny_resting.png",
+        "hurt": "assets/pokemon/gen1/ivysaur/portrait_shiny_hurt.png",
+        "fainted": "assets/pokemon/gen1/ivysaur/portrait_shiny_fainted.png"
+      },
+      "Breeding": {
+        "CanBreed": true,
+        "BabySpeciesId": "bulbasaur",
+        "BaseHatchSteps": 550,
+        "EggMoveIds": [],
+        "InheritForm": true
+      }
+    },
+    {
+      "NationalDex": 3,
+      "Id": "venusaur",
+      "FormId": "default",
+      "DisplayName": "Venusaur",
+      "Description": "By spreading the broad petals of its flower and catching the sun’s rays, it fills its body with power.",
+      "Generation": 1,
+      "GenderRate": 1,
+      "Types": [
+        "Grass",
+        "Poison"
+      ],
+      "SpritePath": "assets/pokemon/gen1/venusaur/overworld_stardew.png",
+      "PortraitPath": "assets/pokemon/gen1/venusaur/portrait.png",
+      "FrameWidth": 67,
+      "FrameHeight": 62,
+      "AnimationLayout": "PmdEightDirectionAtlas",
+      "HasDistinctSideFrames": true,
+      "Jobs": [
+        "Harvest",
+        "Forage",
+        "OrchardCare",
+        "ClearBrush",
+        "ChopWood"
+      ],
+      "FieldSkills": {
+        "OrchardCare": {
+          "MaxTier": 4
+        },
+        "ClearBrush": {
+          "MaxTier": 4
+        },
+        "ChopWood": {
+          "MaxTier": 4
+        }
+      },
+      "Body": {
+        "FootAnchorX": 33.0,
+        "FootAnchorY": 44.0,
+        "VisibleHeightPixels": 26,
+        "Locomotion": "Grounded",
+        "CollisionOffsetX": 8,
+        "CollisionOffsetY": 28,
+        "CollisionWidth": 48,
+        "CollisionHeight": 34,
+        "DrawScale": 4.0,
+        "AttackOriginHeight": 64.0,
+        "AttackOriginForward": 12.0,
+        "HealthBarHeight": 118.0,
+        "ShadowScale": 4.1,
+        "ClearanceTiles": 1.0,
+        "AvoidsHazards": true
+      },
+      "Animation": {
+        "Directions": 4,
+        "FramesPerDirection": 39,
+        "DirectionRows": [
+          1,
+          1,
+          0,
+          0,
+          3,
+          3,
+          2,
+          2
+        ],
+        "Clips": {
+          "walk": {
+            "StartFrame": 0,
+            "FrameCount": 4,
+            "FrameDurations": [
+              8,
+              16,
+              8,
+              16
+            ],
+            "Loop": true
+          },
+          "idle": {
+            "StartFrame": 4,
+            "FrameCount": 4,
+            "FrameDurations": [
+              30,
+              16,
+              12,
+              16
+            ],
+            "Loop": true
+          },
+          "attack": {
+            "StartFrame": 8,
+            "FrameCount": 11,
+            "FrameDurations": [
+              4,
+              2,
+              4,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              4
+            ],
+            "Loop": false,
+            "Markers": {
+              "cast": 6,
+              "world-action": 14,
+              "recover": 18
+            }
+          },
+          "hurt": {
+            "StartFrame": 19,
+            "FrameCount": 2,
+            "FrameDurations": [
+              2,
+              8
+            ],
+            "Loop": false
+          },
+          "sleep": {
+            "StartFrame": 21,
+            "FrameCount": 2,
+            "FrameDurations": [
+              30,
+              35
+            ],
+            "Loop": true
+          },
+          "shoot": {
+            "StartFrame": 23,
+            "FrameCount": 6,
+            "FrameDurations": [
+              12,
+              4,
+              4,
+              4,
+              2,
+              2
+            ],
+            "Loop": false,
+            "Markers": {
+              "cast": 12,
+              "world-action": 16,
+              "recover": 24
+            }
+          },
+          "charge": {
+            "StartFrame": 29,
+            "FrameCount": 10,
+            "FrameDurations": [
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2
+            ],
+            "Loop": false,
+            "Markers": {
+              "world-action": 10,
+              "recover": 18
+            }
+          }
+        }
+      },
+      "BaseStats": {
+        "Health": 80,
+        "Attack": 82,
+        "Defense": 83,
+        "SpecialAttack": 100,
+        "SpecialDefense": 100,
+        "Speed": 80
+      },
+      "Progression": {
+        "GrowthRate": "MediumSlow",
+        "BaseExperienceYield": 263,
+        "BaseEnergy": 130,
+        "EnergyPerLevel": 1.1,
+        "DailyEnergyRecoveryRate": 0.35,
+        "AffectionEnergyRecovery": 8,
+        "BattleStatGrowthPerLevel": 0.007,
+        "BaseMovementSpeedBonus": 0,
+        "MovementSpeedLevelInterval": 35,
+        "MaxMovementSpeedBonus": 1,
+        "JobExperience": 12,
+        "AffectionExperience": 20
+      },
+      "Behavior": {
+        "FollowStyle": "CloseBehind",
+        "Curiosity": 0.5,
+        "Bravery": 0.82,
+        "Helpfulness": 0.96,
+        "Sociability": 0.63,
+        "Restlessness": 0.18,
+        "PreferredWeather": [
+          "Rain",
+          "Sun"
+        ],
+        "PreferredLocations": [
+          "Woods",
+          "IslandWest"
+        ],
+        "JobWeights": {
+          "Harvest": 1.4,
+          "Water": 1.25,
+          "Forage": 1.05,
+          "ClearBrush": 1.2,
+          "ChopWood": 1.25,
+          "Mine": 0.9
+        }
+      },
+      "Encounter": {
+        "Enabled": false,
+        "Weight": 1,
+        "MinLevel": 32,
+        "MaxLevel": 50,
+        "CatchRate": 0.12,
+        "Locations": [
+          "Woods",
+          "IslandWest"
+        ],
+        "Seasons": [
+          "summer"
+        ],
+        "SpawnSurfaces": [
+          "Land"
+        ],
+        "PreferredTerrainTypes": [
+          "Grass"
+        ],
+        "DefeatDrops": [
+          {
+            "ItemId": "(O)771",
+            "Chance": 1.0,
+            "MinStack": 1,
+            "MaxStack": 2
+          },
+          {
+            "ItemId": "(O)770",
+            "Chance": 0.12,
+            "MinStack": 1,
+            "MaxStack": 1
+          }
+        ],
+        "ThreatTier": "Apex",
+        "RarityTier": "Apex",
+        "TimesOfDay": [],
+        "Profiles": [
+          {
+            "Context": "Overworld",
+            "ThreatTier": "Apex",
+            "RarityTier": "Uncommon",
+            "Weight": 5,
+            "MinLevel": 32,
+            "MaxLevel": 40,
+            "MinYear": 1,
+            "MaxYear": 0,
+            "MinimumYearsByLocation": {},
+            "CatchRate": 0.12,
+            "Hostile": false,
+            "Locations": [
+              "IslandWest"
+            ],
+            "Seasons": [],
+            "TimesOfDay": [],
+            "HabitatTags": [],
+            "SpawnSurfaces": [
+              "Land"
+            ],
+            "PreferredTerrainTypes": [
+              "Grass"
+            ]
+          }
+        ]
+      },
+      "AbilityIds": [
+        "green-thumb-3"
+      ],
+      "DefaultMoveIds": [
+        "kanto_solar_beam",
+        "kanto_power_whip",
+        "kanto_petal_dance",
+        "kanto_petal_blizzard",
+        "kanto_worry_seed",
+        "kanto_synthesis",
+        "kanto_take_down",
+        "kanto_seed_bomb",
+        "kanto_sleep_powder",
+        "kanto_poison_powder",
+        "kanto_razor_leaf",
+        "kanto_leech_seed",
+        "kanto_growth",
+        "kanto_vine_whip",
+        "kanto_tackle",
+        "kanto_growl"
+      ],
+      "Learnset": [
+        {
+          "Level": 1,
+          "MoveId": "kanto_growl"
+        },
+        {
+          "Level": 1,
+          "MoveId": "kanto_tackle"
+        },
+        {
+          "Level": 3,
+          "MoveId": "kanto_vine_whip"
+        },
+        {
+          "Level": 6,
+          "MoveId": "kanto_growth"
+        },
+        {
+          "Level": 9,
+          "MoveId": "kanto_leech_seed"
+        },
+        {
+          "Level": 12,
+          "MoveId": "kanto_razor_leaf"
+        },
+        {
+          "Level": 15,
+          "MoveId": "kanto_poison_powder"
+        },
+        {
+          "Level": 15,
+          "MoveId": "kanto_sleep_powder"
+        },
+        {
+          "Level": 18,
+          "MoveId": "kanto_seed_bomb"
+        },
+        {
+          "Level": 21,
+          "MoveId": "kanto_take_down"
+        },
+        {
+          "Level": 27,
+          "MoveId": "kanto_synthesis"
+        },
+        {
+          "Level": 30,
+          "MoveId": "kanto_worry_seed"
+        },
+        {
+          "Level": 32,
+          "MoveId": "kanto_petal_blizzard"
+        },
+        {
+          "Level": 32,
+          "MoveId": "kanto_petal_dance"
+        },
+        {
+          "Level": 33,
+          "MoveId": "kanto_power_whip"
+        },
+        {
+          "Level": 36,
+          "MoveId": "kanto_solar_beam"
+        }
+      ],
+      "JobEffectIds": {
+        "Harvest": "bulbasaur.synthesis",
+        "ClearBrush": "bulbasaur.razor_leaf",
+        "ChopTwig": "bulbasaur.vine_whip",
+        "ChopTree": "bulbasaur.vine_whip",
+        "ChopLog": "bulbasaur.vine_whip"
+      },
+      "Evolutions": [],
+      "MoodPortraitPaths": {
+        "happy": "assets/pokemon/gen1/venusaur/portrait_happy.png",
+        "tired": "assets/pokemon/gen1/venusaur/portrait_tired.png",
+        "sleepy": "assets/pokemon/gen1/venusaur/portrait_sleepy.png",
+        "focused": "assets/pokemon/gen1/venusaur/portrait_focused.png",
+        "resting": "assets/pokemon/gen1/venusaur/portrait_resting.png",
+        "hurt": "assets/pokemon/gen1/venusaur/portrait_hurt.png",
+        "fainted": "assets/pokemon/gen1/venusaur/portrait_fainted.png"
+      },
+      "ShinySpritePath": "assets/pokemon/gen1/venusaur/overworld_shiny_stardew.png",
+      "ShinyPortraitPath": "assets/pokemon/gen1/venusaur/portrait_shiny.png",
+      "ShinyMoodPortraitPaths": {
+        "happy": "assets/pokemon/gen1/venusaur/portrait_shiny_happy.png",
+        "tired": "assets/pokemon/gen1/venusaur/portrait_shiny_tired.png",
+        "sleepy": "assets/pokemon/gen1/venusaur/portrait_shiny_sleepy.png",
+        "focused": "assets/pokemon/gen1/venusaur/portrait_shiny_focused.png",
+        "resting": "assets/pokemon/gen1/venusaur/portrait_shiny_resting.png",
+        "hurt": "assets/pokemon/gen1/venusaur/portrait_shiny_hurt.png",
+        "fainted": "assets/pokemon/gen1/venusaur/portrait_shiny_fainted.png"
+      },
+      "Breeding": {
+        "CanBreed": true,
+        "BabySpeciesId": "bulbasaur",
+        "BaseHatchSteps": 550,
+        "EggMoveIds": [],
+        "InheritForm": true
+      }
+    }
+  ],
+  "Moves": [
+    {
+      "Id": "tackle",
+      "DisplayName": "Tackle",
+      "Type": "Normal",
+      "Category": "Physical",
+      "Power": 40,
+      "RangeTiles": 1.3,
+      "RadiusTiles": 0.85,
+      "CooldownTicks": 42,
+      "RecoveryTicks": 36,
+      "EnergyCost": 0,
+      "Knockback": 0.75,
+      "EffectId": "pmd.extra.normal.scratch",
+      "EffectCues": [
+        {
+          "EffectId": "pmd.extra.normal.scratch",
+          "Marker": "world-action",
+          "DelayTicks": 0
+        }
+      ],
+      "AnimationClip": "charge",
+      "Movement": {
+        "Style": "Dash",
+        "MaxDistanceTiles": 1.0,
+        "StopDistanceTiles": 0.75
+      },
+      "AiTags": [
+        "close",
+        "reliable"
+      ]
+    },
+    {
+      "Id": "vine_whip",
+      "DisplayName": "Vine Whip",
+      "Type": "Grass",
+      "Category": "Physical",
+      "Power": 45,
+      "RangeTiles": 3.2,
+      "RadiusTiles": 0.85,
+      "CooldownTicks": 54,
+      "RecoveryTicks": 42,
+      "EnergyCost": 8,
+      "Knockback": 0.45,
+      "EffectId": "bulbasaur.vine_whip",
+      "EffectCues": [
+        {
+          "EffectId": "bulbasaur.vine_whip",
+          "Marker": "cast",
+          "DelayTicks": 0
+        },
+        {
+          "EffectId": "bulbasaur.vine_whip.impact",
+          "Marker": "world-action",
+          "DelayTicks": 0
+        }
+      ],
+      "AnimationClip": "shoot",
+      "AiTags": [
+        "ranged",
+        "grass"
+      ]
+    },
+    {
+      "Id": "growl",
+      "DisplayName": "Growl",
+      "Type": "Normal",
+      "Category": "Status",
+      "Power": 0,
+      "RangeTiles": 3.5,
+      "RadiusTiles": 2.0,
+      "CooldownTicks": 180,
+      "RecoveryTicks": 48,
+      "EnergyCost": 10,
+      "StatusId": "attack_down",
+      "StatusChance": 1.0,
+      "StatusDurationTicks": 420,
+      "StatusMagnitude": 0.2,
+      "AnimationClip": "attack",
+      "AiTags": [
+        "status",
+        "defensive"
+      ]
+    },
+    {
+      "Id": "poison_powder",
+      "DisplayName": "Poison Powder",
+      "Type": "Poison",
+      "Category": "Status",
+      "Power": 8,
+      "RangeTiles": 3.0,
+      "RadiusTiles": 1.6,
+      "CooldownTicks": 150,
+      "RecoveryTicks": 48,
+      "EnergyCost": 14,
+      "StatusId": "poisoned",
+      "StatusChance": 0.75,
+      "StatusDurationTicks": 480,
+      "StatusMagnitude": 0.012,
+      "EffectId": "pmd.extra.poison.poison_powder",
+      "EffectCues": [
+        {
+          "EffectId": "pmd.extra.poison.poison_powder",
+          "Marker": "world-action",
+          "DelayTicks": 0
+        }
+      ],
+      "AnimationClip": "attack",
+      "AiTags": [
+        "status",
+        "poison"
+      ]
+    },
+    {
+      "Id": "razor_leaf",
+      "DisplayName": "Razor Leaf",
+      "Type": "Grass",
+      "Category": "Physical",
+      "Power": 55,
+      "RangeTiles": 4.2,
+      "RadiusTiles": 1.1,
+      "CooldownTicks": 72,
+      "RecoveryTicks": 42,
+      "EnergyCost": 12,
+      "Knockback": 0.35,
+      "CritChance": 0.12,
+      "EffectId": "bulbasaur.razor_leaf",
+      "EffectCues": [
+        {
+          "EffectId": "bulbasaur.razor_leaf",
+          "Marker": "cast",
+          "DelayTicks": 0
+        },
+        {
+          "EffectId": "type.grass.magical_leaf",
+          "Marker": "cast",
+          "DelayTicks": 0
+        }
+      ],
+      "AnimationClip": "shoot",
+      "AiTags": [
+        "ranged",
+        "grass",
+        "finisher"
+      ]
+    },
+    {
+      "Id": "growth",
+      "DisplayName": "Growth",
+      "Type": "Normal",
+      "Category": "Status",
+      "Power": 0,
+      "RangeTiles": 0.0,
+      "RadiusTiles": 0.0,
+      "CooldownTicks": 360,
+      "RecoveryTicks": 60,
+      "EnergyCost": 16,
+      "Target": "Self",
+      "StatusId": "empowered",
+      "StatusChance": 1.0,
+      "StatusDurationTicks": 600,
+      "StatusMagnitude": 0.25,
+      "EffectId": "bulbasaur.synthesis",
+      "EffectCues": [
+        {
+          "EffectId": "bulbasaur.synthesis",
+          "Marker": "cast",
+          "DelayTicks": 0
+        }
+      ],
+      "AnimationClip": "attack",
+      "AiTags": [
+        "self",
+        "buff"
+      ]
+    },
+    {
+      "Id": "seed_bomb",
+      "DisplayName": "Seed Bomb",
+      "Type": "Grass",
+      "Category": "Physical",
+      "Power": 80,
+      "RangeTiles": 4.5,
+      "RadiusTiles": 1.4,
+      "CooldownTicks": 110,
+      "RecoveryTicks": 60,
+      "EnergyCost": 20,
+      "Knockback": 0.7,
+      "EffectId": "type.grass.magical_leaf",
+      "EffectCues": [
+        {
+          "EffectId": "type.grass.magical_leaf",
+          "Marker": "cast",
+          "DelayTicks": 0
+        }
+      ],
+      "AnimationClip": "shoot",
+      "AiTags": [
+        "ranged",
+        "grass",
+        "area",
+        "finisher"
+      ]
+    }
+  ],
+  "Abilities": [
+    {
+      "Id": "overgrow",
+      "DisplayName": "Overgrow",
+      "Description": "Strengthens Grass moves while energy is low.",
+      "Trigger": "LowEnergy",
+      "PowerMultiplier": 1.35,
+      "HealthThreshold": 0.33,
+      "RequiredType": "Grass"
+    },
+    {
+      "Id": "green-thumb-1",
+      "DisplayName": "Green Thumb",
+      "Description": "Harvested crops have a 10% chance to rise one quality tier.",
+      "Trigger": "CropQualityOnHarvest",
+      "Parameters": {
+        "Chance": 0.1
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "green-thumb-2",
+      "DisplayName": "Green Thumb",
+      "Description": "Harvested crops have a 15% chance to rise one quality tier.",
+      "Trigger": "CropQualityOnHarvest",
+      "Parameters": {
+        "Chance": 0.15
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "green-thumb-3",
+      "DisplayName": "Green Thumb",
+      "Description": "Harvested crops have a 20% chance to rise one quality tier.",
+      "Trigger": "CropQualityOnHarvest",
+      "Parameters": {
+        "Chance": 0.2
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "prospectors-flame-1",
+      "DisplayName": "Blaze",
+      "Description": "Stone and ore drops from rocks have a 10% chance per item to yield one extra.",
+      "Trigger": "ExtraOreAndStone",
+      "Parameters": {
+        "Chance": 0.1
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "prospectors-flame-2",
+      "DisplayName": "Blaze",
+      "Description": "Stone and ore drops from rocks have a 15% chance per item to yield one extra.",
+      "Trigger": "ExtraOreAndStone",
+      "Parameters": {
+        "Chance": 0.15
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "prospectors-flame-3",
+      "DisplayName": "Blaze",
+      "Description": "Stone and ore drops from rocks have a 20% chance per item to yield one extra.",
+      "Trigger": "ExtraOreAndStone",
+      "Parameters": {
+        "Chance": 0.2
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "prize-catch-1",
+      "DisplayName": "Super Luck",
+      "Description": "Caught fish have a 10% chance to rise one quality tier.",
+      "Trigger": "FishQualityOnCatch",
+      "Parameters": {
+        "Chance": 0.1
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "prize-catch-2",
+      "DisplayName": "Super Luck",
+      "Description": "Caught fish have a 15% chance to rise one quality tier.",
+      "Trigger": "FishQualityOnCatch",
+      "Parameters": {
+        "Chance": 0.15
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "prize-catch-3",
+      "DisplayName": "Super Luck",
+      "Description": "Caught fish have a 20% chance to rise one quality tier.",
+      "Trigger": "FishQualityOnCatch",
+      "Parameters": {
+        "Chance": 0.2
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "living-reservoir-1",
+      "DisplayName": "Water Absorb",
+      "Description": "Refills 25% of a nearly empty watering can when the partner approaches.",
+      "Trigger": "WaterCanRefill",
+      "Parameters": {
+        "ThresholdFraction": 0.1,
+        "RefillFraction": 0.25,
+        "CooldownTicks": 5040
+      },
+      "Scope": "Field"
+    },
+    {
+      "Id": "living-reservoir-2",
+      "DisplayName": "Water Absorb",
+      "Description": "Refills 50% of a nearly empty watering can when the partner approaches.",
+      "Trigger": "WaterCanRefill",
+      "Parameters": {
+        "ThresholdFraction": 0.1,
+        "RefillFraction": 0.5,
+        "CooldownTicks": 5040
+      },
+      "Scope": "Field"
+    },
+    {
+      "Id": "living-reservoir-3",
+      "DisplayName": "Water Absorb",
+      "Description": "Completely refills a nearly empty watering can when the partner approaches.",
+      "Trigger": "WaterCanRefill",
+      "Parameters": {
+        "ThresholdFraction": 0.1,
+        "RefillFraction": 1.0,
+        "CooldownTicks": 5040
+      },
+      "Scope": "Field"
+    },
+    {
+      "Id": "fired-up-1",
+      "DisplayName": "Guts",
+      "Description": "The farmer deals 5% more weapon damage.",
+      "Trigger": "FarmerDamageMultiplier",
+      "Parameters": {
+        "Multiplier": 1.05
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "fired-up-2",
+      "DisplayName": "Guts",
+      "Description": "The farmer deals 10% more weapon damage.",
+      "Trigger": "FarmerDamageMultiplier",
+      "Parameters": {
+        "Multiplier": 1.1
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "fired-up-3",
+      "DisplayName": "Guts",
+      "Description": "The farmer deals 15% more weapon damage.",
+      "Trigger": "FarmerDamageMultiplier",
+      "Parameters": {
+        "Multiplier": 1.15
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "trailblazer-1",
+      "DisplayName": "Trailblazer",
+      "Description": "Ride Ponyta outdoors like a horse — a little faster than a normal horse.",
+      "Trigger": "Rideable",
+      "Parameters": {
+        "SpeedBonus": 1.0
+      },
+      "Scope": "Field"
+    },
+    {
+      "Id": "trailblazer-2",
+      "DisplayName": "Trailblazer",
+      "Description": "Ride Rapidash outdoors like a horse — noticeably faster than a normal horse.",
+      "Trigger": "Rideable",
+      "Parameters": {
+        "SpeedBonus": 2.0
+      },
+      "Scope": "Field"
+    },
+    {
+      "Id": "cream-of-the-crop",
+      "DisplayName": "Cud Chew",
+      "Description": "Manually milking a cow has a 20% chance to yield extra Milk.",
+      "Trigger": "ExtraCowMilk",
+      "Parameters": {
+        "Chance": 0.2
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "good-egg-1",
+      "DisplayName": "Parental Bond",
+      "Description": "Egg pickups have a 10% chance to double, and newborn animals start with 25 extra friendship.",
+      "Trigger": "ParentalBond",
+      "Parameters": {
+        "Chance": 0.1,
+        "FriendshipBonus": 25,
+        "MaturityDays": 0
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "good-egg-2",
+      "DisplayName": "Parental Bond",
+      "Description": "Egg pickups have a 20% chance to double, and newborn animals start with 50 extra friendship.",
+      "Trigger": "ParentalBond",
+      "Parameters": {
+        "Chance": 0.2,
+        "FriendshipBonus": 50,
+        "MaturityDays": 0
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "good-egg-3",
+      "DisplayName": "Parental Bond",
+      "Description": "Egg pickups have a 30% chance to double; newborn animals start with 100 extra friendship and mature one day sooner.",
+      "Trigger": "ParentalBond",
+      "Parameters": {
+        "Chance": 0.3,
+        "FriendshipBonus": 100,
+        "MaturityDays": 1
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "lullaby-1",
+      "DisplayName": "Lullaby",
+      "Description": "New wild Pokémon have a 20% chance to begin asleep.",
+      "Trigger": "SleepWildSpawn",
+      "Parameters": {
+        "Chance": 0.2,
+        "DurationTicks": 600
+      },
+      "Scope": "Field"
+    },
+    {
+      "Id": "lullaby-2",
+      "DisplayName": "Lullaby",
+      "Description": "New wild Pokémon have a 35% chance to begin asleep.",
+      "Trigger": "SleepWildSpawn",
+      "Parameters": {
+        "Chance": 0.35,
+        "DurationTicks": 600
+      },
+      "Scope": "Field"
+    },
+    {
+      "Id": "golden-scale-1",
+      "DisplayName": "Super Luck",
+      "Description": "Caught fish have a 10% chance to rise one quality tier.",
+      "Trigger": "FishQualityOnCatch",
+      "Parameters": {
+        "Chance": 0.1
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "golden-scale-2",
+      "DisplayName": "Super Luck",
+      "Description": "Caught fish have a 20% chance to rise one quality tier.",
+      "Trigger": "FishQualityOnCatch",
+      "Parameters": {
+        "Chance": 0.2
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "soft-soil-1",
+      "DisplayName": "Sand Force",
+      "Description": "Hoe actions consume 50% less stamina.",
+      "Trigger": "ToolStaminaMultiplier",
+      "Target": "Hoe",
+      "Parameters": {
+        "Multiplier": 0.5
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "soft-soil-2",
+      "DisplayName": "Sand Force",
+      "Description": "Hoe actions consume 50% less stamina.",
+      "Trigger": "ToolStaminaMultiplier",
+      "Target": "Hoe",
+      "Parameters": {
+        "Multiplier": 0.5
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "rough-skin-1",
+      "DisplayName": "Rough Skin",
+      "Description": "While deployed, enemies that damage the farmer or this Pokémon take 15% of the damage back (at least 1).",
+      "Trigger": "RetaliateOnDamage",
+      "Parameters": {
+        "Multiplier": 0.15,
+        "MinimumDamage": 1,
+        "Strength": 1
+      },
+      "Scope": "Field"
+    },
+    {
+      "Id": "rough-skin-2",
+      "DisplayName": "Rough Skin",
+      "Description": "While deployed, enemies that damage the farmer or this Pokémon take 30% of the damage back (at least 1).",
+      "Trigger": "RetaliateOnDamage",
+      "Parameters": {
+        "Multiplier": 0.3,
+        "MinimumDamage": 1,
+        "Strength": 2
+      },
+      "Scope": "Field"
+    },
+    {
+      "Id": "rough-skin-3",
+      "DisplayName": "Rough Skin",
+      "Description": "While deployed, enemies that damage the farmer or this Pokémon take 45% of the damage back (at least 1).",
+      "Trigger": "RetaliateOnDamage",
+      "Parameters": {
+        "Multiplier": 0.45,
+        "MinimumDamage": 1,
+        "Strength": 3
+      },
+      "Scope": "Field"
+    },
+    {
+      "Id": "timber-cutter",
+      "DisplayName": "Timber Cutter",
+      "Description": "Axe actions consume 50% less stamina.",
+      "Trigger": "ToolStaminaMultiplier",
+      "Target": "Axe",
+      "Parameters": {
+        "Multiplier": 0.5
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "serendipity-1",
+      "DisplayName": "Super Luck",
+      "Description": "Weight-1 wild encounter entries receive 25% more weight.",
+      "Trigger": "RareEncounterWeightMultiplier",
+      "Parameters": {
+        "Multiplier": 1.25
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "serendipity-2",
+      "DisplayName": "Super Luck",
+      "Description": "Weight-1 wild encounter entries receive 50% more weight.",
+      "Trigger": "RareEncounterWeightMultiplier",
+      "Parameters": {
+        "Multiplier": 1.5
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "serendipity-3",
+      "DisplayName": "Super Luck",
+      "Description": "Weight-1 wild encounter entries receive 75% more weight.",
+      "Trigger": "RareEncounterWeightMultiplier",
+      "Parameters": {
+        "Multiplier": 1.75
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "warped-antlers",
+      "DisplayName": "Super Luck",
+      "Description": "Stantler's antlers distort the air around it: weight-1 wild encounter entries receive 50% more weight.",
+      "Trigger": "RareEncounterWeightMultiplier",
+      "Parameters": {
+        "Multiplier": 1.5
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "mercy-blade",
+      "DisplayName": "Sharpness",
+      "Description": "This Pokémon's slicing moves and the farmer's sword attacks deal 30% more damage.",
+      "Trigger": "Sharpness",
+      "Parameters": {
+        "DamageMultiplier": 1.3
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "teleport",
+      "DisplayName": "Teleport",
+      "Description": "At 1:00 AM, offers to teleport the farmer to their farmhouse or cabin door.",
+      "Trigger": "MidnightHomeTeleport",
+      "Parameters": {
+        "TimeOfDay": 2500
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "opportunistic-gatherer-1",
+      "DisplayName": "Pickup",
+      "Description": "Ground forage and berry bushes have a 12% chance to yield another item.",
+      "Trigger": "ExtraForageOnPickup",
+      "Parameters": {
+        "Chance": 0.12
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "opportunistic-gatherer-2",
+      "DisplayName": "Pickup",
+      "Description": "Ground forage and berry bushes have a 20% chance to yield another item.",
+      "Trigger": "ExtraForageOnPickup",
+      "Parameters": {
+        "Chance": 0.2
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "bountiful-canopy-1",
+      "DisplayName": "Ripen",
+      "Description": "Fruit-tree harvesting has a 15% chance to yield another fruit.",
+      "Trigger": "ExtraFruitOnHarvest",
+      "Parameters": {
+        "Chance": 0.15
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "bountiful-canopy-2",
+      "DisplayName": "Ripen",
+      "Description": "Fruit-tree harvesting has a 25% chance to yield another fruit.",
+      "Trigger": "ExtraFruitOnHarvest",
+      "Parameters": {
+        "Chance": 0.25
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "stoneworker",
+      "DisplayName": "Sturdy",
+      "Description": "Pickaxe actions consume 50% less stamina.",
+      "Trigger": "ToolStaminaMultiplier",
+      "Target": "Pickaxe",
+      "Parameters": {
+        "Multiplier": 0.5
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "tailwind-1",
+      "DisplayName": "Speed Boost",
+      "Description": "The farmer moves 0.5 points faster outdoors, on foot or mounted.",
+      "Trigger": "OutdoorMovementSpeed",
+      "Parameters": {
+        "SpeedBonus": 0.5
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "tailwind-2",
+      "DisplayName": "Speed Boost",
+      "Description": "The farmer moves 1 point faster outdoors, on foot or mounted.",
+      "Trigger": "OutdoorMovementSpeed",
+      "Parameters": {
+        "SpeedBonus": 1.0
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "patient-lure-1",
+      "DisplayName": "Suction Cups",
+      "Description": "Fish bite 20% sooner.",
+      "Trigger": "FishingBiteTimeMultiplier",
+      "Parameters": {
+        "Multiplier": 0.8
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "patient-lure-2",
+      "DisplayName": "Suction Cups",
+      "Description": "Fish bite 35% sooner.",
+      "Trigger": "FishingBiteTimeMultiplier",
+      "Parameters": {
+        "Multiplier": 0.65
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "tidal-serenade",
+      "DisplayName": "Tidal Serenade",
+      "Description": "Lapras's song draws fish to the hook, making them bite 35% sooner.",
+      "Trigger": "FishingBiteTimeMultiplier",
+      "Parameters": {
+        "Multiplier": 0.65
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "bait-keeper-1",
+      "DisplayName": "Sticky Hold",
+      "Description": "Each cast has a 15% chance not to consume bait.",
+      "Trigger": "PreserveFishingBait",
+      "Parameters": {
+        "Chance": 0.15
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "bait-keeper-2",
+      "DisplayName": "Sticky Hold",
+      "Description": "Each cast has a 25% chance not to consume bait.",
+      "Trigger": "PreserveFishingBait",
+      "Parameters": {
+        "Chance": 0.25
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "steady-current-1",
+      "DisplayName": "Water Bubble",
+      "Description": "The fishing bar is 16 pixels larger.",
+      "Trigger": "FishingBarHeight",
+      "Parameters": {
+        "Pixels": 16
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "steady-current-2",
+      "DisplayName": "Water Bubble",
+      "Description": "The fishing bar is 24 pixels larger.",
+      "Trigger": "FishingBarHeight",
+      "Parameters": {
+        "Pixels": 24
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "steady-current-3",
+      "DisplayName": "Water Bubble",
+      "Description": "The fishing bar is 32 pixels larger.",
+      "Trigger": "FishingBarHeight",
+      "Parameters": {
+        "Pixels": 32
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "seed-keeper-1",
+      "DisplayName": "Seed Sower",
+      "Description": "Planting a seed has an 8% chance not to consume it.",
+      "Trigger": "PreserveSeedOnPlant",
+      "Parameters": {
+        "Chance": 0.08
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "seed-keeper-2",
+      "DisplayName": "Seed Sower",
+      "Description": "Planting a seed has a 12% chance not to consume it.",
+      "Trigger": "PreserveSeedOnPlant",
+      "Parameters": {
+        "Chance": 0.12
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "seed-keeper-3",
+      "DisplayName": "Seed Sower",
+      "Description": "Planting a seed has a 16% chance not to consume it.",
+      "Trigger": "PreserveSeedOnPlant",
+      "Parameters": {
+        "Chance": 0.16
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "second-cutting-1",
+      "DisplayName": "Harvest",
+      "Description": "Harvested crops have an 8% chance to yield another item.",
+      "Trigger": "ExtraCropOnHarvest",
+      "Parameters": {
+        "Chance": 0.08
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "second-cutting-2",
+      "DisplayName": "Harvest",
+      "Description": "Harvested crops have a 12% chance to yield another item.",
+      "Trigger": "ExtraCropOnHarvest",
+      "Parameters": {
+        "Chance": 0.12
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "second-cutting-3",
+      "DisplayName": "Harvest",
+      "Description": "Harvested crops have a 16% chance to yield another item.",
+      "Trigger": "ExtraCropOnHarvest",
+      "Parameters": {
+        "Chance": 0.16
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "busy-pollinator-1",
+      "DisplayName": "Honey Gather",
+      "Description": "Collecting from a Bee House has a 10% chance to yield another Honey.",
+      "Trigger": "ExtraHoneyOnCollect",
+      "Parameters": {
+        "Chance": 0.1
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "busy-pollinator-2",
+      "DisplayName": "Honey Gather",
+      "Description": "Collecting from a Bee House has a 15% chance to yield another Honey.",
+      "Trigger": "ExtraHoneyOnCollect",
+      "Parameters": {
+        "Chance": 0.15
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "busy-pollinator-3",
+      "DisplayName": "Honey Gather",
+      "Description": "Collecting from a Bee House has a 20% chance to yield another Honey.",
+      "Trigger": "ExtraHoneyOnCollect",
+      "Parameters": {
+        "Chance": 0.2
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "mycelium-1",
+      "DisplayName": "Effect Spore",
+      "Description": "Collected mushrooms have a 20% chance to yield another mushroom.",
+      "Trigger": "ExtraMushroomOnCollect",
+      "Parameters": {
+        "Chance": 0.2
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "mycelium-2",
+      "DisplayName": "Effect Spore",
+      "Description": "Collected mushrooms have a 35% chance to yield another mushroom.",
+      "Trigger": "ExtraMushroomOnCollect",
+      "Parameters": {
+        "Chance": 0.35
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "golden-fleece-1",
+      "DisplayName": "Fluffy",
+      "Description": "Collected Wool has a 15% chance to rise one quality tier.",
+      "Trigger": "WoolQualityOnCollect",
+      "Parameters": {
+        "Chance": 0.15
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "golden-fleece-2",
+      "DisplayName": "Fluffy",
+      "Description": "Collected Wool has a 25% chance to rise one quality tier.",
+      "Trigger": "WoolQualityOnCollect",
+      "Parameters": {
+        "Chance": 0.25
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "golden-fleece-3",
+      "DisplayName": "Fluffy",
+      "Description": "Collected Wool has a 40% chance to rise one quality tier.",
+      "Trigger": "WoolQualityOnCollect",
+      "Parameters": {
+        "Chance": 0.4
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "comforting-song-1",
+      "DisplayName": "Cloud Nine",
+      "Description": "The first daily pet gives an animal 15 additional mood.",
+      "Trigger": "AnimalPetMoodBonus",
+      "Parameters": {
+        "Bonus": 15
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "comforting-song-2",
+      "DisplayName": "Cloud Nine",
+      "Description": "The first daily pet gives an animal 25 additional mood.",
+      "Trigger": "AnimalPetMoodBonus",
+      "Parameters": {
+        "Bonus": 25
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "healer",
+      "DisplayName": "Healer",
+      "Description": "The first party Pokémon that would faint each day instead recovers to half health.",
+      "Trigger": "PreventPokemonFaint",
+      "Parameters": {
+        "HealthFraction": 0.5,
+        "ProtectionTicks": 120
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "power-surge-1",
+      "DisplayName": "Lightning Rod",
+      "Description": "Collected Battery Packs have a 10% chance to yield another.",
+      "Trigger": "ExtraBatteryOnCollect",
+      "Parameters": {
+        "Chance": 0.1
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "power-surge-2",
+      "DisplayName": "Lightning Rod",
+      "Description": "Collected Battery Packs have a 20% chance to yield another.",
+      "Trigger": "ExtraBatteryOnCollect",
+      "Parameters": {
+        "Chance": 0.2
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "power-surge-3",
+      "DisplayName": "Lightning Rod",
+      "Description": "Collected Battery Packs have a 30% chance to yield another.",
+      "Trigger": "ExtraBatteryOnCollect",
+      "Parameters": {
+        "Chance": 0.3
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "compound-search",
+      "DisplayName": "Compound Eyes",
+      "Description": "Collected forage has a 15% chance to rise one quality tier.",
+      "Trigger": "ForageQualityOnPickup",
+      "Parameters": {
+        "Chance": 0.15
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "hypnotic-gaze-1",
+      "DisplayName": "Lullaby",
+      "Description": "New wild Pokémon have a 20% chance to begin asleep.",
+      "Trigger": "SleepWildSpawn",
+      "Parameters": {
+        "Chance": 0.2,
+        "DurationTicks": 600
+      },
+      "Scope": "Field"
+    },
+    {
+      "Id": "hypnotic-gaze-2",
+      "DisplayName": "Lullaby",
+      "Description": "New wild Pokémon have a 35% chance to begin asleep.",
+      "Trigger": "SleepWildSpawn",
+      "Parameters": {
+        "Chance": 0.35,
+        "DurationTicks": 600
+      },
+      "Scope": "Field"
+    },
+    {
+      "Id": "woodland-mount",
+      "DisplayName": "Woodland Mount",
+      "Description": "Stantler can be ridden outdoors at one point above normal running speed.",
+      "Trigger": "Rideable",
+      "Parameters": {
+        "SpeedBonus": 1
+      },
+      "Scope": "Field"
+    },
+    {
+      "Id": "conversation-piece",
+      "DisplayName": "Friend Guard",
+      "Description": "The first daily conversation with each villager grants 5 additional friendship.",
+      "Trigger": "DailyConversationFriendshipBonus",
+      "Parameters": {
+        "Bonus": 5
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "treasure-paws-1",
+      "DisplayName": "Pickup",
+      "Description": "Empty or trash-only garbage finds have a 25% chance to become a useful find.",
+      "Trigger": "GarbageCanReroll",
+      "Parameters": {
+        "Chance": 0.25
+      },
+      "Scope": "Field"
+    },
+    {
+      "Id": "treasure-paws-2",
+      "DisplayName": "Pickup",
+      "Description": "Empty or trash-only garbage finds have a 50% chance to become a useful find.",
+      "Trigger": "GarbageCanReroll",
+      "Parameters": {
+        "Chance": 0.5
+      },
+      "Scope": "Field"
+    },
+    {
+      "Id": "razor-focus",
+      "DisplayName": "Guts",
+      "Description": "The farmer deals 10% more weapon damage.",
+      "Trigger": "FarmerDamageMultiplier",
+      "Parameters": {
+        "Multiplier": 1.1
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "venom-edge",
+      "DisplayName": "Poison Touch",
+      "Description": "Weapon hits have a 15% chance to poison for four seconds without knocking out wild Pokémon.",
+      "Trigger": "PoisonOnWeaponHit",
+      "Parameters": {
+        "Chance": 0.15,
+        "DurationTicks": 240,
+        "TickInterval": 120,
+        "DamagePerTick": 2
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "infiltrator",
+      "DisplayName": "Infiltrator",
+      "Description": "While deployed, farmer and partner attacks ignore 25% of monster Defense.",
+      "Trigger": "MonsterDefensePenetration",
+      "Parameters": {
+        "Penetration": 0.25
+      },
+      "Scope": "Field"
+    },
+    {
+      "Id": "hustle-1",
+      "DisplayName": "Hustle",
+      "Description": "Partner moves deal 15% more damage, but spend 20% of their listed energy as a surcharge and chores consume 20% more energy.",
+      "Trigger": "Hustle",
+      "Parameters": {
+        "DamageMultiplier": 1.15,
+        "EnergyMultiplier": 1.2,
+        "Strength": 1
+      },
+      "Scope": "Field"
+    },
+    {
+      "Id": "hustle-2",
+      "DisplayName": "Hustle",
+      "Description": "Partner moves deal 25% more damage, but spend 30% of their listed energy as a surcharge and chores consume 30% more energy.",
+      "Trigger": "Hustle",
+      "Parameters": {
+        "DamageMultiplier": 1.25,
+        "EnergyMultiplier": 1.3,
+        "Strength": 2
+      },
+      "Scope": "Field"
+    },
+    {
+      "Id": "hustle-3",
+      "DisplayName": "Hustle",
+      "Description": "Partner moves deal 35% more damage, but spend 40% of their listed energy as a surcharge and chores consume 40% more energy.",
+      "Trigger": "Hustle",
+      "Parameters": {
+        "DamageMultiplier": 1.35,
+        "EnergyMultiplier": 1.4,
+        "Strength": 3
+      },
+      "Scope": "Field"
+    },
+    {
+      "Id": "simple",
+      "DisplayName": "Simple",
+      "Description": "Positive stat bonuses from food and drinks are 20% stronger.",
+      "Trigger": "SimpleBuffMultiplier",
+      "Parameters": {
+        "Multiplier": 1.2
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "masterwork-meal",
+      "DisplayName": "Masterwork Meal",
+      "Description": "Positive stat bonuses from food and drinks are 25% stronger.",
+      "Trigger": "SimpleBuffMultiplier",
+      "Parameters": {
+        "Multiplier": 1.25
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "preserving-salt",
+      "DisplayName": "Preserving Salt",
+      "Description": "Cooked-food buffs last 35% longer.",
+      "Trigger": "FoodBuffDurationMultiplier",
+      "Parameters": {
+        "Multiplier": 1.35
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "verdant-crown",
+      "DisplayName": "Verdant Crown",
+      "Description": "Each night, if any conscious Calyrex is anywhere in your party—even inside its Ball—Verdant Crown finds the densest 3×3 patch of unfinished crops and advances every crop there by one growth phase. Multiple Calyrex do not stack.",
+      "Trigger": "NightlyPlantGrowth",
+      "Parameters": {
+        "SquareSize": 3
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "copycat",
+      "DisplayName": "Copycat",
+      "Description": "While Marshadow copies the farmer's chore type, it builds momentum for two seconds from normal speed to twice the work and animation speed, 50% faster walking, and half chore cooldown. Combat builds the same momentum only while the farmer is fighting nearby.",
+      "Trigger": "Copycat",
+      "Parameters": {
+        "SpeedMultiplier": 2.0,
+        "AnimationSpeedMultiplier": 2.0,
+        "MovementSpeedMultiplier": 1.5,
+        "ChoreCooldownMultiplier": 0.5,
+        "CombatSpeedMultiplier": 2.0,
+        "CombatRadiusTiles": 6.0,
+        "CombatSignalGraceTicks": 90,
+        "RampDurationTicks": 120,
+        "MomentumGraceTicks": 30
+      },
+      "Scope": "Field"
+    },
+    {
+      "Id": "illusion-1",
+      "DisplayName": "Illusion",
+      "Description": "While deployed and disguised, negates the first monster hit against the farmer, breaks the disguise, and recharges in 60 seconds.",
+      "Trigger": "IllusionGuard",
+      "Parameters": {
+        "CooldownTicks": 3600,
+        "Strength": 1
+      },
+      "Scope": "Field"
+    },
+    {
+      "Id": "illusion-2",
+      "DisplayName": "Illusion",
+      "Description": "While deployed and disguised, negates the first monster hit against the farmer, breaks the disguise, and recharges in 30 seconds.",
+      "Trigger": "IllusionGuard",
+      "Parameters": {
+        "CooldownTicks": 1800,
+        "Strength": 2
+      },
+      "Scope": "Field"
+    },
+    {
+      "Id": "flower-veil-1",
+      "DisplayName": "Flower Veil",
+      "Description": "Conscious party Pokémon recover from ailments 20% faster.",
+      "Trigger": "AilmentRecoveryMultiplier",
+      "Parameters": {
+        "Multiplier": 1.2,
+        "Strength": 1
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "flower-veil-2",
+      "DisplayName": "Flower Veil",
+      "Description": "Conscious party Pokémon recover from ailments 35% faster.",
+      "Trigger": "AilmentRecoveryMultiplier",
+      "Parameters": {
+        "Multiplier": 1.35,
+        "Strength": 2
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "flower-veil-3",
+      "DisplayName": "Flower Veil",
+      "Description": "Conscious party Pokémon recover from ailments 50% faster.",
+      "Trigger": "AilmentRecoveryMultiplier",
+      "Parameters": {
+        "Multiplier": 1.5,
+        "Strength": 3
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "hydration",
+      "DisplayName": "Hydration",
+      "Description": "During rain, party ailments expire twice as fast and the deployed partner restores 5% of its maximum energy each hour.",
+      "Trigger": "Hydration",
+      "Parameters": {
+        "AilmentMultiplier": 2.0,
+        "EnergyFraction": 0.05
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "dry-skin",
+      "DisplayName": "Dry Skin",
+      "Description": "During rain, party ailments expire twice as fast and the deployed partner restores 5% of its maximum energy each hour. In dry weather, its moves and chores cost 10% more energy.",
+      "Trigger": "DrySkin",
+      "Parameters": {
+        "AilmentMultiplier": 2.0,
+        "EnergyFraction": 0.05,
+        "SunnyEnergyMultiplier": 1.1
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "rattled-1",
+      "DisplayName": "Rattled",
+      "Description": "While deployed, taking monster damage gives the farmer +1 movement speed for six seconds, with a 15-second cooldown.",
+      "Trigger": "Rattled",
+      "Parameters": {
+        "SpeedBonus": 1.0,
+        "DurationTicks": 360,
+        "CooldownTicks": 900,
+        "Strength": 1
+      },
+      "Scope": "Field"
+    },
+    {
+      "Id": "rattled-2",
+      "DisplayName": "Rattled",
+      "Description": "While deployed, taking monster damage gives the farmer +2 movement speed for six seconds, with a 15-second cooldown.",
+      "Trigger": "Rattled",
+      "Parameters": {
+        "SpeedBonus": 2.0,
+        "DurationTicks": 360,
+        "CooldownTicks": 900,
+        "Strength": 2
+      },
+      "Scope": "Field"
+    },
+    {
+      "Id": "shed-skin-1",
+      "DisplayName": "Shed Skin",
+      "Description": "Conscious party Pokémon recover from ailments 25% faster.",
+      "Trigger": "AilmentRecoveryMultiplier",
+      "Parameters": {
+        "Multiplier": 1.25,
+        "Strength": 1
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "shed-skin-2",
+      "DisplayName": "Shed Skin",
+      "Description": "Conscious party Pokémon recover from ailments 40% faster.",
+      "Trigger": "AilmentRecoveryMultiplier",
+      "Parameters": {
+        "Multiplier": 1.4,
+        "Strength": 2
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "sand-stream",
+      "DisplayName": "Sand Stream",
+      "Description": "In mines and dangerous dungeons, enemy Pokémon take 25% longer between attacks and broken rocks have a 20% chance to yield extra stone or ore.",
+      "Trigger": "SandStream",
+      "Parameters": {
+        "AttackCooldownMultiplier": 1.25,
+        "MiningYieldChance": 0.2
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "thick-fat-1",
+      "DisplayName": "Thick Fat",
+      "Description": "Fire- and Ice-type attacks deal 10% less damage to party Pokémon.",
+      "Trigger": "ThickFat",
+      "Parameters": {
+        "Multiplier": 0.9,
+        "Strength": 1
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "thick-fat-2",
+      "DisplayName": "Thick Fat",
+      "Description": "Fire- and Ice-type attacks deal 20% less damage to party Pokémon.",
+      "Trigger": "ThickFat",
+      "Parameters": {
+        "Multiplier": 0.8,
+        "Strength": 2
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "thick-fat-3",
+      "DisplayName": "Thick Fat",
+      "Description": "Fire- and Ice-type attacks deal 30% less damage to party Pokémon.",
+      "Trigger": "ThickFat",
+      "Parameters": {
+        "Multiplier": 0.7,
+        "Strength": 3
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "shield-dust",
+      "DisplayName": "Shield Dust",
+      "Description": "Damaging enemy moves cannot inflict secondary ailments or stat changes on party Pokémon. Dedicated status moves still work.",
+      "Trigger": "ShieldDust",
+      "Parameters": {},
+      "Scope": "Team"
+    },
+    {
+      "Id": "ice-scales",
+      "DisplayName": "Ice Scales",
+      "Description": "Special-category attacks deal 50% less damage to party Pokémon.",
+      "Trigger": "IceScales",
+      "Parameters": {
+        "Multiplier": 0.5
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "weak-armor",
+      "DisplayName": "Weak Armor",
+      "Description": "After taking a physical Pokémon attack, this partner loses one Defense stage and gains two Speed stages for eight seconds, once every eight seconds.",
+      "Trigger": "WeakArmor",
+      "Parameters": {
+        "DefenseStages": -1,
+        "SpeedStages": 2,
+        "DurationTicks": 480,
+        "CooldownTicks": 480
+      },
+      "Scope": "Field"
+    },
+    {
+      "Id": "reckless",
+      "DisplayName": "Reckless",
+      "Description": "Charge and dash moves deal 35% more damage, but a successful hit costs 5% of this partner's maximum HP. Recoil cannot make it faint.",
+      "Trigger": "Reckless",
+      "Parameters": {
+        "DamageMultiplier": 1.35,
+        "RecoilFraction": 0.05
+      },
+      "Scope": "Field"
+    },
+    {
+      "Id": "iron-fist",
+      "DisplayName": "Iron Fist",
+      "Description": "Close-range physical moves that are not charges deal 20% more damage and 50% more knockback.",
+      "Trigger": "IronFist",
+      "Parameters": {
+        "DamageMultiplier": 1.2,
+        "KnockbackMultiplier": 1.5
+      },
+      "Scope": "Field"
+    },
+    {
+      "Id": "immunity",
+      "DisplayName": "Immunity",
+      "Description": "Conscious party Pokémon cannot be poisoned, and adding this provider to the party clears existing poison.",
+      "Trigger": "Immunity",
+      "Parameters": {},
+      "Scope": "Team"
+    },
+    {
+      "Id": "toxic-boost",
+      "DisplayName": "Toxic Boost",
+      "Description": "While this Pokémon is poisoned, its moves and the farmer's weapon attacks deal 25% more damage, and its poison damage is halved.",
+      "Trigger": "ToxicBoost",
+      "Parameters": {
+        "DamageMultiplier": 1.25,
+        "PoisonDamageMultiplier": 0.5
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "pickpocket",
+      "DisplayName": "Pickpocket",
+      "Description": "While deployed, the first farmer or partner hit against each ordinary monster has a 15% chance to steal one Coal. Wild Pokémon and bosses are excluded.",
+      "Trigger": "Pickpocket",
+      "Parameters": {
+        "Chance": 0.15
+      },
+      "Scope": "Field"
+    },
+    {
+      "Id": "prankster",
+      "DisplayName": "Prankster",
+      "Description": "This partner's nondamaging moves have 25% shorter cooldowns and recovery.",
+      "Trigger": "Prankster",
+      "Parameters": {
+        "CooldownMultiplier": 0.75
+      },
+      "Scope": "Field"
+    },
+    {
+      "Id": "dragons-maw",
+      "DisplayName": "Dragon's Maw",
+      "Description": "This partner's Dragon-type moves deal 30% more damage and recover 15% faster.",
+      "Trigger": "DragonsMaw",
+      "Parameters": {
+        "DamageMultiplier": 1.3,
+        "RecoveryMultiplier": 0.85
+      },
+      "Scope": "Field"
+    },
+    {
+      "Id": "torrent-1",
+      "DisplayName": "Torrent",
+      "Description": "Caught fish have a 10% chance to rise one quality tier.",
+      "Trigger": "FishQualityOnCatch",
+      "Parameters": {
+        "Chance": 0.1,
+        "Strength": 1
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "torrent-2",
+      "DisplayName": "Torrent",
+      "Description": "Caught fish have a 15% chance to rise one quality tier.",
+      "Trigger": "FishQualityOnCatch",
+      "Parameters": {
+        "Chance": 0.15,
+        "Strength": 2
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "torrent-3",
+      "DisplayName": "Torrent",
+      "Description": "Caught fish have a 20% chance to rise one quality tier.",
+      "Trigger": "FishQualityOnCatch",
+      "Parameters": {
+        "Chance": 0.2,
+        "Strength": 3
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "gulp-missile",
+      "DisplayName": "Gulp Missile",
+      "Description": "Caught fish have a 20% chance to be duplicated. Legendary and unique fish are excluded.",
+      "Trigger": "DuplicateFishOnCatch",
+      "Parameters": {
+        "Chance": 0.2
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "filter",
+      "DisplayName": "Filter",
+      "Description": "Super-effective attacks deal 25% less damage to party Pokémon.",
+      "Trigger": "Filter",
+      "Parameters": {
+        "Multiplier": 0.75
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "swift-swim-1",
+      "DisplayName": "Swift Swim",
+      "Description": "During rain, fish bite 15% faster and the farmer gains +0.25 outdoor movement speed.",
+      "Trigger": "SwiftSwim",
+      "Parameters": {
+        "BiteTimeMultiplier": 0.85,
+        "SpeedBonus": 0.25,
+        "Strength": 1
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "swift-swim-2",
+      "DisplayName": "Swift Swim",
+      "Description": "During rain, fish bite 25% faster and the farmer gains +0.5 outdoor movement speed.",
+      "Trigger": "SwiftSwim",
+      "Parameters": {
+        "BiteTimeMultiplier": 0.75,
+        "SpeedBonus": 0.5,
+        "Strength": 2
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "magic-guard",
+      "DisplayName": "Magic Guard",
+      "Description": "Indirect damage from bombs, hazards, poison, and burn is reduced by 75% for the farmer and party Pokémon. Direct attacks are unaffected.",
+      "Trigger": "MagicGuard",
+      "Parameters": {
+        "IndirectDamageMultiplier": 0.25
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "radiant-sun",
+      "DisplayName": "Radiant Sun",
+      "Description": "During the day, the farmer and party Pokémon deal 20% more damage, move 1.5 pixels per tick faster, and gain 20% effective health.",
+      "Trigger": "CelestialAura",
+      "Target": "Day",
+      "Parameters": {
+        "DamageMultiplier": 1.2,
+        "SpeedBonus": 1.5,
+        "HealthMultiplier": 1.2,
+        "Strength": 1.2
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "moonlit-wings",
+      "DisplayName": "Moonlit Wings",
+      "Description": "At night, the farmer and party Pokémon deal 20% more damage, move 1.5 pixels per tick faster, and gain 20% effective health.",
+      "Trigger": "CelestialAura",
+      "Target": "Night",
+      "Parameters": {
+        "DamageMultiplier": 1.2,
+        "SpeedBonus": 1.5,
+        "HealthMultiplier": 1.2,
+        "Strength": 1.2
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "supersweet-syrup",
+      "DisplayName": "Supersweet Syrup",
+      "Description": "The first Poké Ball hit against each wild Pokémon gains 10 percentage points of catch chance.",
+      "Trigger": "FirstCaptureChanceBonus",
+      "Parameters": {
+        "Bonus": 0.1
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "magma-armor-contact",
+      "DisplayName": "Magma Armor",
+      "Description": "While deployed, monsters that hit the farmer have a 25% chance to burn for four seconds without knocking out wild Pokémon.",
+      "Trigger": "ContactBurn",
+      "Parameters": {
+        "Chance": 0.25,
+        "DurationTicks": 240,
+        "TickInterval": 60,
+        "DamagePerTick": 1
+      },
+      "Scope": "Field"
+    },
+    {
+      "Id": "defiant",
+      "DisplayName": "Defiant",
+      "Description": "Taking monster damage boosts farmer and partner damage by 20% for six seconds, with a 15-second cooldown.",
+      "Trigger": "Defiant",
+      "Parameters": {
+        "DamageMultiplier": 1.2,
+        "DurationTicks": 360,
+        "CooldownTicks": 900
+      },
+      "Scope": "Field"
+    },
+    {
+      "Id": "berserk",
+      "DisplayName": "Berserk",
+      "Description": "While Drampa is deployed at half health or less, Drampa and its farmer deal 25% more damage.",
+      "Trigger": "Berserk",
+      "Parameters": {
+        "HealthThreshold": 0.5,
+        "DamageMultiplier": 1.25
+      },
+      "Scope": "Field"
+    },
+    {
+      "Id": "flash-fire",
+      "DisplayName": "Flash Fire",
+      "Description": "Furnaces process items 25% faster.",
+      "Trigger": "MachineProcessingSpeedMultiplier",
+      "Target": "Furnace",
+      "Parameters": {
+        "Multiplier": 1.25
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "snow-cloak",
+      "DisplayName": "Snow Cloak",
+      "Description": "The fishing bar is 64 pixels larger.",
+      "Trigger": "FishingBarHeight",
+      "Parameters": {
+        "Pixels": 64
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "static",
+      "DisplayName": "Static",
+      "Description": "Collecting a Battery Pack always grants an additional Battery Pack.",
+      "Trigger": "ExtraBatteryOnCollect",
+      "Parameters": {
+        "Chance": 1.0
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "flame-body",
+      "DisplayName": "Flame Body",
+      "Description": "Incubators process eggs 50% faster.",
+      "Trigger": "MachineProcessingSpeedMultiplier",
+      "Target": "Incubator",
+      "Parameters": {
+        "Multiplier": 1.5
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "all-types",
+      "DisplayName": "Protean",
+      "Description": "While deployed, grants every type affinity.",
+      "Trigger": "MewTypeAffinities",
+      "Parameters": {},
+      "Scope": "Field"
+    },
+    {
+      "Id": "pressure",
+      "DisplayName": "Pressure",
+      "Description": "Enemy Pokémon take 50% longer between attacks.",
+      "Trigger": "EnemyPokemonAttackCooldownMultiplier",
+      "Parameters": {
+        "Multiplier": 1.5
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "synchronize",
+      "DisplayName": "Synchronize",
+      "Description": "The first conversation with each villager each day grants 15 additional friendship.",
+      "Trigger": "DailyConversationFriendshipBonus",
+      "Parameters": {
+        "Bonus": 15
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "quick-feet",
+      "DisplayName": "Quick Feet",
+      "Description": "The farmer moves 1.5 points faster outdoors, including while mounted.",
+      "Trigger": "OutdoorMovementSpeed",
+      "Parameters": {
+        "SpeedBonus": 1.5
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "inner-focus",
+      "DisplayName": "Inner Focus",
+      "Description": "Weapon attacks gain 15 percentage points of critical-hit chance.",
+      "Trigger": "FarmerCriticalChanceBonus",
+      "Parameters": {
+        "Bonus": 0.15
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "water-veil-1",
+      "DisplayName": "Water Veil",
+      "Description": "Caught fish have a 10% chance to rise one quality tier.",
+      "Trigger": "FishQualityOnCatch",
+      "Parameters": {
+        "Chance": 0.1,
+        "Strength": 1
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "water-veil-2",
+      "DisplayName": "Water Veil",
+      "Description": "Caught fish have a 20% chance to rise one quality tier.",
+      "Trigger": "FishQualityOnCatch",
+      "Parameters": {
+        "Chance": 0.2,
+        "Strength": 2
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "water-veil",
+      "DisplayName": "Water Veil",
+      "Description": "Every fish caught by the farmer rises one quality tier.",
+      "Trigger": "FishQualityOnCatch",
+      "Parameters": {
+        "Chance": 1.0,
+        "Strength": 3
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "drizzle",
+      "DisplayName": "Weather Command",
+      "Description": "While Lugia is deployed, its command lets you choose tomorrow's weather.",
+      "Trigger": "WeatherForecastCommand",
+      "Parameters": {},
+      "Scope": "Field"
+    },
+    {
+      "Id": "primordial-sea",
+      "DisplayName": "Primordial Sea",
+      "Description": "Deploying Kyogre brings rain across every map immediately, watering existing farm crops and pet bowls. It lasts until another field ability changes the weather.",
+      "Trigger": "WorldRain",
+      "Parameters": {},
+      "Scope": "Field"
+    },
+    {
+      "Id": "desolate-land",
+      "DisplayName": "Desolate Land",
+      "Description": "Deploying Groudon brings clear skies across every map immediately. They last until another field ability changes the weather.",
+      "Trigger": "WorldSun",
+      "Parameters": {},
+      "Scope": "Field"
+    },
+    {
+      "Id": "delta-stream",
+      "DisplayName": "Delta Stream",
+      "Description": "While Rayquaza is deployed, hostile Pokémon ranged attacks and boss area attacks deal 50% less damage and occur half as often, and boss danger zones are shown 50% longer. Rayquaza's Flying moves deal 40% more damage.",
+      "Trigger": "DeltaStream",
+      "Parameters": {
+        "ProjectileDamageMultiplier": 0.5,
+        "ProjectileCooldownMultiplier": 2.0,
+        "BossAreaDamageMultiplier": 0.5,
+        "BossAttackIntervalMultiplier": 2.0,
+        "BossTelegraphMultiplier": 1.5,
+        "FlyingDamageMultiplier": 1.4,
+        "Strength": 3.0
+      },
+      "Scope": "Field"
+    },
+    {
+      "Id": "volt-absorb",
+      "DisplayName": "Volt Absorb",
+      "Description": "On rainy days, the farmer gains 100 maximum and current stamina.",
+      "Trigger": "RainyDayStamina",
+      "Parameters": {
+        "Bonus": 100
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "time-travel",
+      "DisplayName": "Time Travel",
+      "Description": "While Celebi or Dialga is deployed, its command can rewind the clock and NPC schedules by three hours once per day.",
+      "Trigger": "TimeTravelCommand",
+      "Parameters": {
+        "Hours": 3
+      },
+      "Scope": "Field"
+    },
+    {
+      "Id": "spatial-warp",
+      "DisplayName": "Spatial Warp",
+      "Description": "While Palkia is deployed, its command warps you to a major destination twice per day.",
+      "Trigger": "SpatialWarpCommand",
+      "Parameters": {
+        "DailyUses": 2
+      },
+      "Scope": "Field"
+    },
+    {
+      "Id": "cheek-pouch-1",
+      "DisplayName": "Cheek Pouch",
+      "Description": "While deployed, food restores 10% more health and energy, except full-refill items.",
+      "Trigger": "FoodRecoveryMultiplier",
+      "Parameters": {
+        "Multiplier": 1.1
+      },
+      "Scope": "Field"
+    },
+    {
+      "Id": "cheek-pouch-2",
+      "DisplayName": "Cheek Pouch",
+      "Description": "While deployed, food restores 20% more health and energy, except full-refill items.",
+      "Trigger": "FoodRecoveryMultiplier",
+      "Parameters": {
+        "Multiplier": 1.2
+      },
+      "Scope": "Field"
+    },
+    {
+      "Id": "forewarn",
+      "DisplayName": "Forewarn",
+      "Description": "While deployed, lethal monster damage leaves the farmer at 1 HP and grants two seconds of invulnerability once per day.",
+      "Trigger": "PreventLethalMonsterDamage",
+      "Parameters": {
+        "Chance": 1.0
+      },
+      "Scope": "Field"
+    },
+    {
+      "Id": "shell-armor-1",
+      "DisplayName": "Shell Armor",
+      "Description": "While deployed, Crab Pots have a 15% chance to produce twice their normal catch.",
+      "Trigger": "ExtraCrabPotCatch",
+      "Parameters": {
+        "Chance": 0.15
+      },
+      "Scope": "Field"
+    },
+    {
+      "Id": "shell-armor-2",
+      "DisplayName": "Shell Armor",
+      "Description": "While deployed, Crab Pots have a 25% chance to produce twice their normal catch.",
+      "Trigger": "ExtraCrabPotCatch",
+      "Parameters": {
+        "Chance": 0.25
+      },
+      "Scope": "Field"
+    },
+    {
+      "Id": "multiscale",
+      "DisplayName": "Multiscale",
+      "Description": "The farmer takes 50% less damage from all sources.",
+      "Trigger": "AllFarmerDamageTakenMultiplier",
+      "Parameters": {
+        "Multiplier": 0.5
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "regenerator-1",
+      "DisplayName": "Regenerator",
+      "Description": "Food restores 20% more health and energy, except full-refill items.",
+      "Trigger": "FoodRecoveryMultiplier",
+      "Parameters": {
+        "Multiplier": 1.2
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "regenerator-2",
+      "DisplayName": "Regenerator",
+      "Description": "Food restores 30% more health and energy, except full-refill items.",
+      "Trigger": "FoodRecoveryMultiplier",
+      "Parameters": {
+        "Multiplier": 1.3
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "regenerator",
+      "DisplayName": "Regenerator",
+      "Description": "Food restores 50% more health and energy, except full-refill items.",
+      "Trigger": "FoodRecoveryMultiplier",
+      "Parameters": {
+        "Multiplier": 1.5
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "solid-rock",
+      "DisplayName": "Solid Rock",
+      "Description": "Pickaxe actions consume no stamina.",
+      "Trigger": "ToolStaminaMultiplier",
+      "Target": "Pickaxe",
+      "Parameters": {
+        "Multiplier": 0.0
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "ice-body-1",
+      "DisplayName": "Ice Body",
+      "Description": "Fish bite 15% faster.",
+      "Trigger": "FishingBiteTimeMultiplier",
+      "Parameters": {
+        "Multiplier": 0.85,
+        "Strength": 1
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "ice-body-2",
+      "DisplayName": "Ice Body",
+      "Description": "Fish bite 25% faster.",
+      "Trigger": "FishingBiteTimeMultiplier",
+      "Parameters": {
+        "Multiplier": 0.75,
+        "Strength": 2
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "ice-body",
+      "DisplayName": "Ice Body",
+      "Description": "Fish bite 50% faster.",
+      "Trigger": "FishingBiteTimeMultiplier",
+      "Parameters": {
+        "Multiplier": 0.5,
+        "Strength": 3
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "light-metal",
+      "DisplayName": "Light Metal",
+      "Description": "Hoe, Axe, and Pickaxe actions consume 75% less stamina.",
+      "Trigger": "ToolStaminaMultiplier",
+      "Target": "AllTools",
+      "Parameters": {
+        "Multiplier": 0.25
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "natural-cure",
+      "DisplayName": "Natural Cure",
+      "Description": "Harvested crops have a 50% chance to rise one quality tier.",
+      "Trigger": "CropQualityOnHarvest",
+      "Parameters": {
+        "Chance": 0.5
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "imposter",
+      "DisplayName": "Imposter",
+      "Description": "Rare wild Pokémon are twice as likely to be selected.",
+      "Trigger": "RareEncounterWeightMultiplier",
+      "Parameters": {
+        "Multiplier": 2.0
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "analytic",
+      "DisplayName": "Analytic",
+      "Description": "All machines process items 25% faster.",
+      "Trigger": "MachineProcessingSpeedMultiplier",
+      "Target": "Machine",
+      "Parameters": {
+        "Multiplier": 1.25
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "gluttony",
+      "DisplayName": "Gluttony",
+      "Description": "Food restores 25% more health and energy, except full-refill items.",
+      "Trigger": "FoodRecoveryMultiplier",
+      "Parameters": {
+        "Multiplier": 1.25
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "magnet-pull",
+      "DisplayName": "Magnet Pull",
+      "Description": "The farmer's item-attraction radius is doubled.",
+      "Trigger": "MagneticRadiusMultiplier",
+      "Parameters": {
+        "Multiplier": 2.0
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "rock-head",
+      "DisplayName": "Rock Head",
+      "Description": "Broken rocks have a 15% chance to yield extra stone or ore.",
+      "Trigger": "ExtraOreAndStone",
+      "Parameters": {
+        "Chance": 0.15
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "chlorophyll",
+      "DisplayName": "Chlorophyll",
+      "Description": "On sunny mornings, watered outdoor crops have a 7% chance to gain an additional growth day.",
+      "Trigger": "SunnyCropGrowth",
+      "Parameters": {
+        "Chance": 0.07
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "mist-ball",
+      "DisplayName": "Mist Ball",
+      "Description": "The farmer takes 40% less damage from monsters.",
+      "Trigger": "FarmerDamageTakenMultiplier",
+      "Parameters": {
+        "Multiplier": 0.6
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "luster-purge",
+      "DisplayName": "Luster Purge",
+      "Description": "Weapon attacks gain 20 percentage points of critical-hit chance.",
+      "Trigger": "FarmerCriticalChanceBonus",
+      "Parameters": {
+        "Bonus": 0.2
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "intimidate-1",
+      "DisplayName": "Intimidate",
+      "Description": "While deployed, this partner reduces damage the farmer takes from monsters by 5%.",
+      "Trigger": "FarmerDamageTakenMultiplier",
+      "Parameters": {
+        "Multiplier": 0.95
+      },
+      "Scope": "Field"
+    },
+    {
+      "Id": "intimidate-2",
+      "DisplayName": "Intimidate",
+      "Description": "While deployed, this partner reduces damage the farmer takes from monsters by 10%.",
+      "Trigger": "FarmerDamageTakenMultiplier",
+      "Parameters": {
+        "Multiplier": 0.9
+      },
+      "Scope": "Field"
+    },
+    {
+      "Id": "intimidate-3",
+      "DisplayName": "Intimidate",
+      "Description": "While deployed, this partner reduces damage the farmer takes from monsters by 15%.",
+      "Trigger": "FarmerDamageTakenMultiplier",
+      "Parameters": {
+        "Multiplier": 0.85
+      },
+      "Scope": "Field"
+    },
+    {
+      "Id": "big-pecks",
+      "DisplayName": "Big Pecks",
+      "Description": "Crows cannot eat crops overnight.",
+      "Trigger": "PreventCrows",
+      "Parameters": {
+        "Chance": 1.0
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "seed-sower-1",
+      "DisplayName": "Rototiller",
+      "Description": "Soil newly tilled by you or your Pokémon has an 8% chance to receive free Basic Fertilizer.",
+      "Trigger": "ApplyBasicFertilizerOnHoe",
+      "Parameters": {
+        "Chance": 0.08
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "seed-sower-2",
+      "DisplayName": "Rototiller",
+      "Description": "Soil newly tilled by you or your Pokémon has a 12% chance to receive free Basic Fertilizer.",
+      "Trigger": "ApplyBasicFertilizerOnHoe",
+      "Parameters": {
+        "Chance": 0.12
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "seed-sower-3",
+      "DisplayName": "Rototiller",
+      "Description": "Soil newly tilled by you or your Pokémon has a 16% chance to receive free Basic Fertilizer.",
+      "Trigger": "ApplyBasicFertilizerOnHoe",
+      "Parameters": {
+        "Chance": 0.16
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "chlorophyll-1",
+      "DisplayName": "Chlorophyll",
+      "Description": "On sunny mornings, watered outdoor crops have a 4% chance to gain an additional growth day.",
+      "Trigger": "SunnyCropGrowth",
+      "Parameters": {
+        "Chance": 0.04,
+        "Strength": 1.0
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "chlorophyll-2",
+      "DisplayName": "Chlorophyll",
+      "Description": "On sunny mornings, watered outdoor crops have a 7% chance to gain an additional growth day.",
+      "Trigger": "SunnyCropGrowth",
+      "Parameters": {
+        "Chance": 0.07,
+        "Strength": 2.0
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "chlorophyll-3",
+      "DisplayName": "Chlorophyll",
+      "Description": "On sunny mornings, watered outdoor crops have a 10% chance to gain an additional growth day.",
+      "Trigger": "SunnyCropGrowth",
+      "Parameters": {
+        "Chance": 0.1,
+        "Strength": 3.0
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "water-bubble-1",
+      "DisplayName": "Water Bubble",
+      "Description": "Water-type moves used by this Pokémon deal 20% more damage, and Fire-type attacks deal 20% less damage to party Pokémon.",
+      "Trigger": "WaterBubble",
+      "Parameters": {
+        "WaterDamageMultiplier": 1.2,
+        "FireDamageMultiplier": 0.8,
+        "Strength": 1.0
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "water-bubble-2",
+      "DisplayName": "Water Bubble",
+      "Description": "Water-type moves used by this Pokémon deal 35% more damage, and Fire-type attacks deal 35% less damage to party Pokémon.",
+      "Trigger": "WaterBubble",
+      "Parameters": {
+        "WaterDamageMultiplier": 1.35,
+        "FireDamageMultiplier": 0.65,
+        "Strength": 2.0
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "sap-sipper-1",
+      "DisplayName": "Sap Sipper",
+      "Description": "Felled trees have a 25% chance to drop extra Sap and a 10% chance to drop an extra seed.",
+      "Trigger": "TreeYieldBonus",
+      "Parameters": {
+        "Chance": 0.25,
+        "SapChance": 0.25,
+        "SeedChance": 0.1
+      },
+      "Scope": "Field"
+    },
+    {
+      "Id": "sap-sipper-2",
+      "DisplayName": "Sap Sipper",
+      "Description": "Felled trees have a 50% chance to drop extra Sap and a 20% chance to drop an extra seed.",
+      "Trigger": "TreeYieldBonus",
+      "Parameters": {
+        "Chance": 0.5,
+        "SapChance": 0.5,
+        "SeedChance": 0.2
+      },
+      "Scope": "Field"
+    },
+    {
+      "Id": "magma-armor-1",
+      "DisplayName": "Flame Body",
+      "Description": "Incubators process eggs 20% faster.",
+      "Trigger": "MachineProcessingSpeedMultiplier",
+      "Target": "Incubator",
+      "Parameters": {
+        "Multiplier": 1.2
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "magma-armor-2",
+      "DisplayName": "Flame Body",
+      "Description": "Incubators process eggs 35% faster.",
+      "Trigger": "MachineProcessingSpeedMultiplier",
+      "Target": "Incubator",
+      "Parameters": {
+        "Multiplier": 1.35
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "steam-engine",
+      "DisplayName": "Steam Engine",
+      "Description": "Preserves Jars, Dehydrators, Fish Smokers, Oil Makers, Cheese Presses, Mayonnaise Machines, and Looms process items 20% faster.",
+      "Trigger": "MachineProcessingSpeedMultiplier",
+      "Target": "Appliance",
+      "Parameters": {
+        "Multiplier": 1.2
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "stench-1",
+      "DisplayName": "Stench",
+      "Description": "Recycling Machines have a 20% chance to double their output.",
+      "Trigger": "ExtraRecyclingOutput",
+      "Parameters": {
+        "Chance": 0.2
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "stench-2",
+      "DisplayName": "Stench",
+      "Description": "Recycling Machines have a 35% chance to double their output.",
+      "Trigger": "ExtraRecyclingOutput",
+      "Parameters": {
+        "Chance": 0.35
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "damp-1",
+      "DisplayName": "Damp",
+      "Description": "While deployed, damage from the farmer's own bombs is reduced by 50%.",
+      "Trigger": "OwnBombDamageMultiplier",
+      "Parameters": {
+        "Multiplier": 0.5
+      },
+      "Scope": "Field"
+    },
+    {
+      "Id": "damp-2",
+      "DisplayName": "Damp",
+      "Description": "While deployed, the farmer's own bombs deal no damage or knockback to them.",
+      "Trigger": "OwnBombDamageMultiplier",
+      "Parameters": {
+        "Multiplier": 0.0
+      },
+      "Scope": "Field"
+    },
+    {
+      "Id": "arena-trap-1",
+      "DisplayName": "Arena Trap",
+      "Description": "While deployed, broken mine rocks have an additional 8% chance to reveal a ladder.",
+      "Trigger": "ExtraLadderChance",
+      "Parameters": {
+        "Chance": 0.08
+      },
+      "Scope": "Field"
+    },
+    {
+      "Id": "arena-trap-2",
+      "DisplayName": "Arena Trap",
+      "Description": "While deployed, broken mine rocks have an additional 12% chance to reveal a ladder.",
+      "Trigger": "ExtraLadderChance",
+      "Parameters": {
+        "Chance": 0.12
+      },
+      "Scope": "Field"
+    },
+    {
+      "Id": "arena-trap-3",
+      "DisplayName": "Arena Trap",
+      "Description": "While deployed, broken mine rocks have an additional 16% chance to reveal a ladder.",
+      "Trigger": "ExtraLadderChance",
+      "Parameters": {
+        "Chance": 0.16
+      },
+      "Scope": "Field"
+    },
+    {
+      "Id": "keen-eye",
+      "DisplayName": "Keen Eye",
+      "Description": "While deployed, gem and mineral drops from rocks have a 15% chance to duplicate.",
+      "Trigger": "DuplicateGemOrMineral",
+      "Parameters": {
+        "Chance": 0.15
+      },
+      "Scope": "Field"
+    },
+    {
+      "Id": "heavy-metal-1",
+      "DisplayName": "Heavy Metal",
+      "Description": "Crafts which consume metal bars have a 15% chance to refund one bar.",
+      "Trigger": "RefundCraftingBar",
+      "Parameters": {
+        "Chance": 0.15
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "heavy-metal-2",
+      "DisplayName": "Heavy Metal",
+      "Description": "Crafts which consume metal bars have a 25% chance to refund one bar.",
+      "Trigger": "RefundCraftingBar",
+      "Parameters": {
+        "Chance": 0.25
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "heavy-metal-3",
+      "DisplayName": "Heavy Metal",
+      "Description": "Crafts which consume metal bars have a 35% chance to refund one bar.",
+      "Trigger": "RefundCraftingBar",
+      "Parameters": {
+        "Chance": 0.35
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "illuminate-1",
+      "DisplayName": "Illuminate",
+      "Description": "While deployed, fishing treasure chests appear 5 percentage points more often.",
+      "Trigger": "FishingTreasureChanceBonus",
+      "Parameters": {
+        "Bonus": 0.05
+      },
+      "Scope": "Field"
+    },
+    {
+      "Id": "illuminate-2",
+      "DisplayName": "Illuminate",
+      "Description": "While deployed, fishing treasure chests appear 10 percentage points more often.",
+      "Trigger": "FishingTreasureChanceBonus",
+      "Parameters": {
+        "Bonus": 0.1
+      },
+      "Scope": "Field"
+    },
+    {
+      "Id": "skill-link-1",
+      "DisplayName": "Skill Link",
+      "Description": "Fishing tackle has a 20% chance to avoid durability loss.",
+      "Trigger": "PreserveFishingTackle",
+      "Parameters": {
+        "Chance": 0.2
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "skill-link-2",
+      "DisplayName": "Skill Link",
+      "Description": "Fishing tackle has a 35% chance to avoid durability loss.",
+      "Trigger": "PreserveFishingTackle",
+      "Parameters": {
+        "Chance": 0.35
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "cute-charm-1",
+      "DisplayName": "Cute Charm",
+      "Description": "Gifts which increase friendship grant 15% more friendship.",
+      "Trigger": "GiftFriendshipMultiplier",
+      "Parameters": {
+        "Multiplier": 1.15
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "cute-charm-2",
+      "DisplayName": "Cute Charm",
+      "Description": "Gifts which increase friendship grant 25% more friendship.",
+      "Trigger": "GiftFriendshipMultiplier",
+      "Parameters": {
+        "Multiplier": 1.25
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "own-tempo",
+      "DisplayName": "Own Tempo",
+      "Description": "Friendship does not decay merely because the farmer missed a daily conversation.",
+      "Trigger": "PreventMissedConversationDecay",
+      "Parameters": {
+        "Chance": 1.0
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "good-as-gold-1",
+      "DisplayName": "Good as Gold",
+      "Description": "Items placed in a shipping bin sell for 3% more.",
+      "Trigger": "ShippingPriceMultiplier",
+      "Parameters": {
+        "Multiplier": 1.03
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "good-as-gold-2",
+      "DisplayName": "Good as Gold",
+      "Description": "Items placed in a shipping bin sell for 5% more.",
+      "Trigger": "ShippingPriceMultiplier",
+      "Parameters": {
+        "Multiplier": 1.05
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "well-baked-body-1",
+      "DisplayName": "Well-Baked Body",
+      "Description": "Buffs from cooked dishes last 10% longer; drinks are unaffected.",
+      "Trigger": "FoodBuffDurationMultiplier",
+      "Parameters": {
+        "Multiplier": 1.1
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "well-baked-body-2",
+      "DisplayName": "Well-Baked Body",
+      "Description": "Buffs from cooked dishes last 20% longer; drinks are unaffected.",
+      "Trigger": "FoodBuffDurationMultiplier",
+      "Parameters": {
+        "Multiplier": 1.2
+      },
+      "Scope": "Team"
+    },
+    {
+      "Id": "mold-breaker",
+      "DisplayName": "Mold Breaker",
+      "Description": "While deployed, Large Stumps and Large Logs always drop one additional Hardwood.",
+      "Trigger": "ExtraHardwoodFromClump",
+      "Parameters": {
+        "Chance": 1.0
+      },
+      "Scope": "Field"
+    },
+    {
+      "Id": "frisk-1",
+      "DisplayName": "Frisk",
+      "Description": "While deployed, forage, Artifact Spots, and Seed Spots glimmer and receive an edge marker within 12 tiles.",
+      "Trigger": "FriskDiscovery",
+      "Parameters": {
+        "RadiusTiles": 12
+      },
+      "Scope": "Field"
+    },
+    {
+      "Id": "frisk-2",
+      "DisplayName": "Frisk",
+      "Description": "While deployed, forage, Artifact Spots, and Seed Spots glimmer and receive an edge marker within 20 tiles.",
+      "Trigger": "FriskDiscovery",
+      "Parameters": {
+        "RadiusTiles": 20
+      },
+      "Scope": "Field"
+    },
+    {
+      "Id": "creator-bounty",
+      "DisplayName": "Creator's Bounty",
+      "Description": "The first crop, fish, forage item, animal product, and mining drop you collect each day yields one extra item. While deployed, Arceus also grants every Type Affinity.",
+      "Trigger": "CreatorBounty",
+      "Scope": "Team"
+    },
+    {
+      "Id": "distortion",
+      "DisplayName": "Distortion",
+      "Description": "While deployed, time advances 20% more slowly in dangerous dungeons and during boss battles.",
+      "Trigger": "Distortion",
+      "Parameters": {
+        "Multiplier": 0.8
+      },
+      "Scope": "Field"
+    }
+  ],
+  "Effects": [
+    {
+      "Id": "bulbasaur.vine_whip",
+      "AnimationClip": "shoot",
+      "Texture": "assets/effects/bulbasaur/chore_effects.png",
+      "FrameCount": 6,
+      "FrameWidth": 96,
+      "FrameHeight": 96,
+      "Columns": 27,
+      "StartFrame": 0,
+      "FrameDurations": [
+        4,
+        2,
+        2,
+        2,
+        2,
+        4
+      ],
+      "Scale": 2.25,
+      "HorizontalOffset": 0,
+      "VerticalOffset": 0,
+      "ForwardOffset": 0,
+      "ArcHeight": 12,
+      "BaseDirectionDegrees": 45,
+      "DurationTicks": 16,
+      "Placement": "TetherTip",
+      "Orientation": "EightWay",
+      "TrackTarget": true
+    },
+    {
+      "Id": "bulbasaur.vine_whip.impact",
+      "Texture": "assets/effects/bulbasaur/chore_effects.png",
+      "FrameCount": 6,
+      "FrameWidth": 96,
+      "FrameHeight": 96,
+      "Columns": 27,
+      "StartFrame": 0,
+      "FrameIndices": [
+        6,
+        9,
+        7,
+        9,
+        8,
+        9
+      ],
+      "FrameDurations": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "Scale": 2.25,
+      "HorizontalOffset": 0,
+      "VerticalOffset": 0,
+      "ForwardOffset": 0,
+      "ArcHeight": 0,
+      "BaseDirectionDegrees": 0,
+      "DurationTicks": 12,
+      "Placement": "Target",
+      "Orientation": "None",
+      "TrackTarget": true
+    },
+    {
+      "Id": "bulbasaur.razor_leaf",
+      "AnimationClip": "shoot",
+      "Texture": "assets/effects/bulbasaur/chore_effects.png",
+      "FrameCount": 27,
+      "FrameWidth": 96,
+      "FrameHeight": 96,
+      "Columns": 27,
+      "StartFrame": 27,
+      "FrameDurations": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "Scale": 2.0,
+      "HorizontalOffset": 0,
+      "VerticalOffset": -8,
+      "ForwardOffset": 4,
+      "ArcHeight": 0,
+      "BaseDirectionDegrees": 0,
+      "DurationTicks": 54,
+      "Placement": "Source",
+      "Orientation": "None",
+      "TrackTarget": false
+    },
+    {
+      "Id": "bulbasaur.synthesis",
+      "Texture": "assets/effects/bulbasaur/chore_effects.png",
+      "FrameCount": 11,
+      "FrameWidth": 96,
+      "FrameHeight": 96,
+      "Columns": 27,
+      "StartFrame": 54,
+      "FrameDurations": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "Scale": 2.5,
+      "HorizontalOffset": 0,
+      "VerticalOffset": -10,
+      "ForwardOffset": 0,
+      "ArcHeight": 0,
+      "BaseDirectionDegrees": 0,
+      "DurationTicks": 33,
+      "Placement": "Source",
+      "Orientation": "None",
+      "TrackTarget": false
+    },
+    {
+      "Id": "bulbasaur.water_pulse",
+      "Texture": "assets/effects/bulbasaur/chore_effects.png",
+      "FrameCount": 11,
+      "FrameWidth": 96,
+      "FrameHeight": 96,
+      "Columns": 27,
+      "StartFrame": 81,
+      "FrameDurations": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "Scale": 2.25,
+      "HorizontalOffset": 0,
+      "VerticalOffset": -10,
+      "ForwardOffset": 0,
+      "ArcHeight": 0,
+      "BaseDirectionDegrees": 0,
+      "DurationTicks": 66,
+      "Placement": "Target",
+      "Orientation": "None",
+      "TrackTarget": false
+    }
+  ]
+}

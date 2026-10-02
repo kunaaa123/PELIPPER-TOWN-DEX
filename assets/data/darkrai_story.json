@@ -1,0 +1,343 @@
+{
+  "Format": "PelipperTown/1",
+  "Species": [
+    {
+      "NationalDex": 491,
+      "Id": "darkrai",
+      "FormId": "default",
+      "DisplayName": "Darkrai",
+      "Description": "It can lull people to sleep and make them dream. It is active during nights of the new moon.",
+      "Generation": 4,
+      "GenderRate": -1,
+      "Types": [
+        "Dark"
+      ],
+      "Jobs": [
+        "Forage",
+        "Harvest",
+        "ClearBrush",
+        "Mine",
+        "Transport"
+      ],
+      "SpritePath": "assets/pokemon/night-events/darkrai/overworld_stardew.png",
+      "ShinySpritePath": "assets/pokemon/night-events/darkrai/overworld_shiny_stardew.png",
+      "PortraitPath": "assets/pokemon/night-events/darkrai/portrait.png",
+      "MoodPortraitPaths": {
+        "happy": "assets/pokemon/night-events/darkrai/portrait_happy.png",
+        "tired": "assets/pokemon/night-events/darkrai/portrait_tired.png",
+        "sleepy": "assets/pokemon/night-events/darkrai/portrait_sleepy.png",
+        "focused": "assets/pokemon/night-events/darkrai/portrait_focused.png",
+        "resting": "assets/pokemon/night-events/darkrai/portrait_resting.png",
+        "hurt": "assets/pokemon/night-events/darkrai/portrait_hurt.png",
+        "fainted": "assets/pokemon/night-events/darkrai/portrait_fainted.png"
+      },
+      "ShinyPortraitPath": "assets/pokemon/night-events/darkrai/portrait_shiny.png",
+      "ShinyMoodPortraitPaths": {
+        "happy": "assets/pokemon/night-events/darkrai/portrait_shiny_happy.png",
+        "tired": "assets/pokemon/night-events/darkrai/portrait_shiny_tired.png",
+        "sleepy": "assets/pokemon/night-events/darkrai/portrait_shiny_sleepy.png",
+        "focused": "assets/pokemon/night-events/darkrai/portrait_shiny_focused.png",
+        "resting": "assets/pokemon/night-events/darkrai/portrait_shiny_resting.png",
+        "hurt": "assets/pokemon/night-events/darkrai/portrait_shiny_hurt.png",
+        "fainted": "assets/pokemon/night-events/darkrai/portrait_shiny_fainted.png"
+      },
+      "FrameWidth": 72,
+      "FrameHeight": 74,
+      "AnimationLayout": "PmdEightDirectionAtlas",
+      "HasDistinctSideFrames": true,
+      "Body": {
+        "Locomotion": "Hovering",
+        "CollisionOffsetX": 28,
+        "CollisionOffsetY": 56,
+        "CollisionWidth": 48,
+        "CollisionHeight": 28,
+        "DrawScale": 4.0,
+        "FootAnchorX": 36.0,
+        "FootAnchorY": 57.0,
+        "VisibleHeightPixels": 42,
+        "AttackOriginHeight": 130.0,
+        "AttackOriginForward": 16.0,
+        "HealthBarHeight": 190.0,
+        "ShadowScale": 4.0,
+        "ClearanceTiles": 1.0,
+        "AvoidsHazards": true
+      },
+      "Animation": {
+        "Directions": 4,
+        "FramesPerDirection": 64,
+        "DirectionRows": [
+          1,
+          1,
+          0,
+          0,
+          3,
+          3,
+          2,
+          2
+        ],
+        "Clips": {
+          "walk": {
+            "StartFrame": 0,
+            "FrameCount": 8,
+            "FrameDurations": [
+              7,
+              7,
+              9,
+              9,
+              9,
+              7,
+              7,
+              7
+            ],
+            "Loop": true
+          },
+          "idle": {
+            "StartFrame": 8,
+            "FrameCount": 7,
+            "FrameDurations": [
+              20,
+              6,
+              6,
+              20,
+              6,
+              6,
+              6
+            ],
+            "Loop": true
+          },
+          "attack": {
+            "StartFrame": 15,
+            "FrameCount": 11,
+            "FrameDurations": [
+              2,
+              2,
+              6,
+              1,
+              1,
+              1,
+              2,
+              4,
+              3,
+              2,
+              2
+            ],
+            "Loop": false,
+            "Markers": {
+              "cast": 2,
+              "world-action": 4,
+              "recover": 13
+            }
+          },
+          "hurt": {
+            "StartFrame": 26,
+            "FrameCount": 2,
+            "FrameDurations": [
+              2,
+              8
+            ],
+            "Loop": false
+          },
+          "sleep": {
+            "StartFrame": 28,
+            "FrameCount": 2,
+            "FrameDurations": [
+              30,
+              35
+            ],
+            "Loop": true
+          },
+          "shoot": {
+            "StartFrame": 30,
+            "FrameCount": 24,
+            "FrameDurations": [
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "Loop": false,
+            "Markers": {
+              "cast": 2,
+              "world-action": 4,
+              "recover": 15
+            }
+          },
+          "charge": {
+            "StartFrame": 54,
+            "FrameCount": 10,
+            "FrameDurations": [
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2
+            ],
+            "Loop": false,
+            "Markers": {
+              "world-action": 10,
+              "recover": 18
+            }
+          }
+        }
+      },
+      "BaseStats": {
+        "Health": 70,
+        "Attack": 90,
+        "Defense": 90,
+        "SpecialAttack": 135,
+        "SpecialDefense": 90,
+        "Speed": 125
+      },
+      "Progression": {
+        "GrowthRate": "Slow",
+        "BaseExperienceYield": 270,
+        "BaseEnergy": 160,
+        "EnergyPerLevel": 1.1,
+        "DailyEnergyRecoveryRate": 0.35,
+        "AffectionEnergyRecovery": 7,
+        "BattleStatGrowthPerLevel": 0.009,
+        "HealthPerLevel": 2.0,
+        "BaseMovementSpeedBonus": 1,
+        "MovementSpeedLevelInterval": 30,
+        "MaxMovementSpeedBonus": 2,
+        "JobExperience": 8,
+        "AffectionExperience": 20
+      },
+      "Behavior": {
+        "FollowStyle": "Ahead",
+        "Curiosity": 0.15,
+        "Bravery": 1.0,
+        "Helpfulness": 0.45,
+        "Sociability": 0.05,
+        "PreferredDistanceTiles": 2.0,
+        "MovementSpeed": 5,
+        "RunSpeed": 7
+      },
+      "AbilityIds": [
+        "bad-dreams"
+      ],
+      "DefaultMoveIds": [
+        "kanto_dark_pulse",
+        "kanto_dream_eater",
+        "kanto_nasty_plot",
+        "kanto_dark_void",
+        "kanto_haze",
+        "kanto_night_shade",
+        "kanto_sucker_punch",
+        "kanto_hypnosis",
+        "kanto_quick_attack",
+        "kanto_disable"
+      ],
+      "Learnset": [
+        {
+          "Level": 1,
+          "MoveId": "kanto_disable"
+        },
+        {
+          "Level": 11,
+          "MoveId": "kanto_quick_attack"
+        },
+        {
+          "Level": 20,
+          "MoveId": "kanto_hypnosis"
+        },
+        {
+          "Level": 29,
+          "MoveId": "kanto_sucker_punch"
+        },
+        {
+          "Level": 38,
+          "MoveId": "kanto_night_shade"
+        },
+        {
+          "Level": 57,
+          "MoveId": "kanto_haze"
+        },
+        {
+          "Level": 66,
+          "MoveId": "kanto_dark_void"
+        },
+        {
+          "Level": 75,
+          "MoveId": "kanto_nasty_plot"
+        },
+        {
+          "Level": 84,
+          "MoveId": "kanto_dream_eater"
+        },
+        {
+          "Level": 93,
+          "MoveId": "kanto_dark_pulse"
+        }
+      ],
+      "FieldSkills": {
+        "ClearBrush": {
+          "MaxTier": 4
+        },
+        "Mine": {
+          "MaxTier": 4
+        }
+      },
+      "JobEffectIds": {},
+      "Breeding": {
+        "CanBreed": false
+      },
+      "Encounter": {
+        "Enabled": false,
+        "CatchRate": 0.03,
+        "Hostile": true,
+        "ThreatTier": "Apex",
+        "RarityTier": "Apex"
+      }
+    }
+  ],
+  "Abilities": [
+    {
+      "Id": "bad-dreams",
+      "DisplayName": "Bad Dreams",
+      "Description": "Night begins at 5 PM, and the farmer can stay awake until 3 AM.",
+      "Trigger": "DarkraiNight",
+      "Scope": "Team",
+      "Parameters": {
+        "NightStartTime": 1700,
+        "PassOutTime": 2700
+      }
+    },
+    {
+      "Id": "bad-dreams-aura",
+      "DisplayName": "Bad Dreams",
+      "Description": "While deployed, new wild Pokémon have a 50% chance to begin asleep.",
+      "Trigger": "SleepWildSpawn",
+      "Scope": "Field",
+      "Parameters": {
+        "Chance": 0.5,
+        "DurationTicks": 600
+      }
+    }
+  ]
+}

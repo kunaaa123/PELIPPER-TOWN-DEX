@@ -1,0 +1,310 @@
+{
+  "Format": "PelipperTown/VillagerCompanions/2",
+  "Companions": [
+    {
+      "NpcName": "Andy",
+      "DisplayName": "Andy",
+      "SpeciesId": "stoutland",
+      "Tier": "Daily",
+      "Choices": [
+        { "Id": "stoutland", "SpeciesId": "stoutland", "DisplayName": "Stoutland" },
+        { "Id": "tauros", "SpeciesId": "tauros", "DisplayName": "Tauros" },
+        { "Id": "rapidash", "SpeciesId": "rapidash", "DisplayName": "Rapidash" }
+      ]
+    },
+    {
+      "NpcName": "Claire",
+      "DisplayName": "Claire",
+      "SpeciesId": "kirlia",
+      "Tier": "Daily",
+      "MarriageCandidate": true,
+      "Choices": [
+        { "Id": "kirlia", "SpeciesId": "kirlia", "DisplayName": "Kirlia" },
+        { "Id": "ralts", "SpeciesId": "ralts", "DisplayName": "Ralts" },
+        { "Id": "gardevoir", "SpeciesId": "gardevoir", "DisplayName": "Gardevoir" },
+        { "Id": "sylveon", "SpeciesId": "sylveon", "DisplayName": "Sylveon" },
+        { "Id": "togekiss", "SpeciesId": "togekiss", "DisplayName": "Togekiss" }
+      ]
+    },
+    {
+      "NpcName": "Martin",
+      "DisplayName": "Martin",
+      "SpeciesId": "eevee",
+      "Tier": "Daily",
+      "Choices": [
+        { "Id": "eevee", "SpeciesId": "eevee", "DisplayName": "Eevee" },
+        { "Id": "porygon", "SpeciesId": "porygon", "DisplayName": "Porygon" },
+        { "Id": "rotom", "SpeciesId": "rotom", "DisplayName": "Rotom" }
+      ]
+    },
+    {
+      "NpcName": "Olivia",
+      "DisplayName": "Olivia",
+      "SpeciesId": "persian",
+      "Tier": "Daily",
+      "MarriageCandidate": true,
+      "Choices": [
+        { "Id": "persian", "SpeciesId": "persian", "DisplayName": "Persian" },
+        { "Id": "roserade", "SpeciesId": "roserade", "DisplayName": "Roserade" },
+        { "Id": "delcatty", "SpeciesId": "delcatty", "DisplayName": "Delcatty" },
+        { "Id": "ninetales", "SpeciesId": "ninetales", "DisplayName": "Ninetales" },
+        { "Id": "milotic", "SpeciesId": "milotic", "DisplayName": "Milotic" }
+      ]
+    },
+    {
+      "NpcName": "Scarlett",
+      "DisplayName": "Scarlett",
+      "SpeciesId": "miltank",
+      "Tier": "Daily",
+      "MarriageCandidate": true,
+      "NpcAliases": ["ScarlettFake"],
+      "Choices": [
+        { "Id": "miltank", "SpeciesId": "miltank", "DisplayName": "Miltank" },
+        { "Id": "herdier", "SpeciesId": "herdier", "DisplayName": "Herdier" },
+        { "Id": "stoutland", "SpeciesId": "stoutland", "DisplayName": "Stoutland" },
+        { "Id": "rapidash", "SpeciesId": "rapidash", "DisplayName": "Rapidash" },
+        { "Id": "combee", "SpeciesId": "combee", "DisplayName": "Combee" }
+      ]
+    },
+    {
+      "NpcName": "Sophia",
+      "DisplayName": "Sophia",
+      "SpeciesId": "sylveon",
+      "Tier": "Daily",
+      "MarriageCandidate": true,
+      "Choices": [
+        { "Id": "sylveon", "SpeciesId": "sylveon", "DisplayName": "Sylveon" },
+        { "Id": "clefairy", "SpeciesId": "clefairy", "DisplayName": "Clefairy" },
+        { "Id": "gardevoir", "SpeciesId": "gardevoir", "DisplayName": "Gardevoir" },
+        { "Id": "rapidash", "SpeciesId": "rapidash", "DisplayName": "Rapidash" },
+        { "Id": "appletun", "SpeciesId": "appletun", "DisplayName": "Appletun" }
+      ]
+    },
+    {
+      "NpcName": "Suki",
+      "DisplayName": "Suki",
+      "SpeciesId": "ditto",
+      "Tier": "Special",
+      "Choices": [
+        { "Id": "ditto", "SpeciesId": "ditto", "DisplayName": "Ditto" },
+        { "Id": "meowth", "SpeciesId": "meowth", "DisplayName": "Meowth" },
+        { "Id": "farfetchd", "SpeciesId": "farfetchd", "DisplayName": "Farfetch'd" }
+      ]
+    },
+    {
+      "NpcName": "Susan",
+      "DisplayName": "Susan",
+      "SpeciesId": "meganium",
+      "Tier": "Daily",
+      "Choices": [
+        { "Id": "meganium", "SpeciesId": "meganium", "DisplayName": "Meganium" },
+        { "Id": "exeggutor", "SpeciesId": "exeggutor", "DisplayName": "Exeggutor" },
+        { "Id": "miltank", "SpeciesId": "miltank", "DisplayName": "Miltank" }
+      ]
+    },
+    {
+      "NpcName": "Victor",
+      "DisplayName": "Victor",
+      "SpeciesId": "metang",
+      "Tier": "Daily",
+      "MarriageCandidate": true,
+      "Choices": [
+        { "Id": "metang", "SpeciesId": "metang", "DisplayName": "Metang" },
+        { "Id": "rotom", "SpeciesId": "rotom", "DisplayName": "Rotom" },
+        { "Id": "porygon2", "SpeciesId": "porygon2", "DisplayName": "Porygon2" },
+        { "Id": "magnemite", "SpeciesId": "magnemite", "DisplayName": "Magnemite" },
+        { "Id": "golurk", "SpeciesId": "golurk", "DisplayName": "Golurk" }
+      ]
+    },
+    {
+      "NpcName": "Apples",
+      "DisplayName": "Apples",
+      "SpeciesId": "appletun",
+      "Tier": "Special",
+      "Choices": [
+        { "Id": "appletun", "SpeciesId": "appletun", "DisplayName": "Appletun" },
+        { "Id": "flapple", "SpeciesId": "flapple", "DisplayName": "Flapple" },
+        { "Id": "applin", "SpeciesId": "applin", "DisplayName": "Applin" }
+      ]
+    },
+    {
+      "NpcName": "Bear",
+      "DisplayName": "Bear",
+      "SpeciesId": "combee",
+      "Tier": "Special",
+      "Choices": [
+        { "Id": "combee", "SpeciesId": "combee", "DisplayName": "Combee" },
+        { "Id": "beedrill", "SpeciesId": "beedrill", "DisplayName": "Beedrill" },
+        { "Id": "heracross", "SpeciesId": "heracross", "DisplayName": "Heracross" }
+      ]
+    },
+    {
+      "NpcName": "Camilla",
+      "DisplayName": "Camilla",
+      "SpeciesId": "mimikyu",
+      "Tier": "Special",
+      "Choices": [
+        { "Id": "mimikyu", "SpeciesId": "mimikyu", "DisplayName": "Mimikyu" },
+        { "Id": "gengar", "SpeciesId": "gengar", "DisplayName": "Gengar" },
+        { "Id": "ninetales", "SpeciesId": "ninetales", "DisplayName": "Ninetales" }
+      ]
+    },
+    {
+      "NpcName": "HighlandsDwarf",
+      "DisplayName": "Highlands Dwarf",
+      "SpeciesId": "carbink",
+      "Tier": "Special",
+      "Choices": [
+        { "Id": "carbink", "SpeciesId": "carbink", "DisplayName": "Carbink" },
+        { "Id": "aron", "SpeciesId": "aron", "DisplayName": "Aron" },
+        { "Id": "sableye", "SpeciesId": "sableye", "DisplayName": "Sableye" }
+      ]
+    },
+    {
+      "NpcName": "Mermaid",
+      "DisplayName": "Mermaid",
+      "SpeciesId": "milotic",
+      "Tier": "Special",
+      "Choices": [
+        { "Id": "milotic", "SpeciesId": "milotic", "DisplayName": "Milotic" },
+        { "Id": "lapras", "SpeciesId": "lapras", "DisplayName": "Lapras" },
+        { "Id": "kingdra", "SpeciesId": "kingdra", "DisplayName": "Kingdra" }
+      ]
+    },
+    {
+      "NpcName": "Morgan",
+      "DisplayName": "Morgan",
+      "SpeciesId": "froakie",
+      "Tier": "Daily",
+      "Choices": [
+        { "Id": "froakie", "SpeciesId": "froakie", "DisplayName": "Froakie" },
+        { "Id": "poliwag", "SpeciesId": "poliwag", "DisplayName": "Poliwag" },
+        { "Id": "cleffa", "SpeciesId": "cleffa", "DisplayName": "Cleffa" }
+      ]
+    },
+    {
+      "NpcName": "Peaches",
+      "DisplayName": "Peaches",
+      "SpeciesId": "applin",
+      "Tier": "Special",
+      "Choices": [
+        { "Id": "applin", "SpeciesId": "applin", "DisplayName": "Applin" },
+        { "Id": "sunflora", "SpeciesId": "sunflora", "DisplayName": "Sunflora" },
+        { "Id": "oddish", "SpeciesId": "oddish", "DisplayName": "Oddish" }
+      ]
+    },
+    {
+      "NpcName": "Alesia",
+      "DisplayName": "Alesia",
+      "SpeciesId": "decidueye",
+      "Tier": "Special",
+      "Choices": [
+        { "Id": "decidueye", "SpeciesId": "decidueye", "DisplayName": "Decidueye" },
+        { "Id": "scyther", "SpeciesId": "scyther", "DisplayName": "Scyther" },
+        { "Id": "pidgeot", "SpeciesId": "pidgeot", "DisplayName": "Pidgeot" }
+      ]
+    },
+    {
+      "NpcName": "Isaac",
+      "DisplayName": "Isaac",
+      "SpeciesId": "ceruledge",
+      "Tier": "Special",
+      "Choices": [
+        { "Id": "ceruledge", "SpeciesId": "ceruledge", "DisplayName": "Ceruledge" },
+        { "Id": "scyther", "SpeciesId": "scyther", "DisplayName": "Scyther" },
+        { "Id": "houndoom", "SpeciesId": "houndoom", "DisplayName": "Houndoom" }
+      ]
+    },
+    {
+      "NpcName": "Jadu",
+      "DisplayName": "Jadu",
+      "SpeciesId": "electrode",
+      "Tier": "Special",
+      "Choices": [
+        { "Id": "electrode", "SpeciesId": "electrode", "DisplayName": "Electrode" },
+        { "Id": "golurk", "SpeciesId": "golurk", "DisplayName": "Golurk" },
+        { "Id": "koffing", "SpeciesId": "koffing", "DisplayName": "Koffing" }
+      ]
+    },
+    {
+      "NpcName": "Jolyne",
+      "DisplayName": "Jolyne",
+      "SpeciesId": "gallade",
+      "Tier": "Special",
+      "Choices": [
+        { "Id": "gallade", "SpeciesId": "gallade", "DisplayName": "Gallade" },
+        { "Id": "arcanine", "SpeciesId": "arcanine", "DisplayName": "Arcanine" },
+        { "Id": "machamp", "SpeciesId": "machamp", "DisplayName": "Machamp" }
+      ]
+    },
+    {
+      "NpcName": "Lance",
+      "DisplayName": "Lance",
+      "SpeciesId": "dragonite",
+      "Tier": "Daily",
+      "MarriageCandidate": true,
+      "Choices": [
+        { "Id": "dragonite", "SpeciesId": "dragonite", "DisplayName": "Dragonite" },
+        { "Id": "lucario", "SpeciesId": "lucario", "DisplayName": "Lucario" },
+        { "Id": "armarouge", "SpeciesId": "armarouge", "DisplayName": "Armarouge" },
+        { "Id": "ceruledge", "SpeciesId": "ceruledge", "DisplayName": "Ceruledge" },
+        { "Id": "flygon", "SpeciesId": "flygon", "DisplayName": "Flygon" }
+      ]
+    },
+    {
+      "NpcName": "Axel",
+      "DisplayName": "Axel",
+      "SpeciesId": "magnemite",
+      "Tier": "Special",
+      "Choices": [
+        { "Id": "magnemite", "SpeciesId": "magnemite", "DisplayName": "Magnemite" },
+        { "Id": "porygon", "SpeciesId": "porygon", "DisplayName": "Porygon" },
+        { "Id": "electrode", "SpeciesId": "electrode", "DisplayName": "Electrode" }
+      ]
+    },
+    {
+      "NpcName": "Brooklyn",
+      "DisplayName": "Brooklyn",
+      "SpeciesId": "audino",
+      "Tier": "Special",
+      "Choices": [
+        { "Id": "audino", "SpeciesId": "audino", "DisplayName": "Audino" },
+        { "Id": "chansey", "SpeciesId": "chansey", "DisplayName": "Chansey" },
+        { "Id": "blissey", "SpeciesId": "blissey", "DisplayName": "Blissey" }
+      ]
+    },
+    {
+      "NpcName": "Chloe",
+      "DisplayName": "Chloe",
+      "SpeciesId": "minccino",
+      "Tier": "Special",
+      "Choices": [
+        { "Id": "minccino", "SpeciesId": "minccino", "DisplayName": "Minccino" },
+        { "Id": "cinccino", "SpeciesId": "cinccino", "DisplayName": "Cinccino" },
+        { "Id": "delcatty", "SpeciesId": "delcatty", "DisplayName": "Delcatty" }
+      ]
+    },
+    {
+      "NpcName": "Jace",
+      "DisplayName": "Jace",
+      "SpeciesId": "meowth",
+      "Tier": "Special",
+      "Choices": [
+        { "Id": "meowth", "SpeciesId": "meowth", "DisplayName": "Meowth" },
+        { "Id": "persian", "SpeciesId": "persian", "DisplayName": "Persian" },
+        { "Id": "sableye", "SpeciesId": "sableye", "DisplayName": "Sableye" }
+      ]
+    },
+    {
+      "NpcName": "Zoey",
+      "DisplayName": "Zoey",
+      "SpeciesId": "oddish",
+      "Tier": "Special",
+      "Choices": [
+        { "Id": "oddish", "SpeciesId": "oddish", "DisplayName": "Oddish" },
+        { "Id": "bulbasaur", "SpeciesId": "bulbasaur", "DisplayName": "Bulbasaur" },
+        { "Id": "sunflora", "SpeciesId": "sunflora", "DisplayName": "Sunflora" }
+      ]
+    }
+  ]
+}

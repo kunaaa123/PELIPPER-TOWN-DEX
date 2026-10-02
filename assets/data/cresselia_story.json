@@ -1,0 +1,390 @@
+{
+  "Format": "PelipperTown/1",
+  "Species": [
+    {
+      "NationalDex": 488,
+      "Id": "cresselia",
+      "FormId": "default",
+      "DisplayName": "Cresselia",
+      "Description": "Those who sleep holding Cresselia's feather are assured of joyful dreams.",
+      "Generation": 4,
+      "GenderRate": 8,
+      "Types": [
+        "Psychic"
+      ],
+      "Jobs": [
+        "Forage",
+        "Harvest",
+        "AnimalCare",
+        "OrchardCare",
+        "ClearBrush",
+        "Transport"
+      ],
+      "SpritePath": "assets/pokemon/night-events/cresselia/overworld_stardew.png",
+      "ShinySpritePath": "assets/pokemon/night-events/cresselia/overworld_shiny_stardew.png",
+      "PortraitPath": "assets/pokemon/night-events/cresselia/portrait.png",
+      "MoodPortraitPaths": {
+        "happy": "assets/pokemon/night-events/cresselia/portrait_happy.png",
+        "tired": "assets/pokemon/night-events/cresselia/portrait_tired.png",
+        "sleepy": "assets/pokemon/night-events/cresselia/portrait_sleepy.png",
+        "focused": "assets/pokemon/night-events/cresselia/portrait_focused.png",
+        "resting": "assets/pokemon/night-events/cresselia/portrait_resting.png",
+        "hurt": "assets/pokemon/night-events/cresselia/portrait_hurt.png",
+        "fainted": "assets/pokemon/night-events/cresselia/portrait_fainted.png"
+      },
+      "ShinyPortraitPath": "assets/pokemon/night-events/cresselia/portrait_shiny.png",
+      "ShinyMoodPortraitPaths": {
+        "happy": "assets/pokemon/night-events/cresselia/portrait_shiny_happy.png",
+        "tired": "assets/pokemon/night-events/cresselia/portrait_shiny_tired.png",
+        "sleepy": "assets/pokemon/night-events/cresselia/portrait_shiny_sleepy.png",
+        "focused": "assets/pokemon/night-events/cresselia/portrait_shiny_focused.png",
+        "resting": "assets/pokemon/night-events/cresselia/portrait_shiny_resting.png",
+        "hurt": "assets/pokemon/night-events/cresselia/portrait_shiny_hurt.png",
+        "fainted": "assets/pokemon/night-events/cresselia/portrait_shiny_fainted.png"
+      },
+      "FrameWidth": 71,
+      "FrameHeight": 61,
+      "AnimationLayout": "PmdEightDirectionAtlas",
+      "HasDistinctSideFrames": true,
+      "Body": {
+        "Locomotion": "Hovering",
+        "CollisionOffsetX": 24,
+        "CollisionOffsetY": 48,
+        "CollisionWidth": 64,
+        "CollisionHeight": 32,
+        "DrawScale": 4.0,
+        "FootAnchorX": 36.0,
+        "FootAnchorY": 44.0,
+        "VisibleHeightPixels": 37,
+        "AttackOriginHeight": 140.0,
+        "AttackOriginForward": 20.0,
+        "HealthBarHeight": 190.0,
+        "ShadowScale": 4.0,
+        "ClearanceTiles": 1.0,
+        "AvoidsHazards": true
+      },
+      "Animation": {
+        "Directions": 4,
+        "FramesPerDirection": 75,
+        "DirectionRows": [
+          1,
+          1,
+          0,
+          0,
+          3,
+          3,
+          2,
+          2
+        ],
+        "Clips": {
+          "walk": {
+            "StartFrame": 0,
+            "FrameCount": 9,
+            "FrameDurations": [
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4
+            ],
+            "Loop": true
+          },
+          "idle": {
+            "StartFrame": 9,
+            "FrameCount": 6,
+            "FrameDurations": [
+              12,
+              6,
+              4,
+              12,
+              6,
+              4
+            ],
+            "Loop": true
+          },
+          "attack": {
+            "StartFrame": 15,
+            "FrameCount": 14,
+            "FrameDurations": [
+              2,
+              2,
+              6,
+              1,
+              1,
+              1,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              1,
+              2
+            ],
+            "Loop": false,
+            "Markers": {
+              "cast": 2,
+              "world-action": 4,
+              "recover": 15
+            }
+          },
+          "hurt": {
+            "StartFrame": 29,
+            "FrameCount": 2,
+            "FrameDurations": [
+              2,
+              8
+            ],
+            "Loop": false
+          },
+          "sleep": {
+            "StartFrame": 31,
+            "FrameCount": 8,
+            "FrameDurations": [
+              14,
+              13,
+              12,
+              16,
+              14,
+              13,
+              12,
+              16
+            ],
+            "Loop": true
+          },
+          "shoot": {
+            "StartFrame": 39,
+            "FrameCount": 12,
+            "FrameDurations": [
+              2,
+              2,
+              6,
+              1,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2
+            ],
+            "Loop": false,
+            "Markers": {
+              "cast": 2,
+              "world-action": 4,
+              "recover": 13
+            }
+          },
+          "charge": {
+            "StartFrame": 51,
+            "FrameCount": 10,
+            "FrameDurations": [
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2
+            ],
+            "Loop": false,
+            "Markers": {
+              "world-action": 10,
+              "recover": 18
+            }
+          },
+          "strike": {
+            "StartFrame": 61,
+            "FrameCount": 14,
+            "FrameDurations": [
+              2,
+              2,
+              6,
+              1,
+              1,
+              1,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              1,
+              2
+            ],
+            "Loop": false,
+            "Markers": {
+              "cast": 2,
+              "world-action": 4,
+              "recover": 15
+            }
+          }
+        }
+      },
+      "BaseStats": {
+        "Health": 120,
+        "Attack": 70,
+        "Defense": 120,
+        "SpecialAttack": 75,
+        "SpecialDefense": 130,
+        "Speed": 85
+      },
+      "Progression": {
+        "GrowthRate": "Slow",
+        "BaseExperienceYield": 270,
+        "BaseEnergy": 170,
+        "EnergyPerLevel": 1.1,
+        "DailyEnergyRecoveryRate": 0.4,
+        "AffectionEnergyRecovery": 8,
+        "BattleStatGrowthPerLevel": 0.009,
+        "HealthPerLevel": 2.0,
+        "BaseMovementSpeedBonus": 1,
+        "MovementSpeedLevelInterval": 30,
+        "MaxMovementSpeedBonus": 2,
+        "JobExperience": 8,
+        "AffectionExperience": 20
+      },
+      "Behavior": {
+        "FollowStyle": "Side",
+        "Curiosity": 0.4,
+        "Bravery": 0.7,
+        "Helpfulness": 0.9,
+        "Sociability": 0.65,
+        "PreferredDistanceTiles": 2.0,
+        "MovementSpeed": 4,
+        "RunSpeed": 6
+      },
+      "AbilityIds": [
+        "good-dreams"
+      ],
+      "DefaultMoveIds": [
+        "kanto_lunar_dance",
+        "kanto_lunar_blessing",
+        "kanto_future_sight",
+        "kanto_moonblast",
+        "kanto_psychic",
+        "kanto_safeguard",
+        "kanto_moonlight",
+        "kanto_psycho_cut",
+        "kanto_slash",
+        "kanto_ally_switch",
+        "kanto_psybeam",
+        "kanto_aurora_beam",
+        "kanto_mist",
+        "kanto_confusion"
+      ],
+      "Learnset": [
+        {
+          "Level": 1,
+          "MoveId": "kanto_confusion"
+        },
+        {
+          "Level": 6,
+          "MoveId": "kanto_mist"
+        },
+        {
+          "Level": 12,
+          "MoveId": "kanto_aurora_beam"
+        },
+        {
+          "Level": 18,
+          "MoveId": "kanto_psybeam"
+        },
+        {
+          "Level": 24,
+          "MoveId": "kanto_ally_switch"
+        },
+        {
+          "Level": 30,
+          "MoveId": "kanto_slash"
+        },
+        {
+          "Level": 36,
+          "MoveId": "kanto_psycho_cut"
+        },
+        {
+          "Level": 42,
+          "MoveId": "kanto_moonlight"
+        },
+        {
+          "Level": 48,
+          "MoveId": "kanto_safeguard"
+        },
+        {
+          "Level": 54,
+          "MoveId": "kanto_psychic"
+        },
+        {
+          "Level": 60,
+          "MoveId": "kanto_moonblast"
+        },
+        {
+          "Level": 66,
+          "MoveId": "kanto_future_sight"
+        },
+        {
+          "Level": 72,
+          "MoveId": "kanto_lunar_blessing"
+        },
+        {
+          "Level": 72,
+          "MoveId": "kanto_lunar_dance"
+        }
+      ],
+      "FieldSkills": {
+        "AnimalCare": {
+          "MaxTier": 4
+        },
+        "OrchardCare": {
+          "MaxTier": 4
+        },
+        "ClearBrush": {
+          "MaxTier": 4
+        }
+      },
+      "JobEffectIds": {},
+      "Breeding": {
+        "CanBreed": false
+      },
+      "Encounter": {
+        "Enabled": false,
+        "CatchRate": 0.03,
+        "Hostile": false,
+        "ThreatTier": "Apex",
+        "RarityTier": "Apex"
+      }
+    }
+  ],
+  "Abilities": [
+    {
+      "Id": "good-dreams",
+      "DisplayName": "Good Dreams",
+      "Description": "Night begins at 5 PM, and the farmer can stay awake until 3 AM.",
+      "Trigger": "DarkraiNight",
+      "Scope": "Team",
+      "Parameters": {
+        "NightStartTime": 1700,
+        "PassOutTime": 2700
+      }
+    },
+    {
+      "Id": "lunar-blessing",
+      "DisplayName": "Lunar Blessing",
+      "Description": "The first party Pokémon that would faint each day instead recovers to half health.",
+      "Trigger": "PreventPokemonFaint",
+      "Scope": "Team",
+      "Parameters": {
+        "HealthFraction": 0.5,
+        "ProtectionTicks": 120
+      }
+    }
+  ]
+}

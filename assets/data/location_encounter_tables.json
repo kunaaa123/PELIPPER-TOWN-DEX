@@ -1,0 +1,106 @@
+{
+  "Format": "PelipperTown/LocationEncounterTables/1",
+  "Tables": [
+    {
+      "Id": "sewer",
+      "Location": "Sewer",
+      "Entries": [
+        { "SpeciesId": "zubat", "ThreatTier": "Gentle", "RarityTier": "Common", "Weight": 10.0, "MinLevel": 24, "MaxLevel": 30, "CatchRate": 0.42, "HostileChance": 0.08, "SpawnSurfaces": ["Land"], "PreferredTerrainTypes": ["Stone", "Dirt", "Grass", "Sand"] },
+        { "SpeciesId": "rattata", "ThreatTier": "Gentle", "RarityTier": "Common", "Weight": 8.0, "MinLevel": 24, "MaxLevel": 30, "CatchRate": 0.44, "HostileChance": 0.10, "SpawnSurfaces": ["Land"], "PreferredTerrainTypes": ["Stone", "Dirt", "Grass", "Sand"] },
+        { "SpeciesId": "wooper", "ThreatTier": "Gentle", "RarityTier": "Common", "Weight": 7.0, "MinLevel": 24, "MaxLevel": 30, "CatchRate": 0.46, "HostileChance": 0.06, "SpawnSurfaces": ["Land"], "PreferredTerrainTypes": ["Stone", "Dirt", "Grass", "Sand"] },
+        { "SpeciesId": "grimer", "ThreatTier": "Standard", "RarityTier": "Common", "Weight": 10.0, "MinLevel": 25, "MaxLevel": 31, "CatchRate": 0.40, "HostileChance": 0.18, "SpawnSurfaces": ["Land"], "PreferredTerrainTypes": ["Stone", "Dirt", "Grass", "Sand"] },
+        { "SpeciesId": "koffing", "ThreatTier": "Standard", "RarityTier": "Common", "Weight": 9.0, "MinLevel": 26, "MaxLevel": 32, "CatchRate": 0.38, "HostileChance": 0.22, "SpawnSurfaces": ["Land"], "PreferredTerrainTypes": ["Stone", "Dirt", "Grass", "Sand"] },
+        { "SpeciesId": "trubbish", "ThreatTier": "Standard", "RarityTier": "Common", "Weight": 8.0, "MinLevel": 24, "MaxLevel": 30, "CatchRate": 0.36, "HostileChance": 0.16, "SpawnSurfaces": ["Land"], "PreferredTerrainTypes": ["Stone", "Dirt", "Grass", "Sand"] },
+        { "SpeciesId": "golbat", "ThreatTier": "Standard", "RarityTier": "Uncommon", "Weight": 5.0, "MinLevel": 31, "MaxLevel": 36, "CatchRate": 0.32, "HostileChance": 0.30, "SpawnSurfaces": ["Land"], "PreferredTerrainTypes": ["Stone", "Dirt", "Grass", "Sand"] },
+        { "SpeciesId": "shuppet", "ThreatTier": "Standard", "RarityTier": "Uncommon", "Weight": 4.0, "MinLevel": 28, "MaxLevel": 34, "CatchRate": 0.30, "HostileChance": 0.20, "SpawnSurfaces": ["Land"], "PreferredTerrainTypes": ["Stone", "Dirt", "Grass", "Sand"] },
+        { "SpeciesId": "sableye", "ThreatTier": "Strong", "RarityTier": "Rare", "Weight": 2.0, "MinLevel": 33, "MaxLevel": 38, "CatchRate": 0.24, "HostileChance": 0.35, "SpawnSurfaces": ["Land"], "PreferredTerrainTypes": ["Stone", "Dirt", "Grass", "Sand"] },
+        { "SpeciesId": "muk", "ThreatTier": "Strong", "RarityTier": "Rare", "Weight": 2.0, "MinLevel": 36, "MaxLevel": 41, "CatchRate": 0.18, "HostileChance": 0.48, "SpawnSurfaces": ["Land"], "PreferredTerrainTypes": ["Stone", "Dirt", "Grass", "Sand"] },
+        { "SpeciesId": "weezing", "ThreatTier": "Strong", "RarityTier": "Rare", "Weight": 2.0, "MinLevel": 36, "MaxLevel": 41, "CatchRate": 0.18, "HostileChance": 0.50, "SpawnSurfaces": ["Land"], "PreferredTerrainTypes": ["Stone", "Dirt", "Grass", "Sand"] },
+        { "SpeciesId": "banette", "ThreatTier": "Strong", "RarityTier": "Rare", "Weight": 1.0, "MinLevel": 35, "MaxLevel": 40, "CatchRate": 0.16, "HostileChance": 0.42, "SpawnSurfaces": ["Land"], "PreferredTerrainTypes": ["Stone", "Dirt", "Grass", "Sand"] }
+      ]
+    },
+    {
+      "Id": "mutant_bug_lair",
+      "Location": "BugLand",
+      "Entries": [
+        { "SpeciesId": "caterpie", "ThreatTier": "Gentle", "RarityTier": "Common", "Weight": 10.0, "MinLevel": 25, "MaxLevel": 30, "CatchRate": 0.48, "HostileChance": 0.06, "SpawnSurfaces": ["Land"], "PreferredTerrainTypes": ["Stone", "Dirt", "Grass", "Sand"] },
+        { "SpeciesId": "weedle", "ThreatTier": "Gentle", "RarityTier": "Common", "Weight": 10.0, "MinLevel": 25, "MaxLevel": 30, "CatchRate": 0.48, "HostileChance": 0.08, "SpawnSurfaces": ["Land"], "PreferredTerrainTypes": ["Stone", "Dirt", "Grass", "Sand"] },
+        { "SpeciesId": "combee", "ThreatTier": "Gentle", "RarityTier": "Common", "Weight": 7.0, "MinLevel": 25, "MaxLevel": 31, "CatchRate": 0.46, "HostileChance": 0.08, "SpawnSurfaces": ["Land"], "PreferredTerrainTypes": ["Stone", "Dirt", "Grass", "Sand"] },
+        { "SpeciesId": "snom", "ThreatTier": "Gentle", "RarityTier": "Common", "Weight": 7.0, "MinLevel": 25, "MaxLevel": 31, "CatchRate": 0.46, "HostileChance": 0.06, "SpawnSurfaces": ["Land"], "PreferredTerrainTypes": ["Stone", "Dirt", "Grass", "Sand"] },
+        { "SpeciesId": "paras", "ThreatTier": "Standard", "RarityTier": "Common", "Weight": 9.0, "MinLevel": 27, "MaxLevel": 33, "CatchRate": 0.40, "HostileChance": 0.20, "SpawnSurfaces": ["Land"], "PreferredTerrainTypes": ["Stone", "Dirt", "Grass", "Sand"] },
+        { "SpeciesId": "venonat", "ThreatTier": "Standard", "RarityTier": "Common", "Weight": 8.0, "MinLevel": 27, "MaxLevel": 33, "CatchRate": 0.38, "HostileChance": 0.18, "SpawnSurfaces": ["Land"], "PreferredTerrainTypes": ["Stone", "Dirt", "Grass", "Sand"] },
+        { "SpeciesId": "nymble", "ThreatTier": "Standard", "RarityTier": "Common", "Weight": 7.0, "MinLevel": 28, "MaxLevel": 34, "CatchRate": 0.36, "HostileChance": 0.24, "SpawnSurfaces": ["Land"], "PreferredTerrainTypes": ["Stone", "Dirt", "Grass", "Sand"] },
+        { "SpeciesId": "venipede", "ThreatTier": "Standard", "RarityTier": "Common", "Weight": 7.0, "MinLevel": 28, "MaxLevel": 34, "CatchRate": 0.36, "HostileChance": 0.24, "SpawnSurfaces": ["Land"], "PreferredTerrainTypes": ["Stone", "Dirt", "Grass", "Sand"] },
+        { "SpeciesId": "skorupi", "ThreatTier": "Standard", "RarityTier": "Common", "Weight": 7.0, "MinLevel": 28, "MaxLevel": 34, "CatchRate": 0.36, "HostileChance": 0.24, "SpawnSurfaces": ["Land"], "PreferredTerrainTypes": ["Stone", "Dirt", "Grass", "Sand"] },
+        { "SpeciesId": "tarountula", "ThreatTier": "Standard", "RarityTier": "Common", "Weight": 7.0, "MinLevel": 28, "MaxLevel": 34, "CatchRate": 0.36, "HostileChance": 0.22, "SpawnSurfaces": ["Land"], "PreferredTerrainTypes": ["Stone", "Dirt", "Grass", "Sand"] },
+        { "SpeciesId": "metapod", "ThreatTier": "Standard", "RarityTier": "Uncommon", "Weight": 5.0, "MinLevel": 29, "MaxLevel": 34, "CatchRate": 0.34, "HostileChance": 0.14, "SpawnSurfaces": ["Land"], "PreferredTerrainTypes": ["Stone", "Dirt", "Grass", "Sand"] },
+        { "SpeciesId": "kakuna", "ThreatTier": "Standard", "RarityTier": "Uncommon", "Weight": 5.0, "MinLevel": 29, "MaxLevel": 34, "CatchRate": 0.34, "HostileChance": 0.16, "SpawnSurfaces": ["Land"], "PreferredTerrainTypes": ["Stone", "Dirt", "Grass", "Sand"] },
+        { "SpeciesId": "butterfree", "ThreatTier": "Strong", "RarityTier": "Uncommon", "Weight": 4.0, "MinLevel": 34, "MaxLevel": 39, "CatchRate": 0.28, "HostileChance": 0.30, "SpawnSurfaces": ["Land"], "PreferredTerrainTypes": ["Stone", "Dirt", "Grass", "Sand"] },
+        { "SpeciesId": "beedrill", "ThreatTier": "Strong", "RarityTier": "Uncommon", "Weight": 4.0, "MinLevel": 34, "MaxLevel": 39, "CatchRate": 0.26, "HostileChance": 0.42, "SpawnSurfaces": ["Land"], "PreferredTerrainTypes": ["Stone", "Dirt", "Grass", "Sand"] },
+        { "SpeciesId": "whirlipede", "ThreatTier": "Strong", "RarityTier": "Uncommon", "Weight": 4.0, "MinLevel": 32, "MaxLevel": 38, "CatchRate": 0.28, "HostileChance": 0.38, "SpawnSurfaces": ["Land"], "PreferredTerrainTypes": ["Stone", "Dirt", "Grass", "Sand"] },
+        { "SpeciesId": "parasect", "ThreatTier": "Strong", "RarityTier": "Rare", "Weight": 3.0, "MinLevel": 35, "MaxLevel": 41, "CatchRate": 0.22, "HostileChance": 0.46, "SpawnSurfaces": ["Land"], "PreferredTerrainTypes": ["Stone", "Dirt", "Grass", "Sand"] },
+        { "SpeciesId": "venomoth", "ThreatTier": "Strong", "RarityTier": "Rare", "Weight": 3.0, "MinLevel": 35, "MaxLevel": 41, "CatchRate": 0.22, "HostileChance": 0.44, "SpawnSurfaces": ["Land"], "PreferredTerrainTypes": ["Stone", "Dirt", "Grass", "Sand"] },
+        { "SpeciesId": "spidops", "ThreatTier": "Strong", "RarityTier": "Rare", "Weight": 2.0, "MinLevel": 36, "MaxLevel": 42, "CatchRate": 0.20, "HostileChance": 0.48, "SpawnSurfaces": ["Land"], "PreferredTerrainTypes": ["Stone", "Dirt", "Grass", "Sand"] },
+        { "SpeciesId": "lokix", "ThreatTier": "Strong", "RarityTier": "Rare", "Weight": 2.0, "MinLevel": 37, "MaxLevel": 43, "CatchRate": 0.18, "HostileChance": 0.55, "SpawnSurfaces": ["Land"], "PreferredTerrainTypes": ["Stone", "Dirt", "Grass", "Sand"] },
+        { "SpeciesId": "scolipede", "ThreatTier": "Strong", "RarityTier": "Rare", "Weight": 2.0, "MinLevel": 38, "MaxLevel": 44, "CatchRate": 0.18, "HostileChance": 0.58, "SpawnSurfaces": ["Land"], "PreferredTerrainTypes": ["Stone", "Dirt", "Grass", "Sand"] },
+        { "SpeciesId": "drapion", "ThreatTier": "Strong", "RarityTier": "Rare", "Weight": 2.0, "MinLevel": 40, "MaxLevel": 46, "CatchRate": 0.18, "HostileChance": 0.58, "SpawnSurfaces": ["Land"], "PreferredTerrainTypes": ["Stone", "Dirt", "Grass", "Sand"] },
+        { "SpeciesId": "scyther", "ThreatTier": "Apex", "RarityTier": "Apex", "Weight": 1.0, "MinLevel": 39, "MaxLevel": 44, "CatchRate": 0.14, "HostileChance": 0.58, "SpawnSurfaces": ["Land"], "PreferredTerrainTypes": ["Stone", "Dirt", "Grass", "Sand"] },
+        { "SpeciesId": "pinsir", "ThreatTier": "Apex", "RarityTier": "Apex", "Weight": 1.0, "MinLevel": 39, "MaxLevel": 44, "CatchRate": 0.14, "HostileChance": 0.60, "SpawnSurfaces": ["Land"], "PreferredTerrainTypes": ["Stone", "Dirt", "Grass", "Sand"] }
+      ]
+    },
+    {
+      "Id": "quarry_mine",
+      "Location": "QuarryMine",
+      "Entries": [
+        { "SpeciesId": "geodude", "ThreatTier": "Standard", "RarityTier": "Common", "Weight": 10.0, "MinLevel": 32, "MaxLevel": 38, "CatchRate": 0.38, "HostileChance": 0.22, "SpawnSurfaces": ["Land"], "PreferredTerrainTypes": ["Stone", "Dirt", "Grass", "Sand"] },
+        { "SpeciesId": "onix", "ThreatTier": "Standard", "RarityTier": "Common", "Weight": 9.0, "MinLevel": 34, "MaxLevel": 40, "CatchRate": 0.32, "HostileChance": 0.28, "SpawnSurfaces": ["Land"], "PreferredTerrainTypes": ["Stone", "Dirt", "Grass", "Sand"] },
+        { "SpeciesId": "aron", "ThreatTier": "Standard", "RarityTier": "Common", "Weight": 8.0, "MinLevel": 33, "MaxLevel": 39, "CatchRate": 0.34, "HostileChance": 0.24, "SpawnSurfaces": ["Land"], "PreferredTerrainTypes": ["Stone", "Dirt", "Grass", "Sand"] },
+        { "SpeciesId": "nacli", "ThreatTier": "Standard", "RarityTier": "Common", "Weight": 8.0, "MinLevel": 32, "MaxLevel": 38, "CatchRate": 0.38, "HostileChance": 0.16, "SpawnSurfaces": ["Land"], "PreferredTerrainTypes": ["Stone", "Dirt", "Grass", "Sand"] },
+        { "SpeciesId": "drilbur", "ThreatTier": "Standard", "RarityTier": "Common", "Weight": 7.0, "MinLevel": 34, "MaxLevel": 40, "CatchRate": 0.32, "HostileChance": 0.26, "SpawnSurfaces": ["Land"], "PreferredTerrainTypes": ["Stone", "Dirt", "Grass", "Sand"] },
+        { "SpeciesId": "gible", "ThreatTier": "Standard", "RarityTier": "Uncommon", "Weight": 6.0, "MinLevel": 32, "MaxLevel": 38, "CatchRate": 0.30, "HostileChance": 0.34, "SpawnSurfaces": ["Land"], "PreferredTerrainTypes": ["Stone", "Dirt", "Sand"] },
+        { "SpeciesId": "graveler", "ThreatTier": "Strong", "RarityTier": "Uncommon", "Weight": 5.0, "MinLevel": 38, "MaxLevel": 44, "CatchRate": 0.26, "HostileChance": 0.40, "SpawnSurfaces": ["Land"], "PreferredTerrainTypes": ["Stone", "Dirt", "Grass", "Sand"] },
+        { "SpeciesId": "lairon", "ThreatTier": "Strong", "RarityTier": "Uncommon", "Weight": 5.0, "MinLevel": 39, "MaxLevel": 45, "CatchRate": 0.24, "HostileChance": 0.42, "SpawnSurfaces": ["Land"], "PreferredTerrainTypes": ["Stone", "Dirt", "Grass", "Sand"] },
+        { "SpeciesId": "naclstack", "ThreatTier": "Strong", "RarityTier": "Uncommon", "Weight": 5.0, "MinLevel": 37, "MaxLevel": 43, "CatchRate": 0.28, "HostileChance": 0.30, "SpawnSurfaces": ["Land"], "PreferredTerrainTypes": ["Stone", "Dirt", "Grass", "Sand"] },
+        { "SpeciesId": "mawile", "ThreatTier": "Strong", "RarityTier": "Uncommon", "Weight": 4.0, "MinLevel": 38, "MaxLevel": 44, "CatchRate": 0.24, "HostileChance": 0.36, "SpawnSurfaces": ["Land"], "PreferredTerrainTypes": ["Stone", "Dirt", "Grass", "Sand"] },
+        { "SpeciesId": "carbink", "ThreatTier": "Strong", "RarityTier": "Uncommon", "Weight": 4.0, "MinLevel": 40, "MaxLevel": 46, "CatchRate": 0.22, "HostileChance": 0.34, "SpawnSurfaces": ["Land"], "PreferredTerrainTypes": ["Stone", "Dirt", "Grass", "Sand"] },
+        { "SpeciesId": "torkoal", "ThreatTier": "Strong", "RarityTier": "Uncommon", "Weight": 4.0, "MinLevel": 38, "MaxLevel": 44, "CatchRate": 0.24, "HostileChance": 0.30, "SpawnSurfaces": ["Land"], "PreferredTerrainTypes": ["Stone", "Dirt", "Grass", "Sand"] },
+        { "SpeciesId": "golett", "ThreatTier": "Strong", "RarityTier": "Rare", "Weight": 2.0, "MinLevel": 41, "MaxLevel": 47, "CatchRate": 0.20, "HostileChance": 0.46, "SpawnSurfaces": ["Land"], "PreferredTerrainTypes": ["Stone", "Dirt", "Grass", "Sand"] },
+        { "SpeciesId": "steelix", "ThreatTier": "Apex", "RarityTier": "Apex", "Weight": 1.0, "MinLevel": 45, "MaxLevel": 50, "CatchRate": 0.14, "HostileChance": 0.56, "SpawnSurfaces": ["Land"], "PreferredTerrainTypes": ["Stone", "Dirt", "Grass", "Sand"] },
+        { "SpeciesId": "excadrill", "ThreatTier": "Apex", "RarityTier": "Apex", "Weight": 1.0, "MinLevel": 46, "MaxLevel": 51, "CatchRate": 0.14, "HostileChance": 0.58, "SpawnSurfaces": ["Land"], "PreferredTerrainTypes": ["Stone", "Dirt", "Grass", "Sand"] },
+        { "SpeciesId": "garganacl", "ThreatTier": "Apex", "RarityTier": "Apex", "Weight": 1.0, "MinLevel": 44, "MaxLevel": 50, "CatchRate": 0.16, "HostileChance": 0.50, "SpawnSurfaces": ["Land"], "PreferredTerrainTypes": ["Stone", "Dirt", "Grass", "Sand"] }
+      ]
+    },
+    {
+      "Id": "witch_swamp",
+      "Location": "WitchSwamp",
+      "Entries": [
+        { "SpeciesId": "ekans", "ThreatTier": "Standard", "RarityTier": "Common", "Weight": 9.0, "MinLevel": 34, "MaxLevel": 40, "CatchRate": 0.34, "HostileChance": 0.24, "SpawnSurfaces": ["Land"], "PreferredTerrainTypes": ["Stone", "Dirt", "Grass", "Sand"] },
+        { "SpeciesId": "paldean-wooper", "ThreatTier": "Standard", "RarityTier": "Common", "Weight": 9.0, "MinLevel": 34, "MaxLevel": 40, "CatchRate": 0.34, "HostileChance": 0.22, "SpawnSurfaces": ["Land"], "PreferredTerrainTypes": ["Stone", "Dirt", "Grass", "Sand"] },
+        { "SpeciesId": "grimer", "ThreatTier": "Standard", "RarityTier": "Common", "Weight": 8.0, "MinLevel": 35, "MaxLevel": 41, "CatchRate": 0.30, "HostileChance": 0.28, "SpawnSurfaces": ["Land"], "PreferredTerrainTypes": ["Stone", "Dirt", "Grass", "Sand"] },
+        { "SpeciesId": "koffing", "ThreatTier": "Standard", "RarityTier": "Common", "Weight": 8.0, "MinLevel": 36, "MaxLevel": 42, "CatchRate": 0.28, "HostileChance": 0.30, "SpawnSurfaces": ["Land"], "PreferredTerrainTypes": ["Stone", "Dirt", "Grass", "Sand"] },
+        { "SpeciesId": "haunter", "ThreatTier": "Strong", "RarityTier": "Uncommon", "Weight": 5.0, "MinLevel": 38, "MaxLevel": 44, "CatchRate": 0.24, "HostileChance": 0.36, "SpawnSurfaces": ["Land"], "PreferredTerrainTypes": ["Stone", "Dirt", "Grass", "Sand"] },
+        { "SpeciesId": "murkrow", "ThreatTier": "Strong", "RarityTier": "Uncommon", "Weight": 5.0, "MinLevel": 37, "MaxLevel": 43, "CatchRate": 0.24, "HostileChance": 0.32, "SpawnSurfaces": ["Land"], "PreferredTerrainTypes": ["Stone", "Dirt", "Grass", "Sand"] },
+        { "SpeciesId": "impidimp", "ThreatTier": "Strong", "RarityTier": "Uncommon", "Weight": 4.0, "MinLevel": 39, "MaxLevel": 45, "CatchRate": 0.22, "HostileChance": 0.38, "SpawnSurfaces": ["Land"], "PreferredTerrainTypes": ["Stone", "Dirt", "Grass", "Sand"] },
+        { "SpeciesId": "clodsire", "ThreatTier": "Strong", "RarityTier": "Rare", "Weight": 2.0, "MinLevel": 43, "MaxLevel": 48, "CatchRate": 0.18, "HostileChance": 0.46, "SpawnSurfaces": ["Land"], "PreferredTerrainTypes": ["Stone", "Dirt", "Grass", "Sand"] },
+        { "SpeciesId": "morgrem", "ThreatTier": "Strong", "RarityTier": "Rare", "Weight": 2.0, "MinLevel": 43, "MaxLevel": 48, "CatchRate": 0.18, "HostileChance": 0.48, "SpawnSurfaces": ["Land"], "PreferredTerrainTypes": ["Stone", "Dirt", "Grass", "Sand"] },
+        { "SpeciesId": "zoroark", "ThreatTier": "Apex", "RarityTier": "Apex", "Weight": 1.0, "MinLevel": 45, "MaxLevel": 50, "CatchRate": 0.14, "HostileChance": 0.54, "SpawnSurfaces": ["Land"], "PreferredTerrainTypes": ["Stone", "Dirt", "Grass", "Sand"] }
+      ]
+    },
+    {
+      "Id": "island_north_cave",
+      "Location": "IslandNorthCave1",
+      "Entries": [
+        { "SpeciesId": "diglett", "ThreatTier": "Standard", "RarityTier": "Common", "Weight": 10.0, "MinLevel": 31, "MaxLevel": 37, "CatchRate": 0.38, "HostileChance": 0.18, "SpawnSurfaces": ["Land"], "PreferredTerrainTypes": ["Stone", "Dirt", "Grass", "Sand"] },
+        { "SpeciesId": "sandshrew", "ThreatTier": "Standard", "RarityTier": "Common", "Weight": 9.0, "MinLevel": 32, "MaxLevel": 38, "CatchRate": 0.36, "HostileChance": 0.20, "SpawnSurfaces": ["Land"], "PreferredTerrainTypes": ["Stone", "Dirt", "Grass", "Sand"] },
+        { "SpeciesId": "geodude", "ThreatTier": "Standard", "RarityTier": "Common", "Weight": 8.0, "MinLevel": 33, "MaxLevel": 39, "CatchRate": 0.34, "HostileChance": 0.24, "SpawnSurfaces": ["Land"], "PreferredTerrainTypes": ["Stone", "Dirt", "Grass", "Sand"] },
+        { "SpeciesId": "onix", "ThreatTier": "Standard", "RarityTier": "Uncommon", "Weight": 5.0, "MinLevel": 34, "MaxLevel": 40, "CatchRate": 0.30, "HostileChance": 0.28, "SpawnSurfaces": ["Land"], "PreferredTerrainTypes": ["Stone", "Dirt", "Grass", "Sand"] },
+        { "SpeciesId": "golett", "ThreatTier": "Strong", "RarityTier": "Uncommon", "Weight": 4.0, "MinLevel": 38, "MaxLevel": 43, "CatchRate": 0.24, "HostileChance": 0.34, "SpawnSurfaces": ["Land"], "PreferredTerrainTypes": ["Stone", "Dirt", "Grass", "Sand"] },
+        { "SpeciesId": "lileep", "ThreatTier": "Strong", "RarityTier": "Rare", "Weight": 2.0, "MinLevel": 39, "MaxLevel": 44, "CatchRate": 0.20, "HostileChance": 0.32, "SpawnSurfaces": ["Land"], "PreferredTerrainTypes": ["Stone", "Dirt", "Grass", "Sand"] },
+        { "SpeciesId": "anorith", "ThreatTier": "Strong", "RarityTier": "Rare", "Weight": 2.0, "MinLevel": 39, "MaxLevel": 44, "CatchRate": 0.20, "HostileChance": 0.34, "SpawnSurfaces": ["Land"], "PreferredTerrainTypes": ["Stone", "Dirt", "Grass", "Sand"] },
+        { "SpeciesId": "cranidos", "ThreatTier": "Apex", "RarityTier": "Apex", "Weight": 1.0, "MinLevel": 42, "MaxLevel": 47, "CatchRate": 0.16, "HostileChance": 0.48, "SpawnSurfaces": ["Land"], "PreferredTerrainTypes": ["Stone", "Dirt", "Grass", "Sand"] },
+        { "SpeciesId": "shieldon", "ThreatTier": "Apex", "RarityTier": "Apex", "Weight": 1.0, "MinLevel": 42, "MaxLevel": 47, "CatchRate": 0.16, "HostileChance": 0.46, "SpawnSurfaces": ["Land"], "PreferredTerrainTypes": ["Stone", "Dirt", "Grass", "Sand"] },
+        { "SpeciesId": "tyrunt", "ThreatTier": "Apex", "RarityTier": "Apex", "Weight": 1.0, "MinLevel": 44, "MaxLevel": 48, "CatchRate": 0.14, "HostileChance": 0.52, "SpawnSurfaces": ["Land"], "PreferredTerrainTypes": ["Stone", "Dirt", "Grass", "Sand"] }
+      ]
+    }
+  ]
+}

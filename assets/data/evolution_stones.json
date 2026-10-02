@@ -1,0 +1,139 @@
+{
+  "Format": "PelipperTown/EvolutionStones/1",
+  "_comment": [
+    "Which species each evolution item advances, and what it becomes.",
+    "",
+    "An item is a SHORTCUT, not a requirement. Every species below keeps the",
+    "level-based path authored in its own species data, so a player who never",
+    "crafts a stone still reaches the same evolution by training. Using the right",
+    "stone on your active companion evolves it immediately, ignoring level.",
+    "",
+    "Content packs may add their own file with the same Format to register more",
+    "pairs, or override a pair by repeating its source species under the same",
+    "item. Both the source and evolved species must be loaded; unknown IDs are",
+    "reported and skipped at use time.",
+    "",
+    "Eevee is listed under five stones and keeps all eight authored branches,",
+    "so items cover Vaporeon, Jolteon, Flareon, Leafeon, and Glaceon while the",
+    "other routes still reach Sylveon, Espeon, and Umbreon."
+  ],
+  "Items": {
+    "Fire": {
+      "vulpix": "ninetales",
+      "growlithe": "arcanine",
+      "eevee": "flareon",
+      "capsakid": "scovillain"
+    },
+    "Water": {
+      "poliwhirl": "poliwrath",
+      "shellder": "cloyster",
+      "staryu": "starmie",
+      "eevee": "vaporeon"
+    },
+    "Thunder": {
+      "pikachu": "raichu",
+      "eevee": "jolteon",
+      "tadbulb": "bellibolt",
+      "magneton": "magnezone",
+      "eelektrik": "eelektross"
+    },
+    "Leaf": {
+      "gloom": "vileplume",
+      "weepinbell": "victreebel",
+      "exeggcute": "exeggutor",
+      "eevee": "leafeon",
+      "pansage": "simisage",
+      "petilil": "lilligant"
+    },
+    "Moon": {
+      "nidorina": "nidoqueen",
+      "nidorino": "nidoking",
+      "clefairy": "clefable",
+      "jigglypuff": "wigglytuff",
+      "skitty": "delcatty",
+      "munna": "musharna"
+    },
+    "KingsRock": {
+      "poliwhirl": "politoed",
+      "slowpoke": "slowking"
+    },
+    "DragonScale": {
+      "seadra": "kingdra"
+    },
+    "MetalCoat": {
+      "onix": "steelix",
+      "scyther": "scizor"
+    },
+    "UpGrade": {
+      "porygon": "porygon2"
+    },
+    "ShinyStone": {
+      "roselia": "roserade",
+      "togetic": "togekiss",
+      "minccino": "cinccino",
+      "floette": "florges"
+    },
+    "DuskStone": {
+      "murkrow": "honchkrow",
+      "lampent": "chandelure",
+      "misdreavus": "mismagius"
+    },
+    "DawnStone": {
+      "kirlia": "gallade",
+      "snorunt": "froslass"
+    },
+    "OvalStone": {
+      "happiny": "chansey"
+    },
+    "RazorClaw": {
+      "sneasel": "weavile"
+    },
+    "Electirizer": {
+      "electabuzz": "electivire"
+    },
+    "Protector": {
+      "rhydon": "rhyperior"
+    },
+    "PrismScale": {
+      "feebas": "milotic"
+    },
+    "IceStone": {
+      "eevee": "glaceon",
+      "alolan-sandshrew": "alolan-sandslash",
+      "alolan-vulpix": "alolan-ninetales"
+    },
+    "SunStone": {
+      "gloom": "bellossom"
+    },
+    "BlackAugurite": {
+      "scyther": "kleavor"
+    },
+    "Magmarizer": {
+      "magmar": "magmortar"
+    },
+    "DubiousDisc": {
+      "porygon2": "porygon-z"
+    },
+    "SweetApple": {
+      "applin": "appletun"
+    },
+    "TartApple": {
+      "applin": "flapple"
+    },
+    "SyrupyApple": {
+      "applin": "dipplin"
+    },
+    "AuspiciousArmor": {
+      "charcadet": "armarouge"
+    },
+    "MaliciousArmor": {
+      "charcadet": "ceruledge"
+    },
+    "CrackedPot": {
+      "sinistea": "polteageist"
+    },
+    "ChippedPot": {
+      "sinistea": "polteageist"
+    }
+  }
+}

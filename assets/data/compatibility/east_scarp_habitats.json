@@ -1,0 +1,785 @@
+{
+  "Format": "PelipperTown/Habitats/2",
+  "SpeciesHabitatTags": {},
+  "Maps": [
+    {
+      "Locations": [
+        "EastScarp_Village",
+        "Custom_EastScarpe"
+      ],
+      "EncounterLocationAliases": [
+        "Town",
+        "Beach",
+        "Forest",
+        "Farm"
+      ],
+      "Zones": [
+        {
+          "Id": "east_scarp_village",
+          "DisplayName": "East Scarp Village",
+          "Priority": 20,
+          "SpawnWeight": 1.0,
+          "SpeciesPool": {
+            "pidgey": 1.5,
+            "wingull": 1.5,
+            "meowth": 1.4,
+            "sentret": 1.3,
+            "minccino": 1.3,
+            "fidough": 1.3,
+            "krabby": 1.3,
+            "shellos": 1.2,
+            "eevee": 1.0,
+            "buneary": 1.0,
+            "skitty": 1.0,
+            "taillow": 1.0,
+            "oddish": 1.0,
+            "budew": 1.0,
+            "gossifleur": 1.0,
+            "combee": 1.0,
+            "psyduck": 1.0,
+            "poliwag": 1.0,
+            "wooper": 1.0,
+            "horsea": 1.0,
+            "shellder": 1.0,
+            "staryu": 1.0,
+            "tadbulb": 1.0,
+            "mime-jr": 1.0,
+            "happiny": 1.0,
+            "audino": 0.65,
+            "porygon": 1.0,
+            "pelipper": 1.0,
+            "cinccino": 1.0,
+            "dachsbun": 1.0,
+            "milotic": 0.35,
+            "rotom": 0.5
+          },
+          "HabitatTags": [
+            "Urban",
+            "Residential",
+            "Civic",
+            "Garden",
+            "HumanEdge",
+            "Flowering",
+            "Meadow",
+            "Forage",
+            "FarmEdge",
+            "Arcane",
+            "Beach",
+            "Shore",
+            "Ocean",
+            "Harbor",
+            "Tidepool",
+            "River",
+            "Freshwater"
+          ],
+          "Areas": [
+            {
+              "X": 0,
+              "Y": 0,
+              "Width": 512,
+              "Height": 512
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Locations": [
+        "EastScarp_Crossing",
+        "Custom_ESClearingHouse"
+      ],
+      "EncounterLocationAliases": [
+        "Farm",
+        "Forest",
+        "BusStop"
+      ],
+      "Zones": [
+        {
+          "Id": "east_scarp_crossing",
+          "DisplayName": "Scarp Crossing",
+          "Priority": 20,
+          "SpawnWeight": 1.0,
+          "SpeciesPool": {
+            "sentret": 1.5,
+            "pidgey": 1.4,
+            "mareep": 1.4,
+            "deerling": 1.4,
+            "poochyena": 1.35,
+            "taillow": 1.3,
+            "lillipup": 1.3,
+            "farfetchd": 1.0,
+            "doduo": 1.0,
+            "ponyta": 1.0,
+            "eevee": 1.0,
+            "buneary": 1.0,
+            "wooloo": 1.0,
+            "fidough": 1.0,
+            "combee": 1.0,
+            "budew": 1.0,
+            "gossifleur": 1.0,
+            "oddish": 1.0,
+            "poliwag": 1.0,
+            "wooper": 1.0,
+            "tadbulb": 1.0,
+            "stantler": 1.0,
+            "smeargle": 1.0,
+            "sunflora": 1.0,
+            "herdier": 1.0,
+            "flaaffy": 1.0,
+            "miltank": 1.0,
+            "tauros": 1.0,
+            "mightyena": 0.45,
+            "sawsbuck": 0.45,
+            "stoutland": 0.4,
+            "rattata": 1.0,
+            "hoothoot": 1.0,
+            "minccino": 1.0,
+            "bidoof": 1.0,
+            "jigglypuff": 1.0
+          },
+          "HabitatTags": [
+            "FarmEdge",
+            "Pasture",
+            "Meadow",
+            "Flowering",
+            "Forage",
+            "Woodland",
+            "River",
+            "Riparian",
+            "Freshwater",
+            "HumanEdge",
+            "Roughland"
+          ],
+          "Areas": [
+            {
+              "X": 0,
+              "Y": 0,
+              "Width": 512,
+              "Height": 512
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Locations": [
+        "EastScarp_Orchard",
+        "Custom_ESOrchard"
+      ],
+      "EncounterLocationAliases": [
+        "Farm",
+        "Forest",
+        "Woods",
+        "Beach"
+      ],
+      "Zones": [
+        {
+          "Id": "east_scarp_orchard",
+          "DisplayName": "Lore's Cove Orchard",
+          "Priority": 20,
+          "SpawnWeight": 1.0,
+          "SpeciesPool": {
+            "applin": 1.8,
+            "combee": 1.5,
+            "oddish": 1.4,
+            "budew": 1.4,
+            "grookey": 1.25,
+            "deerling": 1.3,
+            "gossifleur": 1.3,
+            "chikorita": 1.0,
+            "shroomish": 1.0,
+            "exeggcute": 1.0,
+            "sunflora": 1.0,
+            "mareep": 1.0,
+            "wooloo": 1.0,
+            "fidough": 1.0,
+            "eevee": 1.0,
+            "buneary": 1.0,
+            "stantler": 1.0,
+            "psyduck": 1.0,
+            "poliwag": 1.0,
+            "shellos": 1.0,
+            "wingull": 1.0,
+            "krabby": 1.0,
+            "horsea": 1.0,
+            "shellder": 1.0,
+            "roselia": 1.0,
+            "breloom": 1.0,
+            "sawsbuck": 1.0,
+            "pelipper": 1.0,
+            "appletun": 0.5,
+            "tropius": 0.45
+          },
+          "HabitatTags": [
+            "Orchard",
+            "Garden",
+            "FarmEdge",
+            "Flowering",
+            "Meadow",
+            "Forage",
+            "Woodland",
+            "OldGrowth",
+            "ForestFloor",
+            "Pond",
+            "Freshwater",
+            "Beach",
+            "Shore",
+            "Ocean"
+          ],
+          "Areas": [
+            {
+              "X": 0,
+              "Y": 0,
+              "Width": 512,
+              "Height": 512
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Locations": [
+        "EastScarp_DeepMountains",
+        "Custom_ESDeepMountains",
+        "EastScarp_DeepMountainCrossroads"
+      ],
+      "EncounterLocationAliases": [
+        "Mountain",
+        "Railroad",
+        "Forest",
+        "Woods"
+      ],
+      "Zones": [
+        {
+          "Id": "east_scarp_deep_mountains",
+          "DisplayName": "Deep Mountains",
+          "Priority": 20,
+          "SpawnWeight": 1.0,
+          "SpeciesPool": {
+            "geodude": 1.5,
+            "spearow": 1.4,
+            "machop": 1.4,
+            "zubat": 1.3,
+            "aron": 1.3,
+            "deerling": 1.3,
+            "poochyena": 1.25,
+            "sandshrew": 1.0,
+            "cubone": 1.0,
+            "rhyhorn": 1.0,
+            "onix": 1.0,
+            "larvitar": 1.0,
+            "riolu": 1.0,
+            "carbink": 1.0,
+            "swablu": 1.0,
+            "absol": 1.0,
+            "bagon": 1.0,
+            "beldum": 1.0,
+            "golett": 1.0,
+            "stantler": 1.0,
+            "totodile": 1.0,
+            "mudkip": 1.0,
+            "froakie": 1.0,
+            "tadbulb": 1.0,
+            "sneasel": 1.0,
+            "graveler": 1.0,
+            "machoke": 1.0,
+            "metang": 1.0,
+            "lucario": 1.0,
+            "altaria": 1.0,
+            "mightyena": 0.45,
+            "mamoswine": 1.25,
+            "amaura": 1.2,
+            "aurorus": 0.3,
+            "druddigon": 0.35
+          },
+          "HabitatTags": [
+            "Highland",
+            "Rocky",
+            "Roughland",
+            "CaveMouth",
+            "Woodland",
+            "OldGrowth",
+            "Meadow",
+            "Lake",
+            "River",
+            "Riparian",
+            "Freshwater",
+            "Nocturnal"
+          ],
+          "Areas": [
+            {
+              "X": 0,
+              "Y": 0,
+              "Width": 512,
+              "Height": 512
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Locations": [
+        "EastScarp_MtEvermore",
+        "EastScarp_GoldenApplePeak"
+      ],
+      "EncounterLocationAliases": [
+        "Mountain",
+        "Railroad"
+      ],
+      "Zones": [
+        {
+          "Id": "east_scarp_high_peaks",
+          "DisplayName": "Evermore Peaks",
+          "Priority": 20,
+          "SpawnWeight": 1.0,
+          "SpeciesPool": {
+            "spearow": 1.5,
+            "geodude": 1.5,
+            "machop": 1.4,
+            "swablu": 1.4,
+            "clefairy": 1.3,
+            "zubat": 1.3,
+            "cubone": 1.0,
+            "rhyhorn": 1.0,
+            "dratini": 1.0,
+            "cleffa": 1.0,
+            "elekid": 1.0,
+            "larvitar": 1.0,
+            "aron": 1.0,
+            "beldum": 1.0,
+            "riolu": 1.0,
+            "carbink": 1.0,
+            "charcadet": 1.0,
+            "golett": 1.0,
+            "absol": 1.0,
+            "bagon": 1.0,
+            "onix": 1.0,
+            "machoke": 1.0,
+            "graveler": 1.0,
+            "metang": 1.0,
+            "lucario": 1.0,
+            "altaria": 1.0,
+            "mamoswine": 1.4,
+            "amaura": 1.5,
+            "aurorus": 0.35,
+            "aerodactyl": 0.35,
+            "tyranitar": 0.25,
+            "salamence": 0.2,
+            "metagross": 0.2
+          },
+          "HabitatTags": [
+            "Highland",
+            "Rocky",
+            "Roughland",
+            "CaveMouth",
+            "Meadow",
+            "Rail",
+            "Arcane",
+            "Nocturnal",
+            "Lake",
+            "Freshwater"
+          ],
+          "Areas": [
+            {
+              "X": 0,
+              "Y": 0,
+              "Width": 512,
+              "Height": 512
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Locations": [
+        "EastScarp_FairyPool",
+        "Custom_ESMineEntrance"
+      ],
+      "EncounterLocationAliases": [
+        "Woods",
+        "Forest",
+        "Mountain"
+      ],
+      "Zones": [
+        {
+          "Id": "east_scarp_fairy_pool",
+          "DisplayName": "Fairy Pool",
+          "Priority": 20,
+          "SpawnWeight": 1.0,
+          "SpeciesPool": {
+            "ralts": 1.7,
+            "munna": 1.6,
+            "phantump": 1.5,
+            "pumpkaboo": 1.4,
+            "applin": 1.4,
+            "rowlet": 1.3,
+            "oddish": 1.0,
+            "paras": 1.0,
+            "lickitung": 0.8,
+            "chikorita": 1.0,
+            "shroomish": 1.0,
+            "froakie": 1.0,
+            "tadbulb": 1.0,
+            "gastly": 1.0,
+            "shuppet": 1.0,
+            "litwick": 1.0,
+            "mimikyu": 1.0,
+            "feebas": 1.0,
+            "sunflora": 1.0,
+            "stantler": 1.0,
+            "clefairy": 1.0,
+            "cleffa": 1.0,
+            "kirlia": 1.0,
+            "musharna": 1.0,
+            "dartrix": 1.0,
+            "lampent": 1.0,
+            "gardevoir": 0.45,
+            "banette": 0.45,
+            "trevenant": 0.5,
+            "decidueye": 0.4,
+            "meganium": 0.35,
+            "milotic": 0.3,
+            "psyduck": 1.0,
+            "goldeen": 1.0,
+            "shellos": 1.0,
+            "snover": 1.0,
+            "snom": 1.0
+          },
+          "HabitatTags": [
+            "Arcane",
+            "OldGrowth",
+            "Woodland",
+            "ForestFloor",
+            "Thicket",
+            "Flowering",
+            "Forage",
+            "Pond",
+            "Freshwater",
+            "Wetland",
+            "Nocturnal"
+          ],
+          "Areas": [
+            {
+              "X": 0,
+              "Y": 0,
+              "Width": 512,
+              "Height": 512
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Locations": [
+        "EastScarp_SeaCave",
+        "Custom_ESSeaCave",
+        "EastScarp_SecretCave"
+      ],
+      "EncounterLocationAliases": [
+        "Beach",
+        "Mountain",
+        "Railroad",
+        "IslandSouth"
+      ],
+      "Zones": [
+        {
+          "Id": "east_scarp_sea_caves",
+          "DisplayName": "Sea Caves",
+          "Priority": 20,
+          "SpawnWeight": 1.0,
+          "SpeciesPool": {
+            "zubat": 1.6,
+            "tentacool": 1.5,
+            "shellder": 1.5,
+            "horsea": 1.4,
+            "krabby": 1.4,
+            "inkay": 1.3,
+            "geodude": 1.0,
+            "diglett": 1.0,
+            "cubone": 1.0,
+            "onix": 1.0,
+            "gastly": 1.0,
+            "sableye": 1.0,
+            "mawile": 1.0,
+            "carbink": 1.0,
+            "golett": 1.0,
+            "shellos": 1.0,
+            "staryu": 1.0,
+            "omanyte": 1.0,
+            "kabuto": 1.0,
+            "clobbopus": 1.0,
+            "pincurchin": 1.0,
+            "pyukumuku": 1.0,
+            "seadra": 1.0,
+            "kingler": 1.0,
+            "malamar": 1.0,
+            "gastrodon": 1.0,
+            "lapras": 0.4,
+            "dhelmise": 0.45,
+            "grapploct": 0.35,
+            "relicanth": 0.35,
+            "cradily": 0.25,
+            "armaldo": 0.25
+          },
+          "HabitatTags": [
+            "Cave",
+            "CaveMouth",
+            "Subterranean",
+            "Rocky",
+            "Beach",
+            "Shore",
+            "Ocean",
+            "Tidepool",
+            "Wetland",
+            "Nocturnal"
+          ],
+          "Areas": [
+            {
+              "X": 0,
+              "Y": 0,
+              "Width": 512,
+              "Height": 512
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Locations": [
+        "EastScarp_DeepDark",
+        "Custom_ESDeepDark",
+        "EastScarp_SmugglerDen",
+        "Custom_ESSmugglerDen"
+      ],
+      "EncounterLocationAliases": [
+        "Backwoods",
+        "Woods",
+        "Railroad",
+        "Beach",
+        "Mountain"
+      ],
+      "Zones": [
+        {
+          "Id": "east_scarp_deep_dark",
+          "DisplayName": "Deep Dark and Smuggler's Den",
+          "Priority": 20,
+          "SpawnWeight": 1.0,
+          "SpeciesPool": {
+            "zubat": 1.6,
+            "gastly": 1.5,
+            "poochyena": 1.45,
+            "shuppet": 1.4,
+            "litwick": 1.3,
+            "sableye": 1.3,
+            "grimer": 1.2,
+            "koffing": 1.0,
+            "diglett": 1.0,
+            "geodude": 1.0,
+            "cubone": 1.0,
+            "onix": 1.0,
+            "houndour": 1.0,
+            "absol": 1.0,
+            "mawile": 1.0,
+            "mimikyu": 1.0,
+            "sinistea": 1.0,
+            "charcadet": 1.0,
+            "golett": 1.0,
+            "inkay": 1.0,
+            "drowzee": 1.0,
+            "abra": 1.0,
+            "porygon": 1.0,
+            "haunter": 1.0,
+            "banette": 1.0,
+            "lampent": 1.0,
+            "malamar": 1.0,
+            "houndoom": 1.0,
+            "mightyena": 0.5,
+            "chandelure": 0.35,
+            "golurk": 0.35,
+            "rotom": 0.65,
+            "ceruledge": 0.25
+          },
+          "HabitatTags": [
+            "Cave",
+            "CaveMouth",
+            "Subterranean",
+            "Rocky",
+            "Roughland",
+            "Highland",
+            "Industrial",
+            "Arcane",
+            "Nocturnal",
+            "OldGrowth",
+            "ForestFloor",
+            "Beach",
+            "Shore"
+          ],
+          "Areas": [
+            {
+              "X": 0,
+              "Y": 0,
+              "Width": 512,
+              "Height": 512
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Locations": [
+        "EastScarp_UnderwaterLexi",
+        "Custom_UnderwaterLexi",
+        "EastScarp_PirateShipReef",
+        "EastScarp_PirateShip",
+        "EastScarp_PirateShip_SeaDate"
+      ],
+      "EncounterLocationAliases": [
+        "Beach",
+        "IslandSouth",
+        "IslandSouthEast",
+        "IslandWest"
+      ],
+      "Zones": [
+        {
+          "Id": "east_scarp_reef",
+          "DisplayName": "Lore's Cove Reef",
+          "Priority": 20,
+          "SpawnWeight": 1.0,
+          "SpeciesPool": {
+            "horsea": 1.7,
+            "shellder": 1.6,
+            "tentacool": 1.6,
+            "staryu": 1.5,
+            "inkay": 1.4,
+            "clobbopus": 1.4,
+            "shellos": 1.3,
+            "krabby": 1.3,
+            "squirtle": 1.0,
+            "seel": 1.0,
+            "spheal": 1.0,
+            "pyukumuku": 1.0,
+            "pincurchin": 1.0,
+            "wingull": 1.0,
+            "omanyte": 1.0,
+            "kabuto": 1.0,
+            "seadra": 1.0,
+            "pelipper": 1.0,
+            "kingler": 1.0,
+            "starmie": 1.0,
+            "tentacruel": 1.0,
+            "gastrodon": 1.0,
+            "malamar": 1.0,
+            "grapploct": 1.0,
+            "walrein": 1.0,
+            "lapras": 1.0,
+            "dhelmise": 0.6,
+            "relicanth": 0.55,
+            "lileep": 0.8,
+            "anorith": 0.8,
+            "cradily": 0.3,
+            "armaldo": 0.3
+          },
+          "HabitatTags": [
+            "Beach",
+            "Shore",
+            "Ocean",
+            "Harbor",
+            "Tidepool",
+            "Reef",
+            "Rocky",
+            "Tropical",
+            "Wetland",
+            "Submerged"
+          ],
+          "Areas": [
+            {
+              "X": 0,
+              "Y": 0,
+              "Width": 512,
+              "Height": 512
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Locations": [
+        "EastScarp_CommunityGreenhouse",
+        "EastScarp_KatarynaBackyard"
+      ],
+      "EncounterLocationAliases": [
+        "Farm",
+        "Town",
+        "Forest"
+      ],
+      "Zones": [
+        {
+          "Id": "east_scarp_gardens",
+          "DisplayName": "Scarp Gardens",
+          "Priority": 20,
+          "SpawnWeight": 1.0,
+          "SpeciesPool": {
+            "oddish": 1.6,
+            "budew": 1.5,
+            "gossifleur": 1.5,
+            "combee": 1.4,
+            "applin": 1.4,
+            "chikorita": 1.3,
+            "bellsprout": 1.0,
+            "paras": 1.0,
+            "shroomish": 1.0,
+            "deerling": 1.0,
+            "sunflora": 1.0,
+            "exeggcute": 1.0,
+            "mareep": 1.0,
+            "wooloo": 1.0,
+            "fidough": 1.0,
+            "eevee": 1.0,
+            "buneary": 1.0,
+            "minccino": 1.0,
+            "skitty": 1.0,
+            "ralts": 1.0,
+            "munna": 1.0,
+            "happiny": 1.0,
+            "poliwag": 1.0,
+            "psyduck": 1.0,
+            "tadbulb": 1.0,
+            "roselia": 1.0,
+            "breloom": 1.0,
+            "sawsbuck": 1.0,
+            "cinccino": 1.0,
+            "audino": 0.6,
+            "appletun": 0.45,
+            "roserade": 0.4,
+            "jigglypuff": 1.0,
+            "hoothoot": 1.0,
+            "shinx": 1.0,
+            "lillipup": 1.0,
+            "glameow": 1.0
+          },
+          "HabitatTags": [
+            "Garden",
+            "Orchard",
+            "FarmEdge",
+            "Flowering",
+            "Meadow",
+            "Forage",
+            "HumanEdge",
+            "Woodland",
+            "ForestFloor",
+            "Pond",
+            "Freshwater"
+          ],
+          "Areas": [
+            {
+              "X": 0,
+              "Y": 0,
+              "Width": 512,
+              "Height": 512
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

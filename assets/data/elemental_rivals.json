@@ -1,0 +1,1869 @@
+{
+  "Format": "PelipperTown/1",
+  "Species": [
+    {
+      "NationalDex": 382,
+      "Id": "kyogre",
+      "FormId": "default",
+      "DisplayName": "Kyogre",
+      "Description": "This legendary Pokémon has slept in the depths of the sea. It is said to have widened the oceans with torrential rains.",
+      "Generation": 3,
+      "GenderRate": -1,
+      "Types": [
+        "Water"
+      ],
+      "SpritePath": "assets/pokemon/future-legendaries/kyogre/overworld_stardew.png",
+      "ShinySpritePath": "assets/pokemon/future-legendaries/kyogre/overworld_shiny_stardew.png",
+      "PortraitPath": "assets/pokemon/future-legendaries/kyogre/portrait.png",
+      "MoodPortraitPaths": {
+        "happy": "assets/pokemon/future-legendaries/kyogre/portrait_happy.png",
+        "tired": "assets/pokemon/future-legendaries/kyogre/portrait_tired.png",
+        "sleepy": "assets/pokemon/future-legendaries/kyogre/portrait_sleepy.png",
+        "focused": "assets/pokemon/future-legendaries/kyogre/portrait_focused.png",
+        "resting": "assets/pokemon/future-legendaries/kyogre/portrait_resting.png",
+        "hurt": "assets/pokemon/future-legendaries/kyogre/portrait_hurt.png",
+        "fainted": "assets/pokemon/future-legendaries/kyogre/portrait_fainted.png"
+      },
+      "ShinyPortraitPath": "assets/pokemon/future-legendaries/kyogre/portrait_shiny.png",
+      "ShinyMoodPortraitPaths": {
+        "happy": "assets/pokemon/future-legendaries/kyogre/portrait_shiny_happy.png",
+        "tired": "assets/pokemon/future-legendaries/kyogre/portrait_shiny_tired.png",
+        "sleepy": "assets/pokemon/future-legendaries/kyogre/portrait_shiny_sleepy.png",
+        "focused": "assets/pokemon/future-legendaries/kyogre/portrait_shiny_focused.png",
+        "resting": "assets/pokemon/future-legendaries/kyogre/portrait_shiny_resting.png",
+        "hurt": "assets/pokemon/future-legendaries/kyogre/portrait_shiny_hurt.png",
+        "fainted": "assets/pokemon/future-legendaries/kyogre/portrait_shiny_fainted.png"
+      },
+      "FrameWidth": 70,
+      "FrameHeight": 71,
+      "AnimationLayout": "PmdEightDirectionAtlas",
+      "HasDistinctSideFrames": true,
+      "Body": {
+        "Locomotion": "Amphibious",
+        "CollisionOffsetX": 8,
+        "CollisionOffsetY": 28,
+        "CollisionWidth": 48,
+        "CollisionHeight": 28,
+        "DrawScale": 4.0,
+        "FootAnchorX": 35.0,
+        "FootAnchorY": 65.0,
+        "VisibleHeightPixels": 45,
+        "AttackOriginHeight": 140.0,
+        "AttackOriginForward": 16.0,
+        "HealthBarHeight": 238.0,
+        "ShadowScale": 4.5,
+        "ClearanceTiles": 1.0,
+        "AvoidsHazards": true
+      },
+      "Animation": {
+        "Directions": 4,
+        "FramesPerDirection": 59,
+        "DirectionRows": [
+          1,
+          1,
+          0,
+          0,
+          3,
+          3,
+          2,
+          2
+        ],
+        "Clips": {
+          "walk": {
+            "StartFrame": 0,
+            "FrameCount": 10,
+            "FrameDurations": [
+              8,
+              8,
+              8,
+              8,
+              8,
+              8,
+              8,
+              8,
+              8,
+              8
+            ],
+            "Loop": true
+          },
+          "idle": {
+            "StartFrame": 10,
+            "FrameCount": 10,
+            "FrameDurations": [
+              10,
+              14,
+              14,
+              14,
+              14,
+              10,
+              14,
+              14,
+              14,
+              14
+            ],
+            "Loop": true
+          },
+          "attack": {
+            "StartFrame": 20,
+            "FrameCount": 10,
+            "FrameDurations": [
+              2,
+              6,
+              1,
+              1,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2
+            ],
+            "Loop": false,
+            "Markers": {
+              "cast": 2,
+              "world-action": 10,
+              "recover": 14
+            }
+          },
+          "hurt": {
+            "StartFrame": 30,
+            "FrameCount": 2,
+            "FrameDurations": [
+              2,
+              8
+            ],
+            "Loop": false
+          },
+          "sleep": {
+            "StartFrame": 32,
+            "FrameCount": 6,
+            "FrameDurations": [
+              16,
+              12,
+              16,
+              16,
+              12,
+              16
+            ],
+            "Loop": true
+          },
+          "shoot": {
+            "StartFrame": 38,
+            "FrameCount": 11,
+            "FrameDurations": [
+              2,
+              6,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2
+            ],
+            "Loop": false,
+            "Markers": {
+              "cast": 0,
+              "world-action": 2,
+              "recover": 10
+            }
+          },
+          "charge": {
+            "StartFrame": 49,
+            "FrameCount": 10,
+            "FrameDurations": [
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2
+            ],
+            "Loop": false,
+            "Markers": {
+              "world-action": 10,
+              "recover": 18
+            }
+          }
+        }
+      },
+      "BaseStats": {
+        "Health": 100,
+        "Attack": 100,
+        "Defense": 90,
+        "SpecialAttack": 150,
+        "SpecialDefense": 140,
+        "Speed": 90
+      },
+      "Progression": {
+        "GrowthRate": "Slow",
+        "BaseExperienceYield": 302,
+        "BaseEnergy": 190,
+        "EnergyPerLevel": 1.1,
+        "DailyEnergyRecoveryRate": 0.35,
+        "AffectionEnergyRecovery": 7,
+        "BattleStatGrowthPerLevel": 0.008,
+        "HealthPerLevel": 2.0,
+        "BaseMovementSpeedBonus": 1,
+        "MovementSpeedLevelInterval": 30,
+        "MaxMovementSpeedBonus": 2,
+        "JobExperience": 8,
+        "AffectionExperience": 20
+      },
+      "Behavior": {
+        "FollowStyle": "Side",
+        "Curiosity": 0.75,
+        "Bravery": 0.98,
+        "Helpfulness": 0.9,
+        "Sociability": 0.5,
+        "Restlessness": 0.5,
+        "PreferredWeather": [
+          "Rain"
+        ],
+        "PreferredLocations": [
+          "Beach",
+          "IslandSouth"
+        ],
+        "JobWeights": {
+          "Water": 1.5,
+          "Fishing": 1.4,
+          "CrabPot": 1.3
+        }
+      },
+      "AbilityIds": [
+        "primordial-sea"
+      ],
+      "DefaultMoveIds": [
+        "kanto_water_spout",
+        "kanto_double_edge",
+        "kanto_hydro_pump",
+        "kanto_aqua_ring",
+        "kanto_sheer_cold",
+        "kanto_ice_beam",
+        "kanto_muddy_water",
+        "kanto_calm_mind",
+        "kanto_aqua_tail",
+        "kanto_origin_pulse",
+        "kanto_body_slam",
+        "kanto_water_pulse",
+        "kanto_ancient_power",
+        "kanto_scary_face"
+      ],
+      "Learnset": [
+        {
+          "Level": 1,
+          "MoveId": "kanto_ancient_power"
+        },
+        {
+          "Level": 1,
+          "MoveId": "kanto_body_slam"
+        },
+        {
+          "Level": 1,
+          "MoveId": "kanto_origin_pulse"
+        },
+        {
+          "Level": 1,
+          "MoveId": "kanto_scary_face"
+        },
+        {
+          "Level": 1,
+          "MoveId": "kanto_water_pulse"
+        },
+        {
+          "Level": 9,
+          "MoveId": "kanto_aqua_tail"
+        },
+        {
+          "Level": 18,
+          "MoveId": "kanto_calm_mind"
+        },
+        {
+          "Level": 27,
+          "MoveId": "kanto_muddy_water"
+        },
+        {
+          "Level": 36,
+          "MoveId": "kanto_ice_beam"
+        },
+        {
+          "Level": 45,
+          "MoveId": "kanto_sheer_cold"
+        },
+        {
+          "Level": 54,
+          "MoveId": "kanto_aqua_ring"
+        },
+        {
+          "Level": 72,
+          "MoveId": "kanto_hydro_pump"
+        },
+        {
+          "Level": 81,
+          "MoveId": "kanto_double_edge"
+        },
+        {
+          "Level": 90,
+          "MoveId": "kanto_water_spout"
+        }
+      ],
+      "Jobs": [
+        "Harvest",
+        "Water",
+        "Forage",
+        "Fishing",
+        "AnimalCare",
+        "OrchardCare",
+        "CrabPot",
+        "ClearBrush",
+        "ChopWood",
+        "Mine",
+        "Tilling",
+        "Transport"
+      ],
+      "FieldSkills": {
+        "Water": {
+          "MaxTier": 4,
+          "TierBonus": 1
+        },
+        "Fishing": {
+          "MaxTier": 4,
+          "TierBonus": 1
+        },
+        "AnimalCare": {
+          "MaxTier": 4,
+          "TierBonus": 1
+        },
+        "OrchardCare": {
+          "MaxTier": 4,
+          "TierBonus": 1
+        },
+        "CrabPot": {
+          "MaxTier": 4,
+          "TierBonus": 1
+        },
+        "ClearBrush": {
+          "MaxTier": 4,
+          "TierBonus": 1
+        },
+        "ChopWood": {
+          "MaxTier": 4,
+          "TierBonus": 1
+        },
+        "Mine": {
+          "MaxTier": 4,
+          "TierBonus": 1
+        }
+      },
+      "JobEffectIds": {
+        "Water": "type.water.bubble",
+        "Fishing": "type.water.bubble"
+      },
+      "Evolutions": [],
+      "Breeding": {
+        "CanBreed": false,
+        "BabySpeciesId": "kyogre",
+        "BaseHatchSteps": 900,
+        "EggMoveIds": [],
+        "InheritForm": true
+      },
+      "Encounter": {
+        "Enabled": false,
+        "Weight": 1,
+        "MinLevel": 60,
+        "MaxLevel": 60,
+        "CatchRate": 0.03,
+        "Hostile": true,
+        "ThreatTier": "Apex",
+        "RarityTier": "Apex",
+        "Locations": [],
+        "Seasons": [],
+        "TimesOfDay": [],
+        "SpawnSurfaces": [
+          "Land"
+        ],
+        "PreferredTerrainTypes": [
+          "Sand"
+        ]
+      }
+    },
+    {
+      "NationalDex": 383,
+      "Id": "groudon",
+      "FormId": "default",
+      "DisplayName": "Groudon",
+      "Description": "This legendary Pokémon is said to have expanded the landmass. Its fierce heat evaporates every trace of rain.",
+      "Generation": 3,
+      "GenderRate": -1,
+      "Types": [
+        "Ground"
+      ],
+      "SpritePath": "assets/pokemon/future-legendaries/groudon/overworld_stardew.png",
+      "ShinySpritePath": "assets/pokemon/future-legendaries/groudon/overworld_shiny_stardew.png",
+      "PortraitPath": "assets/pokemon/future-legendaries/groudon/portrait.png",
+      "MoodPortraitPaths": {
+        "happy": "assets/pokemon/future-legendaries/groudon/portrait_happy.png",
+        "tired": "assets/pokemon/future-legendaries/groudon/portrait_tired.png",
+        "sleepy": "assets/pokemon/future-legendaries/groudon/portrait_sleepy.png",
+        "focused": "assets/pokemon/future-legendaries/groudon/portrait_focused.png",
+        "resting": "assets/pokemon/future-legendaries/groudon/portrait_resting.png",
+        "hurt": "assets/pokemon/future-legendaries/groudon/portrait_hurt.png",
+        "fainted": "assets/pokemon/future-legendaries/groudon/portrait_fainted.png"
+      },
+      "ShinyPortraitPath": "assets/pokemon/future-legendaries/groudon/portrait_shiny.png",
+      "ShinyMoodPortraitPaths": {
+        "happy": "assets/pokemon/future-legendaries/groudon/portrait_shiny_happy.png",
+        "tired": "assets/pokemon/future-legendaries/groudon/portrait_shiny_tired.png",
+        "sleepy": "assets/pokemon/future-legendaries/groudon/portrait_shiny_sleepy.png",
+        "focused": "assets/pokemon/future-legendaries/groudon/portrait_shiny_focused.png",
+        "resting": "assets/pokemon/future-legendaries/groudon/portrait_shiny_resting.png",
+        "hurt": "assets/pokemon/future-legendaries/groudon/portrait_shiny_hurt.png",
+        "fainted": "assets/pokemon/future-legendaries/groudon/portrait_shiny_fainted.png"
+      },
+      "FrameWidth": 88,
+      "FrameHeight": 78,
+      "AnimationLayout": "PmdEightDirectionAtlas",
+      "HasDistinctSideFrames": true,
+      "Body": {
+        "Locomotion": "Grounded",
+        "CollisionOffsetX": 8,
+        "CollisionOffsetY": 28,
+        "CollisionWidth": 48,
+        "CollisionHeight": 28,
+        "DrawScale": 4.0,
+        "FootAnchorX": 44.0,
+        "FootAnchorY": 64.0,
+        "VisibleHeightPixels": 54,
+        "AttackOriginHeight": 150.0,
+        "AttackOriginForward": 18.0,
+        "HealthBarHeight": 252.0,
+        "ShadowScale": 4.5,
+        "ClearanceTiles": 1.0,
+        "AvoidsHazards": true
+      },
+      "Animation": {
+        "Directions": 4,
+        "FramesPerDirection": 54,
+        "DirectionRows": [
+          1,
+          1,
+          0,
+          0,
+          3,
+          3,
+          2,
+          2
+        ],
+        "Clips": {
+          "walk": {
+            "StartFrame": 0,
+            "FrameCount": 4,
+            "FrameDurations": [
+              10,
+              12,
+              10,
+              12
+            ],
+            "Loop": true
+          },
+          "idle": {
+            "StartFrame": 4,
+            "FrameCount": 14,
+            "FrameDurations": [
+              60,
+              10,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              10
+            ],
+            "Loop": true
+          },
+          "attack": {
+            "StartFrame": 18,
+            "FrameCount": 10,
+            "FrameDurations": [
+              2,
+              6,
+              1,
+              1,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2
+            ],
+            "Loop": false,
+            "Markers": {
+              "cast": 2,
+              "world-action": 10,
+              "recover": 14
+            }
+          },
+          "hurt": {
+            "StartFrame": 28,
+            "FrameCount": 2,
+            "FrameDurations": [
+              2,
+              8
+            ],
+            "Loop": false
+          },
+          "sleep": {
+            "StartFrame": 30,
+            "FrameCount": 2,
+            "FrameDurations": [
+              30,
+              35
+            ],
+            "Loop": true
+          },
+          "shoot": {
+            "StartFrame": 32,
+            "FrameCount": 12,
+            "FrameDurations": [
+              2,
+              2,
+              6,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2
+            ],
+            "Loop": false,
+            "Markers": {
+              "cast": 2,
+              "world-action": 4,
+              "recover": 12
+            }
+          },
+          "charge": {
+            "StartFrame": 44,
+            "FrameCount": 10,
+            "FrameDurations": [
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2
+            ],
+            "Loop": false,
+            "Markers": {
+              "world-action": 10,
+              "recover": 18
+            }
+          }
+        }
+      },
+      "BaseStats": {
+        "Health": 100,
+        "Attack": 150,
+        "Defense": 140,
+        "SpecialAttack": 100,
+        "SpecialDefense": 90,
+        "Speed": 90
+      },
+      "Progression": {
+        "GrowthRate": "Slow",
+        "BaseExperienceYield": 302,
+        "BaseEnergy": 190,
+        "EnergyPerLevel": 1.1,
+        "DailyEnergyRecoveryRate": 0.35,
+        "AffectionEnergyRecovery": 7,
+        "BattleStatGrowthPerLevel": 0.008,
+        "HealthPerLevel": 2.0,
+        "BaseMovementSpeedBonus": 1,
+        "MovementSpeedLevelInterval": 30,
+        "MaxMovementSpeedBonus": 2,
+        "JobExperience": 8,
+        "AffectionExperience": 20
+      },
+      "Behavior": {
+        "FollowStyle": "Ahead",
+        "Curiosity": 0.55,
+        "Bravery": 0.99,
+        "Helpfulness": 0.88,
+        "Sociability": 0.35,
+        "Restlessness": 0.35,
+        "PreferredWeather": [
+          "Sun"
+        ],
+        "PreferredLocations": [
+          "Caldera",
+          "VolcanoDungeon"
+        ],
+        "JobWeights": {
+          "Mine": 1.5,
+          "ChopWood": 1.25,
+          "ClearBrush": 1.2
+        }
+      },
+      "AbilityIds": [
+        "desolate-land"
+      ],
+      "DefaultMoveIds": [
+        "kanto_eruption",
+        "kanto_solar_beam",
+        "kanto_fire_blast",
+        "kanto_rest",
+        "kanto_fissure",
+        "kanto_hammer_arm",
+        "kanto_earthquake",
+        "kanto_bulk_up",
+        "kanto_earth_power",
+        "kanto_precipice_blades",
+        "kanto_lava_plume",
+        "kanto_ancient_power",
+        "kanto_mud_shot",
+        "kanto_scary_face"
+      ],
+      "Learnset": [
+        {
+          "Level": 1,
+          "MoveId": "kanto_ancient_power"
+        },
+        {
+          "Level": 1,
+          "MoveId": "kanto_lava_plume"
+        },
+        {
+          "Level": 1,
+          "MoveId": "kanto_mud_shot"
+        },
+        {
+          "Level": 1,
+          "MoveId": "kanto_precipice_blades"
+        },
+        {
+          "Level": 1,
+          "MoveId": "kanto_scary_face"
+        },
+        {
+          "Level": 9,
+          "MoveId": "kanto_earth_power"
+        },
+        {
+          "Level": 18,
+          "MoveId": "kanto_bulk_up"
+        },
+        {
+          "Level": 27,
+          "MoveId": "kanto_earthquake"
+        },
+        {
+          "Level": 36,
+          "MoveId": "kanto_hammer_arm"
+        },
+        {
+          "Level": 45,
+          "MoveId": "kanto_fissure"
+        },
+        {
+          "Level": 54,
+          "MoveId": "kanto_rest"
+        },
+        {
+          "Level": 72,
+          "MoveId": "kanto_fire_blast"
+        },
+        {
+          "Level": 81,
+          "MoveId": "kanto_solar_beam"
+        },
+        {
+          "Level": 90,
+          "MoveId": "kanto_eruption"
+        }
+      ],
+      "Jobs": [
+        "Harvest",
+        "Water",
+        "Forage",
+        "Fishing",
+        "AnimalCare",
+        "OrchardCare",
+        "CrabPot",
+        "ClearBrush",
+        "ChopWood",
+        "Mine",
+        "Tilling",
+        "Transport"
+      ],
+      "FieldSkills": {
+        "Water": {
+          "MaxTier": 4,
+          "TierBonus": 1
+        },
+        "Fishing": {
+          "MaxTier": 4,
+          "TierBonus": 1
+        },
+        "AnimalCare": {
+          "MaxTier": 4,
+          "TierBonus": 1
+        },
+        "OrchardCare": {
+          "MaxTier": 4,
+          "TierBonus": 1
+        },
+        "CrabPot": {
+          "MaxTier": 4,
+          "TierBonus": 1
+        },
+        "ClearBrush": {
+          "MaxTier": 4,
+          "TierBonus": 1
+        },
+        "ChopWood": {
+          "MaxTier": 4,
+          "TierBonus": 1
+        },
+        "Mine": {
+          "MaxTier": 4,
+          "TierBonus": 1
+        }
+      },
+      "JobEffectIds": {},
+      "Evolutions": [],
+      "Breeding": {
+        "CanBreed": false,
+        "BabySpeciesId": "groudon",
+        "BaseHatchSteps": 900,
+        "EggMoveIds": [],
+        "InheritForm": true
+      },
+      "Encounter": {
+        "Enabled": false,
+        "Weight": 1,
+        "MinLevel": 60,
+        "MaxLevel": 60,
+        "CatchRate": 0.03,
+        "Hostile": true,
+        "ThreatTier": "Apex",
+        "RarityTier": "Apex",
+        "Locations": [],
+        "Seasons": [],
+        "TimesOfDay": [],
+        "SpawnSurfaces": [
+          "Land"
+        ],
+        "PreferredTerrainTypes": [
+          "Stone"
+        ]
+      }
+    },
+    {
+      "NationalDex": 483,
+      "Id": "dialga",
+      "FormId": "default",
+      "DisplayName": "Dialga",
+      "Description": "A legendary Pokémon said to control time. It appears in ancient legends as a deity of the Sinnoh region.",
+      "Generation": 4,
+      "GenderRate": -1,
+      "Types": [
+        "Steel",
+        "Dragon"
+      ],
+      "SpritePath": "assets/pokemon/future-legendaries/dialga/overworld_stardew.png",
+      "ShinySpritePath": "assets/pokemon/future-legendaries/dialga/overworld_shiny_stardew.png",
+      "PortraitPath": "assets/pokemon/future-legendaries/dialga/portrait.png",
+      "MoodPortraitPaths": {
+        "happy": "assets/pokemon/future-legendaries/dialga/portrait_happy.png",
+        "tired": "assets/pokemon/future-legendaries/dialga/portrait_tired.png",
+        "sleepy": "assets/pokemon/future-legendaries/dialga/portrait_sleepy.png",
+        "focused": "assets/pokemon/future-legendaries/dialga/portrait_focused.png",
+        "resting": "assets/pokemon/future-legendaries/dialga/portrait_resting.png",
+        "hurt": "assets/pokemon/future-legendaries/dialga/portrait_hurt.png",
+        "fainted": "assets/pokemon/future-legendaries/dialga/portrait_fainted.png"
+      },
+      "ShinyPortraitPath": "assets/pokemon/future-legendaries/dialga/portrait_shiny.png",
+      "ShinyMoodPortraitPaths": {
+        "happy": "assets/pokemon/future-legendaries/dialga/portrait_shiny_happy.png",
+        "tired": "assets/pokemon/future-legendaries/dialga/portrait_shiny_tired.png",
+        "sleepy": "assets/pokemon/future-legendaries/dialga/portrait_shiny_sleepy.png",
+        "focused": "assets/pokemon/future-legendaries/dialga/portrait_shiny_focused.png",
+        "resting": "assets/pokemon/future-legendaries/dialga/portrait_shiny_resting.png",
+        "hurt": "assets/pokemon/future-legendaries/dialga/portrait_shiny_hurt.png",
+        "fainted": "assets/pokemon/future-legendaries/dialga/portrait_shiny_fainted.png"
+      },
+      "FrameWidth": 88,
+      "FrameHeight": 91,
+      "AnimationLayout": "PmdEightDirectionAtlas",
+      "HasDistinctSideFrames": true,
+      "Body": {
+        "Locomotion": "Grounded",
+        "CollisionOffsetX": 16,
+        "CollisionOffsetY": 45,
+        "CollisionWidth": 64,
+        "CollisionHeight": 35,
+        "DrawScale": 4.0,
+        "FootAnchorX": 44.0,
+        "FootAnchorY": 84.0,
+        "VisibleHeightPixels": 68,
+        "AttackOriginHeight": 172.0,
+        "AttackOriginForward": 20.0,
+        "HealthBarHeight": 286.0,
+        "ShadowScale": 4.8,
+        "ClearanceTiles": 1.0,
+        "AvoidsHazards": true
+      },
+      "Animation": {
+        "Directions": 4,
+        "FramesPerDirection": 46,
+        "DirectionRows": [
+          1,
+          1,
+          0,
+          0,
+          3,
+          3,
+          2,
+          2
+        ],
+        "Clips": {
+          "walk": {
+            "StartFrame": 0,
+            "FrameCount": 4,
+            "FrameDurations": [
+              12,
+              14,
+              12,
+              14
+            ],
+            "Loop": true
+          },
+          "idle": {
+            "StartFrame": 4,
+            "FrameCount": 2,
+            "FrameDurations": [
+              80,
+              45
+            ],
+            "Loop": true
+          },
+          "attack": {
+            "StartFrame": 6,
+            "FrameCount": 14,
+            "FrameDurations": [
+              2,
+              2,
+              6,
+              1,
+              1,
+              1,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              1,
+              2
+            ],
+            "Loop": false,
+            "Markers": {
+              "cast": 2,
+              "world-action": 4,
+              "recover": 15
+            }
+          },
+          "hurt": {
+            "StartFrame": 20,
+            "FrameCount": 2,
+            "FrameDurations": [
+              2,
+              8
+            ],
+            "Loop": false
+          },
+          "sleep": {
+            "StartFrame": 22,
+            "FrameCount": 2,
+            "FrameDurations": [
+              30,
+              35
+            ],
+            "Loop": true
+          },
+          "shoot": {
+            "StartFrame": 24,
+            "FrameCount": 12,
+            "FrameDurations": [
+              1,
+              2,
+              8,
+              1,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2
+            ],
+            "Loop": false,
+            "Markers": {
+              "cast": 1,
+              "world-action": 3,
+              "recover": 14
+            }
+          },
+          "charge": {
+            "StartFrame": 36,
+            "FrameCount": 10,
+            "FrameDurations": [
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2
+            ],
+            "Loop": false,
+            "Markers": {
+              "world-action": 10,
+              "recover": 18
+            }
+          }
+        }
+      },
+      "BaseStats": {
+        "Health": 100,
+        "Attack": 120,
+        "Defense": 120,
+        "SpecialAttack": 150,
+        "SpecialDefense": 100,
+        "Speed": 90
+      },
+      "Progression": {
+        "GrowthRate": "Slow",
+        "BaseExperienceYield": 306,
+        "BaseEnergy": 190,
+        "EnergyPerLevel": 1.1,
+        "DailyEnergyRecoveryRate": 0.35,
+        "AffectionEnergyRecovery": 7,
+        "BattleStatGrowthPerLevel": 0.008,
+        "HealthPerLevel": 2.0,
+        "BaseMovementSpeedBonus": 1,
+        "MovementSpeedLevelInterval": 30,
+        "MaxMovementSpeedBonus": 2,
+        "JobExperience": 8,
+        "AffectionExperience": 20
+      },
+      "Behavior": {
+        "FollowStyle": "Ahead",
+        "Curiosity": 0.45,
+        "Bravery": 0.99,
+        "Helpfulness": 0.85,
+        "Sociability": 0.25,
+        "Restlessness": 0.25,
+        "PreferredWeather": [],
+        "PreferredLocations": [],
+        "JobWeights": {}
+      },
+      "AbilityIds": [
+        "time-travel"
+      ],
+      "DefaultMoveIds": [
+        "kanto_roar_of_time",
+        "kanto_iron_tail",
+        "kanto_earth_power",
+        "kanto_metal_burst",
+        "kanto_power_gem",
+        "kanto_aura_sphere",
+        "kanto_dragon_claw",
+        "kanto_flash_cannon",
+        "kanto_slash",
+        "kanto_ancient_power",
+        "kanto_dragon_breath",
+        "kanto_metal_claw",
+        "kanto_scary_face"
+      ],
+      "Learnset": [
+        {
+          "Level": 1,
+          "MoveId": "kanto_metal_claw"
+        },
+        {
+          "Level": 1,
+          "MoveId": "kanto_scary_face"
+        },
+        {
+          "Level": 8,
+          "MoveId": "kanto_dragon_breath"
+        },
+        {
+          "Level": 16,
+          "MoveId": "kanto_ancient_power"
+        },
+        {
+          "Level": 24,
+          "MoveId": "kanto_slash"
+        },
+        {
+          "Level": 32,
+          "MoveId": "kanto_flash_cannon"
+        },
+        {
+          "Level": 40,
+          "MoveId": "kanto_dragon_claw"
+        },
+        {
+          "Level": 48,
+          "MoveId": "kanto_aura_sphere"
+        },
+        {
+          "Level": 56,
+          "MoveId": "kanto_power_gem"
+        },
+        {
+          "Level": 64,
+          "MoveId": "kanto_metal_burst"
+        },
+        {
+          "Level": 72,
+          "MoveId": "kanto_earth_power"
+        },
+        {
+          "Level": 80,
+          "MoveId": "kanto_iron_tail"
+        },
+        {
+          "Level": 88,
+          "MoveId": "kanto_roar_of_time"
+        }
+      ],
+      "Jobs": [
+        "Harvest",
+        "Water",
+        "Forage",
+        "Fishing",
+        "AnimalCare",
+        "OrchardCare",
+        "CrabPot",
+        "ClearBrush",
+        "ChopWood",
+        "Mine",
+        "Tilling",
+        "Transport"
+      ],
+      "FieldSkills": {
+        "Water": {
+          "MaxTier": 4,
+          "TierBonus": 1
+        },
+        "Fishing": {
+          "MaxTier": 4,
+          "TierBonus": 1
+        },
+        "AnimalCare": {
+          "MaxTier": 4,
+          "TierBonus": 1
+        },
+        "OrchardCare": {
+          "MaxTier": 4,
+          "TierBonus": 1
+        },
+        "CrabPot": {
+          "MaxTier": 4,
+          "TierBonus": 1
+        },
+        "ClearBrush": {
+          "MaxTier": 4,
+          "TierBonus": 1
+        },
+        "ChopWood": {
+          "MaxTier": 4,
+          "TierBonus": 1
+        },
+        "Mine": {
+          "MaxTier": 4,
+          "TierBonus": 1
+        }
+      },
+      "JobEffectIds": {},
+      "Evolutions": [],
+      "Breeding": {
+        "CanBreed": false,
+        "BabySpeciesId": "dialga",
+        "BaseHatchSteps": 900,
+        "EggMoveIds": [],
+        "InheritForm": true
+      },
+      "Encounter": {
+        "Enabled": false,
+        "Weight": 1,
+        "MinLevel": 65,
+        "MaxLevel": 65,
+        "CatchRate": 0.03,
+        "Hostile": true,
+        "ThreatTier": "Apex",
+        "RarityTier": "Apex",
+        "Locations": [],
+        "Seasons": [],
+        "TimesOfDay": [],
+        "SpawnSurfaces": [
+          "Land"
+        ],
+        "PreferredTerrainTypes": [
+          "Stone"
+        ]
+      }
+    },
+    {
+      "NationalDex": 484,
+      "Id": "palkia",
+      "FormId": "default",
+      "DisplayName": "Palkia",
+      "Description": "A legendary Pokémon said to control space. It is described in myth as a deity who bends the boundaries of the world.",
+      "Generation": 4,
+      "GenderRate": -1,
+      "Types": [
+        "Water",
+        "Dragon"
+      ],
+      "SpritePath": "assets/pokemon/future-legendaries/palkia/overworld_stardew.png",
+      "ShinySpritePath": "assets/pokemon/future-legendaries/palkia/overworld_shiny_stardew.png",
+      "PortraitPath": "assets/pokemon/future-legendaries/palkia/portrait.png",
+      "MoodPortraitPaths": {
+        "happy": "assets/pokemon/future-legendaries/palkia/portrait_happy.png",
+        "tired": "assets/pokemon/future-legendaries/palkia/portrait_tired.png",
+        "sleepy": "assets/pokemon/future-legendaries/palkia/portrait_sleepy.png",
+        "focused": "assets/pokemon/future-legendaries/palkia/portrait_focused.png",
+        "resting": "assets/pokemon/future-legendaries/palkia/portrait_resting.png",
+        "hurt": "assets/pokemon/future-legendaries/palkia/portrait_hurt.png",
+        "fainted": "assets/pokemon/future-legendaries/palkia/portrait_fainted.png"
+      },
+      "ShinyPortraitPath": "assets/pokemon/future-legendaries/palkia/portrait_shiny.png",
+      "ShinyMoodPortraitPaths": {
+        "happy": "assets/pokemon/future-legendaries/palkia/portrait_shiny_happy.png",
+        "tired": "assets/pokemon/future-legendaries/palkia/portrait_shiny_tired.png",
+        "sleepy": "assets/pokemon/future-legendaries/palkia/portrait_shiny_sleepy.png",
+        "focused": "assets/pokemon/future-legendaries/palkia/portrait_shiny_focused.png",
+        "resting": "assets/pokemon/future-legendaries/palkia/portrait_shiny_resting.png",
+        "hurt": "assets/pokemon/future-legendaries/palkia/portrait_shiny_hurt.png",
+        "fainted": "assets/pokemon/future-legendaries/palkia/portrait_shiny_fainted.png"
+      },
+      "FrameWidth": 102,
+      "FrameHeight": 104,
+      "AnimationLayout": "PmdEightDirectionAtlas",
+      "HasDistinctSideFrames": true,
+      "Body": {
+        "Locomotion": "Grounded",
+        "CollisionOffsetX": 20,
+        "CollisionOffsetY": 50,
+        "CollisionWidth": 72,
+        "CollisionHeight": 40,
+        "DrawScale": 4.0,
+        "FootAnchorX": 51.0,
+        "FootAnchorY": 97.0,
+        "VisibleHeightPixels": 64,
+        "AttackOriginHeight": 182.0,
+        "AttackOriginForward": 20.0,
+        "HealthBarHeight": 310.0,
+        "ShadowScale": 4.8,
+        "ClearanceTiles": 1.0,
+        "AvoidsHazards": true
+      },
+      "Animation": {
+        "Directions": 4,
+        "FramesPerDirection": 50,
+        "DirectionRows": [
+          1,
+          1,
+          0,
+          0,
+          3,
+          3,
+          2,
+          2
+        ],
+        "Clips": {
+          "walk": {
+            "StartFrame": 0,
+            "FrameCount": 4,
+            "FrameDurations": [
+              8,
+              12,
+              8,
+              12
+            ],
+            "Loop": true
+          },
+          "idle": {
+            "StartFrame": 4,
+            "FrameCount": 2,
+            "FrameDurations": [
+              40,
+              30
+            ],
+            "Loop": true
+          },
+          "attack": {
+            "StartFrame": 6,
+            "FrameCount": 15,
+            "FrameDurations": [
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2
+            ],
+            "Loop": false,
+            "Markers": {
+              "cast": 4,
+              "world-action": 8,
+              "recover": 22
+            }
+          },
+          "hurt": {
+            "StartFrame": 21,
+            "FrameCount": 2,
+            "FrameDurations": [
+              2,
+              8
+            ],
+            "Loop": false
+          },
+          "sleep": {
+            "StartFrame": 23,
+            "FrameCount": 2,
+            "FrameDurations": [
+              30,
+              35
+            ],
+            "Loop": true
+          },
+          "shoot": {
+            "StartFrame": 25,
+            "FrameCount": 15,
+            "FrameDurations": [
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              1,
+              1,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2
+            ],
+            "Loop": false,
+            "Markers": {
+              "cast": 4,
+              "world-action": 6,
+              "recover": 16
+            }
+          },
+          "charge": {
+            "StartFrame": 40,
+            "FrameCount": 10,
+            "FrameDurations": [
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2
+            ],
+            "Loop": false,
+            "Markers": {
+              "world-action": 10,
+              "recover": 18
+            }
+          }
+        }
+      },
+      "BaseStats": {
+        "Health": 100,
+        "Attack": 120,
+        "Defense": 100,
+        "SpecialAttack": 150,
+        "SpecialDefense": 120,
+        "Speed": 100
+      },
+      "Progression": {
+        "GrowthRate": "Slow",
+        "BaseExperienceYield": 306,
+        "BaseEnergy": 190,
+        "EnergyPerLevel": 1.1,
+        "DailyEnergyRecoveryRate": 0.35,
+        "AffectionEnergyRecovery": 7,
+        "BattleStatGrowthPerLevel": 0.008,
+        "HealthPerLevel": 2.0,
+        "BaseMovementSpeedBonus": 1,
+        "MovementSpeedLevelInterval": 30,
+        "MaxMovementSpeedBonus": 2,
+        "JobExperience": 8,
+        "AffectionExperience": 20
+      },
+      "Behavior": {
+        "FollowStyle": "Ahead",
+        "Curiosity": 0.55,
+        "Bravery": 0.99,
+        "Helpfulness": 0.85,
+        "Sociability": 0.25,
+        "Restlessness": 0.35,
+        "PreferredWeather": [],
+        "PreferredLocations": [],
+        "JobWeights": {}
+      },
+      "AbilityIds": [
+        "spatial-warp"
+      ],
+      "DefaultMoveIds": [
+        "kanto_hydro_pump",
+        "kanto_spacial_rend",
+        "kanto_earth_power",
+        "kanto_aqua_tail",
+        "kanto_power_gem",
+        "kanto_aura_sphere",
+        "kanto_aqua_ring",
+        "kanto_slash",
+        "kanto_ancient_power",
+        "kanto_dragon_breath",
+        "kanto_water_pulse",
+        "kanto_scary_face"
+      ],
+      "Learnset": [
+        {
+          "Level": 1,
+          "MoveId": "kanto_scary_face"
+        },
+        {
+          "Level": 1,
+          "MoveId": "kanto_water_pulse"
+        },
+        {
+          "Level": 8,
+          "MoveId": "kanto_dragon_breath"
+        },
+        {
+          "Level": 16,
+          "MoveId": "kanto_ancient_power"
+        },
+        {
+          "Level": 24,
+          "MoveId": "kanto_slash"
+        },
+        {
+          "Level": 32,
+          "MoveId": "kanto_aqua_ring"
+        },
+        {
+          "Level": 48,
+          "MoveId": "kanto_aura_sphere"
+        },
+        {
+          "Level": 56,
+          "MoveId": "kanto_power_gem"
+        },
+        {
+          "Level": 64,
+          "MoveId": "kanto_aqua_tail"
+        },
+        {
+          "Level": 72,
+          "MoveId": "kanto_earth_power"
+        },
+        {
+          "Level": 80,
+          "MoveId": "kanto_spacial_rend"
+        },
+        {
+          "Level": 88,
+          "MoveId": "kanto_hydro_pump"
+        }
+      ],
+      "Jobs": [
+        "Harvest",
+        "Water",
+        "Forage",
+        "Fishing",
+        "AnimalCare",
+        "OrchardCare",
+        "CrabPot",
+        "ClearBrush",
+        "ChopWood",
+        "Mine",
+        "Tilling",
+        "Transport"
+      ],
+      "FieldSkills": {
+        "Water": {
+          "MaxTier": 4,
+          "TierBonus": 1
+        },
+        "Fishing": {
+          "MaxTier": 4,
+          "TierBonus": 1
+        },
+        "AnimalCare": {
+          "MaxTier": 4,
+          "TierBonus": 1
+        },
+        "OrchardCare": {
+          "MaxTier": 4,
+          "TierBonus": 1
+        },
+        "CrabPot": {
+          "MaxTier": 4,
+          "TierBonus": 1
+        },
+        "ClearBrush": {
+          "MaxTier": 4,
+          "TierBonus": 1
+        },
+        "ChopWood": {
+          "MaxTier": 4,
+          "TierBonus": 1
+        },
+        "Mine": {
+          "MaxTier": 4,
+          "TierBonus": 1
+        }
+      },
+      "JobEffectIds": {},
+      "Evolutions": [],
+      "Breeding": {
+        "CanBreed": false,
+        "BabySpeciesId": "palkia",
+        "BaseHatchSteps": 900,
+        "EggMoveIds": [],
+        "InheritForm": true
+      },
+      "Encounter": {
+        "Enabled": false,
+        "Weight": 1,
+        "MinLevel": 65,
+        "MaxLevel": 65,
+        "CatchRate": 0.03,
+        "Hostile": true,
+        "ThreatTier": "Apex",
+        "RarityTier": "Apex",
+        "Locations": [],
+        "Seasons": [],
+        "TimesOfDay": [],
+        "SpawnSurfaces": [
+          "Land"
+        ],
+        "PreferredTerrainTypes": [
+          "Stone"
+        ]
+      }
+    },
+    {
+      "NationalDex": 487,
+      "Id": "giratina",
+      "FormId": "default",
+      "DisplayName": "Giratina",
+      "Description": "A legendary Pokémon banished for its violence. It watches silently from a world on the reverse side of ours.",
+      "Generation": 4,
+      "GenderRate": -1,
+      "Types": [
+        "Ghost",
+        "Dragon"
+      ],
+      "SpritePath": "assets/pokemon/future-legendaries/giratina/overworld_stardew.png",
+      "ShinySpritePath": "assets/pokemon/future-legendaries/giratina/overworld_shiny_stardew.png",
+      "PortraitPath": "assets/pokemon/future-legendaries/giratina/portrait.png",
+      "MoodPortraitPaths": {
+        "happy": "assets/pokemon/future-legendaries/giratina/portrait_happy.png",
+        "tired": "assets/pokemon/future-legendaries/giratina/portrait_tired.png",
+        "sleepy": "assets/pokemon/future-legendaries/giratina/portrait_sleepy.png",
+        "focused": "assets/pokemon/future-legendaries/giratina/portrait_focused.png",
+        "resting": "assets/pokemon/future-legendaries/giratina/portrait_resting.png",
+        "hurt": "assets/pokemon/future-legendaries/giratina/portrait_hurt.png",
+        "fainted": "assets/pokemon/future-legendaries/giratina/portrait_fainted.png"
+      },
+      "ShinyPortraitPath": "assets/pokemon/future-legendaries/giratina/portrait_shiny.png",
+      "ShinyMoodPortraitPaths": {
+        "happy": "assets/pokemon/future-legendaries/giratina/portrait_shiny_happy.png",
+        "tired": "assets/pokemon/future-legendaries/giratina/portrait_shiny_tired.png",
+        "sleepy": "assets/pokemon/future-legendaries/giratina/portrait_shiny_sleepy.png",
+        "focused": "assets/pokemon/future-legendaries/giratina/portrait_shiny_focused.png",
+        "resting": "assets/pokemon/future-legendaries/giratina/portrait_shiny_resting.png",
+        "hurt": "assets/pokemon/future-legendaries/giratina/portrait_shiny_hurt.png",
+        "fainted": "assets/pokemon/future-legendaries/giratina/portrait_shiny_fainted.png"
+      },
+      "FrameWidth": 69,
+      "FrameHeight": 77,
+      "AnimationLayout": "PmdEightDirectionAtlas",
+      "HasDistinctSideFrames": true,
+      "Body": {
+        "Locomotion": "Grounded",
+        "CollisionOffsetX": 16,
+        "CollisionOffsetY": 40,
+        "CollisionWidth": 56,
+        "CollisionHeight": 30,
+        "DrawScale": 4.0,
+        "FootAnchorX": 34.0,
+        "FootAnchorY": 68.0,
+        "VisibleHeightPixels": 54,
+        "AttackOriginHeight": 155.0,
+        "AttackOriginForward": 18.0,
+        "HealthBarHeight": 260.0,
+        "ShadowScale": 4.4,
+        "ClearanceTiles": 1.0,
+        "AvoidsHazards": true
+      },
+      "Animation": {
+        "Directions": 4,
+        "FramesPerDirection": 46,
+        "DirectionRows": [
+          1,
+          1,
+          0,
+          0,
+          3,
+          3,
+          2,
+          2
+        ],
+        "Clips": {
+          "walk": {
+            "StartFrame": 0,
+            "FrameCount": 4,
+            "FrameDurations": [
+              12,
+              12,
+              12,
+              12
+            ],
+            "Loop": true
+          },
+          "idle": {
+            "StartFrame": 4,
+            "FrameCount": 2,
+            "FrameDurations": [
+              60,
+              40
+            ],
+            "Loop": true
+          },
+          "attack": {
+            "StartFrame": 6,
+            "FrameCount": 14,
+            "FrameDurations": [
+              2,
+              2,
+              6,
+              1,
+              1,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2
+            ],
+            "Loop": false,
+            "Markers": {
+              "cast": 2,
+              "world-action": 4,
+              "recover": 16
+            }
+          },
+          "hurt": {
+            "StartFrame": 20,
+            "FrameCount": 2,
+            "FrameDurations": [
+              2,
+              8
+            ],
+            "Loop": false
+          },
+          "sleep": {
+            "StartFrame": 22,
+            "FrameCount": 2,
+            "FrameDurations": [
+              30,
+              35
+            ],
+            "Loop": true
+          },
+          "shoot": {
+            "StartFrame": 24,
+            "FrameCount": 12,
+            "FrameDurations": [
+              2,
+              2,
+              6,
+              1,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2
+            ],
+            "Loop": false,
+            "Markers": {
+              "cast": 2,
+              "world-action": 4,
+              "recover": 13
+            }
+          },
+          "charge": {
+            "StartFrame": 36,
+            "FrameCount": 10,
+            "FrameDurations": [
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2
+            ],
+            "Loop": false,
+            "Markers": {
+              "world-action": 10,
+              "recover": 18
+            }
+          }
+        }
+      },
+      "BaseStats": {
+        "Health": 150,
+        "Attack": 120,
+        "Defense": 100,
+        "SpecialAttack": 120,
+        "SpecialDefense": 100,
+        "Speed": 90
+      },
+      "Progression": {
+        "GrowthRate": "Slow",
+        "BaseExperienceYield": 306,
+        "BaseEnergy": 200,
+        "EnergyPerLevel": 1.15,
+        "DailyEnergyRecoveryRate": 0.35,
+        "AffectionEnergyRecovery": 7,
+        "BattleStatGrowthPerLevel": 0.009,
+        "HealthPerLevel": 2.2,
+        "BaseMovementSpeedBonus": 1,
+        "MovementSpeedLevelInterval": 30,
+        "MaxMovementSpeedBonus": 2,
+        "JobExperience": 8,
+        "AffectionExperience": 20
+      },
+      "Behavior": {
+        "FollowStyle": "Ahead",
+        "Curiosity": 0.25,
+        "Bravery": 1.0,
+        "Helpfulness": 0.75,
+        "Sociability": 0.1,
+        "Restlessness": 0.3,
+        "PreferredWeather": [],
+        "PreferredLocations": [],
+        "JobWeights": {}
+      },
+      "AbilityIds": [
+        "distortion"
+      ],
+      "DefaultMoveIds": [
+        "kanto_destiny_bond",
+        "kanto_shadow_force",
+        "kanto_earth_power",
+        "kanto_dragon_claw",
+        "kanto_aura_sphere",
+        "kanto_pain_split",
+        "kanto_shadow_claw",
+        "kanto_scary_face",
+        "kanto_slash",
+        "kanto_hex",
+        "kanto_ancient_power",
+        "kanto_dragon_breath",
+        "kanto_shadow_sneak"
+      ],
+      "Learnset": [
+        {
+          "Level": 1,
+          "MoveId": "kanto_shadow_sneak"
+        },
+        {
+          "Level": 7,
+          "MoveId": "kanto_dragon_breath"
+        },
+        {
+          "Level": 14,
+          "MoveId": "kanto_ancient_power"
+        },
+        {
+          "Level": 21,
+          "MoveId": "kanto_hex"
+        },
+        {
+          "Level": 28,
+          "MoveId": "kanto_slash"
+        },
+        {
+          "Level": 35,
+          "MoveId": "kanto_scary_face"
+        },
+        {
+          "Level": 42,
+          "MoveId": "kanto_shadow_claw"
+        },
+        {
+          "Level": 49,
+          "MoveId": "kanto_pain_split"
+        },
+        {
+          "Level": 56,
+          "MoveId": "kanto_aura_sphere"
+        },
+        {
+          "Level": 63,
+          "MoveId": "kanto_dragon_claw"
+        },
+        {
+          "Level": 70,
+          "MoveId": "kanto_earth_power"
+        },
+        {
+          "Level": 77,
+          "MoveId": "kanto_shadow_force"
+        },
+        {
+          "Level": 84,
+          "MoveId": "kanto_destiny_bond"
+        }
+      ],
+      "Jobs": [
+        "Harvest",
+        "Water",
+        "Forage",
+        "Fishing",
+        "AnimalCare",
+        "OrchardCare",
+        "CrabPot",
+        "ClearBrush",
+        "ChopWood",
+        "Mine",
+        "Tilling",
+        "Transport"
+      ],
+      "FieldSkills": {
+        "Water": {
+          "MaxTier": 4,
+          "TierBonus": 1
+        },
+        "Fishing": {
+          "MaxTier": 4,
+          "TierBonus": 1
+        },
+        "AnimalCare": {
+          "MaxTier": 4,
+          "TierBonus": 1
+        },
+        "OrchardCare": {
+          "MaxTier": 4,
+          "TierBonus": 1
+        },
+        "CrabPot": {
+          "MaxTier": 4,
+          "TierBonus": 1
+        },
+        "ClearBrush": {
+          "MaxTier": 4,
+          "TierBonus": 1
+        },
+        "ChopWood": {
+          "MaxTier": 4,
+          "TierBonus": 1
+        },
+        "Mine": {
+          "MaxTier": 4,
+          "TierBonus": 1
+        }
+      },
+      "JobEffectIds": {},
+      "Evolutions": [],
+      "Breeding": {
+        "CanBreed": false,
+        "BabySpeciesId": "giratina",
+        "BaseHatchSteps": 900,
+        "EggMoveIds": [],
+        "InheritForm": true
+      },
+      "Encounter": {
+        "Enabled": false,
+        "Weight": 1,
+        "MinLevel": 70,
+        "MaxLevel": 70,
+        "CatchRate": 0.01,
+        "Hostile": true,
+        "ThreatTier": "Apex",
+        "RarityTier": "Apex",
+        "Locations": [],
+        "Seasons": [],
+        "TimesOfDay": [],
+        "SpawnSurfaces": [
+          "Land"
+        ],
+        "PreferredTerrainTypes": [
+          "Stone"
+        ]
+      }
+    }
+  ]
+}

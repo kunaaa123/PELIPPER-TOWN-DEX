@@ -1,0 +1,87 @@
+{
+  "Source": "https://github.com/PMDCollab/SpriteCollab",
+  "Revision": "a81649defb42d0529ff78fa5baac81c337159823",
+  "LicenseUrl": "https://github.com/PMDCollab/SpriteCollab/blob/a81649defb42d0529ff78fa5baac81c337159823/LICENSE.md",
+  "Species": [
+    {
+      "NationalDex": 491,
+      "Id": "darkrai",
+      "DisplayName": "Darkrai",
+      "Sprite": [
+        {
+          "Contributor": "CHUNSOFT",
+          "Files": ["Walk", "Idle", "Attack", "Hurt", "Sleep", "Shoot", "Charge"],
+          "Source": "Unspecified",
+          "Status": "CUR",
+          "Timestamp": "2022-11-08 03:47:19.670949",
+          "Contact": "https://www.spike-chunsoft.com/"
+        },
+        {
+          "Contributor": "baronessfaron",
+          "Files": [
+            "Float"
+          ],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2022-11-08 04:14:41.871948",
+          "Handle": "<@!544245909639397378>"
+        }
+      ],
+      "Portrait": [
+        {
+          "Contributor": "CHUNSOFT",
+          "Files": ["Normal"],
+          "Source": "Unspecified",
+          "Status": "CUR",
+          "Timestamp": "2020-10-07 17:58:44.853951",
+          "Contact": "https://www.spike-chunsoft.com/"
+        },
+        {
+          "Contributor": "baronessfaron",
+          "Files": ["Normal", "Happy", "Sigh", "Determined", "Pain", "Dizzy"],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2021-03-11 05:55:15.954827",
+          "Handle": "<@!544245909639397378>"
+        }
+      ],
+      "ShinySprite": [
+        {
+          "Contributor": "ShyStarryRain",
+          "Files": ["Walk", "Idle", "Attack", "Hurt", "Sleep", "Shoot", "Charge"],
+          "Source": "PMDCollab_1",
+          "Status": "OLD",
+          "Timestamp": "2022-11-08 05:45:11.344231",
+          "Handle": "<@!576876006636519434>"
+        }
+      ],
+      "ShinyPortrait": [
+        {
+          "Contributor": "Prismatic",
+          "Files": ["Normal"],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2020-10-07 17:58:44.854949",
+          "Handle": "<@!215699178553212929>",
+          "Contact": "prismaticphenomenal@gmail.com"
+        },
+        {
+          "Contributor": "Emboarger",
+          "Files": ["Normal", "Happy", "Sigh", "Determined", "Pain", "Dizzy"],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2021-06-26 01:18:24.958045",
+          "Handle": "<@!237286997645983744>"
+        },
+        {
+          "Contributor": "baronessfaron",
+          "Files": ["Normal", "Happy", "Sigh", "Determined", "Pain", "Dizzy"],
+          "Source": "PMDCollab_1",
+          "Status": "CUR",
+          "Timestamp": "2023-05-09 01:47:24.360541",
+          "Handle": "<@!544245909639397378>"
+        }
+      ]
+    }
+  ]
+}

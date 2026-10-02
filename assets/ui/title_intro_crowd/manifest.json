@@ -1,0 +1,9428 @@
+{
+  "Format": "PelipperTown/TitleIntroCrowd/2",
+  "Texture": "atlas.png",
+  "Width": 4096,
+  "Height": 3340,
+  "SpeciesCount": 624,
+  "Shadow": {
+    "X": 4080,
+    "Y": 0,
+    "Width": 12,
+    "Height": 7
+  },
+  "Species": [
+    {
+      "SpeciesId": "bulbasaur",
+      "FrameWidth": 61,
+      "FrameHeight": 59,
+      "FrameCount": 6,
+      "SourceFrames": [
+        40,
+        41,
+        42,
+        43,
+        44,
+        45
+      ],
+      "X": 3534,
+      "Y": 2750
+    },
+    {
+      "SpeciesId": "ivysaur",
+      "FrameWidth": 59,
+      "FrameHeight": 57,
+      "FrameCount": 4,
+      "SourceFrames": [
+        37,
+        38,
+        39,
+        40
+      ],
+      "X": 1492,
+      "Y": 3113
+    },
+    {
+      "SpeciesId": "venusaur",
+      "FrameWidth": 67,
+      "FrameHeight": 62,
+      "FrameCount": 4,
+      "SourceFrames": [
+        39,
+        40,
+        41,
+        42
+      ],
+      "X": 2417,
+      "Y": 1995
+    },
+    {
+      "SpeciesId": "charmander",
+      "FrameWidth": 53,
+      "FrameHeight": 56,
+      "FrameCount": 4,
+      "SourceFrames": [
+        43,
+        44,
+        45,
+        46
+      ],
+      "X": 1778,
+      "Y": 3172
+    },
+    {
+      "SpeciesId": "charmeleon",
+      "FrameWidth": 55,
+      "FrameHeight": 65,
+      "FrameCount": 4,
+      "SourceFrames": [
+        50,
+        51,
+        52,
+        53
+      ],
+      "X": 3160,
+      "Y": 1147
+    },
+    {
+      "SpeciesId": "charizard",
+      "FrameWidth": 60,
+      "FrameHeight": 70,
+      "FrameCount": 4,
+      "SourceFrames": [
+        47,
+        48,
+        49,
+        50
+      ],
+      "X": 1572,
+      "Y": 593
+    },
+    {
+      "SpeciesId": "squirtle",
+      "FrameWidth": 55,
+      "FrameHeight": 60,
+      "FrameCount": 4,
+      "SourceFrames": [
+        47,
+        48,
+        49,
+        50
+      ],
+      "X": 1836,
+      "Y": 2688
+    },
+    {
+      "SpeciesId": "wartortle",
+      "FrameWidth": 57,
+      "FrameHeight": 60,
+      "FrameCount": 4,
+      "SourceFrames": [
+        42,
+        43,
+        44,
+        45
+      ],
+      "X": 1154,
+      "Y": 2688
+    },
+    {
+      "SpeciesId": "blastoise",
+      "FrameWidth": 60,
+      "FrameHeight": 61,
+      "FrameCount": 4,
+      "SourceFrames": [
+        45,
+        46,
+        47,
+        48
+      ],
+      "X": 3856,
+      "Y": 2187
+    },
+    {
+      "SpeciesId": "caterpie",
+      "FrameWidth": 46,
+      "FrameHeight": 51,
+      "FrameCount": 3,
+      "SourceFrames": [
+        46,
+        47,
+        48
+      ],
+      "X": 3942,
+      "Y": 205
+    },
+    {
+      "SpeciesId": "metapod",
+      "FrameWidth": 66,
+      "FrameHeight": 63,
+      "FrameCount": 10,
+      "SourceFrames": [
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60
+      ],
+      "X": 722,
+      "Y": 1478
+    },
+    {
+      "SpeciesId": "butterfree",
+      "FrameWidth": 71,
+      "FrameHeight": 63,
+      "FrameCount": 12,
+      "SourceFrames": [
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71
+      ],
+      "X": 3132,
+      "Y": 1412
+    },
+    {
+      "SpeciesId": "weedle",
+      "FrameWidth": 63,
+      "FrameHeight": 59,
+      "FrameCount": 3,
+      "SourceFrames": [
+        45,
+        46,
+        47
+      ],
+      "X": 3904,
+      "Y": 2872
+    },
+    {
+      "SpeciesId": "kakuna",
+      "FrameWidth": 59,
+      "FrameHeight": 52,
+      "FrameCount": 5,
+      "SourceFrames": [
+        49,
+        50,
+        51,
+        52,
+        53
+      ],
+      "X": 1764,
+      "Y": 3287
+    },
+    {
+      "SpeciesId": "beedrill",
+      "FrameWidth": 61,
+      "FrameHeight": 61,
+      "FrameCount": 4,
+      "SourceFrames": [
+        58,
+        59,
+        60,
+        61
+      ],
+      "X": 1746,
+      "Y": 2376
+    },
+    {
+      "SpeciesId": "pidgey",
+      "FrameWidth": 58,
+      "FrameHeight": 56,
+      "FrameCount": 5,
+      "SourceFrames": [
+        49,
+        50,
+        51,
+        52,
+        53
+      ],
+      "X": 3736,
+      "Y": 3113
+    },
+    {
+      "SpeciesId": "pidgeotto",
+      "FrameWidth": 63,
+      "FrameHeight": 62,
+      "FrameCount": 4,
+      "SourceFrames": [
+        47,
+        48,
+        49,
+        50
+      ],
+      "X": 512,
+      "Y": 2059
+    },
+    {
+      "SpeciesId": "pidgeot",
+      "FrameWidth": 61,
+      "FrameHeight": 59,
+      "FrameCount": 4,
+      "SourceFrames": [
+        47,
+        48,
+        49,
+        50
+      ],
+      "X": 3848,
+      "Y": 2811
+    },
+    {
+      "SpeciesId": "rattata",
+      "FrameWidth": 62,
+      "FrameHeight": 59,
+      "FrameCount": 7,
+      "SourceFrames": [
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58
+      ],
+      "X": 1874,
+      "Y": 2750
+    },
+    {
+      "SpeciesId": "raticate",
+      "FrameWidth": 56,
+      "FrameHeight": 59,
+      "FrameCount": 6,
+      "SourceFrames": [
+        53,
+        54,
+        55,
+        56,
+        57,
+        58
+      ],
+      "X": 1750,
+      "Y": 2811
+    },
+    {
+      "SpeciesId": "spearow",
+      "FrameWidth": 57,
+      "FrameHeight": 58,
+      "FrameCount": 5,
+      "SourceFrames": [
+        51,
+        52,
+        53,
+        54,
+        55
+      ],
+      "X": 594,
+      "Y": 2994
+    },
+    {
+      "SpeciesId": "fearow",
+      "FrameWidth": 63,
+      "FrameHeight": 66,
+      "FrameCount": 6,
+      "SourceFrames": [
+        58,
+        59,
+        60,
+        61,
+        62,
+        63
+      ],
+      "X": 2071,
+      "Y": 944
+    },
+    {
+      "SpeciesId": "ekans",
+      "FrameWidth": 69,
+      "FrameHeight": 62,
+      "FrameCount": 6,
+      "SourceFrames": [
+        46,
+        47,
+        48,
+        49,
+        50,
+        51
+      ],
+      "X": 429,
+      "Y": 1931
+    },
+    {
+      "SpeciesId": "arbok",
+      "FrameWidth": 73,
+      "FrameHeight": 66,
+      "FrameCount": 6,
+      "SourceFrames": [
+        45,
+        46,
+        47,
+        48,
+        49,
+        50
+      ],
+      "X": 1631,
+      "Y": 944
+    },
+    {
+      "SpeciesId": "pikachu",
+      "FrameWidth": 58,
+      "FrameHeight": 62,
+      "FrameCount": 4,
+      "SourceFrames": [
+        45,
+        46,
+        47,
+        48
+      ],
+      "X": 0,
+      "Y": 2123
+    },
+    {
+      "SpeciesId": "raichu",
+      "FrameWidth": 60,
+      "FrameHeight": 63,
+      "FrameCount": 4,
+      "SourceFrames": [
+        45,
+        46,
+        47,
+        48
+      ],
+      "X": 2980,
+      "Y": 1673
+    },
+    {
+      "SpeciesId": "sandshrew",
+      "FrameWidth": 56,
+      "FrameHeight": 57,
+      "FrameCount": 4,
+      "SourceFrames": [
+        43,
+        44,
+        45,
+        46
+      ],
+      "X": 2896,
+      "Y": 3113
+    },
+    {
+      "SpeciesId": "sandslash",
+      "FrameWidth": 65,
+      "FrameHeight": 63,
+      "FrameCount": 4,
+      "SourceFrames": [
+        43,
+        44,
+        45,
+        46
+      ],
+      "X": 1874,
+      "Y": 1608
+    },
+    {
+      "SpeciesId": "nidoran-f",
+      "FrameWidth": 56,
+      "FrameHeight": 59,
+      "FrameCount": 7,
+      "SourceFrames": [
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55
+      ],
+      "X": 3140,
+      "Y": 2750
+    },
+    {
+      "SpeciesId": "nidorina",
+      "FrameWidth": 58,
+      "FrameHeight": 60,
+      "FrameCount": 4,
+      "SourceFrames": [
+        45,
+        46,
+        47,
+        48
+      ],
+      "X": 0,
+      "Y": 2688
+    },
+    {
+      "SpeciesId": "nidoqueen",
+      "FrameWidth": 66,
+      "FrameHeight": 64,
+      "FrameCount": 4,
+      "SourceFrames": [
+        46,
+        47,
+        48,
+        49
+      ],
+      "X": 3505,
+      "Y": 1280
+    },
+    {
+      "SpeciesId": "nidoran-m",
+      "FrameWidth": 62,
+      "FrameHeight": 65,
+      "FrameCount": 6,
+      "SourceFrames": [
+        48,
+        49,
+        50,
+        51,
+        52,
+        53
+      ],
+      "X": 2996,
+      "Y": 1080
+    },
+    {
+      "SpeciesId": "nidorino",
+      "FrameWidth": 66,
+      "FrameHeight": 67,
+      "FrameCount": 4,
+      "SourceFrames": [
+        50,
+        51,
+        52,
+        53
+      ],
+      "X": 266,
+      "Y": 875
+    },
+    {
+      "SpeciesId": "nidoking",
+      "FrameWidth": 63,
+      "FrameHeight": 64,
+      "FrameCount": 4,
+      "SourceFrames": [
+        48,
+        49,
+        50,
+        51
+      ],
+      "X": 1544,
+      "Y": 1346
+    },
+    {
+      "SpeciesId": "clefairy",
+      "FrameWidth": 58,
+      "FrameHeight": 61,
+      "FrameCount": 8,
+      "SourceFrames": [
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45
+      ],
+      "X": 2076,
+      "Y": 2187
+    },
+    {
+      "SpeciesId": "clefable",
+      "FrameWidth": 58,
+      "FrameHeight": 62,
+      "FrameCount": 8,
+      "SourceFrames": [
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45
+      ],
+      "X": 1928,
+      "Y": 1867
+    },
+    {
+      "SpeciesId": "vulpix",
+      "FrameWidth": 60,
+      "FrameHeight": 58,
+      "FrameCount": 5,
+      "SourceFrames": [
+        47,
+        48,
+        49,
+        50,
+        51
+      ],
+      "X": 0,
+      "Y": 2994
+    },
+    {
+      "SpeciesId": "ninetales",
+      "FrameWidth": 58,
+      "FrameHeight": 56,
+      "FrameCount": 4,
+      "SourceFrames": [
+        54,
+        55,
+        56,
+        57
+      ],
+      "X": 1104,
+      "Y": 3172
+    },
+    {
+      "SpeciesId": "jigglypuff",
+      "FrameWidth": 63,
+      "FrameHeight": 62,
+      "FrameCount": 5,
+      "SourceFrames": [
+        49,
+        50,
+        51,
+        52,
+        53
+      ],
+      "X": 3762,
+      "Y": 1867
+    },
+    {
+      "SpeciesId": "wigglytuff",
+      "FrameWidth": 58,
+      "FrameHeight": 64,
+      "FrameCount": 4,
+      "SourceFrames": [
+        45,
+        46,
+        47,
+        48
+      ],
+      "X": 944,
+      "Y": 1412
+    },
+    {
+      "SpeciesId": "zubat",
+      "FrameWidth": 61,
+      "FrameHeight": 62,
+      "FrameCount": 8,
+      "SourceFrames": [
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63
+      ],
+      "X": 0,
+      "Y": 1867
+    },
+    {
+      "SpeciesId": "golbat",
+      "FrameWidth": 71,
+      "FrameHeight": 65,
+      "FrameCount": 8,
+      "SourceFrames": [
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59
+      ],
+      "X": 0,
+      "Y": 1080
+    },
+    {
+      "SpeciesId": "oddish",
+      "FrameWidth": 60,
+      "FrameHeight": 62,
+      "FrameCount": 8,
+      "SourceFrames": [
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59
+      ],
+      "X": 490,
+      "Y": 1867
+    },
+    {
+      "SpeciesId": "gloom",
+      "FrameWidth": 59,
+      "FrameHeight": 63,
+      "FrameCount": 4,
+      "SourceFrames": [
+        48,
+        49,
+        50,
+        51
+      ],
+      "X": 3464,
+      "Y": 1673
+    },
+    {
+      "SpeciesId": "vileplume",
+      "FrameWidth": 61,
+      "FrameHeight": 61,
+      "FrameCount": 4,
+      "SourceFrames": [
+        55,
+        56,
+        57,
+        58
+      ],
+      "X": 2484,
+      "Y": 2376
+    },
+    {
+      "SpeciesId": "paras",
+      "FrameWidth": 58,
+      "FrameHeight": 62,
+      "FrameCount": 4,
+      "SourceFrames": [
+        50,
+        51,
+        52,
+        53
+      ],
+      "X": 3456,
+      "Y": 2059
+    },
+    {
+      "SpeciesId": "parasect",
+      "FrameWidth": 67,
+      "FrameHeight": 61,
+      "FrameCount": 4,
+      "SourceFrames": [
+        55,
+        56,
+        57,
+        58
+      ],
+      "X": 1481,
+      "Y": 2313
+    },
+    {
+      "SpeciesId": "venonat",
+      "FrameWidth": 58,
+      "FrameHeight": 63,
+      "FrameCount": 5,
+      "SourceFrames": [
+        41,
+        42,
+        43,
+        44,
+        45
+      ],
+      "X": 2888,
+      "Y": 1543
+    },
+    {
+      "SpeciesId": "venomoth",
+      "FrameWidth": 60,
+      "FrameHeight": 63,
+      "FrameCount": 12,
+      "SourceFrames": [
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83
+      ],
+      "X": 0,
+      "Y": 1478
+    },
+    {
+      "SpeciesId": "diglett",
+      "FrameWidth": 62,
+      "FrameHeight": 52,
+      "FrameCount": 3,
+      "SourceFrames": [
+        38,
+        39,
+        40
+      ],
+      "X": 2259,
+      "Y": 3287
+    },
+    {
+      "SpeciesId": "dugtrio",
+      "FrameWidth": 76,
+      "FrameHeight": 60,
+      "FrameCount": 3,
+      "SourceFrames": [
+        38,
+        39,
+        40
+      ],
+      "X": 464,
+      "Y": 2688
+    },
+    {
+      "SpeciesId": "meowth",
+      "FrameWidth": 50,
+      "FrameHeight": 61,
+      "FrameCount": 4,
+      "SourceFrames": [
+        44,
+        45,
+        46,
+        47
+      ],
+      "X": 2006,
+      "Y": 2439
+    },
+    {
+      "SpeciesId": "persian",
+      "FrameWidth": 58,
+      "FrameHeight": 62,
+      "FrameCount": 4,
+      "SourceFrames": [
+        46,
+        47,
+        48,
+        49
+      ],
+      "X": 3690,
+      "Y": 2059
+    },
+    {
+      "SpeciesId": "psyduck",
+      "FrameWidth": 65,
+      "FrameHeight": 61,
+      "FrameCount": 4,
+      "SourceFrames": [
+        43,
+        44,
+        45,
+        46
+      ],
+      "X": 2537,
+      "Y": 2313
+    },
+    {
+      "SpeciesId": "golduck",
+      "FrameWidth": 63,
+      "FrameHeight": 63,
+      "FrameCount": 4,
+      "SourceFrames": [
+        45,
+        46,
+        47,
+        48
+      ],
+      "X": 3684,
+      "Y": 1608
+    },
+    {
+      "SpeciesId": "mankey",
+      "FrameWidth": 62,
+      "FrameHeight": 54,
+      "FrameCount": 8,
+      "SourceFrames": [
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59
+      ],
+      "X": 404,
+      "Y": 3230
+    },
+    {
+      "SpeciesId": "primeape",
+      "FrameWidth": 67,
+      "FrameHeight": 63,
+      "FrameCount": 4,
+      "SourceFrames": [
+        50,
+        51,
+        52,
+        53
+      ],
+      "X": 548,
+      "Y": 1608
+    },
+    {
+      "SpeciesId": "growlithe",
+      "FrameWidth": 62,
+      "FrameHeight": 63,
+      "FrameCount": 4,
+      "SourceFrames": [
+        46,
+        47,
+        48,
+        49
+      ],
+      "X": 504,
+      "Y": 1673
+    },
+    {
+      "SpeciesId": "arcanine",
+      "FrameWidth": 70,
+      "FrameHeight": 68,
+      "FrameCount": 4,
+      "SourceFrames": [
+        44,
+        45,
+        46,
+        47
+      ],
+      "X": 1502,
+      "Y": 736
+    },
+    {
+      "SpeciesId": "poliwag",
+      "FrameWidth": 60,
+      "FrameHeight": 59,
+      "FrameCount": 5,
+      "SourceFrames": [
+        51,
+        52,
+        53,
+        54,
+        55
+      ],
+      "X": 2410,
+      "Y": 2811
+    },
+    {
+      "SpeciesId": "poliwhirl",
+      "FrameWidth": 62,
+      "FrameHeight": 64,
+      "FrameCount": 4,
+      "SourceFrames": [
+        47,
+        48,
+        49,
+        50
+      ],
+      "X": 2806,
+      "Y": 1346
+    },
+    {
+      "SpeciesId": "poliwrath",
+      "FrameWidth": 59,
+      "FrameHeight": 63,
+      "FrameCount": 4,
+      "SourceFrames": [
+        46,
+        47,
+        48,
+        49
+      ],
+      "X": 476,
+      "Y": 1738
+    },
+    {
+      "SpeciesId": "abra",
+      "FrameWidth": 60,
+      "FrameHeight": 65,
+      "FrameCount": 8,
+      "SourceFrames": [
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59
+      ],
+      "X": 1124,
+      "Y": 1080
+    },
+    {
+      "SpeciesId": "kadabra",
+      "FrameWidth": 61,
+      "FrameHeight": 63,
+      "FrameCount": 4,
+      "SourceFrames": [
+        50,
+        51,
+        52,
+        53
+      ],
+      "X": 2000,
+      "Y": 1673
+    },
+    {
+      "SpeciesId": "alakazam",
+      "FrameWidth": 59,
+      "FrameHeight": 62,
+      "FrameCount": 4,
+      "SourceFrames": [
+        48,
+        49,
+        50,
+        51
+      ],
+      "X": 2508,
+      "Y": 2059
+    },
+    {
+      "SpeciesId": "machop",
+      "FrameWidth": 51,
+      "FrameHeight": 61,
+      "FrameCount": 4,
+      "SourceFrames": [
+        42,
+        43,
+        44,
+        45
+      ],
+      "X": 1800,
+      "Y": 2439
+    },
+    {
+      "SpeciesId": "machoke",
+      "FrameWidth": 65,
+      "FrameHeight": 61,
+      "FrameCount": 4,
+      "SourceFrames": [
+        46,
+        47,
+        48,
+        49
+      ],
+      "X": 2013,
+      "Y": 2313
+    },
+    {
+      "SpeciesId": "machamp",
+      "FrameWidth": 56,
+      "FrameHeight": 68,
+      "FrameCount": 4,
+      "SourceFrames": [
+        51,
+        52,
+        53,
+        54
+      ],
+      "X": 2828,
+      "Y": 736
+    },
+    {
+      "SpeciesId": "bellsprout",
+      "FrameWidth": 62,
+      "FrameHeight": 61,
+      "FrameCount": 4,
+      "SourceFrames": [
+        41,
+        42,
+        43,
+        44
+      ],
+      "X": 3823,
+      "Y": 2313
+    },
+    {
+      "SpeciesId": "weepinbell",
+      "FrameWidth": 59,
+      "FrameHeight": 64,
+      "FrameCount": 4,
+      "SourceFrames": [
+        48,
+        49,
+        50,
+        51
+      ],
+      "X": 238,
+      "Y": 1412
+    },
+    {
+      "SpeciesId": "victreebel",
+      "FrameWidth": 56,
+      "FrameHeight": 63,
+      "FrameCount": 4,
+      "SourceFrames": [
+        51,
+        52,
+        53,
+        54
+      ],
+      "X": 1860,
+      "Y": 1738
+    },
+    {
+      "SpeciesId": "tentacool",
+      "FrameWidth": 56,
+      "FrameHeight": 61,
+      "FrameCount": 4,
+      "SourceFrames": [
+        46,
+        47,
+        48,
+        49
+      ],
+      "X": 924,
+      "Y": 2439
+    },
+    {
+      "SpeciesId": "tentacruel",
+      "FrameWidth": 59,
+      "FrameHeight": 62,
+      "FrameCount": 4,
+      "SourceFrames": [
+        52,
+        53,
+        54,
+        55
+      ],
+      "X": 2984,
+      "Y": 2059
+    },
+    {
+      "SpeciesId": "geodude",
+      "FrameWidth": 66,
+      "FrameHeight": 67,
+      "FrameCount": 4,
+      "SourceFrames": [
+        54,
+        55,
+        56,
+        57
+      ],
+      "X": 0,
+      "Y": 875
+    },
+    {
+      "SpeciesId": "graveler",
+      "FrameWidth": 70,
+      "FrameHeight": 63,
+      "FrameCount": 4,
+      "SourceFrames": [
+        54,
+        55,
+        56,
+        57
+      ],
+      "X": 3752,
+      "Y": 1543
+    },
+    {
+      "SpeciesId": "golem",
+      "FrameWidth": 64,
+      "FrameHeight": 59,
+      "FrameCount": 4,
+      "SourceFrames": [
+        48,
+        49,
+        50,
+        51
+      ],
+      "X": 0,
+      "Y": 2872
+    },
+    {
+      "SpeciesId": "ponyta",
+      "FrameWidth": 56,
+      "FrameHeight": 59,
+      "FrameCount": 4,
+      "SourceFrames": [
+        54,
+        55,
+        56,
+        57
+      ],
+      "X": 0,
+      "Y": 2933
+    },
+    {
+      "SpeciesId": "rapidash",
+      "FrameWidth": 72,
+      "FrameHeight": 68,
+      "FrameCount": 4,
+      "SourceFrames": [
+        54,
+        55,
+        56,
+        57
+      ],
+      "X": 636,
+      "Y": 736
+    },
+    {
+      "SpeciesId": "slowpoke",
+      "FrameWidth": 60,
+      "FrameHeight": 59,
+      "FrameCount": 4,
+      "SourceFrames": [
+        44,
+        45,
+        46,
+        47
+      ],
+      "X": 2000,
+      "Y": 2872
+    },
+    {
+      "SpeciesId": "slowbro",
+      "FrameWidth": 64,
+      "FrameHeight": 60,
+      "FrameCount": 4,
+      "SourceFrames": [
+        51,
+        52,
+        53,
+        54
+      ],
+      "X": 1099,
+      "Y": 2626
+    },
+    {
+      "SpeciesId": "magnemite",
+      "FrameWidth": 57,
+      "FrameHeight": 58,
+      "FrameCount": 6,
+      "SourceFrames": [
+        54,
+        55,
+        56,
+        57,
+        58,
+        59
+      ],
+      "X": 3356,
+      "Y": 2933
+    },
+    {
+      "SpeciesId": "magneton",
+      "FrameWidth": 59,
+      "FrameHeight": 60,
+      "FrameCount": 8,
+      "SourceFrames": [
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54
+      ],
+      "X": 2710,
+      "Y": 2502
+    },
+    {
+      "SpeciesId": "farfetchd",
+      "FrameWidth": 86,
+      "FrameHeight": 76,
+      "FrameCount": 4,
+      "SourceFrames": [
+        42,
+        43,
+        44,
+        45
+      ],
+      "X": 1401,
+      "Y": 291
+    },
+    {
+      "SpeciesId": "doduo",
+      "FrameWidth": 74,
+      "FrameHeight": 64,
+      "FrameCount": 4,
+      "SourceFrames": [
+        46,
+        47,
+        48,
+        49
+      ],
+      "X": 2139,
+      "Y": 1280
+    },
+    {
+      "SpeciesId": "dodrio",
+      "FrameWidth": 70,
+      "FrameHeight": 70,
+      "FrameCount": 4,
+      "SourceFrames": [
+        48,
+        49,
+        50,
+        51
+      ],
+      "X": 0,
+      "Y": 593
+    },
+    {
+      "SpeciesId": "seel",
+      "FrameWidth": 64,
+      "FrameHeight": 60,
+      "FrameCount": 7,
+      "SourceFrames": [
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52
+      ],
+      "X": 3184,
+      "Y": 2502
+    },
+    {
+      "SpeciesId": "dewgong",
+      "FrameWidth": 68,
+      "FrameHeight": 60,
+      "FrameCount": 7,
+      "SourceFrames": [
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56
+      ],
+      "X": 2232,
+      "Y": 2502
+    },
+    {
+      "SpeciesId": "grimer",
+      "FrameWidth": 62,
+      "FrameHeight": 62,
+      "FrameCount": 6,
+      "SourceFrames": [
+        49,
+        50,
+        51,
+        52,
+        53,
+        54
+      ],
+      "X": 2026,
+      "Y": 1931
+    },
+    {
+      "SpeciesId": "muk",
+      "FrameWidth": 63,
+      "FrameHeight": 61,
+      "FrameCount": 5,
+      "SourceFrames": [
+        47,
+        48,
+        49,
+        50,
+        51
+      ],
+      "X": 3206,
+      "Y": 2250
+    },
+    {
+      "SpeciesId": "shellder",
+      "FrameWidth": 67,
+      "FrameHeight": 60,
+      "FrameCount": 6,
+      "SourceFrames": [
+        51,
+        52,
+        53,
+        54,
+        55,
+        56
+      ],
+      "X": 819,
+      "Y": 2564
+    },
+    {
+      "SpeciesId": "cloyster",
+      "FrameWidth": 65,
+      "FrameHeight": 63,
+      "FrameCount": 6,
+      "SourceFrames": [
+        57,
+        58,
+        59,
+        60,
+        61,
+        62
+      ],
+      "X": 925,
+      "Y": 1543
+    },
+    {
+      "SpeciesId": "gastly",
+      "FrameWidth": 54,
+      "FrameHeight": 63,
+      "FrameCount": 12,
+      "SourceFrames": [
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73
+      ],
+      "X": 1384,
+      "Y": 1478
+    },
+    {
+      "SpeciesId": "haunter",
+      "FrameWidth": 60,
+      "FrameHeight": 59,
+      "FrameCount": 10,
+      "SourceFrames": [
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65
+      ],
+      "X": 3414,
+      "Y": 2688
+    },
+    {
+      "SpeciesId": "gengar",
+      "FrameWidth": 55,
+      "FrameHeight": 61,
+      "FrameCount": 4,
+      "SourceFrames": [
+        49,
+        50,
+        51,
+        52
+      ],
+      "X": 1150,
+      "Y": 2439
+    },
+    {
+      "SpeciesId": "onix",
+      "FrameWidth": 128,
+      "FrameHeight": 101,
+      "FrameCount": 4,
+      "SourceFrames": [
+        43,
+        44,
+        45,
+        46
+      ],
+      "X": 2476,
+      "Y": 0
+    },
+    {
+      "SpeciesId": "drowzee",
+      "FrameWidth": 61,
+      "FrameHeight": 61,
+      "FrameCount": 4,
+      "SourceFrames": [
+        45,
+        46,
+        47,
+        48
+      ],
+      "X": 1992,
+      "Y": 2376
+    },
+    {
+      "SpeciesId": "hypno",
+      "FrameWidth": 63,
+      "FrameHeight": 63,
+      "FrameCount": 4,
+      "SourceFrames": [
+        50,
+        51,
+        52,
+        53
+      ],
+      "X": 0,
+      "Y": 1673
+    },
+    {
+      "SpeciesId": "krabby",
+      "FrameWidth": 61,
+      "FrameHeight": 65,
+      "FrameCount": 4,
+      "SourceFrames": [
+        48,
+        49,
+        50,
+        51
+      ],
+      "X": 2668,
+      "Y": 1147
+    },
+    {
+      "SpeciesId": "kingler",
+      "FrameWidth": 67,
+      "FrameHeight": 66,
+      "FrameCount": 4,
+      "SourceFrames": [
+        48,
+        49,
+        50,
+        51
+      ],
+      "X": 274,
+      "Y": 1012
+    },
+    {
+      "SpeciesId": "voltorb",
+      "FrameWidth": 60,
+      "FrameHeight": 58,
+      "FrameCount": 8,
+      "SourceFrames": [
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58
+      ],
+      "X": 1646,
+      "Y": 2933
+    },
+    {
+      "SpeciesId": "electrode",
+      "FrameWidth": 59,
+      "FrameHeight": 59,
+      "FrameCount": 7,
+      "SourceFrames": [
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54
+      ],
+      "X": 2310,
+      "Y": 2750
+    },
+    {
+      "SpeciesId": "exeggcute",
+      "FrameWidth": 62,
+      "FrameHeight": 61,
+      "FrameCount": 4,
+      "SourceFrames": [
+        45,
+        46,
+        47,
+        48
+      ],
+      "X": 250,
+      "Y": 2376
+    },
+    {
+      "SpeciesId": "exeggutor",
+      "FrameWidth": 81,
+      "FrameHeight": 64,
+      "FrameCount": 4,
+      "SourceFrames": [
+        45,
+        46,
+        47,
+        48
+      ],
+      "X": 1171,
+      "Y": 1280
+    },
+    {
+      "SpeciesId": "cubone",
+      "FrameWidth": 61,
+      "FrameHeight": 60,
+      "FrameCount": 4,
+      "SourceFrames": [
+        44,
+        45,
+        46,
+        47
+      ],
+      "X": 2357,
+      "Y": 2626
+    },
+    {
+      "SpeciesId": "marowak",
+      "FrameWidth": 61,
+      "FrameHeight": 66,
+      "FrameCount": 4,
+      "SourceFrames": [
+        37,
+        38,
+        39,
+        40
+      ],
+      "X": 1826,
+      "Y": 1012
+    },
+    {
+      "SpeciesId": "hitmonlee",
+      "FrameWidth": 63,
+      "FrameHeight": 60,
+      "FrameCount": 4,
+      "SourceFrames": [
+        40,
+        41,
+        42,
+        43
+      ],
+      "X": 1357,
+      "Y": 2626
+    },
+    {
+      "SpeciesId": "hitmonchan",
+      "FrameWidth": 61,
+      "FrameHeight": 62,
+      "FrameCount": 4,
+      "SourceFrames": [
+        45,
+        46,
+        47,
+        48
+      ],
+      "X": 2020,
+      "Y": 2059
+    },
+    {
+      "SpeciesId": "lickitung",
+      "FrameWidth": 80,
+      "FrameHeight": 64,
+      "FrameCount": 4,
+      "SourceFrames": [
+        43,
+        44,
+        45,
+        46
+      ],
+      "X": 1497,
+      "Y": 1280
+    },
+    {
+      "SpeciesId": "koffing",
+      "FrameWidth": 58,
+      "FrameHeight": 63,
+      "FrameCount": 10,
+      "SourceFrames": [
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74
+      ],
+      "X": 2674,
+      "Y": 1478
+    },
+    {
+      "SpeciesId": "weezing",
+      "FrameWidth": 62,
+      "FrameHeight": 70,
+      "FrameCount": 6,
+      "SourceFrames": [
+        60,
+        61,
+        62,
+        63,
+        64,
+        65
+      ],
+      "X": 3375,
+      "Y": 520
+    },
+    {
+      "SpeciesId": "rhyhorn",
+      "FrameWidth": 64,
+      "FrameHeight": 58,
+      "FrameCount": 4,
+      "SourceFrames": [
+        41,
+        42,
+        43,
+        44
+      ],
+      "X": 1139,
+      "Y": 2994
+    },
+    {
+      "SpeciesId": "rhydon",
+      "FrameWidth": 61,
+      "FrameHeight": 64,
+      "FrameCount": 4,
+      "SourceFrames": [
+        44,
+        45,
+        46,
+        47
+      ],
+      "X": 3552,
+      "Y": 1346
+    },
+    {
+      "SpeciesId": "chansey",
+      "FrameWidth": 56,
+      "FrameHeight": 62,
+      "FrameCount": 4,
+      "SourceFrames": [
+        50,
+        51,
+        52,
+        53
+      ],
+      "X": 690,
+      "Y": 2123
+    },
+    {
+      "SpeciesId": "tangela",
+      "FrameWidth": 59,
+      "FrameHeight": 59,
+      "FrameCount": 6,
+      "SourceFrames": [
+        41,
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "X": 356,
+      "Y": 2811
+    },
+    {
+      "SpeciesId": "kangaskhan",
+      "FrameWidth": 62,
+      "FrameHeight": 74,
+      "FrameCount": 4,
+      "SourceFrames": [
+        52,
+        53,
+        54,
+        55
+      ],
+      "X": 1536,
+      "Y": 370
+    },
+    {
+      "SpeciesId": "horsea",
+      "FrameWidth": 59,
+      "FrameHeight": 59,
+      "FrameCount": 4,
+      "SourceFrames": [
+        47,
+        48,
+        49,
+        50
+      ],
+      "X": 2722,
+      "Y": 2872
+    },
+    {
+      "SpeciesId": "seadra",
+      "FrameWidth": 63,
+      "FrameHeight": 62,
+      "FrameCount": 5,
+      "SourceFrames": [
+        52,
+        53,
+        54,
+        55,
+        56
+      ],
+      "X": 344,
+      "Y": 1995
+    },
+    {
+      "SpeciesId": "goldeen",
+      "FrameWidth": 59,
+      "FrameHeight": 61,
+      "FrameCount": 8,
+      "SourceFrames": [
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70
+      ],
+      "X": 1602,
+      "Y": 2187
+    },
+    {
+      "SpeciesId": "seaking",
+      "FrameWidth": 61,
+      "FrameHeight": 60,
+      "FrameCount": 4,
+      "SourceFrames": [
+        59,
+        60,
+        61,
+        62
+      ],
+      "X": 2849,
+      "Y": 2626
+    },
+    {
+      "SpeciesId": "staryu",
+      "FrameWidth": 61,
+      "FrameHeight": 57,
+      "FrameCount": 4,
+      "SourceFrames": [
+        46,
+        47,
+        48,
+        49
+      ],
+      "X": 1246,
+      "Y": 3113
+    },
+    {
+      "SpeciesId": "starmie",
+      "FrameWidth": 61,
+      "FrameHeight": 57,
+      "FrameCount": 4,
+      "SourceFrames": [
+        53,
+        54,
+        55,
+        56
+      ],
+      "X": 1000,
+      "Y": 3113
+    },
+    {
+      "SpeciesId": "mr-mime",
+      "FrameWidth": 56,
+      "FrameHeight": 63,
+      "FrameCount": 4,
+      "SourceFrames": [
+        46,
+        47,
+        48,
+        49
+      ],
+      "X": 1634,
+      "Y": 1738
+    },
+    {
+      "SpeciesId": "scyther",
+      "FrameWidth": 62,
+      "FrameHeight": 67,
+      "FrameCount": 4,
+      "SourceFrames": [
+        42,
+        43,
+        44,
+        45
+      ],
+      "X": 1794,
+      "Y": 875
+    },
+    {
+      "SpeciesId": "jynx",
+      "FrameWidth": 59,
+      "FrameHeight": 63,
+      "FrameCount": 4,
+      "SourceFrames": [
+        44,
+        45,
+        46,
+        47
+      ],
+      "X": 3702,
+      "Y": 1673
+    },
+    {
+      "SpeciesId": "electabuzz",
+      "FrameWidth": 66,
+      "FrameHeight": 62,
+      "FrameCount": 4,
+      "SourceFrames": [
+        43,
+        44,
+        45,
+        46
+      ],
+      "X": 2687,
+      "Y": 1995
+    },
+    {
+      "SpeciesId": "magmar",
+      "FrameWidth": 66,
+      "FrameHeight": 69,
+      "FrameCount": 4,
+      "SourceFrames": [
+        44,
+        45,
+        46,
+        47
+      ],
+      "X": 1860,
+      "Y": 665
+    },
+    {
+      "SpeciesId": "pinsir",
+      "FrameWidth": 60,
+      "FrameHeight": 66,
+      "FrameCount": 4,
+      "SourceFrames": [
+        43,
+        44,
+        45,
+        46
+      ],
+      "X": 2072,
+      "Y": 1012
+    },
+    {
+      "SpeciesId": "tauros",
+      "FrameWidth": 63,
+      "FrameHeight": 63,
+      "FrameCount": 7,
+      "SourceFrames": [
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54
+      ],
+      "X": 482,
+      "Y": 1543
+    },
+    {
+      "SpeciesId": "magikarp",
+      "FrameWidth": 61,
+      "FrameHeight": 62,
+      "FrameCount": 7,
+      "SourceFrames": [
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61
+      ],
+      "X": 0,
+      "Y": 1931
+    },
+    {
+      "SpeciesId": "gyarados",
+      "FrameWidth": 104,
+      "FrameHeight": 93,
+      "FrameCount": 4,
+      "SourceFrames": [
+        48,
+        49,
+        50,
+        51
+      ],
+      "X": 3464,
+      "Y": 0
+    },
+    {
+      "SpeciesId": "lapras",
+      "FrameWidth": 87,
+      "FrameHeight": 72,
+      "FrameCount": 4,
+      "SourceFrames": [
+        46,
+        47,
+        48,
+        49
+      ],
+      "X": 878,
+      "Y": 446
+    },
+    {
+      "SpeciesId": "ditto",
+      "FrameWidth": 61,
+      "FrameHeight": 60,
+      "FrameCount": 5,
+      "SourceFrames": [
+        41,
+        42,
+        43,
+        44,
+        45
+      ],
+      "X": 3742,
+      "Y": 2564
+    },
+    {
+      "SpeciesId": "eevee",
+      "FrameWidth": 54,
+      "FrameHeight": 54,
+      "FrameCount": 7,
+      "SourceFrames": [
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48
+      ],
+      "X": 1324,
+      "Y": 3230
+    },
+    {
+      "SpeciesId": "vaporeon",
+      "FrameWidth": 60,
+      "FrameHeight": 60,
+      "FrameCount": 4,
+      "SourceFrames": [
+        42,
+        43,
+        44,
+        45
+      ],
+      "X": 3579,
+      "Y": 2626
+    },
+    {
+      "SpeciesId": "jolteon",
+      "FrameWidth": 58,
+      "FrameHeight": 62,
+      "FrameCount": 4,
+      "SourceFrames": [
+        40,
+        41,
+        42,
+        43
+      ],
+      "X": 3222,
+      "Y": 2059
+    },
+    {
+      "SpeciesId": "flareon",
+      "FrameWidth": 60,
+      "FrameHeight": 60,
+      "FrameCount": 4,
+      "SourceFrames": [
+        41,
+        42,
+        43,
+        44
+      ],
+      "X": 3095,
+      "Y": 2626
+    },
+    {
+      "SpeciesId": "porygon",
+      "FrameWidth": 61,
+      "FrameHeight": 58,
+      "FrameCount": 4,
+      "SourceFrames": [
+        49,
+        50,
+        51,
+        52
+      ],
+      "X": 1897,
+      "Y": 2994
+    },
+    {
+      "SpeciesId": "omanyte",
+      "FrameWidth": 73,
+      "FrameHeight": 67,
+      "FrameCount": 4,
+      "SourceFrames": [
+        43,
+        44,
+        45,
+        46
+      ],
+      "X": 1746,
+      "Y": 806
+    },
+    {
+      "SpeciesId": "omastar",
+      "FrameWidth": 78,
+      "FrameHeight": 68,
+      "FrameCount": 4,
+      "SourceFrames": [
+        43,
+        44,
+        45,
+        46
+      ],
+      "X": 322,
+      "Y": 736
+    },
+    {
+      "SpeciesId": "kabuto",
+      "FrameWidth": 52,
+      "FrameHeight": 54,
+      "FrameCount": 4,
+      "SourceFrames": [
+        43,
+        44,
+        45,
+        46
+      ],
+      "X": 3338,
+      "Y": 3230
+    },
+    {
+      "SpeciesId": "kabutops",
+      "FrameWidth": 58,
+      "FrameHeight": 59,
+      "FrameCount": 8,
+      "SourceFrames": [
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53
+      ],
+      "X": 972,
+      "Y": 2750
+    },
+    {
+      "SpeciesId": "aerodactyl",
+      "FrameWidth": 62,
+      "FrameHeight": 61,
+      "FrameCount": 4,
+      "SourceFrames": [
+        51,
+        52,
+        53,
+        54
+      ],
+      "X": 3573,
+      "Y": 2313
+    },
+    {
+      "SpeciesId": "snorlax",
+      "FrameWidth": 50,
+      "FrameHeight": 63,
+      "FrameCount": 4,
+      "SourceFrames": [
+        46,
+        47,
+        48,
+        49
+      ],
+      "X": 2728,
+      "Y": 1738
+    },
+    {
+      "SpeciesId": "articuno",
+      "FrameWidth": 100,
+      "FrameHeight": 81,
+      "FrameCount": 4,
+      "SourceFrames": [
+        51,
+        52,
+        53,
+        54
+      ],
+      "X": 732,
+      "Y": 205
+    },
+    {
+      "SpeciesId": "zapdos",
+      "FrameWidth": 80,
+      "FrameHeight": 84,
+      "FrameCount": 4,
+      "SourceFrames": [
+        47,
+        48,
+        49,
+        50
+      ],
+      "X": 0,
+      "Y": 205
+    },
+    {
+      "SpeciesId": "moltres",
+      "FrameWidth": 91,
+      "FrameHeight": 92,
+      "FrameCount": 4,
+      "SourceFrames": [
+        52,
+        53,
+        54,
+        55
+      ],
+      "X": 861,
+      "Y": 111
+    },
+    {
+      "SpeciesId": "dratini",
+      "FrameWidth": 62,
+      "FrameHeight": 61,
+      "FrameCount": 5,
+      "SourceFrames": [
+        46,
+        47,
+        48,
+        49,
+        50
+      ],
+      "X": 0,
+      "Y": 2313
+    },
+    {
+      "SpeciesId": "dragonair",
+      "FrameWidth": 74,
+      "FrameHeight": 69,
+      "FrameCount": 7,
+      "SourceFrames": [
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57
+      ],
+      "X": 2424,
+      "Y": 593
+    },
+    {
+      "SpeciesId": "dragonite",
+      "FrameWidth": 66,
+      "FrameHeight": 66,
+      "FrameCount": 4,
+      "SourceFrames": [
+        50,
+        51,
+        52,
+        53
+      ],
+      "X": 544,
+      "Y": 1012
+    },
+    {
+      "SpeciesId": "mewtwo",
+      "FrameWidth": 64,
+      "FrameHeight": 66,
+      "FrameCount": 6,
+      "SourceFrames": [
+        52,
+        53,
+        54,
+        55,
+        56,
+        57
+      ],
+      "X": 3690,
+      "Y": 875
+    },
+    {
+      "SpeciesId": "mew",
+      "FrameWidth": 56,
+      "FrameHeight": 64,
+      "FrameCount": 6,
+      "SourceFrames": [
+        54,
+        55,
+        56,
+        57,
+        58,
+        59
+      ],
+      "X": 833,
+      "Y": 1280
+    },
+    {
+      "SpeciesId": "alolan-raichu",
+      "FrameWidth": 62,
+      "FrameHeight": 71,
+      "FrameCount": 8,
+      "SourceFrames": [
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68
+      ],
+      "X": 0,
+      "Y": 520
+    },
+    {
+      "SpeciesId": "alolan-exeggutor",
+      "FrameWidth": 120,
+      "FrameHeight": 84,
+      "FrameCount": 4,
+      "SourceFrames": [
+        56,
+        57,
+        58,
+        59
+      ],
+      "X": 3323,
+      "Y": 111
+    },
+    {
+      "SpeciesId": "paldean-wooper",
+      "FrameWidth": 57,
+      "FrameHeight": 62,
+      "FrameCount": 8,
+      "SourceFrames": [
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61
+      ],
+      "X": 2394,
+      "Y": 1867
+    },
+    {
+      "SpeciesId": "hisuian-zorua",
+      "FrameWidth": 60,
+      "FrameHeight": 60,
+      "FrameCount": 5,
+      "SourceFrames": [
+        58,
+        59,
+        60,
+        61,
+        62
+      ],
+      "X": 0,
+      "Y": 2626
+    },
+    {
+      "SpeciesId": "hisuian-zoroark",
+      "FrameWidth": 71,
+      "FrameHeight": 66,
+      "FrameCount": 4,
+      "SourceFrames": [
+        54,
+        55,
+        56,
+        57
+      ],
+      "X": 3639,
+      "Y": 944
+    },
+    {
+      "SpeciesId": "hisuian-sneasel",
+      "FrameWidth": 63,
+      "FrameHeight": 64,
+      "FrameCount": 4,
+      "SourceFrames": [
+        46,
+        47,
+        48,
+        49
+      ],
+      "X": 1290,
+      "Y": 1346
+    },
+    {
+      "SpeciesId": "sneasler",
+      "FrameWidth": 62,
+      "FrameHeight": 73,
+      "FrameCount": 4,
+      "SourceFrames": [
+        48,
+        49,
+        50,
+        51
+      ],
+      "X": 3616,
+      "Y": 370
+    },
+    {
+      "SpeciesId": "clodsire",
+      "FrameWidth": 86,
+      "FrameHeight": 68,
+      "FrameCount": 4,
+      "SourceFrames": [
+        60,
+        61,
+        62,
+        63
+      ],
+      "X": 3636,
+      "Y": 665
+    },
+    {
+      "SpeciesId": "alolan-rattata",
+      "FrameWidth": 62,
+      "FrameHeight": 59,
+      "FrameCount": 7,
+      "SourceFrames": [
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68
+      ],
+      "X": 1438,
+      "Y": 2750
+    },
+    {
+      "SpeciesId": "alolan-raticate",
+      "FrameWidth": 56,
+      "FrameHeight": 59,
+      "FrameCount": 6,
+      "SourceFrames": [
+        66,
+        67,
+        68,
+        69,
+        70,
+        71
+      ],
+      "X": 1412,
+      "Y": 2811
+    },
+    {
+      "SpeciesId": "alolan-sandshrew",
+      "FrameWidth": 64,
+      "FrameHeight": 63,
+      "FrameCount": 4,
+      "SourceFrames": [
+        59,
+        60,
+        61,
+        62
+      ],
+      "X": 2398,
+      "Y": 1608
+    },
+    {
+      "SpeciesId": "alolan-sandslash",
+      "FrameWidth": 70,
+      "FrameHeight": 69,
+      "FrameCount": 4,
+      "SourceFrames": [
+        56,
+        57,
+        58,
+        59
+      ],
+      "X": 3816,
+      "Y": 593
+    },
+    {
+      "SpeciesId": "alolan-vulpix",
+      "FrameWidth": 60,
+      "FrameHeight": 58,
+      "FrameCount": 5,
+      "SourceFrames": [
+        58,
+        59,
+        60,
+        61,
+        62
+      ],
+      "X": 3700,
+      "Y": 2933
+    },
+    {
+      "SpeciesId": "alolan-ninetales",
+      "FrameWidth": 58,
+      "FrameHeight": 57,
+      "FrameCount": 4,
+      "SourceFrames": [
+        63,
+        64,
+        65,
+        66
+      ],
+      "X": 1968,
+      "Y": 3113
+    },
+    {
+      "SpeciesId": "alolan-diglett",
+      "FrameWidth": 62,
+      "FrameHeight": 53,
+      "FrameCount": 3,
+      "SourceFrames": [
+        47,
+        48,
+        49
+      ],
+      "X": 428,
+      "Y": 3287
+    },
+    {
+      "SpeciesId": "alolan-dugtrio",
+      "FrameWidth": 76,
+      "FrameHeight": 60,
+      "FrameCount": 3,
+      "SourceFrames": [
+        47,
+        48,
+        49
+      ],
+      "X": 234,
+      "Y": 2688
+    },
+    {
+      "SpeciesId": "alolan-meowth",
+      "FrameWidth": 64,
+      "FrameHeight": 62,
+      "FrameCount": 4,
+      "SourceFrames": [
+        53,
+        54,
+        55,
+        56
+      ],
+      "X": 3481,
+      "Y": 1995
+    },
+    {
+      "SpeciesId": "alolan-persian",
+      "FrameWidth": 68,
+      "FrameHeight": 66,
+      "FrameCount": 4,
+      "SourceFrames": [
+        59,
+        60,
+        61,
+        62
+      ],
+      "X": 0,
+      "Y": 1012
+    },
+    {
+      "SpeciesId": "alolan-geodude",
+      "FrameWidth": 66,
+      "FrameHeight": 67,
+      "FrameCount": 4,
+      "SourceFrames": [
+        54,
+        55,
+        56,
+        57
+      ],
+      "X": 3680,
+      "Y": 806
+    },
+    {
+      "SpeciesId": "alolan-graveler",
+      "FrameWidth": 70,
+      "FrameHeight": 63,
+      "FrameCount": 4,
+      "SourceFrames": [
+        54,
+        55,
+        56,
+        57
+      ],
+      "X": 3470,
+      "Y": 1543
+    },
+    {
+      "SpeciesId": "alolan-golem",
+      "FrameWidth": 64,
+      "FrameHeight": 58,
+      "FrameCount": 4,
+      "SourceFrames": [
+        63,
+        64,
+        65,
+        66
+      ],
+      "X": 881,
+      "Y": 2994
+    },
+    {
+      "SpeciesId": "alolan-grimer",
+      "FrameWidth": 62,
+      "FrameHeight": 62,
+      "FrameCount": 6,
+      "SourceFrames": [
+        62,
+        63,
+        64,
+        65,
+        66,
+        67
+      ],
+      "X": 1652,
+      "Y": 1931
+    },
+    {
+      "SpeciesId": "alolan-muk",
+      "FrameWidth": 63,
+      "FrameHeight": 61,
+      "FrameCount": 5,
+      "SourceFrames": [
+        59,
+        60,
+        61,
+        62,
+        63
+      ],
+      "X": 2889,
+      "Y": 2250
+    },
+    {
+      "SpeciesId": "alolan-marowak",
+      "FrameWidth": 62,
+      "FrameHeight": 66,
+      "FrameCount": 4,
+      "SourceFrames": [
+        49,
+        50,
+        51,
+        52
+      ],
+      "X": 1330,
+      "Y": 1012
+    },
+    {
+      "SpeciesId": "galarian-ponyta",
+      "FrameWidth": 56,
+      "FrameHeight": 60,
+      "FrameCount": 4,
+      "SourceFrames": [
+        64,
+        65,
+        66,
+        67
+      ],
+      "X": 1384,
+      "Y": 2688
+    },
+    {
+      "SpeciesId": "galarian-rapidash",
+      "FrameWidth": 68,
+      "FrameHeight": 70,
+      "FrameCount": 4,
+      "SourceFrames": [
+        64,
+        65,
+        66,
+        67
+      ],
+      "X": 282,
+      "Y": 593
+    },
+    {
+      "SpeciesId": "galarian-slowpoke",
+      "FrameWidth": 60,
+      "FrameHeight": 59,
+      "FrameCount": 4,
+      "SourceFrames": [
+        54,
+        55,
+        56,
+        57
+      ],
+      "X": 1516,
+      "Y": 2872
+    },
+    {
+      "SpeciesId": "galarian-slowbro",
+      "FrameWidth": 65,
+      "FrameHeight": 55,
+      "FrameCount": 4,
+      "SourceFrames": [
+        59,
+        60,
+        61,
+        62
+      ],
+      "X": 3116,
+      "Y": 3172
+    },
+    {
+      "SpeciesId": "galarian-weezing",
+      "FrameWidth": 72,
+      "FrameHeight": 92,
+      "FrameCount": 6,
+      "SourceFrames": [
+        73,
+        74,
+        75,
+        76,
+        77,
+        78
+      ],
+      "X": 0,
+      "Y": 111
+    },
+    {
+      "SpeciesId": "galarian-articuno",
+      "FrameWidth": 100,
+      "FrameHeight": 81,
+      "FrameCount": 4,
+      "SourceFrames": [
+        54,
+        55,
+        56,
+        57
+      ],
+      "X": 1134,
+      "Y": 205
+    },
+    {
+      "SpeciesId": "galarian-zapdos",
+      "FrameWidth": 84,
+      "FrameHeight": 69,
+      "FrameCount": 4,
+      "SourceFrames": [
+        58,
+        59,
+        60,
+        61
+      ],
+      "X": 342,
+      "Y": 665
+    },
+    {
+      "SpeciesId": "galarian-moltres",
+      "FrameWidth": 86,
+      "FrameHeight": 90,
+      "FrameCount": 4,
+      "SourceFrames": [
+        36,
+        37,
+        38,
+        39
+      ],
+      "X": 1581,
+      "Y": 111
+    },
+    {
+      "SpeciesId": "galarian-slowking",
+      "FrameWidth": 61,
+      "FrameHeight": 63,
+      "FrameCount": 4,
+      "SourceFrames": [
+        59,
+        60,
+        61,
+        62
+      ],
+      "X": 1754,
+      "Y": 1673
+    },
+    {
+      "SpeciesId": "crobat",
+      "FrameWidth": 60,
+      "FrameHeight": 63,
+      "FrameCount": 8,
+      "SourceFrames": [
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61
+      ],
+      "X": 0,
+      "Y": 1543
+    },
+    {
+      "SpeciesId": "pichu",
+      "FrameWidth": 60,
+      "FrameHeight": 62,
+      "FrameCount": 8,
+      "SourceFrames": [
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43
+      ],
+      "X": 972,
+      "Y": 1867
+    },
+    {
+      "SpeciesId": "cleffa",
+      "FrameWidth": 59,
+      "FrameHeight": 57,
+      "FrameCount": 8,
+      "SourceFrames": [
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50
+      ],
+      "X": 0,
+      "Y": 3054
+    },
+    {
+      "SpeciesId": "bellossom",
+      "FrameWidth": 61,
+      "FrameHeight": 60,
+      "FrameCount": 4,
+      "SourceFrames": [
+        42,
+        43,
+        44,
+        45
+      ],
+      "X": 2111,
+      "Y": 2626
+    },
+    {
+      "SpeciesId": "politoed",
+      "FrameWidth": 65,
+      "FrameHeight": 77,
+      "FrameCount": 7,
+      "SourceFrames": [
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58
+      ],
+      "X": 0,
+      "Y": 291
+    },
+    {
+      "SpeciesId": "espeon",
+      "FrameWidth": 64,
+      "FrameHeight": 64,
+      "FrameCount": 4,
+      "SourceFrames": [
+        45,
+        46,
+        47,
+        48
+      ],
+      "X": 0,
+      "Y": 1346
+    },
+    {
+      "SpeciesId": "umbreon",
+      "FrameWidth": 62,
+      "FrameHeight": 64,
+      "FrameCount": 4,
+      "SourceFrames": [
+        53,
+        54,
+        55,
+        56
+      ],
+      "X": 3056,
+      "Y": 1346
+    },
+    {
+      "SpeciesId": "slowking",
+      "FrameWidth": 61,
+      "FrameHeight": 63,
+      "FrameCount": 4,
+      "SourceFrames": [
+        49,
+        50,
+        51,
+        52
+      ],
+      "X": 2492,
+      "Y": 1673
+    },
+    {
+      "SpeciesId": "steelix",
+      "FrameWidth": 118,
+      "FrameHeight": 101,
+      "FrameCount": 4,
+      "SourceFrames": [
+        45,
+        46,
+        47,
+        48
+      ],
+      "X": 2990,
+      "Y": 0
+    },
+    {
+      "SpeciesId": "scizor",
+      "FrameWidth": 63,
+      "FrameHeight": 68,
+      "FrameCount": 4,
+      "SourceFrames": [
+        46,
+        47,
+        48,
+        49
+      ],
+      "X": 2324,
+      "Y": 736
+    },
+    {
+      "SpeciesId": "kingdra",
+      "FrameWidth": 64,
+      "FrameHeight": 64,
+      "FrameCount": 4,
+      "SourceFrames": [
+        56,
+        57,
+        58,
+        59
+      ],
+      "X": 774,
+      "Y": 1346
+    },
+    {
+      "SpeciesId": "porygon2",
+      "FrameWidth": 60,
+      "FrameHeight": 63,
+      "FrameCount": 4,
+      "SourceFrames": [
+        49,
+        50,
+        51,
+        52
+      ],
+      "X": 2738,
+      "Y": 1673
+    },
+    {
+      "SpeciesId": "tyrogue",
+      "FrameWidth": 60,
+      "FrameHeight": 63,
+      "FrameCount": 4,
+      "SourceFrames": [
+        47,
+        48,
+        49,
+        50
+      ],
+      "X": 3222,
+      "Y": 1673
+    },
+    {
+      "SpeciesId": "hitmontop",
+      "FrameWidth": 71,
+      "FrameHeight": 68,
+      "FrameCount": 4,
+      "SourceFrames": [
+        55,
+        56,
+        57,
+        58
+      ],
+      "X": 1216,
+      "Y": 736
+    },
+    {
+      "SpeciesId": "smoochum",
+      "FrameWidth": 62,
+      "FrameHeight": 63,
+      "FrameCount": 4,
+      "SourceFrames": [
+        44,
+        45,
+        46,
+        47
+      ],
+      "X": 1254,
+      "Y": 1673
+    },
+    {
+      "SpeciesId": "elekid",
+      "FrameWidth": 62,
+      "FrameHeight": 67,
+      "FrameCount": 4,
+      "SourceFrames": [
+        42,
+        43,
+        44,
+        45
+      ],
+      "X": 1544,
+      "Y": 875
+    },
+    {
+      "SpeciesId": "magby",
+      "FrameWidth": 59,
+      "FrameHeight": 63,
+      "FrameCount": 4,
+      "SourceFrames": [
+        45,
+        46,
+        47,
+        48
+      ],
+      "X": 238,
+      "Y": 1738
+    },
+    {
+      "SpeciesId": "blissey",
+      "FrameWidth": 64,
+      "FrameHeight": 67,
+      "FrameCount": 4,
+      "SourceFrames": [
+        43,
+        44,
+        45,
+        46
+      ],
+      "X": 532,
+      "Y": 875
+    },
+    {
+      "SpeciesId": "mime-jr",
+      "FrameWidth": 57,
+      "FrameHeight": 62,
+      "FrameCount": 10,
+      "SourceFrames": [
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67
+      ],
+      "X": 3486,
+      "Y": 1738
+    },
+    {
+      "SpeciesId": "happiny",
+      "FrameWidth": 59,
+      "FrameHeight": 62,
+      "FrameCount": 8,
+      "SourceFrames": [
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57
+      ],
+      "X": 1454,
+      "Y": 1867
+    },
+    {
+      "SpeciesId": "munchlax",
+      "FrameWidth": 53,
+      "FrameHeight": 63,
+      "FrameCount": 4,
+      "SourceFrames": [
+        47,
+        48,
+        49,
+        50
+      ],
+      "X": 2304,
+      "Y": 1738
+    },
+    {
+      "SpeciesId": "magnezone",
+      "FrameWidth": 57,
+      "FrameHeight": 62,
+      "FrameCount": 6,
+      "SourceFrames": [
+        70,
+        71,
+        72,
+        73,
+        74,
+        75
+      ],
+      "X": 3492,
+      "Y": 1931
+    },
+    {
+      "SpeciesId": "lickilicky",
+      "FrameWidth": 55,
+      "FrameHeight": 56,
+      "FrameCount": 4,
+      "SourceFrames": [
+        51,
+        52,
+        53,
+        54
+      ],
+      "X": 1338,
+      "Y": 3172
+    },
+    {
+      "SpeciesId": "rhyperior",
+      "FrameWidth": 75,
+      "FrameHeight": 65,
+      "FrameCount": 4,
+      "SourceFrames": [
+        55,
+        56,
+        57,
+        58
+      ],
+      "X": 3676,
+      "Y": 1080
+    },
+    {
+      "SpeciesId": "tangrowth",
+      "FrameWidth": 58,
+      "FrameHeight": 58,
+      "FrameCount": 4,
+      "SourceFrames": [
+        49,
+        50,
+        51,
+        52
+      ],
+      "X": 2849,
+      "Y": 2994
+    },
+    {
+      "SpeciesId": "electivire",
+      "FrameWidth": 62,
+      "FrameHeight": 61,
+      "FrameCount": 4,
+      "SourceFrames": [
+        49,
+        50,
+        51,
+        52
+      ],
+      "X": 0,
+      "Y": 2376
+    },
+    {
+      "SpeciesId": "magmortar",
+      "FrameWidth": 65,
+      "FrameHeight": 64,
+      "FrameCount": 4,
+      "SourceFrames": [
+        48,
+        49,
+        50,
+        51
+      ],
+      "X": 3771,
+      "Y": 1280
+    },
+    {
+      "SpeciesId": "leafeon",
+      "FrameWidth": 59,
+      "FrameHeight": 61,
+      "FrameCount": 4,
+      "SourceFrames": [
+        50,
+        51,
+        52,
+        53
+      ],
+      "X": 3210,
+      "Y": 2376
+    },
+    {
+      "SpeciesId": "glaceon",
+      "FrameWidth": 56,
+      "FrameHeight": 62,
+      "FrameCount": 4,
+      "SourceFrames": [
+        50,
+        51,
+        52,
+        53
+      ],
+      "X": 1142,
+      "Y": 2123
+    },
+    {
+      "SpeciesId": "porygon-z",
+      "FrameWidth": 61,
+      "FrameHeight": 61,
+      "FrameCount": 7,
+      "SourceFrames": [
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70
+      ],
+      "X": 3427,
+      "Y": 2187
+    },
+    {
+      "SpeciesId": "wyrdeer",
+      "FrameWidth": 68,
+      "FrameHeight": 70,
+      "FrameCount": 6,
+      "SourceFrames": [
+        57,
+        58,
+        59,
+        60,
+        61,
+        62
+      ],
+      "X": 2578,
+      "Y": 520
+    },
+    {
+      "SpeciesId": "kleavor",
+      "FrameWidth": 72,
+      "FrameHeight": 59,
+      "FrameCount": 4,
+      "SourceFrames": [
+        45,
+        46,
+        47,
+        48
+      ],
+      "X": 3014,
+      "Y": 2811
+    },
+    {
+      "SpeciesId": "annihilape",
+      "FrameWidth": 62,
+      "FrameHeight": 67,
+      "FrameCount": 4,
+      "SourceFrames": [
+        45,
+        46,
+        47,
+        48
+      ],
+      "X": 1044,
+      "Y": 875
+    },
+    {
+      "SpeciesId": "farigiraf",
+      "FrameWidth": 108,
+      "FrameHeight": 79,
+      "FrameCount": 4,
+      "SourceFrames": [
+        48,
+        49,
+        50,
+        51
+      ],
+      "X": 2368,
+      "Y": 205
+    },
+    {
+      "SpeciesId": "chikorita",
+      "FrameWidth": 55,
+      "FrameHeight": 59,
+      "FrameCount": 4,
+      "SourceFrames": [
+        45,
+        46,
+        47,
+        48
+      ],
+      "X": 226,
+      "Y": 2933
+    },
+    {
+      "SpeciesId": "bayleef",
+      "FrameWidth": 62,
+      "FrameHeight": 67,
+      "FrameCount": 4,
+      "SourceFrames": [
+        43,
+        44,
+        45,
+        46
+      ],
+      "X": 1294,
+      "Y": 875
+    },
+    {
+      "SpeciesId": "meganium",
+      "FrameWidth": 67,
+      "FrameHeight": 72,
+      "FrameCount": 4,
+      "SourceFrames": [
+        47,
+        48,
+        49,
+        50
+      ],
+      "X": 1824,
+      "Y": 446
+    },
+    {
+      "SpeciesId": "cyndaquil",
+      "FrameWidth": 55,
+      "FrameHeight": 57,
+      "FrameCount": 4,
+      "SourceFrames": [
+        40,
+        41,
+        42,
+        43
+      ],
+      "X": 3122,
+      "Y": 3113
+    },
+    {
+      "SpeciesId": "quilava",
+      "FrameWidth": 61,
+      "FrameHeight": 64,
+      "FrameCount": 4,
+      "SourceFrames": [
+        49,
+        50,
+        51,
+        52
+      ],
+      "X": 3306,
+      "Y": 1346
+    },
+    {
+      "SpeciesId": "typhlosion",
+      "FrameWidth": 64,
+      "FrameHeight": 70,
+      "FrameCount": 4,
+      "SourceFrames": [
+        46,
+        47,
+        48,
+        49
+      ],
+      "X": 822,
+      "Y": 593
+    },
+    {
+      "SpeciesId": "totodile",
+      "FrameWidth": 58,
+      "FrameHeight": 59,
+      "FrameCount": 4,
+      "SourceFrames": [
+        49,
+        50,
+        51,
+        52
+      ],
+      "X": 3670,
+      "Y": 2872
+    },
+    {
+      "SpeciesId": "croconaw",
+      "FrameWidth": 57,
+      "FrameHeight": 64,
+      "FrameCount": 4,
+      "SourceFrames": [
+        42,
+        43,
+        44,
+        45
+      ],
+      "X": 1178,
+      "Y": 1412
+    },
+    {
+      "SpeciesId": "feraligatr",
+      "FrameWidth": 66,
+      "FrameHeight": 64,
+      "FrameCount": 4,
+      "SourceFrames": [
+        47,
+        48,
+        49,
+        50
+      ],
+      "X": 3239,
+      "Y": 1280
+    },
+    {
+      "SpeciesId": "sentret",
+      "FrameWidth": 61,
+      "FrameHeight": 65,
+      "FrameCount": 4,
+      "SourceFrames": [
+        48,
+        49,
+        50,
+        51
+      ],
+      "X": 2914,
+      "Y": 1147
+    },
+    {
+      "SpeciesId": "furret",
+      "FrameWidth": 62,
+      "FrameHeight": 60,
+      "FrameCount": 8,
+      "SourceFrames": [
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57
+      ],
+      "X": 1734,
+      "Y": 2502
+    },
+    {
+      "SpeciesId": "ledyba",
+      "FrameWidth": 73,
+      "FrameHeight": 71,
+      "FrameCount": 6,
+      "SourceFrames": [
+        71,
+        72,
+        73,
+        74,
+        75,
+        76
+      ],
+      "X": 498,
+      "Y": 520
+    },
+    {
+      "SpeciesId": "ledian",
+      "FrameWidth": 63,
+      "FrameHeight": 73,
+      "FrameCount": 6,
+      "SourceFrames": [
+        71,
+        72,
+        73,
+        74,
+        75,
+        76
+      ],
+      "X": 3236,
+      "Y": 370
+    },
+    {
+      "SpeciesId": "yanma",
+      "FrameWidth": 60,
+      "FrameHeight": 61,
+      "FrameCount": 16,
+      "SourceFrames": [
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91
+      ],
+      "X": 2377,
+      "Y": 2123
+    },
+    {
+      "SpeciesId": "misdreavus",
+      "FrameWidth": 63,
+      "FrameHeight": 62,
+      "FrameCount": 8,
+      "SourceFrames": [
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74
+      ],
+      "X": 2203,
+      "Y": 1803
+    },
+    {
+      "SpeciesId": "togepi",
+      "FrameWidth": 58,
+      "FrameHeight": 59,
+      "FrameCount": 6,
+      "SourceFrames": [
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ],
+      "X": 1062,
+      "Y": 2811
+    },
+    {
+      "SpeciesId": "togetic",
+      "FrameWidth": 60,
+      "FrameHeight": 62,
+      "FrameCount": 4,
+      "SourceFrames": [
+        34,
+        35,
+        36,
+        37
+      ],
+      "X": 2266,
+      "Y": 2059
+    },
+    {
+      "SpeciesId": "mareep",
+      "FrameWidth": 62,
+      "FrameHeight": 63,
+      "FrameCount": 4,
+      "SourceFrames": [
+        45,
+        46,
+        47,
+        48
+      ],
+      "X": 1004,
+      "Y": 1673
+    },
+    {
+      "SpeciesId": "flaaffy",
+      "FrameWidth": 62,
+      "FrameHeight": 63,
+      "FrameCount": 4,
+      "SourceFrames": [
+        46,
+        47,
+        48,
+        49
+      ],
+      "X": 254,
+      "Y": 1673
+    },
+    {
+      "SpeciesId": "ampharos",
+      "FrameWidth": 55,
+      "FrameHeight": 71,
+      "FrameCount": 4,
+      "SourceFrames": [
+        49,
+        50,
+        51,
+        52
+      ],
+      "X": 2356,
+      "Y": 520
+    },
+    {
+      "SpeciesId": "sudowoodo",
+      "FrameWidth": 55,
+      "FrameHeight": 60,
+      "FrameCount": 4,
+      "SourceFrames": [
+        40,
+        41,
+        42,
+        43
+      ],
+      "X": 2058,
+      "Y": 2688
+    },
+    {
+      "SpeciesId": "wooper",
+      "FrameWidth": 57,
+      "FrameHeight": 62,
+      "FrameCount": 8,
+      "SourceFrames": [
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51
+      ],
+      "X": 2852,
+      "Y": 1867
+    },
+    {
+      "SpeciesId": "quagsire",
+      "FrameWidth": 80,
+      "FrameHeight": 68,
+      "FrameCount": 4,
+      "SourceFrames": [
+        46,
+        47,
+        48,
+        49
+      ],
+      "X": 0,
+      "Y": 736
+    },
+    {
+      "SpeciesId": "girafarig",
+      "FrameWidth": 66,
+      "FrameHeight": 68,
+      "FrameCount": 4,
+      "SourceFrames": [
+        51,
+        52,
+        53,
+        54
+      ],
+      "X": 2058,
+      "Y": 736
+    },
+    {
+      "SpeciesId": "heracross",
+      "FrameWidth": 79,
+      "FrameHeight": 70,
+      "FrameCount": 4,
+      "SourceFrames": [
+        48,
+        49,
+        50,
+        51
+      ],
+      "X": 3749,
+      "Y": 520
+    },
+    {
+      "SpeciesId": "houndour",
+      "FrameWidth": 62,
+      "FrameHeight": 63,
+      "FrameCount": 4,
+      "SourceFrames": [
+        54,
+        55,
+        56,
+        57
+      ],
+      "X": 754,
+      "Y": 1673
+    },
+    {
+      "SpeciesId": "houndoom",
+      "FrameWidth": 62,
+      "FrameHeight": 64,
+      "FrameCount": 4,
+      "SourceFrames": [
+        54,
+        55,
+        56,
+        57
+      ],
+      "X": 2556,
+      "Y": 1346
+    },
+    {
+      "SpeciesId": "donphan",
+      "FrameWidth": 61,
+      "FrameHeight": 60,
+      "FrameCount": 4,
+      "SourceFrames": [
+        43,
+        44,
+        45,
+        46
+      ],
+      "X": 2603,
+      "Y": 2626
+    },
+    {
+      "SpeciesId": "raikou",
+      "FrameWidth": 63,
+      "FrameHeight": 62,
+      "FrameCount": 4,
+      "SourceFrames": [
+        56,
+        57,
+        58,
+        59
+      ],
+      "X": 766,
+      "Y": 2059
+    },
+    {
+      "SpeciesId": "entei",
+      "FrameWidth": 61,
+      "FrameHeight": 62,
+      "FrameCount": 4,
+      "SourceFrames": [
+        56,
+        57,
+        58,
+        59
+      ],
+      "X": 1774,
+      "Y": 2059
+    },
+    {
+      "SpeciesId": "suicune",
+      "FrameWidth": 67,
+      "FrameHeight": 67,
+      "FrameCount": 4,
+      "SourceFrames": [
+        54,
+        55,
+        56,
+        57
+      ],
+      "X": 3410,
+      "Y": 806
+    },
+    {
+      "SpeciesId": "larvitar",
+      "FrameWidth": 59,
+      "FrameHeight": 63,
+      "FrameCount": 4,
+      "SourceFrames": [
+        51,
+        52,
+        53,
+        54
+      ],
+      "X": 0,
+      "Y": 1738
+    },
+    {
+      "SpeciesId": "pupitar",
+      "FrameWidth": 59,
+      "FrameHeight": 63,
+      "FrameCount": 5,
+      "SourceFrames": [
+        53,
+        54,
+        55,
+        56,
+        57
+      ],
+      "X": 2591,
+      "Y": 1543
+    },
+    {
+      "SpeciesId": "tyranitar",
+      "FrameWidth": 72,
+      "FrameHeight": 63,
+      "FrameCount": 4,
+      "SourceFrames": [
+        46,
+        47,
+        48,
+        49
+      ],
+      "X": 3180,
+      "Y": 1543
+    },
+    {
+      "SpeciesId": "lugia",
+      "FrameWidth": 98,
+      "FrameHeight": 89,
+      "FrameCount": 2,
+      "SourceFrames": [
+        39,
+        40
+      ],
+      "X": 3882,
+      "Y": 0
+    },
+    {
+      "SpeciesId": "ho-oh",
+      "FrameWidth": 85,
+      "FrameHeight": 92,
+      "FrameCount": 5,
+      "SourceFrames": [
+        57,
+        58,
+        59,
+        60,
+        61
+      ],
+      "X": 434,
+      "Y": 111
+    },
+    {
+      "SpeciesId": "celebi",
+      "FrameWidth": 61,
+      "FrameHeight": 64,
+      "FrameCount": 8,
+      "SourceFrames": [
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68
+      ],
+      "X": 3596,
+      "Y": 1147
+    },
+    {
+      "SpeciesId": "treecko",
+      "FrameWidth": 60,
+      "FrameHeight": 60,
+      "FrameCount": 4,
+      "SourceFrames": [
+        41,
+        42,
+        43,
+        44
+      ],
+      "X": 3337,
+      "Y": 2626
+    },
+    {
+      "SpeciesId": "grovyle",
+      "FrameWidth": 54,
+      "FrameHeight": 62,
+      "FrameCount": 5,
+      "SourceFrames": [
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "X": 1875,
+      "Y": 1995
+    },
+    {
+      "SpeciesId": "sceptile",
+      "FrameWidth": 58,
+      "FrameHeight": 64,
+      "FrameCount": 4,
+      "SourceFrames": [
+        41,
+        42,
+        43,
+        44
+      ],
+      "X": 710,
+      "Y": 1412
+    },
+    {
+      "SpeciesId": "torchic",
+      "FrameWidth": 53,
+      "FrameHeight": 55,
+      "FrameCount": 4,
+      "SourceFrames": [
+        47,
+        48,
+        49,
+        50
+      ],
+      "X": 0,
+      "Y": 3230
+    },
+    {
+      "SpeciesId": "combusken",
+      "FrameWidth": 62,
+      "FrameHeight": 68,
+      "FrameCount": 4,
+      "SourceFrames": [
+        44,
+        45,
+        46,
+        47
+      ],
+      "X": 2578,
+      "Y": 736
+    },
+    {
+      "SpeciesId": "blaziken",
+      "FrameWidth": 65,
+      "FrameHeight": 65,
+      "FrameCount": 4,
+      "SourceFrames": [
+        40,
+        41,
+        42,
+        43
+      ],
+      "X": 1378,
+      "Y": 1147
+    },
+    {
+      "SpeciesId": "mudkip",
+      "FrameWidth": 53,
+      "FrameHeight": 61,
+      "FrameCount": 6,
+      "SourceFrames": [
+        48,
+        49,
+        50,
+        51,
+        52,
+        53
+      ],
+      "X": 2569,
+      "Y": 2250
+    },
+    {
+      "SpeciesId": "marshtomp",
+      "FrameWidth": 57,
+      "FrameHeight": 61,
+      "FrameCount": 4,
+      "SourceFrames": [
+        43,
+        44,
+        45,
+        46
+      ],
+      "X": 464,
+      "Y": 2439
+    },
+    {
+      "SpeciesId": "swampert",
+      "FrameWidth": 62,
+      "FrameHeight": 63,
+      "FrameCount": 4,
+      "SourceFrames": [
+        49,
+        50,
+        51,
+        52
+      ],
+      "X": 1504,
+      "Y": 1673
+    },
+    {
+      "SpeciesId": "poochyena",
+      "FrameWidth": 60,
+      "FrameHeight": 63,
+      "FrameCount": 5,
+      "SourceFrames": [
+        48,
+        49,
+        50,
+        51,
+        52
+      ],
+      "X": 1987,
+      "Y": 1543
+    },
+    {
+      "SpeciesId": "mightyena",
+      "FrameWidth": 64,
+      "FrameHeight": 62,
+      "FrameCount": 4,
+      "SourceFrames": [
+        48,
+        49,
+        50,
+        51
+      ],
+      "X": 0,
+      "Y": 2059
+    },
+    {
+      "SpeciesId": "ralts",
+      "FrameWidth": 65,
+      "FrameHeight": 63,
+      "FrameCount": 4,
+      "SourceFrames": [
+        40,
+        41,
+        42,
+        43
+      ],
+      "X": 1350,
+      "Y": 1608
+    },
+    {
+      "SpeciesId": "kirlia",
+      "FrameWidth": 61,
+      "FrameHeight": 62,
+      "FrameCount": 13,
+      "SourceFrames": [
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71
+      ],
+      "X": 902,
+      "Y": 1803
+    },
+    {
+      "SpeciesId": "gardevoir",
+      "FrameWidth": 69,
+      "FrameHeight": 63,
+      "FrameCount": 4,
+      "SourceFrames": [
+        42,
+        43,
+        44,
+        45
+      ],
+      "X": 0,
+      "Y": 1608
+    },
+    {
+      "SpeciesId": "shroomish",
+      "FrameWidth": 60,
+      "FrameHeight": 59,
+      "FrameCount": 4,
+      "SourceFrames": [
+        46,
+        47,
+        48,
+        49
+      ],
+      "X": 1758,
+      "Y": 2872
+    },
+    {
+      "SpeciesId": "breloom",
+      "FrameWidth": 56,
+      "FrameHeight": 62,
+      "FrameCount": 4,
+      "SourceFrames": [
+        51,
+        52,
+        53,
+        54
+      ],
+      "X": 464,
+      "Y": 2123
+    },
+    {
+      "SpeciesId": "sableye",
+      "FrameWidth": 62,
+      "FrameHeight": 61,
+      "FrameCount": 4,
+      "SourceFrames": [
+        40,
+        41,
+        42,
+        43
+      ],
+      "X": 1000,
+      "Y": 2376
+    },
+    {
+      "SpeciesId": "mawile",
+      "FrameWidth": 65,
+      "FrameHeight": 62,
+      "FrameCount": 4,
+      "SourceFrames": [
+        56,
+        57,
+        58,
+        59
+      ],
+      "X": 3219,
+      "Y": 1995
+    },
+    {
+      "SpeciesId": "aron",
+      "FrameWidth": 60,
+      "FrameHeight": 59,
+      "FrameCount": 4,
+      "SourceFrames": [
+        43,
+        44,
+        45,
+        46
+      ],
+      "X": 1274,
+      "Y": 2872
+    },
+    {
+      "SpeciesId": "lairon",
+      "FrameWidth": 62,
+      "FrameHeight": 61,
+      "FrameCount": 4,
+      "SourceFrames": [
+        43,
+        44,
+        45,
+        46
+      ],
+      "X": 500,
+      "Y": 2376
+    },
+    {
+      "SpeciesId": "aggron",
+      "FrameWidth": 71,
+      "FrameHeight": 63,
+      "FrameCount": 4,
+      "SourceFrames": [
+        45,
+        46,
+        47,
+        48
+      ],
+      "X": 3810,
+      "Y": 1478
+    },
+    {
+      "SpeciesId": "numel",
+      "FrameWidth": 67,
+      "FrameHeight": 62,
+      "FrameCount": 4,
+      "SourceFrames": [
+        44,
+        45,
+        46,
+        47
+      ],
+      "X": 2147,
+      "Y": 1995
+    },
+    {
+      "SpeciesId": "camerupt",
+      "FrameWidth": 65,
+      "FrameHeight": 65,
+      "FrameCount": 4,
+      "SourceFrames": [
+        43,
+        44,
+        45,
+        46
+      ],
+      "X": 1640,
+      "Y": 1147
+    },
+    {
+      "SpeciesId": "torkoal",
+      "FrameWidth": 78,
+      "FrameHeight": 61,
+      "FrameCount": 4,
+      "SourceFrames": [
+        52,
+        53,
+        54,
+        55
+      ],
+      "X": 3523,
+      "Y": 2250
+    },
+    {
+      "SpeciesId": "spinda",
+      "FrameWidth": 58,
+      "FrameHeight": 63,
+      "FrameCount": 11,
+      "SourceFrames": [
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66
+      ],
+      "X": 2034,
+      "Y": 1478
+    },
+    {
+      "SpeciesId": "trapinch",
+      "FrameWidth": 65,
+      "FrameHeight": 61,
+      "FrameCount": 4,
+      "SourceFrames": [
+        48,
+        49,
+        50,
+        51
+      ],
+      "X": 2799,
+      "Y": 2313
+    },
+    {
+      "SpeciesId": "vibrava",
+      "FrameWidth": 69,
+      "FrameHeight": 65,
+      "FrameCount": 8,
+      "SourceFrames": [
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63
+      ],
+      "X": 570,
+      "Y": 1080
+    },
+    {
+      "SpeciesId": "flygon",
+      "FrameWidth": 64,
+      "FrameHeight": 64,
+      "FrameCount": 4,
+      "SourceFrames": [
+        54,
+        55,
+        56,
+        57
+      ],
+      "X": 258,
+      "Y": 1346
+    },
+    {
+      "SpeciesId": "swablu",
+      "FrameWidth": 61,
+      "FrameHeight": 61,
+      "FrameCount": 6,
+      "SourceFrames": [
+        50,
+        51,
+        52,
+        53,
+        54,
+        55
+      ],
+      "X": 1503,
+      "Y": 2250
+    },
+    {
+      "SpeciesId": "altaria",
+      "FrameWidth": 66,
+      "FrameHeight": 71,
+      "FrameCount": 4,
+      "SourceFrames": [
+        53,
+        54,
+        55,
+        56
+      ],
+      "X": 1606,
+      "Y": 520
+    },
+    {
+      "SpeciesId": "feebas",
+      "FrameWidth": 57,
+      "FrameHeight": 65,
+      "FrameCount": 8,
+      "SourceFrames": [
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62
+      ],
+      "X": 2088,
+      "Y": 1080
+    },
+    {
+      "SpeciesId": "milotic",
+      "FrameWidth": 86,
+      "FrameHeight": 79,
+      "FrameCount": 6,
+      "SourceFrames": [
+        46,
+        47,
+        48,
+        49,
+        50,
+        51
+      ],
+      "X": 1850,
+      "Y": 205
+    },
+    {
+      "SpeciesId": "shuppet",
+      "FrameWidth": 61,
+      "FrameHeight": 61,
+      "FrameCount": 6,
+      "SourceFrames": [
+        53,
+        54,
+        55,
+        56,
+        57,
+        58
+      ],
+      "X": 1135,
+      "Y": 2250
+    },
+    {
+      "SpeciesId": "banette",
+      "FrameWidth": 64,
+      "FrameHeight": 60,
+      "FrameCount": 4,
+      "SourceFrames": [
+        47,
+        48,
+        49,
+        50
+      ],
+      "X": 841,
+      "Y": 2626
+    },
+    {
+      "SpeciesId": "duskull",
+      "FrameWidth": 63,
+      "FrameHeight": 62,
+      "FrameCount": 8,
+      "SourceFrames": [
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72
+      ],
+      "X": 1697,
+      "Y": 1803
+    },
+    {
+      "SpeciesId": "dusclops",
+      "FrameWidth": 68,
+      "FrameHeight": 67,
+      "FrameCount": 4,
+      "SourceFrames": [
+        42,
+        43,
+        44,
+        45
+      ],
+      "X": 2318,
+      "Y": 806
+    },
+    {
+      "SpeciesId": "absol",
+      "FrameWidth": 65,
+      "FrameHeight": 63,
+      "FrameCount": 4,
+      "SourceFrames": [
+        41,
+        42,
+        43,
+        44
+      ],
+      "X": 1088,
+      "Y": 1608
+    },
+    {
+      "SpeciesId": "snorunt",
+      "FrameWidth": 63,
+      "FrameHeight": 59,
+      "FrameCount": 4,
+      "SourceFrames": [
+        43,
+        44,
+        45,
+        46
+      ],
+      "X": 774,
+      "Y": 2872
+    },
+    {
+      "SpeciesId": "glalie",
+      "FrameWidth": 60,
+      "FrameHeight": 65,
+      "FrameCount": 8,
+      "SourceFrames": [
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58
+      ],
+      "X": 1606,
+      "Y": 1080
+    },
+    {
+      "SpeciesId": "spheal",
+      "FrameWidth": 60,
+      "FrameHeight": 60,
+      "FrameCount": 6,
+      "SourceFrames": [
+        47,
+        48,
+        49,
+        50,
+        51,
+        52
+      ],
+      "X": 2734,
+      "Y": 2564
+    },
+    {
+      "SpeciesId": "sealeo",
+      "FrameWidth": 62,
+      "FrameHeight": 62,
+      "FrameCount": 5,
+      "SourceFrames": [
+        44,
+        45,
+        46,
+        47,
+        48
+      ],
+      "X": 661,
+      "Y": 1995
+    },
+    {
+      "SpeciesId": "walrein",
+      "FrameWidth": 63,
+      "FrameHeight": 61,
+      "FrameCount": 7,
+      "SourceFrames": [
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56
+      ],
+      "X": 2542,
+      "Y": 2187
+    },
+    {
+      "SpeciesId": "bagon",
+      "FrameWidth": 65,
+      "FrameHeight": 62,
+      "FrameCount": 4,
+      "SourceFrames": [
+        43,
+        44,
+        45,
+        46
+      ],
+      "X": 3836,
+      "Y": 1931
+    },
+    {
+      "SpeciesId": "shelgon",
+      "FrameWidth": 63,
+      "FrameHeight": 62,
+      "FrameCount": 4,
+      "SourceFrames": [
+        44,
+        45,
+        46,
+        47
+      ],
+      "X": 1020,
+      "Y": 2059
+    },
+    {
+      "SpeciesId": "salamence",
+      "FrameWidth": 72,
+      "FrameHeight": 67,
+      "FrameCount": 6,
+      "SourceFrames": [
+        57,
+        58,
+        59,
+        60,
+        61,
+        62
+      ],
+      "X": 3623,
+      "Y": 736
+    },
+    {
+      "SpeciesId": "beldum",
+      "FrameWidth": 66,
+      "FrameHeight": 60,
+      "FrameCount": 8,
+      "SourceFrames": [
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68
+      ],
+      "X": 1204,
+      "Y": 2502
+    },
+    {
+      "SpeciesId": "metang",
+      "FrameWidth": 69,
+      "FrameHeight": 63,
+      "FrameCount": 8,
+      "SourceFrames": [
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67
+      ],
+      "X": 3256,
+      "Y": 1478
+    },
+    {
+      "SpeciesId": "metagross",
+      "FrameWidth": 85,
+      "FrameHeight": 61,
+      "FrameCount": 4,
+      "SourceFrames": [
+        45,
+        46,
+        47,
+        48
+      ],
+      "X": 2227,
+      "Y": 2250
+    },
+    {
+      "SpeciesId": "regirock",
+      "FrameWidth": 64,
+      "FrameHeight": 64,
+      "FrameCount": 4,
+      "SourceFrames": [
+        44,
+        45,
+        46,
+        47
+      ],
+      "X": 1032,
+      "Y": 1346
+    },
+    {
+      "SpeciesId": "regice",
+      "FrameWidth": 63,
+      "FrameHeight": 61,
+      "FrameCount": 6,
+      "SourceFrames": [
+        43,
+        44,
+        45,
+        46,
+        47,
+        48
+      ],
+      "X": 387,
+      "Y": 2250
+    },
+    {
+      "SpeciesId": "registeel",
+      "FrameWidth": 65,
+      "FrameHeight": 63,
+      "FrameCount": 4,
+      "SourceFrames": [
+        39,
+        40,
+        41,
+        42
+      ],
+      "X": 1612,
+      "Y": 1608
+    },
+    {
+      "SpeciesId": "latias",
+      "FrameWidth": 72,
+      "FrameHeight": 64,
+      "FrameCount": 14,
+      "SourceFrames": [
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70
+      ],
+      "X": 0,
+      "Y": 1214
+    },
+    {
+      "SpeciesId": "latios",
+      "FrameWidth": 73,
+      "FrameHeight": 72,
+      "FrameCount": 12,
+      "SourceFrames": [
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66
+      ],
+      "X": 0,
+      "Y": 446
+    },
+    {
+      "SpeciesId": "rayquaza",
+      "FrameWidth": 172,
+      "FrameHeight": 109,
+      "FrameCount": 12,
+      "SourceFrames": [
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68
+      ],
+      "X": 0,
+      "Y": 0
+    },
+    {
+      "SpeciesId": "deoxys",
+      "FrameWidth": 59,
+      "FrameHeight": 69,
+      "FrameCount": 8,
+      "SourceFrames": [
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59
+      ],
+      "X": 2944,
+      "Y": 593
+    },
+    {
+      "SpeciesId": "shinx",
+      "FrameWidth": 59,
+      "FrameHeight": 59,
+      "FrameCount": 7,
+      "SourceFrames": [
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61
+      ],
+      "X": 2725,
+      "Y": 2750
+    },
+    {
+      "SpeciesId": "luxio",
+      "FrameWidth": 58,
+      "FrameHeight": 59,
+      "FrameCount": 4,
+      "SourceFrames": [
+        51,
+        52,
+        53,
+        54
+      ],
+      "X": 3436,
+      "Y": 2872
+    },
+    {
+      "SpeciesId": "luxray",
+      "FrameWidth": 62,
+      "FrameHeight": 60,
+      "FrameCount": 4,
+      "SourceFrames": [
+        51,
+        52,
+        53,
+        54
+      ],
+      "X": 1861,
+      "Y": 2626
+    },
+    {
+      "SpeciesId": "buneary",
+      "FrameWidth": 59,
+      "FrameHeight": 61,
+      "FrameCount": 6,
+      "SourceFrames": [
+        50,
+        51,
+        52,
+        53,
+        54,
+        55
+      ],
+      "X": 1871,
+      "Y": 2250
+    },
+    {
+      "SpeciesId": "lopunny",
+      "FrameWidth": 63,
+      "FrameHeight": 67,
+      "FrameCount": 9,
+      "SourceFrames": [
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60
+      ],
+      "X": 3054,
+      "Y": 736
+    },
+    {
+      "SpeciesId": "mismagius",
+      "FrameWidth": 61,
+      "FrameHeight": 61,
+      "FrameCount": 9,
+      "SourceFrames": [
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85
+      ],
+      "X": 569,
+      "Y": 2187
+    },
+    {
+      "SpeciesId": "bronzor",
+      "FrameWidth": 60,
+      "FrameHeight": 57,
+      "FrameCount": 6,
+      "SourceFrames": [
+        78,
+        79,
+        80,
+        81,
+        82,
+        83
+      ],
+      "X": 1784,
+      "Y": 3054
+    },
+    {
+      "SpeciesId": "bronzong",
+      "FrameWidth": 55,
+      "FrameHeight": 61,
+      "FrameCount": 8,
+      "SourceFrames": [
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83
+      ],
+      "X": 2985,
+      "Y": 2187
+    },
+    {
+      "SpeciesId": "bonsly",
+      "FrameWidth": 57,
+      "FrameHeight": 62,
+      "FrameCount": 4,
+      "SourceFrames": [
+        47,
+        48,
+        49,
+        50
+      ],
+      "X": 234,
+      "Y": 2123
+    },
+    {
+      "SpeciesId": "spiritomb",
+      "FrameWidth": 59,
+      "FrameHeight": 63,
+      "FrameCount": 6,
+      "SourceFrames": [
+        58,
+        59,
+        60,
+        61,
+        62,
+        63
+      ],
+      "X": 1317,
+      "Y": 1543
+    },
+    {
+      "SpeciesId": "gible",
+      "FrameWidth": 57,
+      "FrameHeight": 61,
+      "FrameCount": 4,
+      "SourceFrames": [
+        67,
+        68,
+        69,
+        70
+      ],
+      "X": 234,
+      "Y": 2439
+    },
+    {
+      "SpeciesId": "gabite",
+      "FrameWidth": 54,
+      "FrameHeight": 56,
+      "FrameCount": 4,
+      "SourceFrames": [
+        69,
+        70,
+        71,
+        72
+      ],
+      "X": 1560,
+      "Y": 3172
+    },
+    {
+      "SpeciesId": "garchomp",
+      "FrameWidth": 64,
+      "FrameHeight": 62,
+      "FrameCount": 4,
+      "SourceFrames": [
+        69,
+        70,
+        71,
+        72
+      ],
+      "X": 3739,
+      "Y": 1995
+    },
+    {
+      "SpeciesId": "riolu",
+      "FrameWidth": 58,
+      "FrameHeight": 58,
+      "FrameCount": 4,
+      "SourceFrames": [
+        37,
+        38,
+        39,
+        40
+      ],
+      "X": 2615,
+      "Y": 2994
+    },
+    {
+      "SpeciesId": "lucario",
+      "FrameWidth": 57,
+      "FrameHeight": 60,
+      "FrameCount": 4,
+      "SourceFrames": [
+        39,
+        40,
+        41,
+        42
+      ],
+      "X": 694,
+      "Y": 2688
+    },
+    {
+      "SpeciesId": "skorupi",
+      "FrameWidth": 58,
+      "FrameHeight": 51,
+      "FrameCount": 4,
+      "SourceFrames": [
+        48,
+        49,
+        50,
+        51
+      ],
+      "X": 2611,
+      "Y": 3287
+    },
+    {
+      "SpeciesId": "drapion",
+      "FrameWidth": 61,
+      "FrameHeight": 70,
+      "FrameCount": 4,
+      "SourceFrames": [
+        56,
+        57,
+        58,
+        59
+      ],
+      "X": 1080,
+      "Y": 593
+    },
+    {
+      "SpeciesId": "yanmega",
+      "FrameWidth": 61,
+      "FrameHeight": 60,
+      "FrameCount": 16,
+      "SourceFrames": [
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83
+      ],
+      "X": 2208,
+      "Y": 2439
+    },
+    {
+      "SpeciesId": "togekiss",
+      "FrameWidth": 57,
+      "FrameHeight": 57,
+      "FrameCount": 8,
+      "SourceFrames": [
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63
+      ],
+      "X": 940,
+      "Y": 3054
+    },
+    {
+      "SpeciesId": "mamoswine",
+      "FrameWidth": 69,
+      "FrameHeight": 59,
+      "FrameCount": 4,
+      "SourceFrames": [
+        53,
+        54,
+        55,
+        56
+      ],
+      "X": 3304,
+      "Y": 2811
+    },
+    {
+      "SpeciesId": "dusknoir",
+      "FrameWidth": 59,
+      "FrameHeight": 64,
+      "FrameCount": 4,
+      "SourceFrames": [
+        61,
+        62,
+        63,
+        64
+      ],
+      "X": 0,
+      "Y": 1412
+    },
+    {
+      "SpeciesId": "gallade",
+      "FrameWidth": 57,
+      "FrameHeight": 63,
+      "FrameCount": 4,
+      "SourceFrames": [
+        48,
+        49,
+        50,
+        51
+      ],
+      "X": 952,
+      "Y": 1738
+    },
+    {
+      "SpeciesId": "froslass",
+      "FrameWidth": 60,
+      "FrameHeight": 61,
+      "FrameCount": 8,
+      "SourceFrames": [
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64
+      ],
+      "X": 1120,
+      "Y": 2187
+    },
+    {
+      "SpeciesId": "rotom",
+      "FrameWidth": 59,
+      "FrameHeight": 59,
+      "FrameCount": 6,
+      "SourceFrames": [
+        62,
+        63,
+        64,
+        65,
+        66,
+        67
+      ],
+      "X": 0,
+      "Y": 2811
+    },
+    {
+      "SpeciesId": "regigigas",
+      "FrameWidth": 74,
+      "FrameHeight": 65,
+      "FrameCount": 4,
+      "SourceFrames": [
+        51,
+        52,
+        53,
+        54
+      ],
+      "X": 0,
+      "Y": 1147
+    },
+    {
+      "SpeciesId": "lillipup",
+      "FrameWidth": 51,
+      "FrameHeight": 62,
+      "FrameCount": 6,
+      "SourceFrames": [
+        48,
+        49,
+        50,
+        51,
+        52,
+        53
+      ],
+      "X": 1285,
+      "Y": 1995
+    },
+    {
+      "SpeciesId": "herdier",
+      "FrameWidth": 68,
+      "FrameHeight": 65,
+      "FrameCount": 4,
+      "SourceFrames": [
+        48,
+        49,
+        50,
+        51
+      ],
+      "X": 298,
+      "Y": 1147
+    },
+    {
+      "SpeciesId": "stoutland",
+      "FrameWidth": 72,
+      "FrameHeight": 66,
+      "FrameCount": 4,
+      "SourceFrames": [
+        56,
+        57,
+        58,
+        59
+      ],
+      "X": 3349,
+      "Y": 944
+    },
+    {
+      "SpeciesId": "pansage",
+      "FrameWidth": 53,
+      "FrameHeight": 61,
+      "FrameCount": 4,
+      "SourceFrames": [
+        45,
+        46,
+        47,
+        48
+      ],
+      "X": 1372,
+      "Y": 2439
+    },
+    {
+      "SpeciesId": "simisage",
+      "FrameWidth": 51,
+      "FrameHeight": 67,
+      "FrameCount": 4,
+      "SourceFrames": [
+        42,
+        43,
+        44,
+        45
+      ],
+      "X": 2714,
+      "Y": 875
+    },
+    {
+      "SpeciesId": "munna",
+      "FrameWidth": 61,
+      "FrameHeight": 58,
+      "FrameCount": 8,
+      "SourceFrames": [
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65
+      ],
+      "X": 1156,
+      "Y": 2933
+    },
+    {
+      "SpeciesId": "musharna",
+      "FrameWidth": 64,
+      "FrameHeight": 66,
+      "FrameCount": 12,
+      "SourceFrames": [
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73
+      ],
+      "X": 2920,
+      "Y": 875
+    },
+    {
+      "SpeciesId": "woobat",
+      "FrameWidth": 61,
+      "FrameHeight": 59,
+      "FrameCount": 8,
+      "SourceFrames": [
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74
+      ],
+      "X": 0,
+      "Y": 2750
+    },
+    {
+      "SpeciesId": "swoobat",
+      "FrameWidth": 69,
+      "FrameHeight": 67,
+      "FrameCount": 8,
+      "SourceFrames": [
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65
+      ],
+      "X": 0,
+      "Y": 806
+    },
+    {
+      "SpeciesId": "tympole",
+      "FrameWidth": 54,
+      "FrameHeight": 54,
+      "FrameCount": 6,
+      "SourceFrames": [
+        57,
+        58,
+        59,
+        60,
+        61,
+        62
+      ],
+      "X": 2072,
+      "Y": 3230
+    },
+    {
+      "SpeciesId": "palpitoad",
+      "FrameWidth": 48,
+      "FrameHeight": 62,
+      "FrameCount": 4,
+      "SourceFrames": [
+        54,
+        55,
+        56,
+        57
+      ],
+      "X": 1997,
+      "Y": 2123
+    },
+    {
+      "SpeciesId": "seismitoad",
+      "FrameWidth": 67,
+      "FrameHeight": 67,
+      "FrameCount": 4,
+      "SourceFrames": [
+        62,
+        63,
+        64,
+        65
+      ],
+      "X": 3140,
+      "Y": 806
+    },
+    {
+      "SpeciesId": "venipede",
+      "FrameWidth": 55,
+      "FrameHeight": 60,
+      "FrameCount": 4,
+      "SourceFrames": [
+        47,
+        48,
+        49,
+        50
+      ],
+      "X": 2280,
+      "Y": 2688
+    },
+    {
+      "SpeciesId": "whirlipede",
+      "FrameWidth": 69,
+      "FrameHeight": 62,
+      "FrameCount": 3,
+      "SourceFrames": [
+        49,
+        50,
+        51
+      ],
+      "X": 1586,
+      "Y": 2123
+    },
+    {
+      "SpeciesId": "scolipede",
+      "FrameWidth": 97,
+      "FrameHeight": 75,
+      "FrameCount": 4,
+      "SourceFrames": [
+        44,
+        45,
+        46,
+        47
+      ],
+      "X": 2655,
+      "Y": 291
+    },
+    {
+      "SpeciesId": "petilil",
+      "FrameWidth": 75,
+      "FrameHeight": 65,
+      "FrameCount": 8,
+      "SourceFrames": [
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59
+      ],
+      "X": 3202,
+      "Y": 1012
+    },
+    {
+      "SpeciesId": "lilligant",
+      "FrameWidth": 57,
+      "FrameHeight": 64,
+      "FrameCount": 4,
+      "SourceFrames": [
+        42,
+        43,
+        44,
+        45
+      ],
+      "X": 1408,
+      "Y": 1412
+    },
+    {
+      "SpeciesId": "maractus",
+      "FrameWidth": 53,
+      "FrameHeight": 66,
+      "FrameCount": 4,
+      "SourceFrames": [
+        48,
+        49,
+        50,
+        51
+      ],
+      "X": 2786,
+      "Y": 1012
+    },
+    {
+      "SpeciesId": "scraggy",
+      "FrameWidth": 61,
+      "FrameHeight": 54,
+      "FrameCount": 4,
+      "SourceFrames": [
+        49,
+        50,
+        51,
+        52
+      ],
+      "X": 2644,
+      "Y": 3230
+    },
+    {
+      "SpeciesId": "scrafty",
+      "FrameWidth": 62,
+      "FrameHeight": 72,
+      "FrameCount": 4,
+      "SourceFrames": [
+        63,
+        64,
+        65,
+        66
+      ],
+      "X": 2094,
+      "Y": 446
+    },
+    {
+      "SpeciesId": "sigilyph",
+      "FrameWidth": 45,
+      "FrameHeight": 63,
+      "FrameCount": 4,
+      "SourceFrames": [
+        55,
+        56,
+        57,
+        58
+      ],
+      "X": 3304,
+      "Y": 1738
+    },
+    {
+      "SpeciesId": "solosis",
+      "FrameWidth": 62,
+      "FrameHeight": 56,
+      "FrameCount": 10,
+      "SourceFrames": [
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69
+      ],
+      "X": 0,
+      "Y": 3172
+    },
+    {
+      "SpeciesId": "duosion",
+      "FrameWidth": 60,
+      "FrameHeight": 60,
+      "FrameCount": 10,
+      "SourceFrames": [
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80
+      ],
+      "X": 602,
+      "Y": 2502
+    },
+    {
+      "SpeciesId": "reuniclus",
+      "FrameWidth": 98,
+      "FrameHeight": 78,
+      "FrameCount": 8,
+      "SourceFrames": [
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66
+      ],
+      "X": 2802,
+      "Y": 205
+    },
+    {
+      "SpeciesId": "trubbish",
+      "FrameWidth": 54,
+      "FrameHeight": 57,
+      "FrameCount": 5,
+      "SourceFrames": [
+        45,
+        46,
+        47,
+        48,
+        49
+      ],
+      "X": 3732,
+      "Y": 3054
+    },
+    {
+      "SpeciesId": "garbodor",
+      "FrameWidth": 68,
+      "FrameHeight": 72,
+      "FrameCount": 4,
+      "SourceFrames": [
+        43,
+        44,
+        45,
+        46
+      ],
+      "X": 1550,
+      "Y": 446
+    },
+    {
+      "SpeciesId": "zorua",
+      "FrameWidth": 60,
+      "FrameHeight": 59,
+      "FrameCount": 5,
+      "SourceFrames": [
+        47,
+        48,
+        49,
+        50,
+        51
+      ],
+      "X": 2712,
+      "Y": 2811
+    },
+    {
+      "SpeciesId": "zoroark",
+      "FrameWidth": 68,
+      "FrameHeight": 65,
+      "FrameCount": 4,
+      "SourceFrames": [
+        45,
+        46,
+        47,
+        48
+      ],
+      "X": 572,
+      "Y": 1147
+    },
+    {
+      "SpeciesId": "minccino",
+      "FrameWidth": 60,
+      "FrameHeight": 64,
+      "FrameCount": 8,
+      "SourceFrames": [
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43
+      ],
+      "X": 2912,
+      "Y": 1214
+    },
+    {
+      "SpeciesId": "cinccino",
+      "FrameWidth": 76,
+      "FrameHeight": 69,
+      "FrameCount": 4,
+      "SourceFrames": [
+        46,
+        47,
+        48,
+        49
+      ],
+      "X": 994,
+      "Y": 665
+    },
+    {
+      "SpeciesId": "gothita",
+      "FrameWidth": 64,
+      "FrameHeight": 64,
+      "FrameCount": 4,
+      "SourceFrames": [
+        53,
+        54,
+        55,
+        56
+      ],
+      "X": 516,
+      "Y": 1346
+    },
+    {
+      "SpeciesId": "gothorita",
+      "FrameWidth": 64,
+      "FrameHeight": 61,
+      "FrameCount": 4,
+      "SourceFrames": [
+        62,
+        63,
+        64,
+        65
+      ],
+      "X": 3837,
+      "Y": 2250
+    },
+    {
+      "SpeciesId": "gothitelle",
+      "FrameWidth": 54,
+      "FrameHeight": 64,
+      "FrameCount": 4,
+      "SourceFrames": [
+        52,
+        53,
+        54,
+        55
+      ],
+      "X": 2320,
+      "Y": 1412
+    },
+    {
+      "SpeciesId": "deerling",
+      "FrameWidth": 62,
+      "FrameHeight": 60,
+      "FrameCount": 6,
+      "SourceFrames": [
+        50,
+        51,
+        52,
+        53,
+        54,
+        55
+      ],
+      "X": 1625,
+      "Y": 2564
+    },
+    {
+      "SpeciesId": "sawsbuck",
+      "FrameWidth": 66,
+      "FrameHeight": 71,
+      "FrameCount": 6,
+      "SourceFrames": [
+        57,
+        58,
+        59,
+        60,
+        61,
+        62
+      ],
+      "X": 938,
+      "Y": 520
+    },
+    {
+      "SpeciesId": "joltik",
+      "FrameWidth": 54,
+      "FrameHeight": 43,
+      "FrameCount": 4,
+      "SourceFrames": [
+        63,
+        64,
+        65,
+        66
+      ],
+      "X": 3793,
+      "Y": 3287
+    },
+    {
+      "SpeciesId": "galvantula",
+      "FrameWidth": 67,
+      "FrameHeight": 61,
+      "FrameCount": 4,
+      "SourceFrames": [
+        63,
+        64,
+        65,
+        66
+      ],
+      "X": 1211,
+      "Y": 2313
+    },
+    {
+      "SpeciesId": "tynamo",
+      "FrameWidth": 58,
+      "FrameHeight": 54,
+      "FrameCount": 4,
+      "SourceFrames": [
+        56,
+        57,
+        58,
+        59
+      ],
+      "X": 2890,
+      "Y": 3230
+    },
+    {
+      "SpeciesId": "eelektrik",
+      "FrameWidth": 57,
+      "FrameHeight": 66,
+      "FrameCount": 9,
+      "SourceFrames": [
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60
+      ],
+      "X": 610,
+      "Y": 944
+    },
+    {
+      "SpeciesId": "eelektross",
+      "FrameWidth": 76,
+      "FrameHeight": 69,
+      "FrameCount": 8,
+      "SourceFrames": [
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70
+      ],
+      "X": 1814,
+      "Y": 593
+    },
+    {
+      "SpeciesId": "litwick",
+      "FrameWidth": 46,
+      "FrameHeight": 63,
+      "FrameCount": 4,
+      "SourceFrames": [
+        42,
+        43,
+        44,
+        45
+      ],
+      "X": 3118,
+      "Y": 1738
+    },
+    {
+      "SpeciesId": "lampent",
+      "FrameWidth": 61,
+      "FrameHeight": 52,
+      "FrameCount": 8,
+      "SourceFrames": [
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70
+      ],
+      "X": 616,
+      "Y": 3287
+    },
+    {
+      "SpeciesId": "chandelure",
+      "FrameWidth": 61,
+      "FrameHeight": 62,
+      "FrameCount": 8,
+      "SourceFrames": [
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70
+      ],
+      "X": 3199,
+      "Y": 1803
+    },
+    {
+      "SpeciesId": "golett",
+      "FrameWidth": 56,
+      "FrameHeight": 67,
+      "FrameCount": 4,
+      "SourceFrames": [
+        42,
+        43,
+        44,
+        45
+      ],
+      "X": 2278,
+      "Y": 875
+    },
+    {
+      "SpeciesId": "golurk",
+      "FrameWidth": 71,
+      "FrameHeight": 85,
+      "FrameCount": 4,
+      "SourceFrames": [
+        46,
+        47,
+        48,
+        49
+      ],
+      "X": 3037,
+      "Y": 111
+    },
+    {
+      "SpeciesId": "heatmor",
+      "FrameWidth": 63,
+      "FrameHeight": 67,
+      "FrameCount": 4,
+      "SourceFrames": [
+        46,
+        47,
+        48,
+        49
+      ],
+      "X": 790,
+      "Y": 875
+    },
+    {
+      "SpeciesId": "durant",
+      "FrameWidth": 71,
+      "FrameHeight": 72,
+      "FrameCount": 3,
+      "SourceFrames": [
+        46,
+        47,
+        48
+      ],
+      "X": 3054,
+      "Y": 446
+    },
+    {
+      "SpeciesId": "deino",
+      "FrameWidth": 56,
+      "FrameHeight": 53,
+      "FrameCount": 4,
+      "SourceFrames": [
+        50,
+        51,
+        52,
+        53
+      ],
+      "X": 0,
+      "Y": 3287
+    },
+    {
+      "SpeciesId": "zweilous",
+      "FrameWidth": 72,
+      "FrameHeight": 74,
+      "FrameCount": 4,
+      "SourceFrames": [
+        46,
+        47,
+        48,
+        49
+      ],
+      "X": 1246,
+      "Y": 370
+    },
+    {
+      "SpeciesId": "hydreigon",
+      "FrameWidth": 56,
+      "FrameHeight": 67,
+      "FrameCount": 6,
+      "SourceFrames": [
+        51,
+        52,
+        53,
+        54,
+        55,
+        56
+      ],
+      "X": 1102,
+      "Y": 806
+    },
+    {
+      "SpeciesId": "froakie",
+      "FrameWidth": 53,
+      "FrameHeight": 57,
+      "FrameCount": 6,
+      "SourceFrames": [
+        48,
+        49,
+        50,
+        51,
+        52,
+        53
+      ],
+      "X": 2837,
+      "Y": 3054
+    },
+    {
+      "SpeciesId": "frogadier",
+      "FrameWidth": 66,
+      "FrameHeight": 55,
+      "FrameCount": 4,
+      "SourceFrames": [
+        58,
+        59,
+        60,
+        61
+      ],
+      "X": 2850,
+      "Y": 3172
+    },
+    {
+      "SpeciesId": "greninja",
+      "FrameWidth": 50,
+      "FrameHeight": 57,
+      "FrameCount": 4,
+      "SourceFrames": [
+        49,
+        50,
+        51,
+        52
+      ],
+      "X": 3344,
+      "Y": 3113
+    },
+    {
+      "SpeciesId": "flabebe",
+      "FrameWidth": 48,
+      "FrameHeight": 58,
+      "FrameCount": 8,
+      "SourceFrames": [
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63
+      ],
+      "X": 2970,
+      "Y": 2933
+    },
+    {
+      "SpeciesId": "floette",
+      "FrameWidth": 61,
+      "FrameHeight": 64,
+      "FrameCount": 8,
+      "SourceFrames": [
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63
+      ],
+      "X": 2422,
+      "Y": 1214
+    },
+    {
+      "SpeciesId": "florges",
+      "FrameWidth": 67,
+      "FrameHeight": 64,
+      "FrameCount": 4,
+      "SourceFrames": [
+        42,
+        43,
+        44,
+        45
+      ],
+      "X": 3822,
+      "Y": 1214
+    },
+    {
+      "SpeciesId": "espurr",
+      "FrameWidth": 63,
+      "FrameHeight": 63,
+      "FrameCount": 4,
+      "SourceFrames": [
+        46,
+        47,
+        48,
+        49
+      ],
+      "X": 3430,
+      "Y": 1608
+    },
+    {
+      "SpeciesId": "meowstic",
+      "FrameWidth": 57,
+      "FrameHeight": 61,
+      "FrameCount": 4,
+      "SourceFrames": [
+        48,
+        49,
+        50,
+        51
+      ],
+      "X": 694,
+      "Y": 2439
+    },
+    {
+      "SpeciesId": "pancham",
+      "FrameWidth": 62,
+      "FrameHeight": 62,
+      "FrameCount": 4,
+      "SourceFrames": [
+        44,
+        45,
+        46,
+        47
+      ],
+      "X": 1274,
+      "Y": 2059
+    },
+    {
+      "SpeciesId": "pangoro",
+      "FrameWidth": 72,
+      "FrameHeight": 76,
+      "FrameCount": 4,
+      "SourceFrames": [
+        47,
+        48,
+        49,
+        50
+      ],
+      "X": 1747,
+      "Y": 291
+    },
+    {
+      "SpeciesId": "inkay",
+      "FrameWidth": 48,
+      "FrameHeight": 59,
+      "FrameCount": 4,
+      "SourceFrames": [
+        46,
+        47,
+        48,
+        49
+      ],
+      "X": 3902,
+      "Y": 2750
+    },
+    {
+      "SpeciesId": "malamar",
+      "FrameWidth": 56,
+      "FrameHeight": 63,
+      "FrameCount": 4,
+      "SourceFrames": [
+        49,
+        50,
+        51,
+        52
+      ],
+      "X": 1408,
+      "Y": 1738
+    },
+    {
+      "SpeciesId": "sylveon",
+      "FrameWidth": 57,
+      "FrameHeight": 71,
+      "FrameCount": 4,
+      "SourceFrames": [
+        52,
+        53,
+        54,
+        55
+      ],
+      "X": 2126,
+      "Y": 520
+    },
+    {
+      "SpeciesId": "carbink",
+      "FrameWidth": 59,
+      "FrameHeight": 62,
+      "FrameCount": 7,
+      "SourceFrames": [
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49
+      ],
+      "X": 845,
+      "Y": 1931
+    },
+    {
+      "SpeciesId": "goomy",
+      "FrameWidth": 64,
+      "FrameHeight": 57,
+      "FrameCount": 6,
+      "SourceFrames": [
+        48,
+        49,
+        50,
+        51,
+        52,
+        53
+      ],
+      "X": 1398,
+      "Y": 3054
+    },
+    {
+      "SpeciesId": "sliggoo",
+      "FrameWidth": 54,
+      "FrameHeight": 64,
+      "FrameCount": 4,
+      "SourceFrames": [
+        45,
+        46,
+        47,
+        48
+      ],
+      "X": 2538,
+      "Y": 1412
+    },
+    {
+      "SpeciesId": "goodra",
+      "FrameWidth": 78,
+      "FrameHeight": 69,
+      "FrameCount": 4,
+      "SourceFrames": [
+        50,
+        51,
+        52,
+        53
+      ],
+      "X": 680,
+      "Y": 665
+    },
+    {
+      "SpeciesId": "phantump",
+      "FrameWidth": 57,
+      "FrameHeight": 62,
+      "FrameCount": 6,
+      "SourceFrames": [
+        53,
+        54,
+        55,
+        56,
+        57,
+        58
+      ],
+      "X": 0,
+      "Y": 1995
+    },
+    {
+      "SpeciesId": "trevenant",
+      "FrameWidth": 54,
+      "FrameHeight": 72,
+      "FrameCount": 4,
+      "SourceFrames": [
+        51,
+        52,
+        53,
+        54
+      ],
+      "X": 2836,
+      "Y": 446
+    },
+    {
+      "SpeciesId": "pumpkaboo",
+      "FrameWidth": 50,
+      "FrameHeight": 60,
+      "FrameCount": 8,
+      "SourceFrames": [
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63
+      ],
+      "X": 1223,
+      "Y": 2564
+    },
+    {
+      "SpeciesId": "gourgeist",
+      "FrameWidth": 45,
+      "FrameHeight": 62,
+      "FrameCount": 10,
+      "SourceFrames": [
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72
+      ],
+      "X": 3310,
+      "Y": 1867
+    },
+    {
+      "SpeciesId": "noibat",
+      "FrameWidth": 63,
+      "FrameHeight": 66,
+      "FrameCount": 8,
+      "SourceFrames": [
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65
+      ],
+      "X": 1125,
+      "Y": 944
+    },
+    {
+      "SpeciesId": "noivern",
+      "FrameWidth": 58,
+      "FrameHeight": 64,
+      "FrameCount": 4,
+      "SourceFrames": [
+        51,
+        52,
+        53,
+        54
+      ],
+      "X": 476,
+      "Y": 1412
+    },
+    {
+      "SpeciesId": "rowlet",
+      "FrameWidth": 49,
+      "FrameHeight": 52,
+      "FrameCount": 4,
+      "SourceFrames": [
+        50,
+        51,
+        52,
+        53
+      ],
+      "X": 2061,
+      "Y": 3287
+    },
+    {
+      "SpeciesId": "dartrix",
+      "FrameWidth": 55,
+      "FrameHeight": 55,
+      "FrameCount": 4,
+      "SourceFrames": [
+        48,
+        49,
+        50,
+        51
+      ],
+      "X": 3862,
+      "Y": 3172
+    },
+    {
+      "SpeciesId": "decidueye",
+      "FrameWidth": 47,
+      "FrameHeight": 60,
+      "FrameCount": 4,
+      "SourceFrames": [
+        54,
+        55,
+        56,
+        57
+      ],
+      "X": 2502,
+      "Y": 2688
+    },
+    {
+      "SpeciesId": "cutiefly",
+      "FrameWidth": 58,
+      "FrameHeight": 59,
+      "FrameCount": 6,
+      "SourceFrames": [
+        70,
+        71,
+        72,
+        73,
+        74,
+        75
+      ],
+      "X": 712,
+      "Y": 2811
+    },
+    {
+      "SpeciesId": "ribombee",
+      "FrameWidth": 53,
+      "FrameHeight": 64,
+      "FrameCount": 6,
+      "SourceFrames": [
+        71,
+        72,
+        73,
+        74,
+        75,
+        76
+      ],
+      "X": 1819,
+      "Y": 1280
+    },
+    {
+      "SpeciesId": "rockruff",
+      "FrameWidth": 58,
+      "FrameHeight": 58,
+      "FrameCount": 7,
+      "SourceFrames": [
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76
+      ],
+      "X": 2562,
+      "Y": 2933
+    },
+    {
+      "SpeciesId": "lycanroc",
+      "FrameWidth": 64,
+      "FrameHeight": 63,
+      "FrameCount": 4,
+      "SourceFrames": [
+        64,
+        65,
+        66,
+        67
+      ],
+      "X": 2914,
+      "Y": 1608
+    },
+    {
+      "SpeciesId": "mareanie",
+      "FrameWidth": 51,
+      "FrameHeight": 52,
+      "FrameCount": 6,
+      "SourceFrames": [
+        62,
+        63,
+        64,
+        65,
+        66,
+        67
+      ],
+      "X": 1456,
+      "Y": 3287
+    },
+    {
+      "SpeciesId": "toxapex",
+      "FrameWidth": 77,
+      "FrameHeight": 70,
+      "FrameCount": 5,
+      "SourceFrames": [
+        55,
+        56,
+        57,
+        58,
+        59
+      ],
+      "X": 2988,
+      "Y": 520
+    },
+    {
+      "SpeciesId": "mudbray",
+      "FrameWidth": 62,
+      "FrameHeight": 57,
+      "FrameCount": 4,
+      "SourceFrames": [
+        64,
+        65,
+        66,
+        67
+      ],
+      "X": 504,
+      "Y": 3113
+    },
+    {
+      "SpeciesId": "mudsdale",
+      "FrameWidth": 80,
+      "FrameHeight": 74,
+      "FrameCount": 4,
+      "SourceFrames": [
+        54,
+        55,
+        56,
+        57
+      ],
+      "X": 924,
+      "Y": 370
+    },
+    {
+      "SpeciesId": "pyukumuku",
+      "FrameWidth": 74,
+      "FrameHeight": 66,
+      "FrameCount": 4,
+      "SourceFrames": [
+        49,
+        50,
+        51,
+        52
+      ],
+      "X": 2761,
+      "Y": 944
+    },
+    {
+      "SpeciesId": "mimikyu",
+      "FrameWidth": 58,
+      "FrameHeight": 58,
+      "FrameCount": 4,
+      "SourceFrames": [
+        43,
+        44,
+        45,
+        46
+      ],
+      "X": 2381,
+      "Y": 2994
+    },
+    {
+      "SpeciesId": "dhelmise",
+      "FrameWidth": 83,
+      "FrameHeight": 76,
+      "FrameCount": 8,
+      "SourceFrames": [
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68
+      ],
+      "X": 735,
+      "Y": 291
+    },
+    {
+      "SpeciesId": "cosmog",
+      "FrameWidth": 58,
+      "FrameHeight": 62,
+      "FrameCount": 7,
+      "SourceFrames": [
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59
+      ],
+      "X": 3689,
+      "Y": 1803
+    },
+    {
+      "SpeciesId": "cosmoem",
+      "FrameWidth": 60,
+      "FrameHeight": 60,
+      "FrameCount": 10,
+      "SourceFrames": [
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69
+      ],
+      "X": 0,
+      "Y": 2502
+    },
+    {
+      "SpeciesId": "solgaleo",
+      "FrameWidth": 78,
+      "FrameHeight": 81,
+      "FrameCount": 4,
+      "SourceFrames": [
+        54,
+        55,
+        56,
+        57
+      ],
+      "X": 1536,
+      "Y": 205
+    },
+    {
+      "SpeciesId": "lunala",
+      "FrameWidth": 73,
+      "FrameHeight": 89,
+      "FrameCount": 4,
+      "SourceFrames": [
+        57,
+        58,
+        59,
+        60
+      ],
+      "X": 1927,
+      "Y": 111
+    },
+    {
+      "SpeciesId": "marshadow",
+      "FrameWidth": 88,
+      "FrameHeight": 88,
+      "FrameCount": 4,
+      "SourceFrames": [
+        60,
+        61,
+        62,
+        63
+      ],
+      "X": 2221,
+      "Y": 111
+    },
+    {
+      "SpeciesId": "scorbunny",
+      "FrameWidth": 47,
+      "FrameHeight": 57,
+      "FrameCount": 4,
+      "SourceFrames": [
+        43,
+        44,
+        45,
+        46
+      ],
+      "X": 3546,
+      "Y": 3113
+    },
+    {
+      "SpeciesId": "raboot",
+      "FrameWidth": 50,
+      "FrameHeight": 59,
+      "FrameCount": 4,
+      "SourceFrames": [
+        43,
+        44,
+        45,
+        46
+      ],
+      "X": 448,
+      "Y": 2933
+    },
+    {
+      "SpeciesId": "cinderace",
+      "FrameWidth": 56,
+      "FrameHeight": 62,
+      "FrameCount": 4,
+      "SourceFrames": [
+        40,
+        41,
+        42,
+        43
+      ],
+      "X": 916,
+      "Y": 2123
+    },
+    {
+      "SpeciesId": "gossifleur",
+      "FrameWidth": 62,
+      "FrameHeight": 57,
+      "FrameCount": 8,
+      "SourceFrames": [
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64
+      ],
+      "X": 3309,
+      "Y": 2994
+    },
+    {
+      "SpeciesId": "eldegoss",
+      "FrameWidth": 52,
+      "FrameHeight": 60,
+      "FrameCount": 6,
+      "SourceFrames": [
+        49,
+        50,
+        51,
+        52,
+        53,
+        54
+      ],
+      "X": 3428,
+      "Y": 2564
+    },
+    {
+      "SpeciesId": "wooloo",
+      "FrameWidth": 60,
+      "FrameHeight": 61,
+      "FrameCount": 4,
+      "SourceFrames": [
+        45,
+        46,
+        47,
+        48
+      ],
+      "X": 2730,
+      "Y": 2376
+    },
+    {
+      "SpeciesId": "dubwool",
+      "FrameWidth": 49,
+      "FrameHeight": 64,
+      "FrameCount": 4,
+      "SourceFrames": [
+        60,
+        61,
+        62,
+        63
+      ],
+      "X": 2756,
+      "Y": 1412
+    },
+    {
+      "SpeciesId": "yamper",
+      "FrameWidth": 51,
+      "FrameHeight": 57,
+      "FrameCount": 7,
+      "SourceFrames": [
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71
+      ],
+      "X": 2146,
+      "Y": 3054
+    },
+    {
+      "SpeciesId": "boltund",
+      "FrameWidth": 64,
+      "FrameHeight": 63,
+      "FrameCount": 4,
+      "SourceFrames": [
+        56,
+        57,
+        58,
+        59
+      ],
+      "X": 2656,
+      "Y": 1608
+    },
+    {
+      "SpeciesId": "applin",
+      "FrameWidth": 56,
+      "FrameHeight": 61,
+      "FrameCount": 5,
+      "SourceFrames": [
+        46,
+        47,
+        48,
+        49,
+        50
+      ],
+      "X": 929,
+      "Y": 2313
+    },
+    {
+      "SpeciesId": "flapple",
+      "FrameWidth": 58,
+      "FrameHeight": 57,
+      "FrameCount": 8,
+      "SourceFrames": [
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54
+      ],
+      "X": 474,
+      "Y": 3054
+    },
+    {
+      "SpeciesId": "appletun",
+      "FrameWidth": 70,
+      "FrameHeight": 62,
+      "FrameCount": 4,
+      "SourceFrames": [
+        44,
+        45,
+        46,
+        47
+      ],
+      "X": 1593,
+      "Y": 1995
+    },
+    {
+      "SpeciesId": "cramorant",
+      "FrameWidth": 69,
+      "FrameHeight": 57,
+      "FrameCount": 4,
+      "SourceFrames": [
+        46,
+        47,
+        48,
+        49
+      ],
+      "X": 3454,
+      "Y": 3054
+    },
+    {
+      "SpeciesId": "toxel",
+      "FrameWidth": 58,
+      "FrameHeight": 61,
+      "FrameCount": 4,
+      "SourceFrames": [
+        47,
+        48,
+        49,
+        50
+      ],
+      "X": 0,
+      "Y": 2439
+    },
+    {
+      "SpeciesId": "toxtricity",
+      "FrameWidth": 62,
+      "FrameHeight": 72,
+      "FrameCount": 4,
+      "SourceFrames": [
+        48,
+        49,
+        50,
+        51
+      ],
+      "X": 2344,
+      "Y": 446
+    },
+    {
+      "SpeciesId": "clobbopus",
+      "FrameWidth": 55,
+      "FrameHeight": 60,
+      "FrameCount": 5,
+      "SourceFrames": [
+        45,
+        46,
+        47,
+        48,
+        49
+      ],
+      "X": 302,
+      "Y": 2626
+    },
+    {
+      "SpeciesId": "grapploct",
+      "FrameWidth": 66,
+      "FrameHeight": 65,
+      "FrameCount": 4,
+      "SourceFrames": [
+        55,
+        56,
+        57,
+        58
+      ],
+      "X": 1112,
+      "Y": 1147
+    },
+    {
+      "SpeciesId": "sinistea",
+      "FrameWidth": 56,
+      "FrameHeight": 60,
+      "FrameCount": 8,
+      "SourceFrames": [
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63
+      ],
+      "X": 3634,
+      "Y": 2502
+    },
+    {
+      "SpeciesId": "polteageist",
+      "FrameWidth": 59,
+      "FrameHeight": 62,
+      "FrameCount": 6,
+      "SourceFrames": [
+        61,
+        62,
+        63,
+        64,
+        65,
+        66
+      ],
+      "X": 3136,
+      "Y": 1931
+    },
+    {
+      "SpeciesId": "impidimp",
+      "FrameWidth": 65,
+      "FrameHeight": 60,
+      "FrameCount": 4,
+      "SourceFrames": [
+        44,
+        45,
+        46,
+        47
+      ],
+      "X": 579,
+      "Y": 2626
+    },
+    {
+      "SpeciesId": "morgrem",
+      "FrameWidth": 54,
+      "FrameHeight": 62,
+      "FrameCount": 4,
+      "SourceFrames": [
+        46,
+        47,
+        48,
+        49
+      ],
+      "X": 1368,
+      "Y": 2123
+    },
+    {
+      "SpeciesId": "grimmsnarl",
+      "FrameWidth": 60,
+      "FrameHeight": 72,
+      "FrameCount": 4,
+      "SourceFrames": [
+        51,
+        52,
+        53,
+        54
+      ],
+      "X": 2594,
+      "Y": 446
+    },
+    {
+      "SpeciesId": "pincurchin",
+      "FrameWidth": 52,
+      "FrameHeight": 54,
+      "FrameCount": 4,
+      "SourceFrames": [
+        49,
+        50,
+        51,
+        52
+      ],
+      "X": 3548,
+      "Y": 3230
+    },
+    {
+      "SpeciesId": "snom",
+      "FrameWidth": 56,
+      "FrameHeight": 47,
+      "FrameCount": 3,
+      "SourceFrames": [
+        46,
+        47,
+        48
+      ],
+      "X": 3623,
+      "Y": 3287
+    },
+    {
+      "SpeciesId": "frosmoth",
+      "FrameWidth": 52,
+      "FrameHeight": 67,
+      "FrameCount": 4,
+      "SourceFrames": [
+        54,
+        55,
+        56,
+        57
+      ],
+      "X": 2504,
+      "Y": 875
+    },
+    {
+      "SpeciesId": "eiscue",
+      "FrameWidth": 61,
+      "FrameHeight": 70,
+      "FrameCount": 4,
+      "SourceFrames": [
+        52,
+        53,
+        54,
+        55
+      ],
+      "X": 1326,
+      "Y": 593
+    },
+    {
+      "SpeciesId": "regieleki",
+      "FrameWidth": 76,
+      "FrameHeight": 66,
+      "FrameCount": 8,
+      "SourceFrames": [
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45
+      ],
+      "X": 0,
+      "Y": 944
+    },
+    {
+      "SpeciesId": "regidrago",
+      "FrameWidth": 77,
+      "FrameHeight": 75,
+      "FrameCount": 8,
+      "SourceFrames": [
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63
+      ],
+      "X": 2037,
+      "Y": 291
+    },
+    {
+      "SpeciesId": "calyrex",
+      "FrameWidth": 58,
+      "FrameHeight": 73,
+      "FrameCount": 8,
+      "SourceFrames": [
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66
+      ],
+      "X": 2770,
+      "Y": 370
+    },
+    {
+      "SpeciesId": "tarountula",
+      "FrameWidth": 65,
+      "FrameHeight": 66,
+      "FrameCount": 4,
+      "SourceFrames": [
+        25,
+        26,
+        27,
+        28
+      ],
+      "X": 810,
+      "Y": 1012
+    },
+    {
+      "SpeciesId": "spidops",
+      "FrameWidth": 50,
+      "FrameHeight": 62,
+      "FrameCount": 4,
+      "SourceFrames": [
+        46,
+        47,
+        48,
+        49
+      ],
+      "X": 1795,
+      "Y": 2123
+    },
+    {
+      "SpeciesId": "nymble",
+      "FrameWidth": 56,
+      "FrameHeight": 49,
+      "FrameCount": 7,
+      "SourceFrames": [
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54
+      ],
+      "X": 3229,
+      "Y": 3287
+    },
+    {
+      "SpeciesId": "lokix",
+      "FrameWidth": 64,
+      "FrameHeight": 61,
+      "FrameCount": 4,
+      "SourceFrames": [
+        49,
+        50,
+        51,
+        52
+      ],
+      "X": 3061,
+      "Y": 2313
+    },
+    {
+      "SpeciesId": "fidough",
+      "FrameWidth": 55,
+      "FrameHeight": 57,
+      "FrameCount": 6,
+      "SourceFrames": [
+        48,
+        49,
+        50,
+        51,
+        52,
+        53
+      ],
+      "X": 2505,
+      "Y": 3054
+    },
+    {
+      "SpeciesId": "dachsbun",
+      "FrameWidth": 61,
+      "FrameHeight": 54,
+      "FrameCount": 4,
+      "SourceFrames": [
+        50,
+        51,
+        52,
+        53
+      ],
+      "X": 2398,
+      "Y": 3230
+    },
+    {
+      "SpeciesId": "nacli",
+      "FrameWidth": 56,
+      "FrameHeight": 55,
+      "FrameCount": 8,
+      "SourceFrames": [
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54
+      ],
+      "X": 2400,
+      "Y": 3172
+    },
+    {
+      "SpeciesId": "naclstack",
+      "FrameWidth": 58,
+      "FrameHeight": 57,
+      "FrameCount": 4,
+      "SourceFrames": [
+        44,
+        45,
+        46,
+        47
+      ],
+      "X": 2436,
+      "Y": 3113
+    },
+    {
+      "SpeciesId": "garganacl",
+      "FrameWidth": 67,
+      "FrameHeight": 71,
+      "FrameCount": 4,
+      "SourceFrames": [
+        44,
+        45,
+        46,
+        47
+      ],
+      "X": 1336,
+      "Y": 520
+    },
+    {
+      "SpeciesId": "charcadet",
+      "FrameWidth": 52,
+      "FrameHeight": 63,
+      "FrameCount": 4,
+      "SourceFrames": [
+        43,
+        44,
+        45,
+        46
+      ],
+      "X": 2518,
+      "Y": 1738
+    },
+    {
+      "SpeciesId": "armarouge",
+      "FrameWidth": 61,
+      "FrameHeight": 66,
+      "FrameCount": 4,
+      "SourceFrames": [
+        59,
+        60,
+        61,
+        62
+      ],
+      "X": 1580,
+      "Y": 1012
+    },
+    {
+      "SpeciesId": "ceruledge",
+      "FrameWidth": 44,
+      "FrameHeight": 60,
+      "FrameCount": 4,
+      "SourceFrames": [
+        59,
+        60,
+        61,
+        62
+      ],
+      "X": 3916,
+      "Y": 2376
+    },
+    {
+      "SpeciesId": "tadbulb",
+      "FrameWidth": 60,
+      "FrameHeight": 56,
+      "FrameCount": 8,
+      "SourceFrames": [
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59
+      ],
+      "X": 622,
+      "Y": 3172
+    },
+    {
+      "SpeciesId": "bellibolt",
+      "FrameWidth": 68,
+      "FrameHeight": 73,
+      "FrameCount": 7,
+      "SourceFrames": [
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53
+      ],
+      "X": 2292,
+      "Y": 370
+    },
+    {
+      "SpeciesId": "capsakid",
+      "FrameWidth": 60,
+      "FrameHeight": 59,
+      "FrameCount": 12,
+      "SourceFrames": [
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67
+      ],
+      "X": 2692,
+      "Y": 2688
+    },
+    {
+      "SpeciesId": "scovillain",
+      "FrameWidth": 54,
+      "FrameHeight": 63,
+      "FrameCount": 4,
+      "SourceFrames": [
+        51,
+        52,
+        53,
+        54
+      ],
+      "X": 2086,
+      "Y": 1738
+    },
+    {
+      "SpeciesId": "tinkatink",
+      "FrameWidth": 61,
+      "FrameHeight": 59,
+      "FrameCount": 4,
+      "SourceFrames": [
+        42,
+        43,
+        44,
+        45
+      ],
+      "X": 1028,
+      "Y": 2872
+    },
+    {
+      "SpeciesId": "tinkatuff",
+      "FrameWidth": 46,
+      "FrameHeight": 51,
+      "FrameCount": 4,
+      "SourceFrames": [
+        45,
+        46,
+        47,
+        48
+      ],
+      "X": 3043,
+      "Y": 3287
+    },
+    {
+      "SpeciesId": "tinkaton",
+      "FrameWidth": 115,
+      "FrameHeight": 85,
+      "FrameCount": 4,
+      "SourceFrames": [
+        50,
+        51,
+        52,
+        53
+      ],
+      "X": 2575,
+      "Y": 111
+    },
+    {
+      "SpeciesId": "cyclizar",
+      "FrameWidth": 71,
+      "FrameHeight": 64,
+      "FrameCount": 6,
+      "SourceFrames": [
+        53,
+        54,
+        55,
+        56,
+        57,
+        58
+      ],
+      "X": 3394,
+      "Y": 1214
+    },
+    {
+      "SpeciesId": "dipplin",
+      "FrameWidth": 56,
+      "FrameHeight": 63,
+      "FrameCount": 4,
+      "SourceFrames": [
+        48,
+        49,
+        50,
+        51
+      ],
+      "X": 1182,
+      "Y": 1738
+    },
+    {
+      "SpeciesId": "hydrapple",
+      "FrameWidth": 77,
+      "FrameHeight": 61,
+      "FrameCount": 4,
+      "SourceFrames": [
+        47,
+        48,
+        49,
+        50
+      ],
+      "X": 312,
+      "Y": 2313
+    },
+    {
+      "SpeciesId": "yamask",
+      "FrameWidth": 52,
+      "FrameHeight": 64,
+      "FrameCount": 8,
+      "SourceFrames": [
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82
+      ],
+      "X": 0,
+      "Y": 1280
+    },
+    {
+      "SpeciesId": "cofagrigus",
+      "FrameWidth": 53,
+      "FrameHeight": 65,
+      "FrameCount": 4,
+      "SourceFrames": [
+        55,
+        56,
+        57,
+        58
+      ],
+      "X": 3382,
+      "Y": 1147
+    },
+    {
+      "SpeciesId": "spinarak",
+      "FrameWidth": 57,
+      "FrameHeight": 61,
+      "FrameCount": 3,
+      "SourceFrames": [
+        58,
+        59,
+        60
+      ],
+      "X": 3924,
+      "Y": 2059
+    },
+    {
+      "SpeciesId": "ariados",
+      "FrameWidth": 61,
+      "FrameHeight": 55,
+      "FrameCount": 4,
+      "SourceFrames": [
+        63,
+        64,
+        65,
+        66
+      ],
+      "X": 3378,
+      "Y": 3172
+    },
+    {
+      "SpeciesId": "wurmple",
+      "FrameWidth": 62,
+      "FrameHeight": 62,
+      "FrameCount": 6,
+      "SourceFrames": [
+        60,
+        61,
+        62,
+        63,
+        64,
+        65
+      ],
+      "X": 2400,
+      "Y": 1931
+    },
+    {
+      "SpeciesId": "silcoon",
+      "FrameWidth": 62,
+      "FrameHeight": 63,
+      "FrameCount": 3,
+      "SourceFrames": [
+        60,
+        61,
+        62
+      ],
+      "X": 2930,
+      "Y": 1738
+    },
+    {
+      "SpeciesId": "beautifly",
+      "FrameWidth": 64,
+      "FrameHeight": 64,
+      "FrameCount": 12,
+      "SourceFrames": [
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88
+      ],
+      "X": 1010,
+      "Y": 1214
+    },
+    {
+      "SpeciesId": "cascoon",
+      "FrameWidth": 57,
+      "FrameHeight": 61,
+      "FrameCount": 3,
+      "SourceFrames": [
+        54,
+        55,
+        56
+      ],
+      "X": 3925,
+      "Y": 944
+    },
+    {
+      "SpeciesId": "dustox",
+      "FrameWidth": 66,
+      "FrameHeight": 60,
+      "FrameCount": 12,
+      "SourceFrames": [
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83
+      ],
+      "X": 3186,
+      "Y": 2439
+    },
+    {
+      "SpeciesId": "stunky",
+      "FrameWidth": 68,
+      "FrameHeight": 67,
+      "FrameCount": 4,
+      "SourceFrames": [
+        47,
+        48,
+        49,
+        50
+      ],
+      "X": 2866,
+      "Y": 806
+    },
+    {
+      "SpeciesId": "skuntank",
+      "FrameWidth": 67,
+      "FrameHeight": 69,
+      "FrameCount": 4,
+      "SourceFrames": [
+        47,
+        48,
+        49,
+        50
+      ],
+      "X": 1590,
+      "Y": 665
+    },
+    {
+      "SpeciesId": "larvesta",
+      "FrameWidth": 54,
+      "FrameHeight": 52,
+      "FrameCount": 3,
+      "SourceFrames": [
+        57,
+        58,
+        59
+      ],
+      "X": 2447,
+      "Y": 3287
+    },
+    {
+      "SpeciesId": "volcarona",
+      "FrameWidth": 50,
+      "FrameHeight": 66,
+      "FrameCount": 4,
+      "SourceFrames": [
+        61,
+        62,
+        63,
+        64
+      ],
+      "X": 3000,
+      "Y": 1012
+    },
+    {
+      "SpeciesId": "scatterbug",
+      "FrameWidth": 60,
+      "FrameHeight": 62,
+      "FrameCount": 6,
+      "SourceFrames": [
+        60,
+        61,
+        62,
+        63,
+        64,
+        65
+      ],
+      "X": 2774,
+      "Y": 1931
+    },
+    {
+      "SpeciesId": "spewpa",
+      "FrameWidth": 75,
+      "FrameHeight": 63,
+      "FrameCount": 4,
+      "SourceFrames": [
+        53,
+        54,
+        55,
+        56
+      ],
+      "X": 2289,
+      "Y": 1543
+    },
+    {
+      "SpeciesId": "vivillon",
+      "FrameWidth": 75,
+      "FrameHeight": 62,
+      "FrameCount": 12,
+      "SourceFrames": [
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85
+      ],
+      "X": 0,
+      "Y": 1803
+    },
+    {
+      "SpeciesId": "furfrou",
+      "FrameWidth": 68,
+      "FrameHeight": 67,
+      "FrameCount": 4,
+      "SourceFrames": [
+        52,
+        53,
+        54,
+        55
+      ],
+      "X": 2592,
+      "Y": 806
+    },
+    {
+      "SpeciesId": "skrelp",
+      "FrameWidth": 57,
+      "FrameHeight": 60,
+      "FrameCount": 4,
+      "SourceFrames": [
+        57,
+        58,
+        59,
+        60
+      ],
+      "X": 924,
+      "Y": 2688
+    },
+    {
+      "SpeciesId": "dragalge",
+      "FrameWidth": 68,
+      "FrameHeight": 69,
+      "FrameCount": 5,
+      "SourceFrames": [
+        62,
+        63,
+        64,
+        65,
+        66
+      ],
+      "X": 0,
+      "Y": 665
+    },
+    {
+      "SpeciesId": "bounsweet",
+      "FrameWidth": 58,
+      "FrameHeight": 57,
+      "FrameCount": 4,
+      "SourceFrames": [
+        62,
+        63,
+        64,
+        65
+      ],
+      "X": 2202,
+      "Y": 3113
+    },
+    {
+      "SpeciesId": "steenee",
+      "FrameWidth": 59,
+      "FrameHeight": 63,
+      "FrameCount": 4,
+      "SourceFrames": [
+        57,
+        58,
+        59,
+        60
+      ],
+      "X": 714,
+      "Y": 1738
+    },
+    {
+      "SpeciesId": "tsareena",
+      "FrameWidth": 56,
+      "FrameHeight": 64,
+      "FrameCount": 4,
+      "SourceFrames": [
+        44,
+        45,
+        46,
+        47
+      ],
+      "X": 2094,
+      "Y": 1412
+    },
+    {
+      "SpeciesId": "greavard",
+      "FrameWidth": 62,
+      "FrameHeight": 60,
+      "FrameCount": 4,
+      "SourceFrames": [
+        52,
+        53,
+        54,
+        55
+      ],
+      "X": 1611,
+      "Y": 2626
+    },
+    {
+      "SpeciesId": "houndstone",
+      "FrameWidth": 76,
+      "FrameHeight": 65,
+      "FrameCount": 4,
+      "SourceFrames": [
+        41,
+        42,
+        43,
+        44
+      ],
+      "X": 3370,
+      "Y": 1080
+    },
+    {
+      "SpeciesId": "sewaddle",
+      "FrameWidth": 61,
+      "FrameHeight": 54,
+      "FrameCount": 6,
+      "SourceFrames": [
+        60,
+        61,
+        62,
+        63,
+        64,
+        65
+      ],
+      "X": 1704,
+      "Y": 3230
+    },
+    {
+      "SpeciesId": "swadloon",
+      "FrameWidth": 64,
+      "FrameHeight": 59,
+      "FrameCount": 4,
+      "SourceFrames": [
+        53,
+        54,
+        55,
+        56
+      ],
+      "X": 516,
+      "Y": 2872
+    },
+    {
+      "SpeciesId": "leavanny",
+      "FrameWidth": 55,
+      "FrameHeight": 72,
+      "FrameCount": 4,
+      "SourceFrames": [
+        46,
+        47,
+        48,
+        49
+      ],
+      "X": 3866,
+      "Y": 370
+    },
+    {
+      "SpeciesId": "dewpider",
+      "FrameWidth": 63,
+      "FrameHeight": 65,
+      "FrameCount": 4,
+      "SourceFrames": [
+        59,
+        60,
+        61,
+        62
+      ],
+      "X": 2164,
+      "Y": 1147
+    },
+    {
+      "SpeciesId": "araquanid",
+      "FrameWidth": 86,
+      "FrameHeight": 74,
+      "FrameCount": 4,
+      "SourceFrames": [
+        60,
+        61,
+        62,
+        63
+      ],
+      "X": 578,
+      "Y": 370
+    },
+    {
+      "SpeciesId": "varoom",
+      "FrameWidth": 57,
+      "FrameHeight": 57,
+      "FrameCount": 5,
+      "SourceFrames": [
+        70,
+        71,
+        72,
+        73,
+        74
+      ],
+      "X": 3807,
+      "Y": 2994
+    },
+    {
+      "SpeciesId": "revavroom",
+      "FrameWidth": 62,
+      "FrameHeight": 68,
+      "FrameCount": 16,
+      "SourceFrames": [
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82
+      ],
+      "X": 2642,
+      "Y": 665
+    },
+    {
+      "SpeciesId": "drampa",
+      "FrameWidth": 102,
+      "FrameHeight": 81,
+      "FrameCount": 4,
+      "SourceFrames": [
+        58,
+        59,
+        60,
+        61
+      ],
+      "X": 322,
+      "Y": 205
+    },
+    {
+      "SpeciesId": "kyogre",
+      "FrameWidth": 70,
+      "FrameHeight": 71,
+      "FrameCount": 10,
+      "SourceFrames": [
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68
+      ],
+      "X": 3269,
+      "Y": 446
+    },
+    {
+      "SpeciesId": "groudon",
+      "FrameWidth": 88,
+      "FrameHeight": 78,
+      "FrameCount": 4,
+      "SourceFrames": [
+        54,
+        55,
+        56,
+        57
+      ],
+      "X": 3588,
+      "Y": 205
+    },
+    {
+      "SpeciesId": "dialga",
+      "FrameWidth": 88,
+      "FrameHeight": 91,
+      "FrameCount": 4,
+      "SourceFrames": [
+        46,
+        47,
+        48,
+        49
+      ],
+      "X": 1227,
+      "Y": 111
+    },
+    {
+      "SpeciesId": "palkia",
+      "FrameWidth": 102,
+      "FrameHeight": 104,
+      "FrameCount": 4,
+      "SourceFrames": [
+        50,
+        51,
+        52,
+        53
+      ],
+      "X": 2066,
+      "Y": 0
+    },
+    {
+      "SpeciesId": "giratina",
+      "FrameWidth": 69,
+      "FrameHeight": 77,
+      "FrameCount": 4,
+      "SourceFrames": [
+        46,
+        47,
+        48,
+        49
+      ],
+      "X": 457,
+      "Y": 291
+    },
+    {
+      "SpeciesId": "arceus",
+      "FrameWidth": 60,
+      "FrameHeight": 59,
+      "FrameCount": 8,
+      "SourceFrames": [
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64
+      ],
+      "X": 490,
+      "Y": 2750
+    },
+    {
+      "SpeciesId": "darkrai",
+      "FrameWidth": 72,
+      "FrameHeight": 74,
+      "FrameCount": 8,
+      "SourceFrames": [
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71
+      ],
+      "X": 0,
+      "Y": 370
+    },
+    {
+      "SpeciesId": "cresselia",
+      "FrameWidth": 71,
+      "FrameHeight": 61,
+      "FrameCount": 9,
+      "SourceFrames": [
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83
+      ],
+      "X": 3339,
+      "Y": 2123
+    },
+    {
+      "SpeciesId": "turtwig",
+      "FrameWidth": 63,
+      "FrameHeight": 58,
+      "FrameCount": 4,
+      "SourceFrames": [
+        45,
+        46,
+        47,
+        48
+      ],
+      "X": 1397,
+      "Y": 2994
+    },
+    {
+      "SpeciesId": "grotle",
+      "FrameWidth": 56,
+      "FrameHeight": 58,
+      "FrameCount": 4,
+      "SourceFrames": [
+        48,
+        49,
+        50,
+        51
+      ],
+      "X": 3083,
+      "Y": 2994
+    },
+    {
+      "SpeciesId": "torterra",
+      "FrameWidth": 72,
+      "FrameHeight": 69,
+      "FrameCount": 4,
+      "SourceFrames": [
+        45,
+        46,
+        47,
+        48
+      ],
+      "X": 1300,
+      "Y": 665
+    },
+    {
+      "SpeciesId": "chimchar",
+      "FrameWidth": 53,
+      "FrameHeight": 60,
+      "FrameCount": 7,
+      "SourceFrames": [
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54
+      ],
+      "X": 1999,
+      "Y": 2564
+    },
+    {
+      "SpeciesId": "monferno",
+      "FrameWidth": 63,
+      "FrameHeight": 61,
+      "FrameCount": 9,
+      "SourceFrames": [
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65
+      ],
+      "X": 0,
+      "Y": 2187
+    },
+    {
+      "SpeciesId": "infernape",
+      "FrameWidth": 67,
+      "FrameHeight": 64,
+      "FrameCount": 4,
+      "SourceFrames": [
+        58,
+        59,
+        60,
+        61
+      ],
+      "X": 2437,
+      "Y": 1280
+    },
+    {
+      "SpeciesId": "piplup",
+      "FrameWidth": 49,
+      "FrameHeight": 51,
+      "FrameCount": 4,
+      "SourceFrames": [
+        50,
+        51,
+        52,
+        53
+      ],
+      "X": 2845,
+      "Y": 3287
+    },
+    {
+      "SpeciesId": "prinplup",
+      "FrameWidth": 59,
+      "FrameHeight": 60,
+      "FrameCount": 4,
+      "SourceFrames": [
+        52,
+        53,
+        54,
+        55
+      ],
+      "X": 3821,
+      "Y": 2626
+    },
+    {
+      "SpeciesId": "empoleon",
+      "FrameWidth": 47,
+      "FrameHeight": 55,
+      "FrameCount": 4,
+      "SourceFrames": [
+        48,
+        49,
+        50,
+        51
+      ],
+      "X": 214,
+      "Y": 3230
+    },
+    {
+      "SpeciesId": "snivy",
+      "FrameWidth": 60,
+      "FrameHeight": 59,
+      "FrameCount": 4,
+      "SourceFrames": [
+        42,
+        43,
+        44,
+        45
+      ],
+      "X": 2242,
+      "Y": 2872
+    },
+    {
+      "SpeciesId": "servine",
+      "FrameWidth": 56,
+      "FrameHeight": 64,
+      "FrameCount": 4,
+      "SourceFrames": [
+        43,
+        44,
+        45,
+        46
+      ],
+      "X": 1868,
+      "Y": 1412
+    },
+    {
+      "SpeciesId": "serperior",
+      "FrameWidth": 78,
+      "FrameHeight": 67,
+      "FrameCount": 7,
+      "SourceFrames": [
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50
+      ],
+      "X": 554,
+      "Y": 806
+    },
+    {
+      "SpeciesId": "tepig",
+      "FrameWidth": 59,
+      "FrameHeight": 55,
+      "FrameCount": 4,
+      "SourceFrames": [
+        46,
+        47,
+        48,
+        49
+      ],
+      "X": 3624,
+      "Y": 3172
+    },
+    {
+      "SpeciesId": "pignite",
+      "FrameWidth": 64,
+      "FrameHeight": 59,
+      "FrameCount": 4,
+      "SourceFrames": [
+        47,
+        48,
+        49,
+        50
+      ],
+      "X": 258,
+      "Y": 2872
+    },
+    {
+      "SpeciesId": "emboar",
+      "FrameWidth": 66,
+      "FrameHeight": 65,
+      "FrameCount": 4,
+      "SourceFrames": [
+        47,
+        48,
+        49,
+        50
+      ],
+      "X": 846,
+      "Y": 1147
+    },
+    {
+      "SpeciesId": "oshawott",
+      "FrameWidth": 50,
+      "FrameHeight": 53,
+      "FrameCount": 4,
+      "SourceFrames": [
+        47,
+        48,
+        49,
+        50
+      ],
+      "X": 226,
+      "Y": 3287
+    },
+    {
+      "SpeciesId": "dewott",
+      "FrameWidth": 46,
+      "FrameHeight": 62,
+      "FrameCount": 4,
+      "SourceFrames": [
+        33,
+        34,
+        35,
+        36
+      ],
+      "X": 2191,
+      "Y": 2123
+    },
+    {
+      "SpeciesId": "samurott",
+      "FrameWidth": 76,
+      "FrameHeight": 67,
+      "FrameCount": 4,
+      "SourceFrames": [
+        43,
+        44,
+        45,
+        46
+      ],
+      "X": 1440,
+      "Y": 806
+    },
+    {
+      "SpeciesId": "chespin",
+      "FrameWidth": 49,
+      "FrameHeight": 56,
+      "FrameCount": 4,
+      "SourceFrames": [
+        47,
+        48,
+        49,
+        50
+      ],
+      "X": 2202,
+      "Y": 3172
+    },
+    {
+      "SpeciesId": "quilladin",
+      "FrameWidth": 45,
+      "FrameHeight": 54,
+      "FrameCount": 4,
+      "SourceFrames": [
+        47,
+        48,
+        49,
+        50
+      ],
+      "X": 3758,
+      "Y": 3230
+    },
+    {
+      "SpeciesId": "chesnaught",
+      "FrameWidth": 64,
+      "FrameHeight": 69,
+      "FrameCount": 4,
+      "SourceFrames": [
+        52,
+        53,
+        54,
+        55
+      ],
+      "X": 2126,
+      "Y": 665
+    },
+    {
+      "SpeciesId": "fennekin",
+      "FrameWidth": 60,
+      "FrameHeight": 54,
+      "FrameCount": 7,
+      "SourceFrames": [
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47
+      ],
+      "X": 902,
+      "Y": 3230
+    },
+    {
+      "SpeciesId": "braixen",
+      "FrameWidth": 62,
+      "FrameHeight": 64,
+      "FrameCount": 4,
+      "SourceFrames": [
+        52,
+        53,
+        54,
+        55
+      ],
+      "X": 2306,
+      "Y": 1346
+    },
+    {
+      "SpeciesId": "delphox",
+      "FrameWidth": 66,
+      "FrameHeight": 70,
+      "FrameCount": 4,
+      "SourceFrames": [
+        43,
+        44,
+        45,
+        46
+      ],
+      "X": 556,
+      "Y": 593
+    },
+    {
+      "SpeciesId": "litten",
+      "FrameWidth": 58,
+      "FrameHeight": 58,
+      "FrameCount": 5,
+      "SourceFrames": [
+        47,
+        48,
+        49,
+        50,
+        51
+      ],
+      "X": 302,
+      "Y": 2994
+    },
+    {
+      "SpeciesId": "torracat",
+      "FrameWidth": 64,
+      "FrameHeight": 69,
+      "FrameCount": 4,
+      "SourceFrames": [
+        48,
+        49,
+        50,
+        51
+      ],
+      "X": 2384,
+      "Y": 665
+    },
+    {
+      "SpeciesId": "incineroar",
+      "FrameWidth": 65,
+      "FrameHeight": 61,
+      "FrameCount": 4,
+      "SourceFrames": [
+        36,
+        37,
+        38,
+        39
+      ],
+      "X": 1751,
+      "Y": 2313
+    },
+    {
+      "SpeciesId": "popplio",
+      "FrameWidth": 61,
+      "FrameHeight": 58,
+      "FrameCount": 4,
+      "SourceFrames": [
+        41,
+        42,
+        43,
+        44
+      ],
+      "X": 1651,
+      "Y": 2994
+    },
+    {
+      "SpeciesId": "brionne",
+      "FrameWidth": 64,
+      "FrameHeight": 59,
+      "FrameCount": 5,
+      "SourceFrames": [
+        44,
+        45,
+        46,
+        47,
+        48
+      ],
+      "X": 2088,
+      "Y": 2811
+    },
+    {
+      "SpeciesId": "primarina",
+      "FrameWidth": 72,
+      "FrameHeight": 73,
+      "FrameCount": 7,
+      "SourceFrames": [
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56
+      ],
+      "X": 1786,
+      "Y": 370
+    },
+    {
+      "SpeciesId": "grookey",
+      "FrameWidth": 55,
+      "FrameHeight": 61,
+      "FrameCount": 7,
+      "SourceFrames": [
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51
+      ],
+      "X": 0,
+      "Y": 2250
+    },
+    {
+      "SpeciesId": "thwackey",
+      "FrameWidth": 71,
+      "FrameHeight": 75,
+      "FrameCount": 4,
+      "SourceFrames": [
+        54,
+        55,
+        56,
+        57
+      ],
+      "X": 3685,
+      "Y": 291
+    },
+    {
+      "SpeciesId": "rillaboom",
+      "FrameWidth": 66,
+      "FrameHeight": 62,
+      "FrameCount": 4,
+      "SourceFrames": [
+        43,
+        44,
+        45,
+        46
+      ],
+      "X": 2953,
+      "Y": 1995
+    },
+    {
+      "SpeciesId": "sobble",
+      "FrameWidth": 58,
+      "FrameHeight": 61,
+      "FrameCount": 4,
+      "SourceFrames": [
+        44,
+        45,
+        46,
+        47
+      ],
+      "X": 3682,
+      "Y": 2376
+    },
+    {
+      "SpeciesId": "drizzile",
+      "FrameWidth": 44,
+      "FrameHeight": 64,
+      "FrameCount": 4,
+      "SourceFrames": [
+        44,
+        45,
+        46,
+        47
+      ],
+      "X": 2954,
+      "Y": 1412
+    },
+    {
+      "SpeciesId": "inteleon",
+      "FrameWidth": 63,
+      "FrameHeight": 71,
+      "FrameCount": 4,
+      "SourceFrames": [
+        54,
+        55,
+        56,
+        57
+      ],
+      "X": 1872,
+      "Y": 520
+    },
+    {
+      "SpeciesId": "sprigatito",
+      "FrameWidth": 55,
+      "FrameHeight": 60,
+      "FrameCount": 6,
+      "SourceFrames": [
+        48,
+        49,
+        50,
+        51,
+        52,
+        53
+      ],
+      "X": 3096,
+      "Y": 2564
+    },
+    {
+      "SpeciesId": "floragato",
+      "FrameWidth": 59,
+      "FrameHeight": 62,
+      "FrameCount": 4,
+      "SourceFrames": [
+        31,
+        32,
+        33,
+        34
+      ],
+      "X": 2746,
+      "Y": 2059
+    },
+    {
+      "SpeciesId": "meowscarada",
+      "FrameWidth": 69,
+      "FrameHeight": 67,
+      "FrameCount": 4,
+      "SourceFrames": [
+        50,
+        51,
+        52,
+        53
+      ],
+      "X": 2040,
+      "Y": 806
+    },
+    {
+      "SpeciesId": "fuecoco",
+      "FrameWidth": 56,
+      "FrameHeight": 57,
+      "FrameCount": 4,
+      "SourceFrames": [
+        53,
+        54,
+        55,
+        56
+      ],
+      "X": 2670,
+      "Y": 3113
+    },
+    {
+      "SpeciesId": "crocalor",
+      "FrameWidth": 66,
+      "FrameHeight": 59,
+      "FrameCount": 4,
+      "SourceFrames": [
+        42,
+        43,
+        44,
+        45
+      ],
+      "X": 3582,
+      "Y": 2811
+    },
+    {
+      "SpeciesId": "skeledirge",
+      "FrameWidth": 80,
+      "FrameHeight": 75,
+      "FrameCount": 4,
+      "SourceFrames": [
+        54,
+        55,
+        56,
+        57
+      ],
+      "X": 3045,
+      "Y": 291
+    },
+    {
+      "SpeciesId": "quaxly",
+      "FrameWidth": 52,
+      "FrameHeight": 56,
+      "FrameCount": 4,
+      "SourceFrames": [
+        43,
+        44,
+        45,
+        46
+      ],
+      "X": 1992,
+      "Y": 3172
+    },
+    {
+      "SpeciesId": "quaxwell",
+      "FrameWidth": 53,
+      "FrameHeight": 61,
+      "FrameCount": 4,
+      "SourceFrames": [
+        51,
+        52,
+        53,
+        54
+      ],
+      "X": 1586,
+      "Y": 2439
+    },
+    {
+      "SpeciesId": "quaquaval",
+      "FrameWidth": 80,
+      "FrameHeight": 64,
+      "FrameCount": 8,
+      "SourceFrames": [
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56
+      ],
+      "X": 1780,
+      "Y": 1214
+    },
+    {
+      "SpeciesId": "murkrow",
+      "FrameWidth": 60,
+      "FrameHeight": 60,
+      "FrameCount": 6,
+      "SourceFrames": [
+        46,
+        47,
+        48,
+        49,
+        50,
+        51
+      ],
+      "X": 2372,
+      "Y": 2564
+    },
+    {
+      "SpeciesId": "honchkrow",
+      "FrameWidth": 59,
+      "FrameHeight": 60,
+      "FrameCount": 7,
+      "SourceFrames": [
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58
+      ],
+      "X": 0,
+      "Y": 2564
+    },
+    {
+      "SpeciesId": "bidoof",
+      "FrameWidth": 53,
+      "FrameHeight": 54,
+      "FrameCount": 4,
+      "SourceFrames": [
+        44,
+        45,
+        46,
+        47
+      ],
+      "X": 3124,
+      "Y": 3230
+    },
+    {
+      "SpeciesId": "bibarel",
+      "FrameWidth": 59,
+      "FrameHeight": 59,
+      "FrameCount": 4,
+      "SourceFrames": [
+        49,
+        50,
+        51,
+        52
+      ],
+      "X": 2484,
+      "Y": 2872
+    },
+    {
+      "SpeciesId": "lotad",
+      "FrameWidth": 59,
+      "FrameHeight": 59,
+      "FrameCount": 4,
+      "SourceFrames": [
+        42,
+        43,
+        44,
+        45
+      ],
+      "X": 2960,
+      "Y": 2872
+    },
+    {
+      "SpeciesId": "lombre",
+      "FrameWidth": 62,
+      "FrameHeight": 61,
+      "FrameCount": 4,
+      "SourceFrames": [
+        49,
+        50,
+        51,
+        52
+      ],
+      "X": 750,
+      "Y": 2376
+    },
+    {
+      "SpeciesId": "ludicolo",
+      "FrameWidth": 61,
+      "FrameHeight": 63,
+      "FrameCount": 4,
+      "SourceFrames": [
+        41,
+        42,
+        43,
+        44
+      ],
+      "X": 2246,
+      "Y": 1673
+    },
+    {
+      "SpeciesId": "sneasel",
+      "FrameWidth": 63,
+      "FrameHeight": 64,
+      "FrameCount": 4,
+      "SourceFrames": [
+        46,
+        47,
+        48,
+        49
+      ],
+      "X": 2052,
+      "Y": 1346
+    },
+    {
+      "SpeciesId": "weavile",
+      "FrameWidth": 64,
+      "FrameHeight": 66,
+      "FrameCount": 4,
+      "SourceFrames": [
+        44,
+        45,
+        46,
+        47
+      ],
+      "X": 1072,
+      "Y": 1012
+    },
+    {
+      "SpeciesId": "drilbur",
+      "FrameWidth": 66,
+      "FrameHeight": 64,
+      "FrameCount": 4,
+      "SourceFrames": [
+        44,
+        45,
+        46,
+        47
+      ],
+      "X": 2973,
+      "Y": 1280
+    },
+    {
+      "SpeciesId": "excadrill",
+      "FrameWidth": 80,
+      "FrameHeight": 72,
+      "FrameCount": 4,
+      "SourceFrames": [
+        46,
+        47,
+        48,
+        49
+      ],
+      "X": 1228,
+      "Y": 446
+    },
+    {
+      "SpeciesId": "snover",
+      "FrameWidth": 59,
+      "FrameHeight": 58,
+      "FrameCount": 4,
+      "SourceFrames": [
+        50,
+        51,
+        52,
+        53
+      ],
+      "X": 2143,
+      "Y": 2994
+    },
+    {
+      "SpeciesId": "abomasnow",
+      "FrameWidth": 61,
+      "FrameHeight": 61,
+      "FrameCount": 4,
+      "SourceFrames": [
+        51,
+        52,
+        53,
+        54
+      ],
+      "X": 1500,
+      "Y": 2376
+    },
+    {
+      "SpeciesId": "hoothoot",
+      "FrameWidth": 61,
+      "FrameHeight": 61,
+      "FrameCount": 5,
+      "SourceFrames": [
+        43,
+        44,
+        45,
+        46,
+        47
+      ],
+      "X": 622,
+      "Y": 2313
+    },
+    {
+      "SpeciesId": "noctowl",
+      "FrameWidth": 65,
+      "FrameHeight": 61,
+      "FrameCount": 4,
+      "SourceFrames": [
+        60,
+        61,
+        62,
+        63
+      ],
+      "X": 2275,
+      "Y": 2313
+    },
+    {
+      "SpeciesId": "sunflora",
+      "FrameWidth": 60,
+      "FrameHeight": 66,
+      "FrameCount": 4,
+      "SourceFrames": [
+        56,
+        57,
+        58,
+        59
+      ],
+      "X": 2314,
+      "Y": 1012
+    },
+    {
+      "SpeciesId": "stantler",
+      "FrameWidth": 66,
+      "FrameHeight": 69,
+      "FrameCount": 6,
+      "SourceFrames": [
+        57,
+        58,
+        59,
+        60,
+        61,
+        62
+      ],
+      "X": 3418,
+      "Y": 593
+    },
+    {
+      "SpeciesId": "smeargle",
+      "FrameWidth": 65,
+      "FrameHeight": 63,
+      "FrameCount": 4,
+      "SourceFrames": [
+        42,
+        43,
+        44,
+        45
+      ],
+      "X": 2136,
+      "Y": 1608
+    },
+    {
+      "SpeciesId": "miltank",
+      "FrameWidth": 57,
+      "FrameHeight": 64,
+      "FrameCount": 4,
+      "SourceFrames": [
+        49,
+        50,
+        51,
+        52
+      ],
+      "X": 1638,
+      "Y": 1412
+    },
+    {
+      "SpeciesId": "taillow",
+      "FrameWidth": 59,
+      "FrameHeight": 57,
+      "FrameCount": 5,
+      "SourceFrames": [
+        50,
+        51,
+        52,
+        53,
+        54
+      ],
+      "X": 3157,
+      "Y": 3054
+    },
+    {
+      "SpeciesId": "swellow",
+      "FrameWidth": 62,
+      "FrameHeight": 61,
+      "FrameCount": 4,
+      "SourceFrames": [
+        58,
+        59,
+        60,
+        61
+      ],
+      "X": 1250,
+      "Y": 2376
+    },
+    {
+      "SpeciesId": "wingull",
+      "FrameWidth": 56,
+      "FrameHeight": 60,
+      "FrameCount": 4,
+      "SourceFrames": [
+        66,
+        67,
+        68,
+        69
+      ],
+      "X": 1610,
+      "Y": 2688
+    },
+    {
+      "SpeciesId": "pelipper",
+      "FrameWidth": 61,
+      "FrameHeight": 61,
+      "FrameCount": 6,
+      "SourceFrames": [
+        45,
+        46,
+        47,
+        48,
+        49,
+        50
+      ],
+      "X": 767,
+      "Y": 2250
+    },
+    {
+      "SpeciesId": "skitty",
+      "FrameWidth": 59,
+      "FrameHeight": 64,
+      "FrameCount": 7,
+      "SourceFrames": [
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53
+      ],
+      "X": 418,
+      "Y": 1280
+    },
+    {
+      "SpeciesId": "delcatty",
+      "FrameWidth": 63,
+      "FrameHeight": 61,
+      "FrameCount": 4,
+      "SourceFrames": [
+        50,
+        51,
+        52,
+        53
+      ],
+      "X": 3319,
+      "Y": 2313
+    },
+    {
+      "SpeciesId": "roselia",
+      "FrameWidth": 58,
+      "FrameHeight": 61,
+      "FrameCount": 4,
+      "SourceFrames": [
+        48,
+        49,
+        50,
+        51
+      ],
+      "X": 3448,
+      "Y": 2376
+    },
+    {
+      "SpeciesId": "zangoose",
+      "FrameWidth": 62,
+      "FrameHeight": 62,
+      "FrameCount": 4,
+      "SourceFrames": [
+        47,
+        48,
+        49,
+        50
+      ],
+      "X": 1524,
+      "Y": 2059
+    },
+    {
+      "SpeciesId": "seviper",
+      "FrameWidth": 67,
+      "FrameHeight": 63,
+      "FrameCount": 4,
+      "SourceFrames": [
+        43,
+        44,
+        45,
+        46
+      ],
+      "X": 818,
+      "Y": 1608
+    },
+    {
+      "SpeciesId": "budew",
+      "FrameWidth": 54,
+      "FrameHeight": 58,
+      "FrameCount": 8,
+      "SourceFrames": [
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63
+      ],
+      "X": 2128,
+      "Y": 2933
+    },
+    {
+      "SpeciesId": "roserade",
+      "FrameWidth": 61,
+      "FrameHeight": 61,
+      "FrameCount": 4,
+      "SourceFrames": [
+        48,
+        49,
+        50,
+        51
+      ],
+      "X": 2238,
+      "Y": 2376
+    },
+    {
+      "SpeciesId": "combee",
+      "FrameWidth": 65,
+      "FrameHeight": 62,
+      "FrameCount": 6,
+      "SourceFrames": [
+        55,
+        56,
+        57,
+        58,
+        59,
+        60
+      ],
+      "X": 1260,
+      "Y": 1931
+    },
+    {
+      "SpeciesId": "vespiquen",
+      "FrameWidth": 63,
+      "FrameHeight": 58,
+      "FrameCount": 8,
+      "SourceFrames": [
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69
+      ],
+      "X": 650,
+      "Y": 2933
+    },
+    {
+      "SpeciesId": "shellos",
+      "FrameWidth": 58,
+      "FrameHeight": 52,
+      "FrameCount": 6,
+      "SourceFrames": [
+        48,
+        49,
+        50,
+        51,
+        52,
+        53
+      ],
+      "X": 1106,
+      "Y": 3287
+    },
+    {
+      "SpeciesId": "gastrodon",
+      "FrameWidth": 67,
+      "FrameHeight": 60,
+      "FrameCount": 6,
+      "SourceFrames": [
+        48,
+        49,
+        50,
+        51,
+        52,
+        53
+      ],
+      "X": 415,
+      "Y": 2564
+    },
+    {
+      "SpeciesId": "glameow",
+      "FrameWidth": 63,
+      "FrameHeight": 62,
+      "FrameCount": 4,
+      "SourceFrames": [
+        49,
+        50,
+        51,
+        52
+      ],
+      "X": 258,
+      "Y": 2059
+    },
+    {
+      "SpeciesId": "purugly",
+      "FrameWidth": 68,
+      "FrameHeight": 68,
+      "FrameCount": 4,
+      "SourceFrames": [
+        48,
+        49,
+        50,
+        51
+      ],
+      "X": 1784,
+      "Y": 736
+    },
+    {
+      "SpeciesId": "audino",
+      "FrameWidth": 58,
+      "FrameHeight": 67,
+      "FrameCount": 4,
+      "SourceFrames": [
+        45,
+        46,
+        47,
+        48
+      ],
+      "X": 2044,
+      "Y": 875
+    },
+    {
+      "SpeciesId": "lileep",
+      "FrameWidth": 60,
+      "FrameHeight": 64,
+      "FrameCount": 4,
+      "SourceFrames": [
+        45,
+        46,
+        47,
+        48
+      ],
+      "X": 3798,
+      "Y": 1346
+    },
+    {
+      "SpeciesId": "cradily",
+      "FrameWidth": 66,
+      "FrameHeight": 64,
+      "FrameCount": 4,
+      "SourceFrames": [
+        49,
+        50,
+        51,
+        52
+      ],
+      "X": 2707,
+      "Y": 1280
+    },
+    {
+      "SpeciesId": "anorith",
+      "FrameWidth": 61,
+      "FrameHeight": 62,
+      "FrameCount": 8,
+      "SourceFrames": [
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60
+      ],
+      "X": 2709,
+      "Y": 1803
+    },
+    {
+      "SpeciesId": "armaldo",
+      "FrameWidth": 67,
+      "FrameHeight": 63,
+      "FrameCount": 4,
+      "SourceFrames": [
+        53,
+        54,
+        55,
+        56
+      ],
+      "X": 278,
+      "Y": 1608
+    },
+    {
+      "SpeciesId": "tropius",
+      "FrameWidth": 77,
+      "FrameHeight": 66,
+      "FrameCount": 4,
+      "SourceFrames": [
+        51,
+        52,
+        53,
+        54
+      ],
+      "X": 2451,
+      "Y": 944
+    },
+    {
+      "SpeciesId": "relicanth",
+      "FrameWidth": 63,
+      "FrameHeight": 64,
+      "FrameCount": 4,
+      "SourceFrames": [
+        54,
+        55,
+        56,
+        57
+      ],
+      "X": 1798,
+      "Y": 1346
+    },
+    {
+      "SpeciesId": "cranidos",
+      "FrameWidth": 59,
+      "FrameHeight": 61,
+      "FrameCount": 4,
+      "SourceFrames": [
+        51,
+        52,
+        53,
+        54
+      ],
+      "X": 2972,
+      "Y": 2376
+    },
+    {
+      "SpeciesId": "rampardos",
+      "FrameWidth": 59,
+      "FrameHeight": 59,
+      "FrameCount": 4,
+      "SourceFrames": [
+        47,
+        48,
+        49,
+        50
+      ],
+      "X": 3198,
+      "Y": 2872
+    },
+    {
+      "SpeciesId": "shieldon",
+      "FrameWidth": 59,
+      "FrameHeight": 57,
+      "FrameCount": 4,
+      "SourceFrames": [
+        47,
+        48,
+        49,
+        50
+      ],
+      "X": 1730,
+      "Y": 3113
+    },
+    {
+      "SpeciesId": "bastiodon",
+      "FrameWidth": 61,
+      "FrameHeight": 57,
+      "FrameCount": 4,
+      "SourceFrames": [
+        47,
+        48,
+        49,
+        50
+      ],
+      "X": 754,
+      "Y": 3113
+    },
+    {
+      "SpeciesId": "sandile",
+      "FrameWidth": 64,
+      "FrameHeight": 63,
+      "FrameCount": 4,
+      "SourceFrames": [
+        44,
+        45,
+        46,
+        47
+      ],
+      "X": 3172,
+      "Y": 1608
+    },
+    {
+      "SpeciesId": "krokorok",
+      "FrameWidth": 62,
+      "FrameHeight": 57,
+      "FrameCount": 4,
+      "SourceFrames": [
+        54,
+        55,
+        56,
+        57
+      ],
+      "X": 254,
+      "Y": 3113
+    },
+    {
+      "SpeciesId": "krookodile",
+      "FrameWidth": 78,
+      "FrameHeight": 63,
+      "FrameCount": 4,
+      "SourceFrames": [
+        46,
+        47,
+        48,
+        49
+      ],
+      "X": 1673,
+      "Y": 1543
+    },
+    {
+      "SpeciesId": "druddigon",
+      "FrameWidth": 72,
+      "FrameHeight": 66,
+      "FrameCount": 4,
+      "SourceFrames": [
+        49,
+        50,
+        51,
+        52
+      ],
+      "X": 3059,
+      "Y": 944
+    },
+    {
+      "SpeciesId": "skiddo",
+      "FrameWidth": 62,
+      "FrameHeight": 62,
+      "FrameCount": 5,
+      "SourceFrames": [
+        49,
+        50,
+        51,
+        52,
+        53
+      ],
+      "X": 973,
+      "Y": 1995
+    },
+    {
+      "SpeciesId": "gogoat",
+      "FrameWidth": 64,
+      "FrameHeight": 65,
+      "FrameCount": 7,
+      "SourceFrames": [
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56
+      ],
+      "X": 2546,
+      "Y": 1080
+    },
+    {
+      "SpeciesId": "clauncher",
+      "FrameWidth": 63,
+      "FrameHeight": 57,
+      "FrameCount": 4,
+      "SourceFrames": [
+        40,
+        41,
+        42,
+        43
+      ],
+      "X": 0,
+      "Y": 3113
+    },
+    {
+      "SpeciesId": "clawitzer",
+      "FrameWidth": 70,
+      "FrameHeight": 65,
+      "FrameCount": 4,
+      "SourceFrames": [
+        49,
+        50,
+        51,
+        52
+      ],
+      "X": 3804,
+      "Y": 1012
+    },
+    {
+      "SpeciesId": "tyrunt",
+      "FrameWidth": 62,
+      "FrameHeight": 65,
+      "FrameCount": 4,
+      "SourceFrames": [
+        52,
+        53,
+        54,
+        55
+      ],
+      "X": 2418,
+      "Y": 1147
+    },
+    {
+      "SpeciesId": "tyrantrum",
+      "FrameWidth": 79,
+      "FrameHeight": 75,
+      "FrameCount": 4,
+      "SourceFrames": [
+        57,
+        58,
+        59,
+        60
+      ],
+      "X": 3367,
+      "Y": 291
+    },
+    {
+      "SpeciesId": "amaura",
+      "FrameWidth": 57,
+      "FrameHeight": 66,
+      "FrameCount": 4,
+      "SourceFrames": [
+        41,
+        42,
+        43,
+        44
+      ],
+      "X": 2556,
+      "Y": 1012
+    },
+    {
+      "SpeciesId": "aurorus",
+      "FrameWidth": 72,
+      "FrameHeight": 81,
+      "FrameCount": 4,
+      "SourceFrames": [
+        56,
+        57,
+        58,
+        59
+      ],
+      "X": 3805,
+      "Y": 111
+    },
+    {
+      "SpeciesId": "salandit",
+      "FrameWidth": 72,
+      "FrameHeight": 68,
+      "FrameCount": 4,
+      "SourceFrames": [
+        40,
+        41,
+        42,
+        43
+      ],
+      "X": 926,
+      "Y": 736
+    },
+    {
+      "SpeciesId": "salazzle",
+      "FrameWidth": 65,
+      "FrameHeight": 65,
+      "FrameCount": 4,
+      "SourceFrames": [
+        44,
+        45,
+        46,
+        47
+      ],
+      "X": 1902,
+      "Y": 1147
+    }
+  ]
+}

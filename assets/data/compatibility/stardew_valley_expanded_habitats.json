@@ -1,0 +1,1362 @@
+{
+  "Format": "PelipperTown/Habitats/2",
+  "SpeciesHabitatTags": {},
+  "Maps": [
+    {
+      "Locations": [
+        "Custom_AuroraVineyard",
+        "Custom_AuroraVineyardRefurbished"
+      ],
+      "EncounterLocationAliases": [
+        "Farm",
+        "Woods",
+        "Forest"
+      ],
+      "Zones": [
+        {
+          "Id": "sve_aurora_orchards",
+          "DisplayName": "Aurora Orchards",
+          "Priority": 20,
+          "SpawnWeight": 1.0,
+          "SpeciesPool": {
+            "applin": 2.0,
+            "oddish": 1.4,
+            "budew": 1.4,
+            "combee": 1.3,
+            "ralts": 1.2,
+            "munna": 1.2,
+            "chikorita": 1.0,
+            "pumpkaboo": 1.0,
+            "phantump": 0.8,
+            "eevee": 0.7,
+            "vulpix": 0.7,
+            "togepi": 0.6,
+            "exeggcute": 1.0,
+            "sunflora": 1.0,
+            "stantler": 1.0,
+            "munchlax": 0.5,
+            "mightyena": 2.0,
+            "kirlia": 0.9,
+            "musharna": 0.8,
+            "roselia": 0.8,
+            "eldegoss": 0.8,
+            "appletun": 0.55,
+            "sentret": 1.0,
+            "wooloo": 1.0,
+            "mareep": 1.0,
+            "deerling": 1.0,
+            "fidough": 1.0
+          },
+          "HabitatTags": [
+            "FarmEdge",
+            "Garden",
+            "Meadow",
+            "Flowering",
+            "Forage",
+            "Woodland",
+            "OldGrowth",
+            "ForestFloor",
+            "Arcane",
+            "HumanEdge"
+          ],
+          "Areas": [
+            {
+              "X": 0,
+              "Y": 0,
+              "Width": 512,
+              "Height": 512
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Locations": [
+        "Custom_BlueMoonVineyard",
+        "Custom_SakuraVineyard"
+      ],
+      "EncounterLocationAliases": [
+        "Farm",
+        "Forest"
+      ],
+      "Zones": [
+        {
+          "Id": "sve_vineyard_country",
+          "DisplayName": "Vineyard Country",
+          "Priority": 20,
+          "SpawnWeight": 1.0,
+          "SpeciesPool": {
+            "pidgey": 1.3,
+            "oddish": 1.3,
+            "bellsprout": 1.3,
+            "mareep": 1.3,
+            "deerling": 1.3,
+            "gossifleur": 1.3,
+            "wooloo": 1.3,
+            "combee": 1.3,
+            "chikorita": 1.0,
+            "shroomish": 1.0,
+            "applin": 1.0,
+            "fidough": 1.0,
+            "tadbulb": 1.0,
+            "budew": 1.0,
+            "eevee": 0.7,
+            "ponyta": 1.0,
+            "farfetchd": 1.0,
+            "exeggcute": 1.0,
+            "munchlax": 0.6,
+            "sunflora": 1.0,
+            "stantler": 1.0,
+            "audino": 0.75,
+            "miltank": 1.2,
+            "tauros": 1.0,
+            "herdier": 1.0,
+            "roselia": 1.0,
+            "breloom": 1.0,
+            "dubwool": 1.0,
+            "stoutland": 0.5,
+            "sawsbuck": 0.5,
+            "appletun": 0.45,
+            "tropius": 0.55,
+            "poochyena": 1.0,
+            "hoothoot": 1.0,
+            "minccino": 1.0,
+            "jigglypuff": 1.0,
+            "rowlet": 1.0
+          },
+          "HabitatTags": [
+            "FarmEdge",
+            "Pasture",
+            "Meadow",
+            "Flowering",
+            "Garden",
+            "Woodland",
+            "Orchard",
+            "Forage",
+            "Pond",
+            "Freshwater",
+            "HumanEdge"
+          ],
+          "Areas": [
+            {
+              "X": 0,
+              "Y": 0,
+              "Width": 512,
+              "Height": 512
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Locations": [
+        "Custom_GoGoatRanch"
+      ],
+      "EncounterLocationAliases": [
+        "Farm",
+        "Forest"
+      ],
+      "Zones": [
+        {
+          "Id": "sve_gogoat_ranch",
+          "DisplayName": "GoGoat Ranch",
+          "Priority": 20,
+          "SpawnWeight": 1.0,
+          "SpeciesPool": {
+            "skiddo": 2.2,
+            "wooloo": 2.0,
+            "mareep": 1.7,
+            "miltank": 1.6,
+            "lillipup": 1.5,
+            "fidough": 1.4,
+            "tauros": 1.3,
+            "ponyta": 1.0,
+            "farfetchd": 1.0,
+            "doduo": 1.0,
+            "eevee": 1.0,
+            "pidgey": 1.0,
+            "taillow": 1.0,
+            "combee": 1.0,
+            "happiny": 1.0,
+            "audino": 0.75,
+            "psyduck": 1.0,
+            "poliwag": 1.0,
+            "tadbulb": 1.0,
+            "herdier": 1.0,
+            "flaaffy": 1.0,
+            "dubwool": 1.0,
+            "dachsbun": 1.0,
+            "gogoat": 0.65,
+            "stoutland": 0.6,
+            "poochyena": 1.0,
+            "hoothoot": 1.0,
+            "minccino": 1.0,
+            "bidoof": 1.0,
+            "jigglypuff": 1.0
+          },
+          "HabitatTags": [
+            "Pasture",
+            "Meadow",
+            "FarmEdge",
+            "HumanEdge",
+            "Flowering",
+            "Pond",
+            "Freshwater"
+          ],
+          "Areas": [
+            {
+              "X": 0,
+              "Y": 0,
+              "Width": 512,
+              "Height": 512
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Locations": [
+        "Custom_ForestWest",
+        "Custom_Forestwest",
+        "Custom_FerngillRepublicFrontier"
+      ],
+      "EncounterLocationAliases": [
+        "Forest",
+        "Woods",
+        "Farm"
+      ],
+      "Zones": [
+        {
+          "Id": "sve_western_wildlands",
+          "DisplayName": "Western Wildlands",
+          "Priority": 20,
+          "SpawnWeight": 1.0,
+          "SpeciesPool": {
+            "caterpie": 1.5,
+            "weedle": 1.5,
+            "paras": 1.4,
+            "venonat": 1.3,
+            "oddish": 1.3,
+            "bellsprout": 1.3,
+            "ekans": 1.0,
+            "sentret": 1.0,
+            "chikorita": 1.0,
+            "shroomish": 1.0,
+            "deerling": 1.0,
+            "rowlet": 1.0,
+            "tarountula": 1.0,
+            "nymble": 1.0,
+            "hoothoot": 1.0,
+            "taillow": 1.0,
+            "psyduck": 1.0,
+            "poliwag": 1.0,
+            "wooper": 1.0,
+            "froakie": 1.0,
+            "shellos": 1.0,
+            "pikachu": 1.0,
+            "tangela": 1.0,
+            "stantler": 1.0,
+            "zangoose": 1.0,
+            "seviper": 1.0,
+            "heracross": 1.0,
+            "scyther": 1.0,
+            "pinsir": 1.0,
+            "breloom": 1.0,
+            "dartrix": 1.0,
+            "trevenant": 0.5,
+            "decidueye": 0.4,
+            "sawsbuck": 0.45,
+            "poochyena": 1.2,
+            "mightyena": 0.1
+          },
+          "HabitatTags": [
+            "Woodland",
+            "OldGrowth",
+            "ForestFloor",
+            "Thicket",
+            "Forage",
+            "River",
+            "Riparian",
+            "Freshwater",
+            "Wetland",
+            "Roughland",
+            "Nocturnal"
+          ],
+          "Areas": [
+            {
+              "X": 0,
+              "Y": 0,
+              "Width": 512,
+              "Height": 512
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Locations": [
+        "Custom_GrampletonFields",
+        "Custom_GrampletonFields_Small"
+      ],
+      "EncounterLocationAliases": [
+        "Farm",
+        "Forest"
+      ],
+      "Zones": [
+        {
+          "Id": "sve_grampleton_fields",
+          "DisplayName": "Grampleton Fields",
+          "Priority": 20,
+          "SpawnWeight": 1.0,
+          "SpeciesPool": {
+            "pidgey": 1.5,
+            "sentret": 1.4,
+            "mareep": 1.4,
+            "deerling": 1.4,
+            "taillow": 1.3,
+            "nidoran-f": 1.2,
+            "nidoran-m": 1.2,
+            "farfetchd": 1.0,
+            "doduo": 1.0,
+            "ponyta": 1.0,
+            "eevee": 1.0,
+            "buneary": 1.0,
+            "wooloo": 1.0,
+            "fidough": 1.0,
+            "combee": 1.0,
+            "budew": 1.0,
+            "gossifleur": 1.0,
+            "poliwag": 1.0,
+            "wooper": 1.0,
+            "tadbulb": 1.0,
+            "stantler": 1.0,
+            "smeargle": 1.0,
+            "sunflora": 1.0,
+            "munchlax": 0.7,
+            "flaaffy": 1.0,
+            "herdier": 1.0,
+            "miltank": 1.0,
+            "tauros": 1.0,
+            "swellow": 1.0,
+            "sawsbuck": 0.5,
+            "stoutland": 0.45,
+            "cinderace": 0.35,
+            "poochyena": 1.0,
+            "mightyena": 0.1
+          },
+          "HabitatTags": [
+            "FarmEdge",
+            "Pasture",
+            "Meadow",
+            "Flowering",
+            "Forage",
+            "River",
+            "Riparian",
+            "Freshwater",
+            "HumanEdge",
+            "Roughland"
+          ],
+          "Areas": [
+            {
+              "X": 0,
+              "Y": 0,
+              "Width": 512,
+              "Height": 512
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Locations": [
+        "Custom_JunimoWoods",
+        "Custom_SpriteSpring2",
+        "Custom_EnchantedGrove",
+        "Custom_HenchmanBackyard",
+        "Custom_ForbiddenMaze"
+      ],
+      "EncounterLocationAliases": [
+        "Woods",
+        "Forest"
+      ],
+      "Zones": [
+        {
+          "Id": "sve_enchanted_woods",
+          "DisplayName": "Enchanted Woods",
+          "Priority": 20,
+          "SpawnWeight": 1.0,
+          "SpeciesPool": {
+            "ralts": 1.7,
+            "munna": 1.6,
+            "phantump": 1.5,
+            "pumpkaboo": 1.4,
+            "applin": 1.4,
+            "rowlet": 1.3,
+            "oddish": 1.0,
+            "paras": 1.0,
+            "chikorita": 1.0,
+            "shroomish": 1.0,
+            "froakie": 1.0,
+            "tadbulb": 1.0,
+            "gastly": 1.0,
+            "shuppet": 1.0,
+            "litwick": 1.0,
+            "mimikyu": 1.0,
+            "feebas": 1.0,
+            "sunflora": 1.0,
+            "stantler": 1.0,
+            "kirlia": 1.0,
+            "musharna": 1.0,
+            "dartrix": 1.0,
+            "lampent": 1.0,
+            "gardevoir": 0.5,
+            "banette": 0.5,
+            "trevenant": 0.55,
+            "decidueye": 0.45,
+            "meganium": 0.4,
+            "milotic": 0.35,
+            "psyduck": 1.0,
+            "deerling": 1.0,
+            "snover": 1.0,
+            "bidoof": 1.0,
+            "slowpoke": 1.0,
+            "buneary": 1.0
+          },
+          "HabitatTags": [
+            "Arcane",
+            "OldGrowth",
+            "Woodland",
+            "ForestFloor",
+            "Thicket",
+            "Nocturnal",
+            "Flowering",
+            "Forage",
+            "Pond",
+            "Freshwater",
+            "Wetland"
+          ],
+          "Areas": [
+            {
+              "X": 0,
+              "Y": 0,
+              "Width": 512,
+              "Height": 512
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Locations": [
+        "Custom_TownEast",
+        "Custom_GrampletonSuburbs",
+        "Custom_GrampletonSuburbsOutskirts"
+      ],
+      "EncounterLocationAliases": [
+        "Town"
+      ],
+      "Zones": [
+        {
+          "Id": "sve_eastern_settlements",
+          "DisplayName": "Eastern Settlements",
+          "Priority": 20,
+          "SpawnWeight": 1.0,
+          "SpeciesPool": {
+            "pidgey": 1.4,
+            "meowth": 1.4,
+            "buneary": 1.3,
+            "minccino": 1.3,
+            "fidough": 1.3,
+            "skitty": 1.3,
+            "jigglypuff": 1.0,
+            "eevee": 1.0,
+            "mime-jr": 1.0,
+            "happiny": 1.0,
+            "ralts": 1.0,
+            "gossifleur": 1.0,
+            "budew": 1.0,
+            "taillow": 1.0,
+            "abra": 1.0,
+            "munna": 1.0,
+            "drowzee": 1.0,
+            "smeargle": 1.0,
+            "audino": 0.75,
+            "sunflora": 1.0,
+            "porygon": 1.0,
+            "pidgeotto": 1.0,
+            "raticate": 1.0,
+            "kirlia": 1.0,
+            "cinccino": 1.0,
+            "dachsbun": 1.0,
+            "delcatty": 1.0,
+            "roselia": 1.0,
+            "roserade": 0.45,
+            "gallade": 0.3
+          },
+          "HabitatTags": [
+            "Urban",
+            "Residential",
+            "Civic",
+            "Garden",
+            "HumanEdge",
+            "Flowering",
+            "Meadow",
+            "Forage"
+          ],
+          "Areas": [
+            {
+              "X": 0,
+              "Y": 0,
+              "Width": 512,
+              "Height": 512
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Locations": [
+        "Custom_ZuzuCityStreet",
+        "Custom_ZCCC_Courtyard"
+      ],
+      "EncounterLocationAliases": [
+        "Town",
+        "Railroad"
+      ],
+      "Zones": [
+        {
+          "Id": "sve_zuzu_city",
+          "DisplayName": "Zuzu City",
+          "Priority": 20,
+          "SpawnWeight": 1.0,
+          "SpeciesPool": {
+            "meowth": 1.7,
+            "magnemite": 1.5,
+            "grimer": 1.4,
+            "voltorb": 1.4,
+            "minccino": 1.3,
+            "fidough": 1.3,
+            "abra": 1.0,
+            "drowzee": 1.0,
+            "koffing": 1.0,
+            "mime-jr": 1.0,
+            "porygon": 1.0,
+            "sinistea": 1.0,
+            "mimikyu": 1.0,
+            "litwick": 1.0,
+            "gossifleur": 1.0,
+            "skitty": 1.0,
+            "audino": 0.75,
+            "mr-mime": 1.0,
+            "kadabra": 1.0,
+            "electabuzz": 1.0,
+            "cinccino": 1.0,
+            "toxtricity": 1.0,
+            "polteageist": 1.0,
+            "chandelure": 1.0,
+            "rotom": 0.55
+          },
+          "HabitatTags": [
+            "Urban",
+            "Residential",
+            "Civic",
+            "Garden",
+            "HumanEdge",
+            "Industrial",
+            "Rail",
+            "Nocturnal",
+            "Arcane",
+            "Flowering"
+          ],
+          "Areas": [
+            {
+              "X": 0,
+              "Y": 0,
+              "Width": 512,
+              "Height": 512
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Locations": [
+        "Custom_GrampletonSuburbsTrainStation",
+        "Custom_GrampletonTrainStation"
+      ],
+      "EncounterLocationAliases": [
+        "Railroad",
+        "Town"
+      ],
+      "Zones": [
+        {
+          "Id": "sve_grampleton_rail",
+          "DisplayName": "Grampleton Rail",
+          "Priority": 20,
+          "SpawnWeight": 1.0,
+          "SpeciesPool": {
+            "magnemite": 1.7,
+            "voltorb": 1.5,
+            "grimer": 1.4,
+            "zubat": 1.3,
+            "diglett": 1.3,
+            "koffing": 1.3,
+            "meowth": 1.0,
+            "abra": 1.0,
+            "cleffa": 1.0,
+            "elekid": 1.0,
+            "litwick": 1.0,
+            "charcadet": 1.0,
+            "sinistea": 1.0,
+            "gastly": 1.0,
+            "drowzee": 1.0,
+            "porygon": 1.0,
+            "sableye": 1.0,
+            "mawile": 1.0,
+            "aron": 1.0,
+            "beldum": 1.0,
+            "riolu": 1.0,
+            "mimikyu": 1.0,
+            "haunter": 1.0,
+            "electabuzz": 1.0,
+            "metang": 1.0,
+            "durant": 1.0,
+            "heatmor": 1.0,
+            "chandelure": 1.0,
+            "golurk": 1.0,
+            "metagross": 0.45,
+            "toxtricity": 0.45,
+            "ceruledge": 0.35,
+            "rotom": 0.55
+          },
+          "HabitatTags": [
+            "Rail",
+            "Industrial",
+            "Urban",
+            "HumanEdge",
+            "Rocky",
+            "Highland",
+            "Nocturnal",
+            "Arcane"
+          ],
+          "Areas": [
+            {
+              "X": 0,
+              "Y": 0,
+              "Width": 512,
+              "Height": 512
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Locations": [
+        "Custom_DesertRailway"
+      ],
+      "EncounterLocationAliases": [
+        "Railroad",
+        "Desert"
+      ],
+      "Zones": [
+        {
+          "Id": "sve_desert_rail",
+          "DisplayName": "Desert Railway",
+          "Priority": 20,
+          "SpawnWeight": 1.0,
+          "SpeciesPool": {
+            "sandshrew": 1.6,
+            "diglett": 1.5,
+            "geodude": 1.4,
+            "cubone": 1.4,
+            "magby": 1.3,
+            "cyndaquil": 1.3,
+            "capsakid": 1.3,
+            "charmander": 1.0,
+            "spearow": 1.0,
+            "ekans": 1.0,
+            "magnemite": 1.0,
+            "koffing": 1.0,
+            "growlithe": 1.0,
+            "onix": 1.0,
+            "houndour": 1.0,
+            "trapinch": 1.0,
+            "spinda": 1.0,
+            "charcadet": 1.0,
+            "maractus": 1.0,
+            "porygon": 1.0,
+            "beldum": 1.0,
+            "magmar": 1.0,
+            "donphan": 1.0,
+            "durant": 1.0,
+            "heatmor": 1.0,
+            "metang": 1.0,
+            "houndoom": 1.0,
+            "cyclizar": 1.0,
+            "flygon": 0.45,
+            "scovillain": 0.45,
+            "armarouge": 0.35,
+            "ceruledge": 0.35,
+            "sandile": 1.6,
+            "krokorok": 0.65,
+            "krookodile": 0.3,
+            "salandit": 1.5,
+            "salazzle": 0.35
+          },
+          "HabitatTags": [
+            "Rail",
+            "Industrial",
+            "Dune",
+            "Desert",
+            "Roughland",
+            "Rocky",
+            "Volcanic",
+            "Nocturnal"
+          ],
+          "Areas": [
+            {
+              "X": 0,
+              "Y": 0,
+              "Width": 512,
+              "Height": 512
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Locations": [
+        "Custom_ShearwaterBridge"
+      ],
+      "EncounterLocationAliases": [
+        "Beach",
+        "Forest",
+        "IslandSouth"
+      ],
+      "Zones": [
+        {
+          "Id": "sve_shearwater_estuary",
+          "DisplayName": "Shearwater Estuary",
+          "Priority": 20,
+          "SpawnWeight": 1.0,
+          "SpeciesPool": {
+            "krabby": 1.8,
+            "horsea": 1.7,
+            "shellder": 1.6,
+            "pyukumuku": 1.5,
+            "poliwag": 1.4,
+            "psyduck": 1.4,
+            "froakie": 1.3,
+            "goldeen": 1.3,
+            "squirtle": 1.0,
+            "tentacool": 1.0,
+            "seel": 1.0,
+            "staryu": 1.0,
+            "spheal": 1.0,
+            "inkay": 1.0,
+            "clobbopus": 1.0,
+            "pincurchin": 1.0,
+            "wingull": 1.0,
+            "shellos": 1.0,
+            "slowpoke": 1.0,
+            "wooper": 1.0,
+            "seadra": 1.0,
+            "kingler": 1.0,
+            "pelipper": 1.0,
+            "gastrodon": 1.0,
+            "lapras": 0.45,
+            "dhelmise": 0.45,
+            "clauncher": 1.8,
+            "clawitzer": 0.45,
+            "relicanth": 0.45,
+            "lileep": 0.8
+          },
+          "HabitatTags": [
+            "Beach",
+            "Shore",
+            "Ocean",
+            "Harbor",
+            "Tidepool",
+            "River",
+            "Riparian",
+            "Freshwater",
+            "Wetland",
+            "HumanEdge"
+          ],
+          "Areas": [
+            {
+              "X": 0,
+              "Y": 0,
+              "Width": 512,
+              "Height": 512
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Locations": [
+        "Custom_GrampletonCoast",
+        "Custom_FableReef"
+      ],
+      "EncounterLocationAliases": [
+        "Beach",
+        "IslandSouth"
+      ],
+      "Zones": [
+        {
+          "Id": "sve_grampleton_coast",
+          "DisplayName": "Grampleton Coast",
+          "Priority": 20,
+          "SpawnWeight": 1.0,
+          "SpeciesPool": {
+            "tentacool": 1.6,
+            "shellder": 1.5,
+            "horsea": 1.5,
+            "staryu": 1.4,
+            "spheal": 1.4,
+            "wingull": 1.4,
+            "squirtle": 1.0,
+            "seel": 1.0,
+            "krabby": 1.0,
+            "inkay": 1.0,
+            "pyukumuku": 1.0,
+            "cramorant": 1.0,
+            "clobbopus": 1.0,
+            "pincurchin": 1.0,
+            "shellos": 1.0,
+            "omanyte": 1.0,
+            "kabuto": 1.0,
+            "seadra": 1.0,
+            "pelipper": 1.0,
+            "kingler": 1.0,
+            "starmie": 1.0,
+            "tentacruel": 1.0,
+            "gastrodon": 1.0,
+            "malamar": 1.0,
+            "lapras": 0.5,
+            "dhelmise": 0.45,
+            "grapploct": 0.4,
+            "walrein": 0.35,
+            "clauncher": 1.7,
+            "clawitzer": 0.45,
+            "relicanth": 0.45,
+            "lileep": 0.8,
+            "cradily": 0.3,
+            "anorith": 0.8,
+            "armaldo": 0.3
+          },
+          "HabitatTags": [
+            "Beach",
+            "Shore",
+            "Ocean",
+            "Harbor",
+            "Tidepool",
+            "Rocky",
+            "Tropical",
+            "Wetland"
+          ],
+          "Areas": [
+            {
+              "X": 0,
+              "Y": 0,
+              "Width": 512,
+              "Height": 512
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Locations": [
+        "Custom_AdventurerSummit",
+        "Custom_SVESummit"
+      ],
+      "EncounterLocationAliases": [
+        "Mountain",
+        "Railroad"
+      ],
+      "Zones": [
+        {
+          "Id": "sve_adventurer_summits",
+          "DisplayName": "Adventurer Summits",
+          "Priority": 20,
+          "SpawnWeight": 1.0,
+          "SpeciesPool": {
+            "spearow": 1.5,
+            "geodude": 1.5,
+            "machop": 1.4,
+            "clefairy": 1.3,
+            "zubat": 1.3,
+            "cubone": 1.3,
+            "rhyhorn": 1.0,
+            "dratini": 1.0,
+            "cleffa": 1.0,
+            "elekid": 1.0,
+            "larvitar": 1.0,
+            "aron": 1.0,
+            "swablu": 1.0,
+            "beldum": 1.0,
+            "riolu": 1.0,
+            "carbink": 1.0,
+            "charcadet": 1.0,
+            "golett": 1.0,
+            "absol": 1.0,
+            "bagon": 1.0,
+            "onix": 1.0,
+            "machoke": 1.0,
+            "graveler": 1.0,
+            "metang": 1.0,
+            "lucario": 1.0,
+            "altaria": 1.0,
+            "tyranitar": 0.3,
+            "salamence": 0.25,
+            "metagross": 0.25,
+            "amaura": 1.5,
+            "aurorus": 0.35,
+            "cranidos": 1.1,
+            "rampardos": 0.3,
+            "shieldon": 1.1,
+            "bastiodon": 0.3,
+            "tyrunt": 1.2,
+            "tyrantrum": 0.25,
+            "druddigon": 0.35
+          },
+          "HabitatTags": [
+            "Highland",
+            "Rocky",
+            "Roughland",
+            "CaveMouth",
+            "Meadow",
+            "Arcane",
+            "Nocturnal",
+            "Lake",
+            "Freshwater"
+          ],
+          "Areas": [
+            {
+              "X": 0,
+              "Y": 0,
+              "Width": 512,
+              "Height": 512
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Locations": [
+        "Custom_Highlands",
+        "Custom_HighlandsOutpost"
+      ],
+      "EncounterLocationAliases": [
+        "Mountain",
+        "Railroad"
+      ],
+      "Zones": [
+        {
+          "Id": "sve_highlands",
+          "DisplayName": "The Highlands",
+          "Priority": 20,
+          "SpawnWeight": 1.0,
+          "SpeciesPool": {
+            "geodude": 1.5,
+            "machop": 1.4,
+            "rhyhorn": 1.4,
+            "larvitar": 1.3,
+            "aron": 1.3,
+            "zubat": 1.3,
+            "spearow": 1.0,
+            "sandshrew": 1.0,
+            "cubone": 1.0,
+            "munchlax": 1.0,
+            "totodile": 1.0,
+            "mudkip": 1.0,
+            "froakie": 1.0,
+            "tadbulb": 1.0,
+            "absol": 1.0,
+            "bagon": 1.0,
+            "beldum": 1.0,
+            "riolu": 1.0,
+            "carbink": 1.0,
+            "golett": 1.0,
+            "onix": 1.0,
+            "donphan": 1.0,
+            "metang": 1.0,
+            "frogadier": 1.0,
+            "bellibolt": 1.0,
+            "lucario": 1.0,
+            "aggron": 1.0,
+            "golurk": 1.0,
+            "tyranitar": 0.35,
+            "salamence": 0.3,
+            "metagross": 0.3,
+            "amaura": 1.7,
+            "aurorus": 0.4,
+            "cranidos": 1.0,
+            "rampardos": 0.3,
+            "shieldon": 1.0,
+            "bastiodon": 0.3,
+            "tyrunt": 1.2,
+            "tyrantrum": 0.3,
+            "druddigon": 0.45
+          },
+          "HabitatTags": [
+            "Highland",
+            "Rocky",
+            "Roughland",
+            "CaveMouth",
+            "Woodland",
+            "Meadow",
+            "River",
+            "Riparian",
+            "Freshwater",
+            "Nocturnal"
+          ],
+          "Areas": [
+            {
+              "X": 0,
+              "Y": 0,
+              "Width": 512,
+              "Height": 512
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Locations": [
+        "Custom_CastleVillageOutpost",
+        "Custom_GrenvilleFalls"
+      ],
+      "EncounterLocationAliases": [
+        "Mountain",
+        "Woods",
+        "Forest",
+        "Railroad"
+      ],
+      "Zones": [
+        {
+          "Id": "sve_castle_frontier",
+          "DisplayName": "Castle Village Frontier",
+          "Priority": 20,
+          "SpawnWeight": 1.0,
+          "SpeciesPool": {
+            "ralts": 1.5,
+            "riolu": 1.5,
+            "froakie": 0.8,
+            "phantump": 1.4,
+            "rowlet": 1.3,
+            "swablu": 1.3,
+            "clefairy": 1.0,
+            "dratini": 1.0,
+            "larvitar": 1.0,
+            "sableye": 1.0,
+            "mawile": 1.0,
+            "absol": 1.0,
+            "bagon": 1.0,
+            "beldum": 1.0,
+            "carbink": 1.0,
+            "golett": 1.0,
+            "litwick": 1.0,
+            "mimikyu": 1.0,
+            "kirlia": 1.0,
+            "frogadier": 1.0,
+            "dartrix": 1.0,
+            "metang": 1.0,
+            "lampent": 1.0,
+            "lucario": 1.0,
+            "gallade": 1.0,
+            "greninja": 1.0,
+            "decidueye": 1.0,
+            "altaria": 1.0,
+            "salamence": 0.3,
+            "metagross": 0.3,
+            "golurk": 0.4,
+            "druddigon": 0.45,
+            "bidoof": 1.0
+          },
+          "HabitatTags": [
+            "Highland",
+            "Rocky",
+            "Roughland",
+            "OldGrowth",
+            "Woodland",
+            "Arcane",
+            "Nocturnal",
+            "River",
+            "Riparian",
+            "Freshwater"
+          ],
+          "Areas": [
+            {
+              "X": 0,
+              "Y": 0,
+              "Width": 512,
+              "Height": 512
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Locations": [
+        "Custom_CrimsonBadlands"
+      ],
+      "EncounterLocationAliases": [
+        "Desert",
+        "IslandNorth"
+      ],
+      "Zones": [
+        {
+          "Id": "sve_crimson_badlands",
+          "DisplayName": "Crimson Badlands",
+          "Priority": 20,
+          "SpawnWeight": 1.0,
+          "SpeciesPool": {
+            "sandshrew": 1.6,
+            "diglett": 1.5,
+            "cubone": 1.5,
+            "geodude": 1.4,
+            "charmander": 1.3,
+            "magby": 1.3,
+            "cyndaquil": 1.3,
+            "capsakid": 1.3,
+            "spearow": 1.0,
+            "mankey": 1.0,
+            "rhyhorn": 1.0,
+            "growlithe": 1.0,
+            "ponyta": 1.0,
+            "onix": 1.0,
+            "houndour": 1.0,
+            "trapinch": 1.0,
+            "maractus": 1.0,
+            "charcadet": 1.0,
+            "fearow": 1.0,
+            "primeape": 1.0,
+            "marowak": 1.0,
+            "arcanine": 1.0,
+            "machamp": 1.0,
+            "golem": 1.0,
+            "rhyperior": 1.0,
+            "magmar": 1.0,
+            "donphan": 1.0,
+            "heatmor": 1.0,
+            "durant": 1.0,
+            "cyclizar": 1.0,
+            "typhlosion": 1.0,
+            "flygon": 1.0,
+            "metagross": 1.0,
+            "scovillain": 1.0,
+            "armarouge": 1.0,
+            "ceruledge": 1.0,
+            "sandile": 1.8,
+            "krokorok": 0.7,
+            "krookodile": 0.35,
+            "salandit": 1.7,
+            "salazzle": 0.4
+          },
+          "HabitatTags": [
+            "Desert",
+            "Dune",
+            "Roughland",
+            "Rocky",
+            "Volcanic",
+            "CaveMouth",
+            "DigSite",
+            "Nocturnal",
+            "Arcane"
+          ],
+          "Areas": [
+            {
+              "X": 0,
+              "Y": 0,
+              "Width": 512,
+              "Height": 512
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Locations": [
+        "Custom_IridiumQuarry"
+      ],
+      "EncounterLocationAliases": [
+        "Desert",
+        "Mountain",
+        "Railroad",
+        "IslandNorth"
+      ],
+      "Zones": [
+        {
+          "Id": "sve_iridium_quarry",
+          "DisplayName": "Iridium Quarry",
+          "Priority": 20,
+          "SpawnWeight": 1.0,
+          "SpeciesPool": {
+            "geodude": 1.7,
+            "aron": 1.6,
+            "beldum": 1.5,
+            "carbink": 1.5,
+            "diglett": 1.4,
+            "sandshrew": 1.3,
+            "cubone": 1.0,
+            "rhyhorn": 1.0,
+            "onix": 1.0,
+            "magnemite": 1.0,
+            "larvitar": 1.0,
+            "mawile": 1.0,
+            "golett": 1.0,
+            "durant": 1.0,
+            "charcadet": 1.0,
+            "graveler": 1.0,
+            "rhydon": 1.0,
+            "metang": 1.0,
+            "lairon": 1.0,
+            "aggron": 1.0,
+            "golurk": 1.0,
+            "metagross": 1.0,
+            "steelix": 1.0,
+            "rhyperior": 1.0,
+            "aerodactyl": 1.0,
+            "tyranitar": 0.35,
+            "cranidos": 1.1,
+            "rampardos": 0.35,
+            "shieldon": 1.3,
+            "bastiodon": 0.4,
+            "anorith": 0.8,
+            "armaldo": 0.3,
+            "rotom": 0.3
+          },
+          "HabitatTags": [
+            "Desert",
+            "Roughland",
+            "Rocky",
+            "Volcanic",
+            "CaveMouth",
+            "DigSite",
+            "Industrial",
+            "Arcane"
+          ],
+          "Areas": [
+            {
+              "X": 0,
+              "Y": 0,
+              "Width": 512,
+              "Height": 512
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Locations": [
+        "Custom_DinoIsland_North",
+        "Custom_DinoIsland_South"
+      ],
+      "EncounterLocationAliases": [
+        "IslandNorth",
+        "IslandSouth",
+        "IslandWest",
+        "Mountain"
+      ],
+      "Zones": [
+        {
+          "Id": "sve_dinosaur_islands",
+          "DisplayName": "Dinosaur Islands",
+          "Priority": 20,
+          "SpawnWeight": 1.0,
+          "SpeciesPool": {
+            "aerodactyl": 2.0,
+            "kabutops": 1.7,
+            "omastar": 1.7,
+            "rhydon": 1.5,
+            "onix": 1.4,
+            "scyther": 1.4,
+            "pinsir": 1.4,
+            "kangaskhan": 1.4,
+            "cyclizar": 1.4,
+            "venusaur": 1.0,
+            "charizard": 1.0,
+            "wartortle": 1.0,
+            "fearow": 1.0,
+            "arbok": 1.0,
+            "sandslash": 1.0,
+            "vileplume": 1.0,
+            "primeape": 1.0,
+            "victreebel": 1.0,
+            "tentacruel": 1.0,
+            "golem": 1.0,
+            "exeggutor": 1.0,
+            "gyarados": 1.0,
+            "dragonair": 1.0,
+            "salamence": 1.0,
+            "steelix": 1.0,
+            "rhyperior": 1.0,
+            "meganium": 1.0,
+            "feraligatr": 1.0,
+            "heracross": 1.0,
+            "donphan": 1.0,
+            "sceptile": 1.0,
+            "swampert": 1.0,
+            "breloom": 1.0,
+            "aggron": 1.0,
+            "flygon": 1.0,
+            "altaria": 1.0,
+            "mamoswine": 1.0,
+            "sawsbuck": 1.0,
+            "trevenant": 1.0,
+            "decidueye": 1.0,
+            "dhelmise": 1.0,
+            "gastrodon": 1.0,
+            "sandshrew": 0.5,
+            "geodude": 0.35,
+            "dratini": 0.5,
+            "psyduck": 0.35,
+            "bidoof": 0.5,
+            "tyrunt": 2.2,
+            "tyrantrum": 0.45,
+            "cranidos": 1.8,
+            "rampardos": 0.4,
+            "shieldon": 1.8,
+            "bastiodon": 0.4,
+            "anorith": 1.6,
+            "armaldo": 0.4,
+            "lileep": 1.6,
+            "cradily": 0.4,
+            "tropius": 1.5,
+            "relicanth": 0.7,
+            "druddigon": 0.45
+          },
+          "HabitatTags": [
+            "Tropical",
+            "Jungle",
+            "OldGrowth",
+            "Woodland",
+            "ForestFloor",
+            "Thicket",
+            "Roughland",
+            "Rocky",
+            "Volcanic",
+            "Beach",
+            "Shore",
+            "Ocean",
+            "River",
+            "Freshwater",
+            "Wetland",
+            "DigSite"
+          ],
+          "Areas": [
+            {
+              "X": 0,
+              "Y": 0,
+              "Width": 512,
+              "Height": 512
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

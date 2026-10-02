@@ -1,0 +1,510 @@
+{
+  "Format": "PelipperTown/TrainerBattles/4",
+  "Trainers": [
+    {
+      "Id": "mina",
+      "DisplayName": "Trainer Mina",
+      "SpriteAsset": "assets/npcs/trainer_mina.png",
+      "Season": "spring",
+      "Rung": 1,
+      "FirstYearTeam": {
+        "Party": [
+          { "SpeciesId": "pikachu", "Level": 12 },
+          { "SpeciesId": "clefairy", "Level": 11 },
+          { "SpeciesId": "jigglypuff", "Level": 10 }
+        ],
+        "RewardGold": 350,
+        "RewardPokeBalls": 5,
+        "RewardPotions": 2
+      },
+      "LaterYearsTeam": {
+        "Party": [
+          { "SpeciesId": "raichu", "Level": 32 },
+          { "SpeciesId": "clefable", "Level": 31 },
+          { "SpeciesId": "wigglytuff", "Level": 30 },
+          { "SpeciesId": "dugtrio", "Level": 31 },
+          { "SpeciesId": "tentacruel", "Level": 30 }
+        ],
+        "RewardGold": 900,
+        "RewardPokeBalls": 8,
+        "RewardPotions": 4
+      },
+      "MatchupSwitchSeconds": 15,
+      "TownTileX": 30,
+      "TownTileY": 63
+    },
+    {
+      "Id": "evan",
+      "DisplayName": "Trainer Evan",
+      "SpriteAsset": "assets/npcs/trainer_candidates/trainer_01.png",
+      "Season": "spring",
+      "Rung": 2,
+      "FirstYearTeam": {
+        "Party": [
+          { "SpeciesId": "squirtle", "Level": 14 },
+          { "SpeciesId": "pidgey", "Level": 13 },
+          { "SpeciesId": "butterfree", "Level": 12 }
+        ],
+        "RewardGold": 450,
+        "RewardPokeBalls": 5,
+        "RewardPotions": 2
+      },
+      "LaterYearsTeam": {
+        "Party": [
+          { "SpeciesId": "blastoise", "Level": 36 },
+          { "SpeciesId": "pidgeot", "Level": 35 },
+          { "SpeciesId": "butterfree", "Level": 34 },
+          { "SpeciesId": "jolteon", "Level": 35 },
+          { "SpeciesId": "hitmonlee", "Level": 34 }
+        ],
+        "RewardGold": 1100,
+        "RewardPokeBalls": 8,
+        "RewardPotions": 4
+      },
+      "MatchupSwitchSeconds": 15,
+      "TownTileX": 30,
+      "TownTileY": 63
+    },
+    {
+      "Id": "lila",
+      "DisplayName": "Trainer Lila",
+      "SpriteAsset": "assets/npcs/trainer_candidates/trainer_02.png",
+      "Season": "spring",
+      "Rung": 3,
+      "FirstYearTeam": {
+        "Party": [
+          { "SpeciesId": "bulbasaur", "Level": 16 },
+          { "SpeciesId": "oddish", "Level": 15 },
+          { "SpeciesId": "paras", "Level": 15 }
+        ],
+        "RewardGold": 550,
+        "RewardPokeBalls": 6,
+        "RewardPotions": 3
+      },
+      "LaterYearsTeam": {
+        "Party": [
+          { "SpeciesId": "venusaur", "Level": 40 },
+          { "SpeciesId": "vileplume", "Level": 39 },
+          { "SpeciesId": "parasect", "Level": 38 },
+          { "SpeciesId": "flareon", "Level": 39 },
+          { "SpeciesId": "starmie", "Level": 38 }
+        ],
+        "RewardGold": 1300,
+        "RewardPokeBalls": 10,
+        "RewardPotions": 5
+      },
+      "MatchupSwitchSeconds": 15,
+      "TownTileX": 30,
+      "TownTileY": 63
+    },
+    {
+      "Id": "joey",
+      "DisplayName": "Trainer Joey",
+      "SpriteAsset": "assets/npcs/trainer_joey.png",
+      "Season": "summer",
+      "Rung": 1,
+      "FirstYearTeam": {
+        "Party": [
+          { "SpeciesId": "rattata", "Level": 20 },
+          { "SpeciesId": "spearow", "Level": 18 },
+          { "SpeciesId": "machop", "Level": 18 }
+        ],
+        "RewardGold": 650,
+        "RewardPokeBalls": 5,
+        "RewardPotions": 2
+      },
+      "LaterYearsTeam": {
+        "Party": [
+          { "SpeciesId": "raticate", "Level": 44 },
+          { "SpeciesId": "fearow", "Level": 43 },
+          { "SpeciesId": "machamp", "Level": 42 },
+          { "SpeciesId": "milotic", "Level": 43 },
+          { "SpeciesId": "electivire", "Level": 42 }
+        ],
+        "RewardGold": 1500,
+        "RewardPokeBalls": 8,
+        "RewardPotions": 4
+      },
+      "MatchupSwitchSeconds": 15,
+      "TownTileX": 30,
+      "TownTileY": 63
+    },
+    {
+      "Id": "marco",
+      "DisplayName": "Trainer Marco",
+      "SpriteAsset": "assets/npcs/trainer_candidates/trainer_03.png",
+      "Season": "summer",
+      "Rung": 2,
+      "FirstYearTeam": {
+        "Party": [
+          { "SpeciesId": "charmander", "Level": 20 },
+          { "SpeciesId": "mankey", "Level": 19 },
+          { "SpeciesId": "zubat", "Level": 19 }
+        ],
+        "RewardGold": 750,
+        "RewardPokeBalls": 5,
+        "RewardPotions": 2
+      },
+      "LaterYearsTeam": {
+        "Party": [
+          { "SpeciesId": "charizard", "Level": 48 },
+          { "SpeciesId": "primeape", "Level": 47 },
+          { "SpeciesId": "crobat", "Level": 46 },
+          { "SpeciesId": "exeggutor", "Level": 47 },
+          { "SpeciesId": "rhydon", "Level": 46 }
+        ],
+        "RewardGold": 1750,
+        "RewardPokeBalls": 8,
+        "RewardPotions": 4
+      },
+      "MatchupSwitchSeconds": 15,
+      "TownTileX": 30,
+      "TownTileY": 63
+    },
+    {
+      "Id": "violet",
+      "DisplayName": "Trainer Violet",
+      "SpriteAsset": "assets/npcs/trainer_candidates/trainer_04.png",
+      "Season": "summer",
+      "Rung": 3,
+      "FirstYearTeam": {
+        "Party": [
+          { "SpeciesId": "abra", "Level": 22 },
+          { "SpeciesId": "gastly", "Level": 21 },
+          { "SpeciesId": "drowzee", "Level": 21 }
+        ],
+        "RewardGold": 850,
+        "RewardPokeBalls": 6,
+        "RewardPotions": 3
+      },
+      "LaterYearsTeam": {
+        "Party": [
+          { "SpeciesId": "alakazam", "Level": 52 },
+          { "SpeciesId": "gengar", "Level": 51 },
+          { "SpeciesId": "hypno", "Level": 50 },
+          { "SpeciesId": "lapras", "Level": 51 },
+          { "SpeciesId": "mawile", "Level": 50 }
+        ],
+        "RewardGold": 2000,
+        "RewardPokeBalls": 10,
+        "RewardPotions": 5
+      },
+      "MatchupSwitchSeconds": 15,
+      "TownTileX": 30,
+      "TownTileY": 63
+    },
+    {
+      "Id": "tess",
+      "DisplayName": "Trainer Tess",
+      "SpriteAsset": "assets/npcs/trainer_candidates/trainer_05.png",
+      "Season": "fall",
+      "Rung": 1,
+      "FirstYearTeam": {
+        "Party": [
+          { "SpeciesId": "growlithe", "Level": 24 },
+          { "SpeciesId": "scyther", "Level": 23 },
+          { "SpeciesId": "pinsir", "Level": 23 }
+        ],
+        "RewardGold": 950,
+        "RewardPokeBalls": 5,
+        "RewardPotions": 2
+      },
+      "LaterYearsTeam": {
+        "Party": [
+          { "SpeciesId": "arcanine", "Level": 56 },
+          { "SpeciesId": "scyther", "Level": 55 },
+          { "SpeciesId": "pinsir", "Level": 54 },
+          { "SpeciesId": "gastrodon", "Level": 55 },
+          { "SpeciesId": "ampharos", "Level": 54 }
+        ],
+        "RewardGold": 2250,
+        "RewardPokeBalls": 8,
+        "RewardPotions": 4
+      },
+      "MatchupSwitchSeconds": 15,
+      "TownTileX": 30,
+      "TownTileY": 63
+    },
+    {
+      "Id": "cal",
+      "DisplayName": "Trainer Cal",
+      "SpriteAsset": "assets/npcs/trainer_candidates/trainer_06.png",
+      "Season": "fall",
+      "Rung": 2,
+      "FirstYearTeam": {
+        "Party": [
+          { "SpeciesId": "poliwag", "Level": 26 },
+          { "SpeciesId": "geodude", "Level": 25 },
+          { "SpeciesId": "onix", "Level": 25 }
+        ],
+        "RewardGold": 1050,
+        "RewardPokeBalls": 5,
+        "RewardPotions": 2
+      },
+      "LaterYearsTeam": {
+        "Party": [
+          { "SpeciesId": "poliwrath", "Level": 60 },
+          { "SpeciesId": "golem", "Level": 59 },
+          { "SpeciesId": "steelix", "Level": 58 },
+          { "SpeciesId": "hitmonchan", "Level": 59 },
+          { "SpeciesId": "aggron", "Level": 58 }
+        ],
+        "RewardGold": 2500,
+        "RewardPokeBalls": 8,
+        "RewardPotions": 4
+      },
+      "MatchupSwitchSeconds": 15,
+      "TownTileX": 30,
+      "TownTileY": 63
+    },
+    {
+      "Id": "finn",
+      "DisplayName": "Trainer Finn",
+      "SpriteAsset": "assets/npcs/trainer_candidates/trainer_07.png",
+      "Season": "fall",
+      "Rung": 3,
+      "FirstYearTeam": {
+        "Party": [
+          { "SpeciesId": "doduo", "Level": 28 },
+          { "SpeciesId": "ponyta", "Level": 27 },
+          { "SpeciesId": "tauros", "Level": 27 }
+        ],
+        "RewardGold": 1150,
+        "RewardPokeBalls": 6,
+        "RewardPotions": 3
+      },
+      "LaterYearsTeam": {
+        "Party": [
+          { "SpeciesId": "dodrio", "Level": 64 },
+          { "SpeciesId": "rapidash", "Level": 63 },
+          { "SpeciesId": "tauros", "Level": 62 },
+          { "SpeciesId": "kingdra", "Level": 63 },
+          { "SpeciesId": "tyranitar", "Level": 62 }
+        ],
+        "RewardGold": 2750,
+        "RewardPokeBalls": 10,
+        "RewardPotions": 5
+      },
+      "MatchupSwitchSeconds": 15,
+      "TownTileX": 30,
+      "TownTileY": 63
+    },
+    {
+      "Id": "poppy",
+      "DisplayName": "Trainer Poppy",
+      "SpriteAsset": "assets/npcs/trainer_candidates/trainer_08.png",
+      "Season": "winter",
+      "Rung": 1,
+      "FirstYearTeam": {
+        "Party": [
+          { "SpeciesId": "vulpix", "Level": 30 },
+          { "SpeciesId": "nidorina", "Level": 29 },
+          { "SpeciesId": "gloom", "Level": 29 }
+        ],
+        "RewardGold": 1250,
+        "RewardPokeBalls": 5,
+        "RewardPotions": 2
+      },
+      "LaterYearsTeam": {
+        "Party": [
+          { "SpeciesId": "ninetales", "Level": 68 },
+          { "SpeciesId": "nidoqueen", "Level": 67 },
+          { "SpeciesId": "roserade", "Level": 66 },
+          { "SpeciesId": "glaceon", "Level": 67 },
+          { "SpeciesId": "gallade", "Level": 66 }
+        ],
+        "RewardGold": 3000,
+        "RewardPokeBalls": 8,
+        "RewardPotions": 4
+      },
+      "MatchupSwitchSeconds": 15,
+      "TownTileX": 30,
+      "TownTileY": 63
+    },
+    {
+      "Id": "miles",
+      "DisplayName": "Trainer Miles",
+      "SpriteAsset": "assets/npcs/trainer_candidates/trainer_09.png",
+      "Season": "winter",
+      "Rung": 2,
+      "FirstYearTeam": {
+        "Party": [
+          { "SpeciesId": "magnemite", "Level": 32 },
+          { "SpeciesId": "voltorb", "Level": 31 },
+          { "SpeciesId": "grimer", "Level": 31 }
+        ],
+        "RewardGold": 1350,
+        "RewardPokeBalls": 5,
+        "RewardPotions": 2
+      },
+      "LaterYearsTeam": {
+        "Party": [
+          { "SpeciesId": "magneton", "Level": 72 },
+          { "SpeciesId": "electrode", "Level": 71 },
+          { "SpeciesId": "muk", "Level": 70 },
+          { "SpeciesId": "flygon", "Level": 71 },
+          { "SpeciesId": "chandelure", "Level": 70 }
+        ],
+        "RewardGold": 3250,
+        "RewardPokeBalls": 8,
+        "RewardPotions": 4
+      },
+      "MatchupSwitchSeconds": 15,
+      "TownTileX": 30,
+      "TownTileY": 63
+    },
+    {
+      "Id": "june",
+      "DisplayName": "Trainer June",
+      "SpriteAsset": "assets/npcs/trainer_candidates/trainer_10.png",
+      "Season": "winter",
+      "Rung": 3,
+      "FirstYearTeam": {
+        "Party": [
+          { "SpeciesId": "seel", "Level": 34 },
+          { "SpeciesId": "shellder", "Level": 33 },
+          { "SpeciesId": "jynx", "Level": 33 }
+        ],
+        "RewardGold": 1450,
+        "RewardPokeBalls": 6,
+        "RewardPotions": 3
+      },
+      "LaterYearsTeam": {
+        "Party": [
+          { "SpeciesId": "dewgong", "Level": 76 },
+          { "SpeciesId": "cloyster", "Level": 75 },
+          { "SpeciesId": "jynx", "Level": 74 },
+          { "SpeciesId": "metagross", "Level": 75 },
+          { "SpeciesId": "sceptile", "Level": 74 }
+        ],
+        "RewardGold": 3500,
+        "RewardPokeBalls": 10,
+        "RewardPotions": 5
+      },
+      "MatchupSwitchSeconds": 15,
+      "TownTileX": 30,
+      "TownTileY": 63
+    }
+  ],
+  "ReserveTrainers": [
+    {
+      "Id": "reserve-aria",
+      "DisplayName": "Trainer Aria",
+      "SpriteAsset": "assets/npcs/trainer_candidates/trainer_01.png"
+    },
+    {
+      "Id": "reserve-beck",
+      "DisplayName": "Trainer Beck",
+      "SpriteAsset": "assets/npcs/trainer_candidates/trainer_02.png"
+    },
+    {
+      "Id": "reserve-cora",
+      "DisplayName": "Trainer Cora",
+      "SpriteAsset": "assets/npcs/trainer_candidates/trainer_03.png"
+    },
+    {
+      "Id": "reserve-dex",
+      "DisplayName": "Trainer Dex",
+      "SpriteAsset": "assets/npcs/trainer_candidates/trainer_04.png"
+    },
+    {
+      "Id": "reserve-emi",
+      "DisplayName": "Trainer Emi",
+      "SpriteAsset": "assets/npcs/trainer_candidates/trainer_05.png"
+    },
+    {
+      "Id": "reserve-gabe",
+      "DisplayName": "Trainer Gabe",
+      "SpriteAsset": "assets/npcs/trainer_candidates/trainer_06.png"
+    },
+    {
+      "Id": "reserve-hana",
+      "DisplayName": "Trainer Hana",
+      "SpriteAsset": "assets/npcs/trainer_candidates/trainer_07.png"
+    },
+    {
+      "Id": "reserve-ivo",
+      "DisplayName": "Trainer Ivo",
+      "SpriteAsset": "assets/npcs/trainer_candidates/trainer_08.png"
+    },
+    {
+      "Id": "reserve-kira",
+      "DisplayName": "Trainer Kira",
+      "SpriteAsset": "assets/npcs/trainer_candidates/trainer_09.png"
+    },
+    {
+      "Id": "reserve-noel",
+      "DisplayName": "Trainer Noel",
+      "SpriteAsset": "assets/npcs/trainer_candidates/trainer_10.png"
+    }
+  ],
+  "ReserveSpeciesPool": [
+    "absol",
+    "aerodactyl",
+    "altaria",
+    "annihilape",
+    "appletun",
+    "beedrill",
+    "bellossom",
+    "blaziken",
+    "cinccino",
+    "clodsire",
+    "decidueye",
+    "donphan",
+    "dragonite",
+    "espeon",
+    "farigiraf",
+    "feraligatr",
+    "flapple",
+    "gardevoir",
+    "golduck",
+    "gyarados",
+    "heracross",
+    "hydrapple",
+    "houndoom",
+    "kabutops",
+    "kangaskhan",
+    "kleavor",
+    "leafeon",
+    "lickilicky",
+    "mamoswine",
+    "magmortar",
+    "magnezone",
+    "meganium",
+    "mimikyu",
+    "mr-mime",
+    "noctowl",
+    "omastar",
+    "pelipper",
+    "persian",
+    "porygon2",
+    "porygon-z",
+    "quagsire",
+    "rhyperior",
+    "sableye",
+    "salamence",
+    "sawsbuck",
+    "scizor",
+    "seaking",
+    "seviper",
+    "slowbro",
+    "snorlax",
+    "stoutland",
+    "sudowoodo",
+    "sunflora",
+    "swampert",
+    "swellow",
+    "tangrowth",
+    "togekiss",
+    "typhlosion",
+    "umbreon",
+    "vaporeon",
+    "venomoth",
+    "vespiquen",
+    "victreebel",
+    "walrein",
+    "weezing",
+    "wyrdeer",
+    "zangoose"
+  ]
+}
