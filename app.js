@@ -60,13 +60,55 @@ document.addEventListener('DOMContentLoaded', () => {
         };
     }
 
-    // Asset URL helper to ensure compatibility with GitHub Pages (relative paths)
+    // Dynamic Base Path (Ensures GitHub Pages subpath /PELIPPER-TOWN-DEX/ works everywhere)
+    const BASE_PATH = (window.location.hostname.endsWith('github.io'))
+        ? '/' + (window.location.pathname.split('/')[1] || 'PELIPPER-TOWN-DEX') + '/'
+        : './';
+
+    // Asset URL helper to ensure compatibility with GitHub Pages
     function fixAssetUrl(url) {
-        if (!url) return 'assets/items/pokeball_stardew.png';
-        if (url.startsWith('/assets/')) return url.slice(1);
-        if (url.startsWith('/')) return '.' + url;
-        return url;
+        if (!url) return BASE_PATH + 'assets/items/pokeball_stardew.png';
+        let clean = url;
+        if (clean.startsWith('/')) clean = clean.slice(1);
+        if (clean.startsWith('./')) clean = clean.slice(2);
+        return BASE_PATH + clean;
     }
+
+    // Auto-rewrite all data URLs on boot to guarantee correct paths
+    function sanitizeAllDataPaths() {
+        if (!data) return;
+        if (data.species) {
+            data.species.forEach(sp => {
+                if (sp.portrait) sp.portrait = fixAssetUrl(sp.portrait);
+                if (sp.portraitShiny) sp.portraitShiny = fixAssetUrl(sp.portraitShiny);
+                if (sp.overworld) sp.overworld = fixAssetUrl(sp.overworld);
+            });
+        }
+        if (data.villagers) {
+            data.villagers.forEach(v => {
+                if (v.portrait) v.portrait = fixAssetUrl(v.portrait);
+            });
+        }
+        if (data.items) {
+            data.items.forEach(it => {
+                if (it.sprite) it.sprite = fixAssetUrl(it.sprite);
+            });
+        }
+        if (data.mega && data.mega.forms) {
+            data.mega.forms.forEach(m => {
+                if (m.portrait) m.portrait = fixAssetUrl(m.portrait);
+            });
+        }
+        if (data.quests) {
+            data.quests.forEach(q => {
+                if (q.requesterPortrait) q.requesterPortrait = fixAssetUrl(q.requesterPortrait);
+                if (q.targets) q.targets.forEach(t => { if (t.portrait) t.portrait = fixAssetUrl(t.portrait); });
+                if (q.targetsY2) q.targetsY2.forEach(t => { if (t.portrait) t.portrait = fixAssetUrl(t.portrait); });
+                if (q.rewards) q.rewards.forEach(r => { if (r.sprite) r.sprite = fixAssetUrl(r.sprite); });
+            });
+        }
+    }
+    sanitizeAllDataPaths();
 
     // Lazy Tab Render Tracking
     const renderedTabs = new Set(['pokedex']);

@@ -28,7 +28,19 @@
     <div class="app-header">
       <div class="header-container">
         <div class="brand-wrapper">
-          <img src="assets/pokemon/pelican-town/pelipper/portrait.png" alt="Pelipper Town Logo" class="brand-logo" onerror="this.onerror=null; this.src='assets/items/champions_crown.png'">
+          <img id="brandLogoImg" src="" alt="Pelipper Town Logo" class="brand-logo">
+          <script>
+            (function() {
+              const isGh = window.location.hostname.endsWith('github.io');
+              const repo = isGh ? (window.location.pathname.split('/')[1] || 'PELIPPER-TOWN-DEX') : '';
+              const prefix = isGh ? '/' + repo + '/' : './';
+              const logo = document.getElementById('brandLogoImg');
+              if (logo) {
+                logo.src = prefix + 'assets/pokemon/pelican-town/pelipper/portrait.png';
+                logo.onerror = function() { this.onerror = null; this.src = prefix + 'assets/items/pokeball_stardew.png'; };
+              }
+            })();
+          </script>
           <div>
             <div class="brand-title">
               PELIPPER TOWN
@@ -651,7 +663,7 @@
   </div>
 
   <!-- Scripts -->
-  <script src="data.js?v=1.2.5"></script>
-  <script src="app.js?v=1.3.0"></script>
+  <script src="data.js?v=1.3.5"></script>
+  <script src="app.js?v=1.3.5"></script>
 </body>
 </html>
