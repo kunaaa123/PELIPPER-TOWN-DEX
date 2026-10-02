@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pelipper Town — Ultimate Valley Pokédex & Database</title>
+  <meta name="description" content="สารานุกรมและคู่มือการเล่นม็อด Pelipper Town Stardew Valley รวบรวมข้อมูลโปเกมอน 617 ชนิด ชาวเมือง การต่อสู้ VS Seeker พาหนะ และระบบงานฟาร์มแบบจัดเต็ม">
+  <!-- Google Fonts: Prompt & Outfit -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&family=Prompt:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css?v=1.3.0">
+</head>
+<body>
+
+  <!-- Sticky Header & Navigation Wrapper -->
+  <header class="app-header-wrapper">
+    <div class="app-header">
+      <div class="header-container">
+        <div class="brand-wrapper">
+          <img src="/assets/pokemon/pelican-town/pelipper/portrait.png" alt="Pelipper Town Logo" class="brand-logo" onerror="this.src='/assets/items/champions_crown.png'">
+          <div>
+            <div class="brand-title">
+              PELIPPER TOWN
+              <span class="brand-badge">DATABASE</span>
+            </div>
+            <div class="brand-subtitle">สารานุกรมโปเกมอนและคู่มือเจาะลึก Stardew Valley Mod ฉบับสมบูรณ์</div>
+          </div>
+        </div>
+
+        <div class="header-stats">
+          <div class="stat-pill" title="โปเกมอนทั้งหมด">
+            <span class="stat-icon">🐾</span>
+            <span class="stat-label">โปเกมอน:</span>
+            <strong id="statTotalSpecies">617</strong>
+          </div>
+          <div class="stat-pill" title="ชาวเมืองและคู่หู">
+            <span class="stat-icon">👥</span>
+            <span class="stat-label">ชาวเมือง:</span>
+            <strong id="statTotalVillagers">46</strong>
+          </div>
+          <div class="stat-pill" title="พาหนะขี่ได้">
+            <span class="stat-icon">🏇</span>
+            <span class="stat-label">พาหนะ:</span>
+            <strong id="statTotalMounts">30+</strong>
+          </div>
+          <div class="stat-pill" title="สารานุกรมไอเทม">
+            <span class="stat-icon">🎒</span>
+            <span class="stat-label">ไอเทม:</span>
+            <strong id="statTotalItems">118</strong>
+          </div>
+          <div class="stat-pill" title="เควสต์และเรื่องราว">
+            <span class="stat-icon">📜</span>
+            <span class="stat-label">เควสต์:</span>
+            <strong id="statTotalQuests">58</strong>
+          </div>
+          <div class="stat-pill" title="ร่างเมก้า">
+            <span class="stat-icon">⚡</span>
+            <span class="stat-label">เมก้า:</span>
+            <strong id="statTotalMegas">30</strong>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Navigation Tabs with Scroll Track & Controls -->
+    <nav class="nav-bar" id="mainNavBar">
+      <button class="nav-scroll-btn nav-scroll-left" id="navScrollLeft" aria-label="เลื่อนซ้าย" title="เลื่อนแท็บไปทางซ้าย">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+      </button>
+
+      <div class="nav-scroll-track" id="navTrack">
+        <div class="nav-container" id="navContainer">
+          <button class="nav-btn active" data-tab="pokedex">
+            <span class="nav-icon">📱</span>
+            <span class="nav-text">สมุดภาพโปเกมอน</span>
+          </button>
+          <button class="nav-btn" data-tab="villagers">
+            <span class="nav-icon">👥</span>
+            <span class="nav-text">ชาวเมือง & VS Seeker</span>
+          </button>
+          <button class="nav-btn" data-tab="mounts">
+            <span class="nav-icon">🏇</span>
+            <span class="nav-text">พาหนะขี่ได้</span>
+          </button>
+          <button class="nav-btn" data-tab="chores">
+            <span class="nav-icon">🌾</span>
+            <span class="nav-text">งานช่วยในฟาร์ม</span>
+          </button>
+          <button class="nav-btn" data-tab="items">
+            <span class="nav-icon">🎒</span>
+            <span class="nav-text">สารานุกรมไอเทม</span>
+            <span class="nav-count-badge">118</span>
+          </button>
+          <button class="nav-btn" data-tab="mega">
+            <span class="nav-icon">⚡</span>
+            <span class="nav-text">เมก้า & เรควอซา</span>
+            <span class="nav-count-badge">30</span>
+          </button>
+          <button class="nav-btn" data-tab="quests">
+            <span class="nav-icon">📜</span>
+            <span class="nav-text">เควสต์ & สี่นก</span>
+            <span class="nav-count-badge">58</span>
+          </button>
+          <button class="nav-btn" data-tab="breeding">
+            <span class="nav-icon">🥚</span>
+            <span class="nav-text">การผสมพันธุ์</span>
+          </button>
+          <button class="nav-btn" data-tab="controls">
+            <span class="nav-icon">🎮</span>
+            <span class="nav-text">ปุ่มควบคุม</span>
+          </button>
+        </div>
+      </div>
+
+      <button class="nav-scroll-btn nav-scroll-right" id="navScrollRight" aria-label="เลื่อนขวา" title="เลื่อนแท็บไปทางขวา">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+      </button>
+    </nav>
+  </header>
+
+  <!-- Main Content Area -->
+  <main class="main-content">
+
+    <!-- Search & Filter Panel (shared across main tabs) -->
+    <section class="filter-panel" id="filterPanel">
+      <div class="search-row">
+        <div class="search-box">
+          <span class="search-icon">🔍</span>
+          <input type="text" id="searchInput" class="search-input" placeholder="ค้นหาชื่อโปเกมอน, ชาวเมือง, ทักษะ, หรือสถานที่ (พิมพ์ได้ทั้งไทย/อังกฤษ)...">
+        </div>
+        <button id="toggleShinyBtn" class="toggle-shiny-btn">✨ สลับดูไชนี่</button>
+      </div>
+
+      <div class="filter-groups">
+        <!-- Gen Filters -->
+        <div class="filter-group">
+          <span class="filter-group-label">รุ่น (Gen):</span>
+          <div class="pill-list">
+            <span class="filter-pill active" data-gen="all">ทั้งหมด</span>
+            <span class="filter-pill" data-gen="1">Gen 1 (Kanto)</span>
+            <span class="filter-pill" data-gen="2">Gen 2 (Johto)</span>
+            <span class="filter-pill" data-gen="3">Gen 3 (Hoenn)</span>
+            <span class="filter-pill" data-gen="4">Gen 4 (Sinnoh)</span>
+            <span class="filter-pill" data-gen="5">Gen 5 (Unova)</span>
+            <span class="filter-pill" data-gen="6">Gen 6 (Kalos)</span>
+            <span class="filter-pill" data-gen="7">Gen 7 (Alola)</span>
+            <span class="filter-pill" data-gen="8">Gen 8 (Galar)</span>
+            <span class="filter-pill" data-gen="9">Gen 9 (Paldea)</span>
+          </div>
+        </div>
+
+        <!-- Type Filters -->
+        <div class="filter-group">
+          <span class="filter-group-label">ธาตุ (Type):</span>
+          <div class="pill-list">
+            <span class="filter-pill active" data-type="all">ทุกธาตุ</span>
+            <span class="filter-pill" data-type="Normal">Normal</span>
+            <span class="filter-pill" data-type="Fire">Fire</span>
+            <span class="filter-pill" data-type="Water">Water</span>
+            <span class="filter-pill" data-type="Grass">Grass</span>
+            <span class="filter-pill" data-type="Electric">Electric</span>
+            <span class="filter-pill" data-type="Ice">Ice</span>
+            <span class="filter-pill" data-type="Fighting">Fighting</span>
+            <span class="filter-pill" data-type="Poison">Poison</span>
+            <span class="filter-pill" data-type="Ground">Ground</span>
+            <span class="filter-pill" data-type="Flying">Flying</span>
+            <span class="filter-pill" data-type="Psychic">Psychic</span>
+            <span class="filter-pill" data-type="Bug">Bug</span>
+            <span class="filter-pill" data-type="Rock">Rock</span>
+            <span class="filter-pill" data-type="Ghost">Ghost</span>
+            <span class="filter-pill" data-type="Dragon">Dragon</span>
+            <span class="filter-pill" data-type="Steel">Steel</span>
+            <span class="filter-pill" data-type="Dark">Dark</span>
+            <span class="filter-pill" data-type="Fairy">Fairy</span>
+          </div>
+        </div>
+
+        <!-- Job Filters -->
+        <div class="filter-group">
+          <span class="filter-group-label">งานฟาร์ม:</span>
+          <div class="pill-list">
+            <span class="filter-pill active" data-job="all">ทั้งหมด</span>
+            <span class="filter-pill" data-job="Water">💧 รดน้ำ</span>
+            <span class="filter-pill" data-job="Harvest">🌾 เก็บเกี่ยว</span>
+            <span class="filter-pill" data-job="Mine">⛏️ ขุดแร่</span>
+            <span class="filter-pill" data-job="ChopWood">🪓 ตัดไม้</span>
+            <span class="filter-pill" data-job="ClearBrush">🌿 ถางหญ้า</span>
+            <span class="filter-pill" data-job="Forage">🍄 หาของป่า</span>
+            <span class="filter-pill" data-job="AnimalCare">🐮 เลี้ยงสัตว์</span>
+            <span class="filter-pill" data-job="Fish">🎣 ตกปลา</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tab 1: Pokedex -->
+    <section id="tab-pokedex" class="tab-panel active">
+      <div class="results-bar">
+        <span id="resultsCount">กำลังโหลดข้อมูลโปเกมอน...</span>
+        <div id="paginationTopControls" style="display:flex; align-items:center; gap:8px;"></div>
+      </div>
+      <div class="pokemon-grid" id="pokemonGrid"></div>
+      <div id="paginationBottomControls" style="margin-top:24px;"></div>
+    </section>
+
+    <!-- Tab 2: Villagers & VS Seeker -->
+    <section id="tab-villagers" class="tab-panel">
+      <div style="background:var(--bg-card); border:1px solid var(--border-color); border-radius:14px; padding:18px; margin-bottom:24px;">
+        <h2 style="font-size:1.3rem; color:#60a5fa; margin-bottom:8px;">⚔️ ระบบการประลองเทรนเนอร์ชาวเมือง (VS Seeker)</h2>
+        <p style="font-size:0.9rem; color:var(--text-muted); line-height:1.6;">
+          เมื่อชนะการดวลกับ <strong>Alex (หัวใจ 1 ดวง)</strong> คุณจะได้รับอุปกรณ์ <strong>VS Seeker</strong> ทางจดหมายในวันถัดไป 
+          ถืออุปกรณ์นี้แล้วคุยกับชาวบ้านเพื่อเริ่มการต่อสู้กระชับมิตรได้ 4 ระดับ (Tier 1: Lv 15, Tier 2: Lv 30, Tier 3: Lv 45, Tier 4: Lv 60). 
+          คุณจะได้รับสติกเกอร์ชัยชนะ (บรอนซ์, เงิน, ทอง, แพลตตินัม) ใน <strong>Battle Journal</strong> และสามารถท้าสู้ใหม่ได้ทุกๆ วันจันทร์!
+        </p>
+      </div>
+      <div class="villager-grid" id="villagerGrid"></div>
+    </section>
+
+    <!-- Tab 3: Mounts -->
+    <section id="tab-mounts" class="tab-panel">
+      <div style="background:var(--bg-card); border:1px solid var(--border-color); border-radius:14px; padding:18px; margin-bottom:24px;">
+        <h2 style="font-size:1.3rem; color:#f59e0b; margin-bottom:8px;">🏇 โปเกมอนพาหนะขี่ได้ (Rideable Mounts)</h2>
+        <p style="font-size:0.9rem; color:var(--text-muted); line-height:1.6;">
+          เมื่อมีโปเกมอนที่รองรับเป็นคู่หูร่วมเดินทางอยู่ข้างตัว (Active Companion) ให้อยู่กลางแจ้งแล้วกดปุ่ม Action เข้าหาตัวโปเกมอน 
+          คุณจะสามารถขึ้นขี่ได้เหมือนม้าทันที! โปเกมอนบางสายพันธุ์ยังมีความสามารถพิเศษ เช่น บินข้ามสิ่งกีดขวางเหนือผืนน้ำ หรือวิ่งบนผิวน้ำได้
+        </p>
+      </div>
+      <div class="mount-grid" id="mountGrid"></div>
+    </section>
+
+    <!-- Tab 4: Farm Chores -->
+    <section id="tab-chores" class="tab-panel">
+      <div style="display:flex; flex-direction:column; gap:20px;">
+        <div class="quest-card">
+          <h3>🌾 การแบ่งงานและหน้าที่ของโปเกมอนในฟาร์ม</h3>
+          <p style="color:var(--text-muted);">
+            โปเกมอนคู่หูจะคอยช่วยเหลืองานรอบฟาร์มโดยอัตโนมัติตามระยะเรดาร์ที่กำหนด (ตั้งค่าได้ใน Mod Options) โดยต้องใช้พลังงาน (Energy) เล็กน้อยในการทำงานแต่ละชิ้น
+          </p>
+          <div style="display:grid; grid-template-columns:repeat(auto-fill, minmax(280px, 1fr)); gap:16px; margin-top:10px;">
+            <div style="background:rgba(255,255,255,0.03); padding:16px; border-radius:12px; border:1px solid rgba(255,255,255,0.06);">
+              <h4 style="color:#60a5fa; margin-bottom:6px;">💧 การรดน้ำ (Watering)</h4>
+              <p style="font-size:0.85rem; color:var(--text-muted);">โปเกมอนธาตุน้ำจะช่วยรดน้ำแปลงดินที่แห้งในรัศมีรอบตัวอย่างรวดเร็วโดยไม่ต้องใช้บัวรดน้ำ</p>
+            </div>
+            <div style="background:rgba(255,255,255,0.03); padding:16px; border-radius:12px; border:1px solid rgba(255,255,255,0.06);">
+              <h4 style="color:#34d399; margin-bottom:6px;">🌾 การเก็บเกี่ยว (Harvesting)</h4>
+              <p style="font-size:0.85rem; color:var(--text-muted);">เก็บเกี่ยวพืชผลที่โตเต็มวัยเข้าตัวผู้เล่น โดยมีระบบอัจฉริยะ <em>ProtectGiantCrops</em> ปกป้องแปลงผักยักษ์ไม่ให้ถูกเก็บ</p>
+            </div>
+            <div style="background:rgba(255,255,255,0.03); padding:16px; border-radius:12px; border:1px solid rgba(255,255,255,0.06);">
+              <h4 style="color:#fbbf24; margin-bottom:6px;">⛏️ การขุดแร่ (Mining)</h4>
+              <p style="font-size:0.85rem; color:var(--text-muted);">โปเกมอนธาตุหิน/ดิน/ต่อสู้ เช่น Machop, Geodude ช่วยทุบหิน แร่ก้อน และสิ่งกีดขวางในเหมือง</p>
+            </div>
+            <div style="background:rgba(255,255,255,0.03); padding:16px; border-radius:12px; border:1px solid rgba(255,255,255,0.06);">
+              <h4 style="color:#f87171; margin-bottom:6px;">🪓 การตัดไม้ (ChopWood)</h4>
+              <p style="font-size:0.85rem; color:var(--text-muted);">ช่วยตัดต้นไม้และตอไม้ใหญ่ พร้อมป้องกันต้นไม้ที่ติดเครื่องกรีดน้ำเชื่อม (ProtectTappedTrees)</p>
+            </div>
+            <div style="background:rgba(255,255,255,0.03); padding:16px; border-radius:12px; border:1px solid rgba(255,255,255,0.06);">
+              <h4 style="color:#c084fc; margin-bottom:6px;">🐮 ดูแลสัตว์ (AnimalCare)</h4>
+              <p style="font-size:0.85rem; color:var(--text-muted);">ช่วยลูบตัวและทักทายสัตว์ในฟาร์มเพื่อเพิ่มค่าความสนิทสนมทุกเช้า</p>
+            </div>
+            <div style="background:rgba(255,255,255,0.03); padding:16px; border-radius:12px; border:1px solid rgba(255,255,255,0.06);">
+              <h4 style="color:#38bdf8; margin-bottom:6px;">🎣 การช่วยหาปลา (Fishing)</h4>
+              <p style="font-size:0.85rem; color:var(--text-muted);">โปเกมอนน้ำสามารถช่วยดำน้ำจับปลาและของสะสมขึ้นมาเป็นระยะตาม Catch Chance</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tab 5: Items -->
+    <section id="tab-items" class="tab-panel">
+      <div class="item-hub-header">
+        <div>
+          <h2 style="font-size:1.35rem; color:#60a5fa; display:flex; align-items:center; gap:10px;">
+            🎒 สารานุกรมไอเทมและอุปกรณ์ทั้งหมดใน Pelipper Town (118 ไอเทม)
+          </h2>
+          <p style="font-size:0.9rem; color:var(--text-muted); margin-top:4px;">
+            เจาะลึกการใช้งานไอเทมทุกประเภท: ลูกบอลจับโปเกมอน & บอลอัญเชิญบอส, หินวิวัฒนาการ, ไอเทมพัฒนาเฉพาะทาง, เนเจอร์มิ้นต์ปรับนิสัย, ศิลาธาตุ, และฟอสซิลโบราณ
+          </p>
+        </div>
+
+        <!-- Item Category Filter -->
+        <div class="item-category-bar">
+          <button class="item-cat-btn active" data-item-cat="all">🌟 ทั้งหมด (118)</button>
+          <button class="item-cat-btn" data-item-cat="ball">🔴 Poké Balls & บอลอัญเชิญ</button>
+          <button class="item-cat-btn" data-item-cat="stone">💎 หินวิวัฒนาการ</button>
+          <button class="item-cat-btn" data-item-cat="catalyst">⚔️ อุปกรณ์พัฒนาสายเฉพาะ</button>
+          <button class="item-cat-btn" data-item-cat="mint">🌿 เนเจอร์มิ้นต์ (ร้าน Gus)</button>
+          <button class="item-cat-btn" data-item-cat="slate">📜 ศิลาธาตุเรียกมอนสเตอร์</button>
+          <button class="item-cat-btn" data-item-cat="fossil">🦴 ฟอสซิลโบราณ</button>
+          <button class="item-cat-btn" data-item-cat="medicine">🧪 ยารักษา & ลูกอมพลัง</button>
+          <button class="item-cat-btn" data-item-cat="key">👑 ไอเทมสำคัญ & ฟาร์ม</button>
+        </div>
+
+        <div class="search-row" style="margin-top:6px;">
+          <div class="search-box" style="width:100%;">
+            <span class="search-icon">🔍</span>
+            <input type="text" id="itemSearchInput" class="search-input" placeholder="ค้นหาชื่อไอเทม (ไทย/อังกฤษ), ประโยชน์การใช้งาน, หรือวิธีได้รับ...">
+          </div>
+        </div>
+      </div>
+      <div class="item-grid" id="itemGrid"></div>
+    </section>
+
+    <!-- Tab 5.5: Mega Evolution & Rayquaza Hub -->
+    <section id="tab-mega" class="tab-panel">
+      <!-- Mega Evolution Hero Banner -->
+      <div class="mega-hero-banner">
+        <div style="display:flex; justify-content:space-between; align-items:flex-start; flex-wrap:wrap; gap:16px;">
+          <div style="max-width:850px;">
+            <div style="display:inline-flex; align-items:center; gap:6px; background:rgba(234,88,12,0.25); border:1px solid rgba(234,88,12,0.4); padding:4px 10px; border-radius:8px; font-size:0.8rem; font-weight:700; color:#fdba74; margin-bottom:8px;">
+              ⚡ พลังวิวัฒนาการขั้นสุดยอด (MEGA EVOLUTION SYSTEM)
+            </div>
+            <h2 style="font-size:1.6rem; color:#fff; font-weight:800; margin-bottom:8px;">
+              คู่มือระบบการพัฒนาร่างเมก้า (Mega Evolution Guide)
+            </h2>
+            <p style="font-size:0.95rem; color:#cbd5e1; line-height:1.6;">
+              เมื่อฝึกโปเกมอนคู่หูตัวใดก็ได้จนถึง <strong>เลเวล 50 (Level 50)</strong> นายกเทศมนตรี Lewis จะส่งจดหมายพิเศษมอบ <em>Mega Evolution Guide</em> และสูตรคราฟต์ <strong>กำไลเมก้า (Mega Band)</strong> (สร้างด้วย 1 Iridium Bar + 1 Prismatic Shard)
+            </p>
+            <div style="background:rgba(249,115,22,0.15); border:1px solid rgba(249,115,22,0.35); border-radius:10px; padding:10px 14px; margin-top:10px; font-size:0.88rem; color:#fed7aa; line-height:1.5;">
+              💎 <strong>ใช้ของอะไรในการแปลงร่าง Mega แต่ละตัว?</strong><br>
+              ในม็อด Pelipper Town <strong>ไม่มีหินเมก้าเฉพาะตัวแยก</strong> (ไม่ต้องหา Charizardite หรือ Lucarionite ทีละอัน) แต่ใช้ไอเทมชิ้นเดียวกันทั้งหมดคือ <strong>"กำไลเมก้า (Mega Band)"</strong> คราฟต์แค่ชิ้นเดียวสามารถใช้แปลงร่างโปเกมอนที่รองรับได้ครบทั้ง 30 ตัว เพียงนำโปเกมอนตัวนั้น (เลเวล 50+) ออกมาเดินตาม ➔ ถือ Mega Band ➔ กดปุ่ม Action!
+            </div>
+          </div>
+          <div style="background:rgba(0,0,0,0.3); border:1px solid rgba(255,255,255,0.1); border-radius:14px; padding:14px 18px; text-align:right;">
+            <div style="font-size:0.8rem; color:var(--text-muted);">จำนวนโปเกมอนร่างเมก้า</div>
+            <div style="font-size:2rem; font-weight:800; color:#f97316;">30 รูปแบบ</div>
+            <div style="font-size:0.75rem; color:#34d399;">แปลงร่างได้วันละ 1 ครั้ง / คน</div>
+          </div>
+        </div>
+
+        <!-- Mega Multipliers -->
+        <div class="mega-multipliers-row">
+          <div class="mega-mult-card">
+            <span class="mega-mult-icon">❤️</span>
+            <div>
+              <div class="mega-mult-title">พลังชีวิตสูงสุด (Max HP)</div>
+              <div class="mega-mult-val">+25% พลังชีวิต</div>
+            </div>
+          </div>
+          <div class="mega-mult-card">
+            <span class="mega-mult-icon">⚔️</span>
+            <div>
+              <div class="mega-mult-title">สเตตัสต่อสู้ (Battle Stats)</div>
+              <div class="mega-mult-val">+25% ATK / DEF / SPD</div>
+            </div>
+          </div>
+          <div class="mega-mult-card">
+            <span class="mega-mult-icon">👟</span>
+            <div>
+              <div class="mega-mult-title">ความเร็วเคลื่อนที่ (Field Speed)</div>
+              <div class="mega-mult-val">+15% เดินตามเร็วขึ้น</div>
+            </div>
+          </div>
+          <div class="mega-mult-card">
+            <span class="mega-mult-icon">✨</span>
+            <div>
+              <div class="mega-mult-title">อบิลิตี้ประจำตัว (Passive Ability)</div>
+              <div class="mega-mult-val">1.5x ประสิทธิผลทวีคูณ</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Rules reminder -->
+        <div style="margin-top:16px; background:rgba(0,0,0,0.25); border-radius:10px; padding:12px 16px; font-size:0.85rem; color:#94a3b8; display:flex; gap:16px; flex-wrap:wrap;">
+          <span>📌 <strong>ระยะเวลา:</strong> ร่างเมก้าจะคงอยู่ตลอดทั้งวันจนกว่าจะถึงเวลานอน (Bedtime) หรือจนกว่าโปเกมอนจะหมดสติ</span>
+          <span>📌 <strong>ขีดจำกัด:</strong> มีโปเกมอนร่างเมก้าในสนามได้ครั้งละ 1 ตัวเท่านั้น</span>
+          <span>📌 <strong>HP คงเดิม:</strong> การแปลงร่างจะรักษาระดับ % เลือดปัจจุบันไว้ ไม่เสียเลือด</span>
+        </div>
+      </div>
+
+      <!-- Rayquaza Spotlight Walkthrough Feature -->
+      <div class="rayquaza-feature-card">
+        <div class="rayquaza-header">
+          <img src="/assets/pokemon/fan-favorites/rayquaza/portrait.png" class="rayquaza-sprite-lg" alt="Rayquaza" onerror="this.onerror=null; this.src='/assets/items/emerald_ball_stardew.png'">
+          <div style="flex:1;">
+            <div style="display:inline-flex; align-items:center; gap:6px; background:rgba(16,185,129,0.2); border:1px solid #10b981; padding:2px 8px; border-radius:6px; font-size:0.75rem; font-weight:700; color:#34d399; margin-bottom:4px;">
+              🐉 มังกรสวรรค์ผู้พิทักษ์ท้องฟ้า & MEGA RAYQUAZA
+            </div>
+            <h3 style="font-size:1.45rem; color:#fff; font-weight:800; margin:0 0 4px;">
+              วิธีตามหา เผชิญหน้า และจับกุม Rayquaza (เรควอซา) เลเวล 70
+            </h3>
+            <p style="font-size:0.88rem; color:#a7f3d0; margin:0; line-height:1.5;">
+              มังกรฟ้าในตำนานจากชั้นบรรยากาศโอโซน สามารถอัญเชิญมาท้าประลองและจับเป็นคู่หูได้ พร้อมปลดล็อกร่าง <strong>Mega Rayquaza</strong> ที่มาพร้อมพลัง <em>Delta Stream</em> ลดความเสียหายจากกระสุนและพื้นที่บอสลงถึง 75%!
+            </p>
+          </div>
+          <div style="display:flex; flex-direction:column; align-items:center; gap:6px; background:rgba(0,0,0,0.4); padding:10px 14px; border-radius:12px; border:1px solid rgba(16,185,129,0.3);">
+            <img src="/assets/items/emerald_ball_stardew.png" style="width:40px; height:40px; image-rendering:pixelated;" alt="Emerald Ball">
+            <span style="font-size:0.75rem; font-weight:700; color:#6ee7b7;">Emerald Ball</span>
+          </div>
+        </div>
+
+        <div class="rayquaza-steps-grid">
+          <div class="rayquaza-step-box">
+            <span class="rayquaza-step-badge">ขั้นตอนที่ 1</span>
+            <h4 style="font-size:0.95rem; color:#fff; margin:0 0 6px;">สร้างสัมพันธ์ 6 หัวใจ (Clint & Willy)</h4>
+            <p style="font-size:0.84rem; color:#cbd5e1; margin:0; line-height:1.45;">
+              เพิ่มความสนิทกับช่างตีเหล็ก <strong>Clint</strong> และชาวประมง <strong>Willy</strong> ให้ถึง 6 หัวใจขึ้นไป ทั้งคู่จะร่วมกันส่งจดหมาย <em>"Primal Rivalry"</em> มาที่ตู้จดหมายของคุณ
+            </p>
+          </div>
+          <div class="rayquaza-step-box">
+            <span class="rayquaza-step-badge">ขั้นตอนที่ 2</span>
+            <h4 style="font-size:0.95rem; color:#fff; margin:0 0 6px;">คราฟต์แกนธาตุ "Elemental Core"</h4>
+            <p style="font-size:0.84rem; color:#cbd5e1; margin:0; line-height:1.45;">
+              เปิดสูตรสร้าง Elemental Core โดยใช้ <strong>1 ทับทิม (Ruby) + 1 อะความารีน (Aquamarine)</strong> เพื่อเป็นสื่อกลางอัญเชิญพลังปฐพีและสายน้ำ
+            </p>
+          </div>
+          <div class="rayquaza-step-box">
+            <span class="rayquaza-step-badge">ขั้นตอนที่ 3</span>
+            <h4 style="font-size:0.95rem; color:#fff; margin:0 0 6px;">พิชิตบอสคู่ Kyogre & Groudon (Lv 60)</h4>
+            <p style="font-size:0.84rem; color:#cbd5e1; margin:0; line-height:1.45;">
+              นำ Core ไปปาที่ <strong>ชายหาด (Beach)</strong> หรือ <strong>ปากปล่องภูเขาไฟ (Caldera)</strong> เพื่อเผชิญหน้ากับไครโอกาและกราดอนเลเวล 60 เมื่อกำราบหรือจับสำเร็จ จะปลดล็อกสูตร <strong>Emerald Ball</strong> ทันที!
+            </p>
+          </div>
+          <div class="rayquaza-step-box">
+            <span class="rayquaza-step-badge">ขั้นตอนที่ 4</span>
+            <h4 style="font-size:0.95rem; color:#fff; margin:0 0 6px;">ขว้าง Emerald Ball เรียกบอส Rayquaza</h4>
+            <p style="font-size:0.84rem; color:#cbd5e1; margin:0; line-height:1.45;">
+              คราฟต์ Emerald Ball แล้วนำไปขว้างในที่โล่งแจ้ง (ยอดเขา Mountain หรือชายหาด) บอส <strong>Rayquaza เลเวล 70</strong> จะพุ่งลงมาจากสวรรค์พร้อมอบิลิตี้ Delta Stream เข้าต่อสู้และจับด้วย Ultra Ball!
+            </p>
+          </div>
+          <div class="rayquaza-step-box" style="grid-column: 1 / -1; background:rgba(16,185,129,0.15); border-color:rgba(16,185,129,0.4);">
+            <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px;">
+              <div>
+                <span class="rayquaza-step-badge" style="background:#059669; color:#fff;">ขั้นตอนที่ 5 • ร่างสุดยอด</span>
+                <strong style="color:#6ee7b7; font-size:1rem; margin-left:8px;">วิวัฒนาการเป็น 'Mega Rayquaza' (สวมกำไล Mega Band)</strong>
+                <p style="font-size:0.85rem; color:#e2e8f0; margin:4px 0 0; line-height:1.5;">
+                  เมื่อนำ Rayquaza ออกมาเดินตามและใช้ Mega Band จะแปลงร่างเป็น <strong>Mega Rayquaza</strong> ทันที! ได้รับพลัง <strong>Delta Stream</strong>: ลดความเสียหายจากกระสุนของศัตรูและพื้นที่อันตรายของบอสลงถึง <strong>75%</strong>, บอสปล่อยท่าช้าลงครึ่งหนึ่ง, และท่าโจมตีธาตุบินของเรควอซาแรงขึ้น <strong>40%</strong>!
+                </p>
+              </div>
+              <img src="/assets/pokemon/mega-evolutions/mega-rayquaza/portrait.png" style="width:58px; height:58px; image-rendering:pixelated;" alt="Mega Rayquaza">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 30 Mega Forms Header & Filter -->
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:20px; flex-wrap:wrap; gap:12px;">
+        <h3 style="font-size:1.25rem; color:#e2e8f0; display:flex; align-items:center; gap:8px;">
+          <span>⚡ รายชื่อโปเกมอนร่างเมก้าทั้งหมด 30 สายพันธุ์</span>
+          <span style="font-size:0.82rem; color:var(--text-muted); font-weight:normal;">(พร้อมภาพพอร์ตเทรตพิกเซลและอบิลิตี้พิเศษ)</span>
+        </h3>
+        <div style="max-width:320px; width:100%;">
+          <input type="text" id="megaSearchInput" class="search-input" placeholder="🔍 ค้นหาร่างเมก้า, ความสามารถ, หรือชื่อ..." style="width:100%; padding:8px 14px; font-size:0.85rem;">
+        </div>
+      </div>
+
+      <div class="mega-grid" id="megaGrid"></div>
+    </section>
+
+    <!-- Tab 6: Quests & Lore -->
+    <section id="tab-quests" class="tab-panel">
+      <!-- Quest Explorer Header & Filters -->
+      <div class="quest-hub-header">
+        <div class="quest-hub-intro">
+          <h2 style="font-size:1.35rem; color:#60a5fa; display:flex; align-items:center; gap:10px;">
+            📜 สารานุกรมเควสต์และภารกิจทั้งหมดใน Pelipper Town (58 เควสต์)
+          </h2>
+          <p style="font-size:0.9rem; color:var(--text-muted); margin-top:4px;">
+            คู่มือเจาะลึกเควสต์มิตรภาพ, จดหมายส่งมอบโปเกมอน, ลีกประลอง 4 ฤดูกาล, และเนื้อเรื่องการเผชิญหน้าสัตว์เทพในตำนาน พร้อมภาพและวิธีผ่านแบบครบถ้วน
+          </p>
+        </div>
+
+        <div class="quest-category-bar">
+          <button class="quest-cat-btn active" data-quest-cat="all">🌟 ทั้งหมด (58)</button>
+          <button class="quest-cat-btn" data-quest-cat="story">📖 มิตรภาพ & เนื้อเรื่อง (15)</button>
+          <button class="quest-cat-btn" data-quest-cat="mail">✉️ จดหมายขอความช่วยเหลือ (23)</button>
+          <button class="quest-cat-btn" data-quest-cat="league">⚔️ ลีกประลอง Pelican Town (12)</button>
+          <button class="quest-cat-btn" data-quest-cat="legendary">🦅 สัตว์เทพในตำนาน & มิติ (8)</button>
+        </div>
+
+        <div class="quest-search-row">
+          <div style="flex:1; position:relative;">
+            <input type="text" id="questSearchInput" class="search-input" placeholder="🔍 ค้นหาชื่อเควสต์, ชื่อชาวเมือง, โปเกมอนเป้าหมาย, หรือสถานที่..." style="width:100%; padding:10px 16px; font-size:0.9rem;">
+          </div>
+          <span id="questCountBadge" class="quest-count-badge">แสดง 58 จาก 58 ภารกิจ</span>
+        </div>
+      </div>
+
+      <!-- Quests Grid -->
+      <div class="quest-grid" id="questGrid"></div>
+
+      <!-- Additional Request Board Information Card -->
+      <div class="board-info-section" style="margin-top:30px;">
+        <div class="quest-card" style="border-color:rgba(245, 158, 11, 0.35); background:rgba(245, 158, 11, 0.03);">
+          <div style="display:flex; align-items:center; gap:14px; margin-bottom:12px;">
+            <img src="/assets/npcs/portraits/Robin.png" style="width:52px; height:52px; border-radius:12px; border:2px solid #fbbf24; image-rendering:pixelated;" alt="Robin" onerror="this.onerror=null; this.src='/assets/items/pokeball_stardew.png';" />
+            <div>
+              <h3 style="color:#fbbf24; margin:0; font-size:1.15rem;">📋 คู่มือป้ายประกาศรับสมัครงานโปเกมอน (Help Wanted Board System)</h3>
+              <div style="font-size:0.82rem; color:var(--text-muted); margin-top:2px;">ซ่อมแซมโดยส่งไม้ 25 ท่อนให้ Robin (เควสต์ A Place for Requests) หลังเสร็จ A New Deckhand ของ Willy</div>
+            </div>
+          </div>
+          <p style="font-size:0.9rem; color:var(--text-muted); line-height:1.5;">
+            เมื่อซ่อมป้ายประกาศเสร็จแล้ว ป้ายประกาศหน้าบ้าน Pierre จะมีประกาศขอโปเกมอนสลับกับเควสต์ทั่วไปของเกม โดยจะปรากฏสูงสุด 3 ครั้งต่อฤดูกาล (ช่วงวันที่ 2-9, 10-18, และ 19-27) โดยปี 1 จะขอโปเกมอนประจำฤดู ส่วนปี 2 เป็นต้นไปจะมีเควสต์ขอไอเทมสลับเข้ามา:
+          </p>
+          <div style="display:grid; grid-template-columns:repeat(auto-fill, minmax(240px, 1fr)); gap:12px; margin-top:14px;">
+            <div style="background:rgba(255,255,255,0.03); padding:12px; border-radius:10px; border:1px solid rgba(255,255,255,0.06);">
+              <div style="font-weight:700; color:#34d399; margin-bottom:4px;">🌸 ฤดูใบไม้ผลิ (Spring)</div>
+              <div style="font-size:0.85rem; color:var(--text-dim);">Sentret ➔ Geodude ➔ Caterpie</div>
+            </div>
+            <div style="background:rgba(255,255,255,0.03); padding:12px; border-radius:10px; border:1px solid rgba(255,255,255,0.06);">
+              <div style="font-weight:700; color:#f59e0b; margin-bottom:4px;">☀️ ฤดูร้อน (Summer)</div>
+              <div style="font-size:0.85rem; color:var(--text-dim);">Krabby ➔ Horsea ➔ Poliwag</div>
+            </div>
+            <div style="background:rgba(255,255,255,0.03); padding:12px; border-radius:10px; border:1px solid rgba(255,255,255,0.06);">
+              <div style="font-weight:700; color:#f97316; margin-bottom:4px;">🍂 ฤดูใบไม้ร่วง (Fall)</div>
+              <div style="font-size:0.85rem; color:var(--text-dim);">Gastly ➔ Cubone ➔ Zubat</div>
+            </div>
+            <div style="background:rgba(255,255,255,0.03); padding:12px; border-radius:10px; border:1px solid rgba(255,255,255,0.06);">
+              <div style="font-weight:700; color:#38bdf8; margin-bottom:4px;">❄️ ฤดูหนาว (Winter)</div>
+              <div style="font-size:0.85rem; color:var(--text-dim);">Seel ➔ Shellder ➔ Voltorb</div>
+            </div>
+          </div>
+          <div style="margin-top:14px; padding:10px 14px; background:rgba(245, 158, 11, 0.08); border-radius:8px; border:1px solid rgba(245, 158, 11, 0.2); font-size:0.85rem; color:#fcd34d;">
+            🎁 <strong>รางวัลเมื่อส่งมอบ:</strong> เงิน 3 เท่าของราคาประเมินโปเกมอน + Great Ball 2-5 ลูก + Potion 1-3 ขวด (โอกาสได้ Super Potion 25%) + ความสนิทกับผู้ขอ +150 แต้ม
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tab 7: Breeding & Mints -->
+    <section id="tab-breeding" class="tab-panel">
+      <div class="quest-timeline">
+        <div class="quest-card">
+          <h3>🥚 การเพาะพันธุ์โปเกมอนในโรงนา (Barn Breeding)</h3>
+          <p style="color:var(--text-muted); font-size:0.92rem;">
+            กดปุ่ม <kbd style="background:#242b40; padding:2px 8px; border-radius:6px;">B</kbd> ขณะอยู่ภายในโรงนา (Barn) เพื่อเปิดเมนูการจับคู่เพาะพันธุ์:
+          </p>
+          <ul class="quest-steps">
+            <li><strong>ความเข้ากันได้:</strong> โปเกมอนทั้งสองตัวต้องมีกลุ่มไข่ (Egg Group) ตรงกัน และเป็นเพศตรงข้ามกัน (หรือใช้ร่วมกับ Ditto)</li>
+            <li><strong>การฟักไข่:</strong> ไข่จะฟักตามจำนวนก้าวเดินในแต่ละวัน โดยความอบอุ่นและการดูแลของแม่พันธุ์จะช่วยเร่งเวลาได้</li>
+            <li><strong>การสลับโหมดไม่เพาะพันธุ์:</strong> ในเวอร์ชัน 1.2.0 ขึ้นไป คุณสามารถเปิด-ปิด Breeding Toggle เพื่อให้โปเกมอนสองตัวอาศัยอยู่ในโรงนาเฉยๆ โดยไม่ผลิตไข่ได้</li>
+          </ul>
+        </div>
+
+        <div class="quest-card">
+          <h3>🌱 Nature Mints — มิ้นต์เปลี่ยนนิสัยจากร้าน Gus</h3>
+          <p style="color:var(--text-muted); font-size:0.92rem;">
+            Gus ขายใบมิ้นต์เปลี่ยนนิสัยทั้ง 21 แบบในราคา 1,000g และขายสูตรถาวร 3,000g (เช่น Adamant Mint เพิ่ม ATK ลด SpA, Modest Mint เพิ่ม SpA ลด ATK, Jolly Mint เพิ่ม SPD ลด SpA). 
+            <strong>โปรโมชั่นพิเศษ:</strong> วันที่ 28 ของทุกฤดูกาล Gus จะลดราคามิ้นต์และสูตรทั้งหมด 20%!
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tab 8: Controls & Settings -->
+    <section id="tab-controls" class="tab-panel">
+      <div class="quest-card">
+        <h3>🎮 ปุ่มควบคุมมาตรฐาน (Default Controls)</h3>
+        <table style="width:100%; border-collapse:collapse; margin-top:14px; font-size:0.9rem;">
+          <thead>
+            <tr style="border-bottom:1px solid rgba(255,255,255,0.1); text-align:left; color:#60a5fa;">
+              <th style="padding:10px;">ปุ่มคีย์บอร์ด</th>
+              <th style="padding:10px;">ปุ่มคอนโทรลเลอร์</th>
+              <th style="padding:10px;">การทำงาน</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr style="border-bottom:1px solid rgba(255,255,255,0.04);">
+              <td style="padding:10px;"><kbd>P</kbd></td>
+              <td style="padding:10px;">กดแกนซ้าย (L3)</td>
+              <td style="padding:10px;">เปิด Partner Journal (สมุดบันทึกโปเกมอน จัดทีม ทักษะ)</td>
+            </tr>
+            <tr style="border-bottom:1px solid rgba(255,255,255,0.04);">
+              <td style="padding:10px;"><kbd>R</kbd></td>
+              <td style="padding:10px;">แตะแกนขวา (R3)</td>
+              <td style="padding:10px;">เรียกเก็บ หรือส่งโปเกมอนคู่หูตัวหลักออกมา</td>
+            </tr>
+            <tr style="border-bottom:1px solid rgba(255,255,255,0.04);">
+              <td style="padding:10px;"><kbd>O</kbd></td>
+              <td style="padding:10px;">-</td>
+              <td style="padding:10px;">สลับตัวโปเกมอนสำรองที่อยู่ในคิวออกมาทันที</td>
+            </tr>
+            <tr style="border-bottom:1px solid rgba(255,255,255,0.04);">
+              <td style="padding:10px;"><kbd>[</kbd> และ <kbd>]</kbd></td>
+              <td style="padding:10px;">-</td>
+              <td style="padding:10px;">เลือกโปเกมอนตัวก่อนหน้า / ถัดไปในทีม</td>
+            </tr>
+            <tr style="border-bottom:1px solid rgba(255,255,255,0.04);">
+              <td style="padding:10px;">กดค้าง <kbd>G</kbd> แล้วปล่อย</td>
+              <td style="padding:10px;">กดค้างปุ่ม Action</td>
+              <td style="padding:10px;">เล็งเป้าแล้วปา Poké Ball</td>
+            </tr>
+            <tr style="border-bottom:1px solid rgba(255,255,255,0.04);">
+              <td style="padding:10px;"><kbd>B</kbd> (ใน Barn)</td>
+              <td style="padding:10px;">ปุ่ม RB</td>
+              <td style="padding:10px;">เปิดเมนูเพาะพันธุ์ในโรงนา</td>
+            </tr>
+            <tr style="border-bottom:1px solid rgba(255,255,255,0.04);">
+              <td style="padding:10px;"><kbd>F5</kbd></td>
+              <td style="padding:10px;">-</td>
+              <td style="padding:10px;">เปิด / ปิด ระบบติดตามของโปเกมอนชั่วคราว</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Modal Detail Popup -->
+  <div class="modal-overlay" id="modalOverlay">
+    <div class="modal-content">
+      <button class="modal-close-btn" id="modalCloseBtn">&times;</button>
+      <div class="modal-header">
+        <img src="" id="modalPortrait" class="modal-portrait" alt="Pokemon Portrait">
+        <div class="modal-title-area">
+          <span class="modal-dex" id="modalDex">#001</span>
+          <h2 class="modal-name" id="modalName">Bulbasaur</h2>
+          <div class="types-container" id="modalTypes"></div>
+        </div>
+      </div>
+      <div class="modal-body">
+        <div>
+          <h4 style="font-size:0.85rem; text-transform:uppercase; color:var(--text-dim); margin-bottom:6px;">คำอธิบาย (Description)</h4>
+          <p id="modalDescTh" style="font-size:0.95rem; line-height:1.6; color:#93c5fd; margin-bottom:4px;"></p>
+          <p id="modalDescEn" style="font-size:0.82rem; color:var(--text-muted); font-style:italic;"></p>
+        </div>
+
+        <div>
+          <h4 style="font-size:0.85rem; text-transform:uppercase; color:var(--text-dim); margin-bottom:8px;">ค่าพลังพื้นฐาน (Base Stats)</h4>
+          <div class="stat-bars-container" id="modalStatBars"></div>
+        </div>
+
+        <div>
+          <h4 style="font-size:0.85rem; text-transform:uppercase; color:var(--text-dim); margin-bottom:8px;">งานฟาร์มที่ช่วยเหลือได้ (Farm Chores)</h4>
+          <div style="display:flex; gap:6px; flex-wrap:wrap;" id="modalJobs"></div>
+        </div>
+
+        <div>
+          <h4 style="font-size:0.85rem; text-transform:uppercase; color:var(--text-dim); margin-bottom:6px;">ถิ่นที่อยู่อาศัย & ฤดูกาล (Habitats & Seasons)</h4>
+          <p id="modalHabitats" style="font-size:0.9rem; color:var(--text-muted);"></p>
+        </div>
+
+        <div>
+          <h4 style="font-size:0.85rem; text-transform:uppercase; color:var(--text-dim); margin-bottom:8px;">การพัฒนาร่าง (Evolutions)</h4>
+          <div id="modalEvolutions"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="data.js?v=1.2.5"></script>
+  <script src="app.js?v=1.3.0"></script>
+</body>
+</html>
